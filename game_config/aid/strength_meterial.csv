@@ -1,0 +1,4 @@
+﻿变量名,produceGate4,produceGate3,produceGate2,stackMax,quality,produceDesc,sortType,sortValue,name,type,produceGate1,desc1,desc,icon,cardID,produceGate7,produceGate6,produceGate5,languages,effBtn,pageTag,effect
+默认值,"""""","""""","""""",9999,4,可在精灵Z觉醒里兑换获得,0,0,"""""",5,"""""",主要用于进行精灵Z觉醒，但也可以用来提升极限属性，甚至作为超进化材料,一种无法合成精灵特殊的碎片,config/portrait/jinglingtouxiang/img_25_pkq@.png,0,"""""","""""","""""",<cn;tw;en;en_us;en_eu;vn;th;kr>,<1>,<3>,{drawcard=FALSE;gain=FALSE}
+ID,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值
+50001,,,,,,,,,妙蛙种子·Z觉醒碎片,,zawakeFragExclusive,用于提升妙蛙种子的Z觉醒养成,用于提升妙蛙种子的Z觉醒养成,config/portrait/jinglingtouxiang/img_1_mwzz@.png,1,,,,,,,

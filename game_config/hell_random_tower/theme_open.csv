@@ -1,0 +1,9 @@
+﻿变量名,theme,issue,languages,__version
+默认值,0,0,<cn;tw;en;kr;en_us;en_eu>,
+ID,主题ID,期数ID,支持的语言列表,__version
+1,1,1,<cn;en;kr;en_eu>,
+2,2,2,<cn;en;kr;en_eu>,
+3,3,3,<cn;en;kr;en_eu>,
+4,4,4,<cn;en;kr;en_eu>,
+5,2,5,<cn;en;kr;en_eu>,
+6,3,6,<cn;en;kr;en_eu>,

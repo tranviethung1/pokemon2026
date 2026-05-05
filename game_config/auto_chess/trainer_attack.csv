@@ -1,0 +1,4 @@
+﻿变量名,enemyAniName,selfAniName,eventID,spineName
+默认值,difang,jifang,<>,
+ID,敌方动画名,己方动画名,事件ID<<组1>;<组2>>,Spine资源路径
+1,difang,jifang,<<101;102;103>;<151;152;153>>,lushi/trainer_attack/trainer_attack1.skel

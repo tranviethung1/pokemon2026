@@ -1,0 +1,4 @@
+﻿变量名,useAidCardTop,useCardTop,crossArenaStageMin,crossArenaWangzheStage,crossArenaDashiStage,betCoinConvRate,betFailBack,betRateMax,failScore,winScore,servOpenDays,betRateMin,initScore,dailyBetCoin,roundbetNumMax,__version
+默认值,10,40,18,19,18,1,0,2.5,0,0,0,1.5,1000,{},{},
+ID,useAidCardTop,useCardTop,crossArenaStageMin,crossArenaWangzheStage,crossArenaDashiStage,betCoinConvRate,betFailBack,betRateMax,failScore,winScore,servOpenDays,betRateMin,initScore,dailyBetCoin,roundbetNumMax,__version
+1,,,,,,,0.5,2,-40,100,45,,,{2=200;4=200;8=150;16=150;32=100;64=100;192=100},{2=1000;4=1000;8=1000;16=1000;32=1000;64=1000;192=1000},

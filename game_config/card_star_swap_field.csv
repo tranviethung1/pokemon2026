@@ -1,0 +1,6 @@
+变量名,unlockType,chillDown,rarities,unlockParam
+默认值,0,0,<3;4>,0
+ID,默认值,默认值,默认值,默认值
+1,1,36,<3>,
+2,1,72,<4>,
+3,1,36,<3>,6

@@ -1,0 +1,4 @@
+﻿变量名,topWinPoint,topTotalDamage,remainingHP,remainingGold
+默认值,{},{},{},{}
+ID,最高胜利积分{配置},最高总伤害{配置},剩余血量{配置},剩余金币{配置}
+1,,,,

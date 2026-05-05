@@ -1,0 +1,4 @@
+﻿变量名,name,validDeploy2,validDeploy3,validDeploy1,deployNum,desc,weight,warType,skillIDs
+默认值,"""""",0,0,0,1,"""""",100,1,{}
+ID,name,validDeploy2,validDeploy3,validDeploy1,deployNum,desc,weight,warType,skillIDs
+1,,,,,,,,,

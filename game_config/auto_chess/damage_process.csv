@@ -1,0 +1,9 @@
+﻿变量名,thorn,result,reduce,immuneDamage,divineShield,oneHitKill,broken,shield,quickStrike,kill,strike,storm
+默认值,run,run,run,run,run,run,run,run,run,run,run,run
+ID,荆棘反伤(run执行/jump跳过),结果处理,伤害减免,免疫伤害,神圣护盾,秒杀,破甲,护盾,先手攻击,击杀,暴击,风暴
+1,jump,,,,,,,,,,,
+2,,,,,,,,,,,jump,jump
+3,jump,,,,,,,,,,jump,jump
+4,jump,,,,,,,,jump,jump,jump,jump
+5,jump,,,,,,,,jump,jump,jump,jump
+6,jump,,,,,,jump,jump,jump,jump,jump,jump

@@ -1,0 +1,4 @@
+﻿变量名,opp_y_speed,opp_x_speed,yloop,ylength,resType,xloop,scale,y_speed,x_speed,frameScale,y,x,__version,aniName,res,xlength
+默认值,0,0,1,757,1,0,2,0,0,1,0,0,,,,
+ID,opp_y_speed,opp_x_speed,yloop,ylength,resType,xloop,scale,y_speed,x_speed,frameScale,y,x,__version,aniName,res,xlength
+1,,,,,,1,1,,,,,,,ryzd,koudai_guladuomega/ryzd.skel,1136

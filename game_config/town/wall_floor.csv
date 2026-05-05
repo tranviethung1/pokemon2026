@@ -1,0 +1,12 @@
+﻿变量名,size,attr,roomID,furnId,type,res
+默认值,{},{},0,0,0,""""""
+ID,尺寸{x;y;width;height;wallHeight},属性{minScale;maxScale;maxNum;k},房间ID,家具ID,类型(1地板2墙壁),资源路径
+1,{height=18;wallHeight=5;width=18;x=6;y=6},{k=0.5;maxNum=50;maxScale=0.8;minScale=0.4},1,70001,1,town/floor70001.tmx
+2,{height=18;wallHeight=5;width=18;x=6;y=6},{k=0.5;maxNum=50;maxScale=0.8;minScale=0.4},2,70002,1,town/floor70002.tmx
+3,{height=18;wallHeight=5;width=18;x=6;y=6},{k=0.5;maxNum=50;maxScale=0.8;minScale=0.4},3,70003,1,town/floor70003.tmx
+4,{height=18;wallHeight=5;width=18;x=6;y=6},{k=0.5;maxNum=50;maxScale=0.8;minScale=0.4},4,70004,1,town/floor70004.tmx
+5,{height=18;wallHeight=5;width=18;x=6;y=6},{k=0.5;maxNum=50;maxScale=0.8;minScale=0.4},1,70005,1,town/floor70005.tmx
+1001,{height=5;width=18},,1,71001,2,town/wall71001.tmx
+1002,{height=5;width=18},,2,71002,2,town/wall71001.tmx
+1003,{height=5;width=18},,3,71003,2,town/wall71001.tmx
+1004,{height=5;width=18},,4,71004,2,town/wall71001.tmx

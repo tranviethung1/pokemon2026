@@ -1,0 +1,8 @@
+﻿变量名,unlockEnergy,showEnergy,spineAnimation,name
+默认值,0,0,"""""",""""""
+ID,解锁所需能量,显示所需能量,spine动画名,符组名称
+1,,,green,秘境领地
+2,,,purple,梦境世界
+3,,,red,神秘力量
+4,,,blue,自然之力
+5,650,550,yellow,山南海北

@@ -1,0 +1,8 @@
+﻿变量名,cardID,rarity,rmb,languages,__version
+默认值,0,0,0,<cn;tw;en;vn;th;kr;en_us;en_eu>,
+ID,cardID,rarity,rmb,languages,__version
+1,,1,20,<cn>,
+2,,2,30,<cn>,
+3,,3,50,<cn>,
+4,,4,100,<cn>,
+5,,5,200,<cn>,

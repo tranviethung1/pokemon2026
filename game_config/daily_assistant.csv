@@ -1,0 +1,26 @@
+﻿变量名,type,sortID,name,name_tw,name_en,name_vn,name_kr,features,inUnlock,languages
+默认值,1,1,,,,,,"""""",0,<cn;tw;en;en_us;en_eu;vn;th;kr>
+ID,类型(1=奖励领取 2=抽卡 3=战斗报名 4=快速冒险 5=公会事宜),排序改这列,中文简体,中文繁体,英文,中文简体_越南,中文简体_韩,功能,是否在unlock表中有配置,语言区域
+101,,,公会每日礼包,,,,,unionDailyGift,,
+102,,2,公会每日红包,,,,,unionRedpacket,1,
+103,,3,冒险执照每日奖励,,,,,trainer,1,
+104,,4,聚宝,,,,,gainGold,,
+201,2,,钻石抽卡,,,,,drawCardRmb,,
+202,2,2,金币抽卡,,,,,drawCardGold,,
+203,2,3,饰品抽卡,,,,,drawEquip,1,
+204,2,5,探险器寻宝,,,,,explorer,1,
+205,2,4,符石抽取,,,,,gem,1,<cn;tw;en;en_us;en_eu;vn;th;kr>
+206,2,6,芯片抽取,,,,,chip,1,<cn;kr;en;en_us;en_eu;tw>
+207,2,7,图腾寻觅,,,,,totemDraw,1,<cn;en;en_us;en_eu;kr;tw>
+208,2,8,异界琉石获取,,,,,emera,1,<cn>
+301,3,,石英大会,,,,,craft,1,
+302,3,2,公会战,,,,,unionFight,1,
+303,3,3,跨服石英大会,,,,,crossCraft,1,<cn;kr;tw;en;en_us;en_eu>
+401,4,,日常副本,,,,,activityGate,1,
+402,4,2,冒险之路,,,,,endlessTower,1,
+403,4,4,钓鱼捕捞,,,,,catch,1,<cn;kr;tw;en;en_us;en_eu>
+404,4,3,以太乐园,,,,,randomTowerJump,1,
+501,5,,公会捐献,,,,,unionContrib,,
+502,5,2,公会许愿,,,,,unionFragDonate,,
+503,5,3,为好友加速,,,,,unionTrainingSpeedup,,
+504,5,4,公会副本,,,,,unionFuben,,

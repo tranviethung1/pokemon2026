@@ -1,0 +1,5 @@
+﻿变量名,drawRMB,drawGroupUPNum,tag,drawRMBNum
+默认值,0,0,,0
+ID,drawRMB,drawGroupUPNum,tag,drawRMBNum
+1,3,,tag_cardS,10
+2,,5,tag_cardS_zx,

@@ -1,0 +1,4 @@
+﻿变量名,cardLevel,cardAdvance,unlockEquip,unlockCost,attribute1,attribute2,attribute3
+默认值,75,10,0,{},{7=(0.05+(skillLevel-1)*0.0005)},{7=(0.05+(skillLevel-1)*0.0005)},{7=(0.05+(skillLevel-1)*0.0005)}
+ID,默认值,默认值,默认值,默认值,默认值,默认值,默认值
+1,,,,,,,

@@ -1,0 +1,4 @@
+﻿变量名,resType,frameScale,xloop,y_speed,x_speed,x,y,opp_y_speed,opp_x_speed,yloop,ylength,scale,res,xlength,__version
+默认值,1,1,0,0,0,0,0,0,0,1,757,2,,,
+ID,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,默认值,__version
+1,,,1,,,,,,,,,,battle/scene/img_zd_bj03.png,1136,

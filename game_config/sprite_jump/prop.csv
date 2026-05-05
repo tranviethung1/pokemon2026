@@ -1,0 +1,10 @@
+﻿变量名,name,scale,size,params,__version,res
+默认值,,1,{width=180;height=150},{},,
+ID,name,scale,size,params,__version,res
+1,弹簧,0.6,{height=100;width=224},{speedY=50},,{png=activity/sprite_jump/tanhuang.png}
+2,翅膀,0.6,,{height=3500;speedY=50},,{png=activity/sprite_jump/chibang.png}
+3,加x秒,0.6,,{time=5},,{png=activity/sprite_jump/shijianhuoqu.png}
+4,减x秒,0.6,,{time=-5},,{png=activity/sprite_jump/shijianjianshao.png}
+5,无敌x秒,0.6,,{time=10},,{png=activity/sprite_jump/hudun.png}
+6,地 刺,,{height=50;width=400},{timeEffect=1;timeUnEffect=2},,{png=activity/sprite_jump/ci.png}
+7,牵引绳,,{height=120;width=120},,,{spine=sprite_jump/tiaoyuedaoju.skel;action=qianyin_dian_loop}

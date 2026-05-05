@@ -1,0 +1,7 @@
+﻿变量名,weightStart,weightEnd,probEffectInterval,probStep,probInit,lotteryType4,drawTriggerTimes,lotteryWeight3,lotteryType2,drawTriggerType,lotteryType5,startCount,probMiniTimes,effectLimit,drawType,lotteryType1,probLimit,lotteryWeight5,lotteryWeight4,lotteryWeight1,lotteryWeight2,lotteryType3
+默认值,0,0,50,0.01,0,0,0,0,0,0,0,0,30,0,town_relic1,0,0.2,0,0,0,0,0
+ID,权重起始,权重结束,概率生效间隔,概率步进,概率初始,抽奖类型4,抽取触发次数,抽奖权重3,抽奖类型2,抽取触发类型,抽奖类型5,起始计数,概率最小次数,生效限制,抽取类型,抽奖类型1,概率上限,抽奖权重5,抽奖权重4,抽奖权重1,抽奖权重2,抽奖类型3
+107,,,,,,,5,,,4,,,,1,town_relic1,14,,,,100,,
+108,,,,,,,1,,,4,,,,1,town_relic1,11,,,,40,,
+109,,,20,0.05,0.05,,,,,2,,5,20,,town_relic1,14,1,,,100,,
+110,,,,,,13,,15,11,,,,,,town_relic1,10,,,15,30,40,12

@@ -1,0 +1,7 @@
+﻿变量名,failTitle,winTitle,winResult,winAward,failResult,failAward
+默认值,失败慰籍：,胜利奖励：,{},{},{},{}
+ID,失败标题文本,胜利标题文本,胜利结果{coin=航海币;points=见闻},胜利额外奖励,失败结果{coin=航海币;points=见闻},失败额外奖励
+1,失败:,胜利/平局:,{coin=200;points=200},,{coin=100;points=100},
+2,找寻失败:,找寻成功:,{coin=200;points=200},,{coin=100;points=100},
+3,生气自爆:,开心:,{coin=200;points=200},,{coin=100;points=100},
+4,错误:,正确:,{coin=200;points=200},,{coin=100;points=100},

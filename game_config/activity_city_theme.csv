@@ -1,0 +1,17 @@
+﻿变量名,cityTheme,viewName,icon,sortWeight,isDialog
+默认值,"""""","""""","""""",-10,FALSE
+ID,默认值,默认值,默认值,默认值,isDialog
+1,anniversary,city.activity.anniversary,city/main/icon_znq.png,-8,
+2,summerOffering,city.activity.summer_offering,city/main/icon_xrj.png,-7,
+3,anniversary2,city.activity.anniversary2,city/main/icon_znq2.png,-6,
+4,qixi,city.activity.qixi.view,city/main/icon_qixi.png,-5,
+5,qixi_test,city.activity.qixi.view,city/main/icon_qixi.png,-5,
+6,newCompilationPage,city.activity.new_compilation_page,city/main/icon_hycj.png,-4,
+7,playpassportSet,city.activity.playpassport_set,city/main/icon_hhzl.png,-3,
+8,newCompilationPage2,city.activity.new_compilation_page,city/main/icon_qszt.png,-4,
+9,newCompilationPage3,city.activity.new_compilation_page,city/main/icon_jxlyl.png,-4,
+10,directBuyGiftSkin,city.activity.skin_shop.view,city/main/icon_xspf.png,-2,
+11,newYearDraw,city.activity.new_year_draw.view,city/main/icon_bhrn.png,-4,
+12,doubleSurprise,city.activity.direct_buy_gift_new,city/main/icon_jxll.png,-4,TRUE
+13,national2025,city.activity.national2025.view,city/main/icon_rlkhj.png,-8,TRUE
+14,roundFlop,city.activity.round_flop.main,city/main/icon_jxll.png,,

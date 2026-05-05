@@ -1,0 +1,4 @@
+﻿变量名,servOpenDays,overTime,restartTime,refresh_limit,dailyBattleCount,robotName,ratio,winAward,failAward
+默认值,0,22,10,10,10,"""""",<50%;40%;10%>,{},{}
+ID,服务器开启天数,奖励结算时间,开启时间,刷新限制,每日战斗次数,机器人名称,比例,胜利奖励,失败奖励
+1,0,22,10,20,5,马戏团团员,<100%;75%;50%>,{libs=<22701>},{libs=<22702>}

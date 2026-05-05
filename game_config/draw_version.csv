@@ -1,0 +1,4 @@
+﻿变量名,version,csvFile,drawType,csvIDs
+默认值,0,"""""","""""",<>
+ID,自走棋专用库,自走棋专用库,自走棋专用库,自走棋专用库
+1,1,draw_item,fushi_item1,<51>

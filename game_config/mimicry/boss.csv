@@ -1,0 +1,6 @@
+﻿变量名,scale,spine,cardIcon,word,desc,basicScores,gateID,challengeAwardIndex,damageCoefficientIndex,hpThresholdIndex,gateName,skillIcon,bossID
+默认值,1,"""""",config/portrait/jinglingtouxiang/img_25_pkq@.png,"""""","""""",0,0,0,0,0,"""""",<>,
+ID,缩放比例,spine资源,卡牌图标,台词,描述,基础分数,关卡ID,挑战奖励索引,伤害系数索引,血量阈值索引,关卡名称,技能图标,BossID
+1,,,config/portrait/speedranktouxiang/img_mmjqr@.png,可能不是一只正常的猫,可能不是一只正常的猫,1000,75001,1,3,1,喵喵机器人,<city/adventure/mimicry/nitai_icon/icon_mmjqr_04.png;city/adventure/mimicry/nitai_icon/icon_mmjqr_01.png;city/adventure/mimicry/nitai_icon/icon_mmjqr_03.png;city/adventure/mimicry/nitai_icon/icon_mmjqr_02.png>,26001
+2,,,config/portrait/speedranktouxiang/img_gtbjls.png,山崩地裂，河流填平,破坏的本能在驱使着它行动,1000,75002,2,3,1,钢铁班基拉斯,<city/adventure/mimicry/nitai_icon/icon_gtbjls_04.png;city/adventure/mimicry/nitai_icon/icon_gtbjls_01.png;city/adventure/mimicry/nitai_icon/icon_gtbjls_03.png;city/adventure/mimicry/nitai_icon/icon_gtbjls_02.png>,26002
+3,,,config/portrait/speedranktouxiang/img_73_jxdcsm@.png,已经存在了5亿年,已经存在了5亿年,1000,75003,3,3,1,机械毒刺水母,<city/adventure/mimicry/nitai_icon/icon_dcsm_04.png;city/adventure/mimicry/nitai_icon/icon_dcsm_01.png;city/adventure/mimicry/nitai_icon/icon_dcsm_02.png;city/adventure/mimicry/nitai_icon/icon_dcsm_03.png>,26003

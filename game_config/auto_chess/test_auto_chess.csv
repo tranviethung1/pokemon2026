@@ -1,0 +1,5 @@
+﻿变量名,star,cardType,exBuff,roleForce,roleId
+默认值,1,1,{},,
+ID,星级,卡牌类型,额外Buff{配置},角色势力,角色ID
+1,,,,1,1001
+11,,,,2,1001

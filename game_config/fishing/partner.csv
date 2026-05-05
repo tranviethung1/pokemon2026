@@ -1,0 +1,7 @@
+变量名,name,name_tw,name_en,name_vn,name_kr,desc,desc_tw,desc_en,desc_vn,desc_kr,unitId,needLv,cost,spcialEffect,spcialEffectDesc,actRate,actMode,scale
+默认值,"""""","""""","""""","""""","""""","""""","""""","""""","""""","""""",0,0,{},"""""","""""",0,0,1
+ID,名字,名字,名字,名字,名字,描述,描述,描述,描述,描述,对应unitid,需要钓鱼等级,解锁消耗,特殊效果,特殊效果描述,特殊交互触发概率,特殊交互模式,spine缩放(默认1为不缩放)
+1,可达鸭,可達鴨,Psyduck,404404,????,呆头呆脑惹人爱,呆頭呆腦惹人愛,Dorky little cutie,,???? ?????.,221,3,{gold=500000},,,,,1.4
+2,皮卡丘,皮卡丘,Pikachu,404404,???,请不要向水里放电,請不要向水裏放電,Do not discharge electricity into water,,??? ???? ???.,92,5,{rmb=300},,,,,1.4
+3,妙蛙种子,妙蛙種子,Bulbasaur,Di?u con ?ch h?t gi?ng,????,或许能帮忙撒点种子当鱼饵？,或許能幫忙撒點種子當魚餌？,Maybe could help spread some seeds as bait?,,?? ??? ??? ??? ? ?? ???,1,7,{rmb=300},,,,,1.4
+4,杰尼龟,傑尼龜,Squirtle,404404,???,叫他下去帮忙抓鱼更快吧？,叫他下去幫忙抓魚更快吧？,Would it be faster to let it catch fish?,,??? ???? ???? ???? ??? ? ?????,21,9,{rmb=300},,,,,1.4

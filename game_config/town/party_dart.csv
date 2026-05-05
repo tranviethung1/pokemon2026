@@ -1,0 +1,11 @@
+﻿变量名,res,dartUseNum,grade,reward
+默认值,"""""",0,<>,{}
+ID,资源路径,飞镖使用数,等级范围<min;max>,奖励{货币=数量}
+1,city/town/home/party/darts/endscore/logo_xunuli.png,,<105;205>,{8201=10;coin16=5;gold=10000}
+2,city/town/home/party/darts/endscore/logo_jiaocha.png,,<75;105>,{8201=15;coin16=7;gold=15000}
+3,city/town/home/party/darts/endscore/logo_yiban.png,,<50;75>,{8201=20;coin16=9;gold=20000}
+4,city/town/home/party/darts/endscore/logo_zhongdeng.png,,<30;50>,{8201=25;coin16=11;gold=25000}
+5,city/town/home/party/darts/endscore/logo_bucuo.png,,<10;30>,{8201=30;coin16=13;gold=30000}
+6,city/town/home/party/darts/endscore/logo_youxiu.png,,<1;10>,{8201=35;coin16=15;gold=35000}
+7,city/town/home/party/darts/endscore/logo_wanmei.png,5,<0;1>,{8201=40;coin16=17;gold=40000}
+8,city/town/home/party/darts/endscore/logo_shenzhun.png,4,<0;1>,{8201=50;coin16=20;gold=50000}

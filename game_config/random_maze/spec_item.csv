@@ -1,0 +1,10 @@
+﻿变量名,res,spine
+默认值,"""""",""""""
+ID,特殊道具图片资源路径(%s为动态参数),特殊道具骨骼动画资源路径
+1,city/adventure/random_maze/icon/icon_tz%s.png,
+2,,random_maze/nu.skel
+3,,random_maze/qjzs.skel
+4,,random_maze/qs.skel
+5,,random_maze/hua.skel
+6,,random_maze/jianzhushengji.skel
+7,city/adventure/random_maze/icon/icon_dfq.png,

@@ -1,0 +1,7 @@
+﻿变量名,name,res,areaType,unlockType1,desc,unlockParams1
+默认值,"""""","""""",0,0,"""""",<>
+ID,区域名称,资源路径,区域类型,解锁条件类型,区域描述,解锁条件参数<类型;值>
+1,火山小道,city/town/exploration/map/img_cj1.png,1,,穿过一座活火山的小道，非常炎热，很少有精灵住在这里。,
+2,青海波市,city/town/exploration/map/img_cj2.png,2,3,建筑物飘浮在波浪之间，貌似岛屿的名胜城。,<1;2>
+3,名胜区,city/town/exploration/map/img_cj5.png,3,3,领悟对战之外的训练的乐趣之人的聚集之地。,<2;2>
+4,大浪海滩,city/town/exploration/map/img_cj6.png,4,3,汽车旅馆附近波涛汹涌的海滩。是巨翅飞鱼冲浪点之一。,<3;2>

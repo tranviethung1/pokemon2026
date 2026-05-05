@@ -1,0 +1,7 @@
+变量名,name,name_tw,name_en,name_vn,name_kr,icon,preTalentpoint,roleLevel,showLevel,showLevel_en,showLevel_kr,des,des_tw,des_en,des_vn,des_kr,languages
+默认值,,,,,,,,,,,,,,,,,<cn;tw;en;vn;th;kr>
+treeID,名称,名称,名称,名称_越南,名称_韩,icon,前置天赋点,战队等级要求,显示等级,显示等级,显示等级,天赋类描述,天赋类描述,天赋类描述,天赋类描述_越南,天赋类描述_韩,语言区域
+1,基础,基礎,Basic,C? s?,??,talent/icon_jc.png,0,25,0,0,0,全队基础属性,全隊基礎屬性,Team's base stats ,404404,?? ? ?? ??,
+2,进阶,進階,Normal,Ti?n giai,??,talent/icon_jj.png,150,45,0,0,0,队伍中精灵加成属性,隊伍中精靈加成屬性,Stat boost for Pokémons in the team,404404,? ? ??? ??? ??,
+3,元素,元素,Element,Nguyên t?,????,talent/icon_ys.png,220,65,0,0,0,精灵系别专属加成#F36##C0xf76b45#（【元素】内的生命加成只对第一属性是对应元素的精灵生效）,精靈系別專屬加成#F36##C0xf76b45#（【元素】內的生命加成隻對第一屬性是對應元素的精靈生效）,Pokémon type exclusive bonus #F36##C0xf76b45#(All [Element] HP bonus are only effective for the Pokémon's primary type),404404,??? ??? ?? ???#F36##C0xf76b45#([????] ? HP ???? ? ?? ??? ????? ???? ?????? ??),
+4,挑战,挑戰,Challenge,Khiêu chi?n,??,talent/icon_tz.png,550,75,0,70,70,活动玩法内专属加成,活動玩法內專屬加成,Exclusive bonus in event gameplay,404404,,<cn>

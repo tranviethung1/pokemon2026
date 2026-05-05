@@ -1,0 +1,12 @@
+﻿变量名,_beizhu,durationDay,service,periodDays,cross,date,servers
+默认值,,0,"""""",0,"""""",0,<>
+ID,备注和server.csv只配置一处即可,一个周期开放多少天,跨服跳转,周期多少天为一个周期 结束一个周期后自动匹配,默认值,周期开始时间,固定大区配置目前留空不处理
+1,跨服家园,2,crosstownparty,7,cn,20260410,
+2,跨服无尽以太,14,crosshellrandomtower,21,cn,20260410,
+3,跨服钓鱼,,crossfishing,14,cn,20260410,
+4,工会问答,1,crossunionqa,14,cn,20260410,
+5,跨服卡牌对决,40,crossautochess,42,cn,20260410,
+6,宝可梦排行榜,19,normalbravechallengeranking,21,cn,20260410,
+7,跨服拟态,5,crossmimicry,7,cn,20260410,
+8,卡牌在线服务,16,onlineautochess,35,cn,,
+9,跨服众神禁地,11,crosselitechallenge,35,cn,20260410,

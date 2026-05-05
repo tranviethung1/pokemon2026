@@ -1,0 +1,4 @@
+﻿变量名,y_speed,x_speed,frameScale,opp_y_speed,opp_x_speed,yloop,ylength,resType,x,y,xloop,scale,aniName,res,xlength,__version
+默认值,0,0,1,0,0,1,757,1,0,0,0,2,,,,
+ID,y_speed,x_speed,frameScale,opp_y_speed,opp_x_speed,yloop,ylength,resType,x,y,xloop,scale,aniName,res,xlength,__version
+1,,,,,,,,,,-50,1,1.5,effect,koudai_beijing/fxzy_pf_hhyy.skel,1136,

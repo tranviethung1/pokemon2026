@@ -1,0 +1,4 @@
+﻿变量名,scale,opp_x_speed,y_speed,x_speed,frameScale,y,opp_y_speed,x,yloop,ylength,resType,xloop,aniName,res,xlength,__version
+默认值,2,0,0,0,1,0,0,0,1,757,1,0,,,,
+ID,scale,opp_x_speed,y_speed,x_speed,frameScale,y,opp_y_speed,x,yloop,ylength,resType,xloop,aniName,res,xlength,__version
+1,0.5,,,,,,,,,,,1,mgsdcj,koudai_sgcjltds/migongsuidao_buff.skel,1136,

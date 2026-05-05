@@ -1,0 +1,60 @@
+﻿变量名,_beizhu,service,servers,date,cross,version,endDate
+默认值,,"""""",<>,20170120,"""""",0,0
+ID,备注（crontab自动匹配无需配置）,玩法<ranking普遍用match自动匹配逻辑>,跨服组,玩法有效日期,手动分配cross,奖励版本(每个模式都有不同的定义有的奖励版本有的是玩法主题),结束日期
+,,,,,,,
+,,,,,,,
+,空跨服组自动匹配,,,,,,
+1,空跨服组自动匹配,huodongboss,<>,20260328,cn,,20260407
+2,空跨服组自动匹配 工会红包,crossredpacket,<>,20260328,cn,,20260428
+3,空跨服组自动匹配 摩天大楼,skyscraper,<>,20260328,cn,,20270317
+4,空跨服组自动匹配 周年庆宝可梦大作战排行榜,bravechallengeranking,<>,20260328,cn,,20270317
+5,空跨服组自动匹配,horseraceranking,<>,20260328,cn,,20270317
+6,空跨服组自动匹配,crosshorse,<>,20260328,crosshorse.cn.1,,20270317
+7,空跨服组自动匹配 沙滩排球,volleyballranking,<>,20260328,cn,,20260428
+8,空跨服组自动匹配,shavediceranking,<>,20260328,cn,,20260331
+,,,,,,,
+,空跨服组自动匹配,,,,,,
+9,精灵消消乐,elementcrushranking,<>,20260410,cn,,20260506
+10,移动方块,moveblockranking,<>,20260410,cn,,20260506
+11,奥术组构,tetrisranking,<>,20260410,cn,,20260506
+12,方块爆破,mituranking,<>,20260410,cn,,20260506
+13,灵跃迷森,spritejumpranking,<>,20260410,cn,,20260506
+14,对战庆典,contestbet,<>,20260410,contestbet.cn.1,101,20260420
+15,对战庆典排行,contestbetranking,<>,20260410,cn,101,20260420
+16,世界杯投票,crossvote,<>,20260410,crossvote.cn.1,,20260515
+17,世界杯排行,worldcupranking,<>,20260410,cn,,20260515
+18,对战竞猜排行,battlebetranking,<>,20260410,cn,1,20260414
+19,对战竞猜,battlebet,<>,20260410,battlebet.cn.1,1,20260414
+,,,,,,,
+,以下是 crontab表的自动匹配两处只开放一处,,,,,,
+21,众神禁地 crontab自动匹配,crosselitechallenge,<>,,cn,101,
+22,公会问答 crontab自动匹配,crossunionqa,<>,,cn,,
+23,跨服钓鱼crontab自动匹配,crossfishing,<>,,cn,,
+24,宝可梦大作战排行榜crontab自动匹配,normalbravechallengeranking,<>,,cn,,
+,,,,,,,
+25,跨服卡牌对决 crontab自动匹配,crossautochess,<>,,cn,10,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+2001,跨服石英 周一周五,crosscraft,<game.cn.1;game.cn.2>,20260328,crosscraft.cn.1,,20260404
+,,,,,,,
+3001,跨服竞技场 14天一期 间隔一周,crossarena,<game.cn.1;game.cn.2>,20260327,crossarena.cn.1,,20260410
+,,,,,,,
+4001,跨服商业街 6天一期 间隔3天,crossmine,<game.cn.1;game.cn.2>,20260328,crossmine.cn.1,,20260403
+,,,,,,,
+5001,跨服对战竞技场,onlinefight,<game.cn.1;game.cn.2>,20260328,onlinefight.cn.1,,20260509
+,,,,,,,
+6001,跨服道馆 以周为单位,crossgym,<game.cn.1;game.cn.2>,20260328,crossgym.cn.1,,20260425
+,,,,,,,
+9001,部屋大作战 ,crossunionfight,<game.cn.1;game.cn.2>,20260328,crossunionfight.cn.1,,20260425
+,,,,,,,
+10001,跨服聊天,crosschat,<game.cn.1-game.cn.2>,,crosschat.cn.1,,
+,,,,,,,
+11001,跨服至尊,crosssupremacy,<game.cn.1;game.cn.2>,20260328,cn,,20260425
+,,,,,,,
+13001,跨服公会冒险,unionadventure,<game.cn.1;game.cn.2>,20260328,unionadventure.cn.1,,20260523
+,,,,,,,
+14001,跨服马戏团 7天周期,crosscircus,<game.cn.1;game.cn.2>,20260328,crosscircus.cn.1,,20260404
+,,,,,,,
+15001,极巨巅峰1-2区,crossarenapeak,<crossarena.cn.1>,20260328,crossarenapeak.cn.1,,

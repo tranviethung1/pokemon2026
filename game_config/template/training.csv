@@ -1,0 +1,4 @@
+﻿变量名,heldItem,gem1,gem2,gem3,gem4,gem5,gem6,gem7,gem8,gem9,chip1,chip2,chip3,chip4,chip5,chip6,contract1,contract2,contract3,contract4
+默认值,{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}
+ID,heldItem,gem1,gem2,gem3,gem4,gem5,gem6,gem7,gem8,gem9,chip1,chip2,chip3,chip4,chip5,chip6,contract1,contract2,contract3,contract4
+1,{advance=5;id=30101;level=60},{id=40121;level=20},,,,,,,,,{id=60121;level=20},,,,,,{advance=1;id=81201;level=15},,,

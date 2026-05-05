@@ -1,0 +1,6 @@
+﻿变量名,name,subTitle,show,gateSeqID,__version
+默认值,"""""","""""",config/big_hero/standby/img_791_sejlo@.png,0,
+ID,name,subTitle,show,gateSeqID,__version
+1,测试教学关卡,,,1,
+2,信使鸟训练,了解精灵机制,config/big_hero/standby/img_225_xsn@.png,2,
+3,烈焰马训练,了解精灵机制,config/big_hero/standby/img_78_lym@.png,3,

@@ -1,0 +1,45 @@
+变量名,name,name_tw,name_en,name_vn,name_kr,icon,type,arg,nums,levelMax,upCost,desc1,desc1_tw,desc1_en,desc1_vn,desc1_kr,desc2,desc2_tw,desc2_en,desc2_vn,desc2_kr
+默认值,"""""","""""","""""","""""","""""","""""",0,0,<>,10,{},"""""","""""","""""","""""","""""","""""","""""","""""","""""",""""""
+ID,技能名字,技能名字,技能名字,技能名字_越南,技能名字_韩,技能图标,技能类型,参数(增对4类型配置对应的yyID),技能数值,最大等级,升级消耗,技能描述,技能描述,技能描述,技能描述_越南,技能描述_韩,技能描述2,技能描述2,技能描述2,技能描述2_越南,技能描述2_韩
+,,,,,,,,,,,,,,,,,,,,,
+1,理财新手,理財新手,Finance Novice,404404,?? ?? ???,city/develop/train/icon_jbfbzj.png,12,0,<1>,1,{453=50},聚宝,聚寶,Treasure Pot,T? b?o,????,每日免费次数+%d,每日免費次數+%d,Free daily chances +%d,404404,?? ?? ??+%d
+2,探险意志,探險意志,Exploration Will,404404,??? ??,city/develop/train/icon_ptfbzj.png,18,0,<0.05;0.1;0.15;0.2;0.25>,5,{453=20},剧情副本,劇情副本,Story dungeon,404404,??? ??,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+3,龙虾吃饱,龍蝦吃飽,Full Lobster,404404,??? ??? ??,city/develop/train/icon_tllq.png,14,3,<2;4;6;8;10>,5,{453=30},宝芙蕾（晚餐）,寶芙蕾（晚餐）,Dinner,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+4,理财顾问,理財顧問,Financial Consultant,404404,?? ?? ??,city/develop/train/icon_jbfbzj.png,13,0,<0.03;0.06;0.09;0.12;0.15>,5,{453=30},聚宝,聚寶,Treasure Pot,T? b?o,????,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+5,精致佳肴,精緻佳餚,Exquisite Food,404404,??? ??,city/develop/train/icon_tllq.png,14,2,<2;4;6;8;10>,5,{453=35},宝芙蕾（午餐）,寶芙蕾（午餐）,Lunch,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+6,精英队员,精英隊員,Elite member,404404,?? ??,city/develop/train/icon_jyfbzj.png,19,0,<0.05;0.1;0.15;0.2;0.25>,5,{453=35},困难关卡,困難關卡,Elite Dungeon,404404,?? ????,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+7,魔术手,魔術手,Magical Hands,404404,???,city/develop/train/icon_ck.png,11,0,<1>,1,{453=60},金币抽卡,金幣抽卡,Coin Card Draw,Kim t? rút th?,???? ??,每日免费次数+%d,每日免費次數+%d,Free daily chances +%d,404404,?? ?? ??+%d
+8,回口血,回口血,Recover some HP,404404,HP ??,city/develop/train/icon_qfqn.png,2,0,<3;6;9;12;15>,5,{453=40},体力上限,體力上限,Maximum energy,Th? l?c h?n m?c cao nh?t,?? ??,增加+%d,增加+%d,Increases +%d,404404,??+%d
+9,金融专家,金融專家,Finance Expert,404404,?? ???,city/develop/train/icon_jbfbzj.png,13,0,<0.03;0.06;0.09;0.12;0.15>,5,{453=40},聚宝,聚寶,Treasure Pot,T? b?o,????,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+10,探险队员,探險隊員,Explorer Member,404404,?? ??,city/develop/train/icon_ptfbzj.png,15,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=45},金币副本,金幣副本,Coin dungeon,Kim t? phó b?n,?? ?? ??,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+11,丰盛早餐,豐盛早餐,Hearty breakfast,404404,??? ???,city/develop/train/icon_tllq.png,14,1,<2;4;6;8;10>,5,{453=45},宝芙蕾（早餐）,寶芙蕾（早餐）,Breakfast,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+12,副本老手,副本老手,Dungeon Expert,404404,?? ???,city/develop/train/icon_jyfbcc.png,16,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=45},经验副本,經驗副本,EXP Dungeon,Kinh nghi?m phó b?n,??? ??,获得经验+%d,獲得經驗+%d,EXP +%d ,404404,??? ??+%d
+13,批发商,批發商,Distributor,404404,???,city/develop/train/icon_jb2.png,9,0,<0.02;0.04;0.06;0.08;0.1>,5,{453=50},经验药水购买,經驗藥水購買,EXP Potion Purchase,404404,??? ?? ??,价格优惠+%d,價格優惠+%d,%d Discount,404404,?? ??+%d
+14,烤串走起,烤串走起,Go for some skewers,404404,?? ??,city/develop/train/icon_tllq.png,14,4,<2;4;6;8;10>,5,{453=50},宝芙蕾（夜宵）,寶芙蕾（夜宵）,Supper,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+15,还不够！,還不夠！,Still insufficient!,404404,???!,city/develop/train/icon_djss.png,12,0,<1>,1,{453=100},聚宝,聚寶,Treasure Pot,T? b?o,????,每日免费次数+%d,每日免費次數+%d,Free daily chances +%d,404404,?? ?? ??+%d
+16,训练大师,訓練大師,Training Master,404404,???? ???,city/develop/train/icon_jb1.png,26,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=50},碎片副本,碎片副本,Shard Dungeon,M?nh v? phó b?n,?? ??,产出增加+%d,產出增加+%d,Production +%d,404404,?? ??+%d
+17,为人为己,為人為己,For others for self,404404,??? ??,city/develop/train/icon_ghjz.png,17,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=50},公会捐献,公會捐獻,union donation,404404,?? ??,公会币获得量+%d,公會幣獲得量+%d,Union coins earned +%d,404404,?? ?? ???+%d
+18,精灵馈赠,精靈饋贈,Pokémon Gift,404404,??? ??,city/develop/train/icon_ghjz.png,2,0,<3;6;9;12;15>,5,{453=50},体力上限,體力上限,Maximum energy,Th? l?c h?n m?c cao nh?t,?? ??,增加+%d,增加+%d,Increases +%d,404404,??+%d
+19,金融大师,金融大師,Finance Master,404404,?? ???,city/develop/train/icon_jyfbcc.png,9,0,<0.02;0.04;0.06;0.08;0.1>,5,{453=60},经验药水购买,經驗藥水購買,EXP Potion Purchase,404404,??? ?? ??,价格优惠+%d,價格優惠+%d,%d Discount,404404,?? ??+%d
+20,勇往直前,勇往直前,Go courageously,404404,???? ????,city/develop/train/icon_ptfbzj.png,18,0,<0.05;0.1;0.15;0.2;0.25>,5,{453=60},剧情副本,劇情副本,Story dungeon,404404,??? ??,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+21,圣诞老人,聖誕老人,Santa Claus,404404,??????,city/develop/train/icon_jyfbcc.png,24,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=60},礼物副本,禮物副本,Gift Dungeon,L? v?t phó b?n,?? ??,产出增加+%d,產出增加+%d,Production +%d,404404,?? ??+%d
+22,佛跳墙,佛跳牆,Foodie,404404,???,city/develop/train/icon_tllq.png,14,3,<2;4;6;8;10>,5,{453=60},宝芙蕾（晚餐）,寶芙蕾（晚餐）,Dinner,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+23,熟能生巧,熟能生巧,Skilled,404404,??? ???,city/develop/train/icon_qfqn.png,6,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=60},日常任务,日常任務,Daily quest,404404,?? ???,获得经验额外增加+%d,獲得經驗額外增加+%d,Get extra EXP +%d,404404,?? ??? ??+%d
+24,精诚所至,精誠所至,Sincerely,404404,???? ????,city/develop/train/icon_jyfbzj.png,19,0,<0.05;0.1;0.15;0.2;0.25>,5,{453=75},困难关卡,困難關卡,Elite Dungeon,404404,?? ????,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+25,至尊黑卡,至尊黑卡,Supreme Black Card,404404,?? ?? ??,city/develop/train/icon_ck.png,22,0,<1>,1,{453=150},派遣任务,派遣任務,Dispatch quest,?i?u ??ng nhi?m v?,?? ???,免费刷新次数+%d,免費刷新次數+%d,Free refresh chances+%d,404404,?? ???? ??+%d
+26,豪华午餐,豪華午餐,Deluxe Lunch,404404,???? ?? ??,city/develop/train/icon_tllq.png,14,2,<2;4;6;8;10>,5,{453=75},宝芙蕾（午餐）,寶芙蕾（午餐）,Lunch,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+27,探险专家,探險專家,Exploration Expert,404404,?? ???,city/develop/train/icon_ptfbzj.png,15,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=60},金币副本,金幣副本,Coin dungeon,Kim t? phó b?n,?? ?? ??,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+28,精英骨干,精英骨幹,Elite Core Member,404404,?? ?? ??,city/develop/train/icon_ghjz.png,17,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=60},公会捐献,公會捐獻,union donation,404404,?? ??,公会币获得量+%d,公會幣獲得量+%d,Union coins earned +%d,404404,?? ?? ???+%d
+29,主角光环,主角光環,Trainer Aura,404404,??? ??,city/develop/train/icon_ptfbzj.png,18,0,<0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5>,10,{453=60},剧情副本,劇情副本,Story dungeon,404404,??? ??,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+30,不屈意志,不屈意志,Unyielding,404404,??? ??,city/develop/train/icon_qfqn.png,2,0,<3;6;9;12;15>,5,{453=75},体力上限,體力上限,Maximum energy,Th? l?c h?n m?c cao nh?t,?? ??,增加+%d,增加+%d,Increases +%d,404404,??+%d
+31,冒险精英,冒險精英,Adventure Elite,404404,?? ???,city/develop/train/icon_jyfbcc.png,6,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=100},日常任务,日常任務,Daily quest,404404,?? ???,获得经验额外增加+%d,獲得經驗額外增加+%d,Get extra EXP +%d,404404,?? ??? ??+%d
+32,未来之星,未來之星,Future Star,404404,??? ?,city/develop/train/icon_jyfbcc.png,16,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=70},经验副本,經驗副本,EXP Dungeon,Kinh nghi?m phó b?n,??? ??,获得经验+%d,獲得經驗+%d,EXP +%d ,404404,??? ??+%d
+33,时光商人,時光商人,Time Merchant,404404,??? ??,city/develop/train/icon_jb2.png,9,0,<0.02;0.04;0.06;0.08;0.1;0.12;0.14;0.16;0.18;0.2>,10,{453=70},经验药水购买,經驗藥水購買,EXP Potion Purchase,404404,??? ?? ??,价格优惠+%d,價格優惠+%d,%d Discount,404404,?? ??+%d
+34,油条豆浆,油條豆漿,Fritters and Soymilk,404404,???? ??,city/develop/train/icon_tllq.png,14,1,<2;4;6;8;10>,5,{453=75},宝芙蕾（早餐）,寶芙蕾（早餐）,Breakfast,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+35,精灵遗迹,精靈遺跡,Pokémon Ruins,404404,??? ??,city/develop/train/icon_jb1.png,26,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=100},碎片副本,碎片副本,Shard Dungeon,M?nh v? phó b?n,?? ??,产出增加+%d,產出增加+%d,Production +%d,404404,?? ??+%d
+36,大财主,大財主,Millionaire,404404,??,city/develop/train/icon_jbfbzj.png,13,0,<0.03;0.06;0.09;0.12;0.15>,5,{453=75},聚宝,聚寶,Treasure Pot,T? b?o,????,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+37,当地人民,當地人民,Resident,404404,???,city/develop/train/icon_jyfbzj.png,19,0,<0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5>,10,{453=75},困难关卡,困難關卡,Elite Dungeon,404404,?? ????,获得金币+%d,獲得金幣+%d,Coins +%d ,404404,?? ?? ??+%d
+38,温牛奶,溫牛奶,Warm Milk,404404,??? ??,city/develop/train/icon_tllq.png,14,4,<2;4;6;8;10>,5,{453=75},宝芙蕾（夜宵）,寶芙蕾（夜宵）,Supper,404404,???(??),领取体力额外+%d,領取體力額外+%d,Claim energy+%d,404404,?? ?? ??+%d
+39,冒险长者,冒險長者,Adventure Elder,404404,?? ??,city/develop/train/icon_jyfbcc.png,6,0,<0.01;0.02;0.03;0.04;0.05;0.06;0.07;0.08;0.09;0.1>,10,{453=75},日常任务,日常任務,Daily quest,404404,?? ???,获得经验额外增加+%d,獲得經驗額外增加+%d,Get extra EXP +%d,404404,?? ??? ??+%d
+40,管理人员,管理人員,Crew,404404,???,city/develop/train/icon_ghjz.png,17,0,<0.01;0.02;0.03;0.04;0.05;0.06;0.07;0.08;0.09;0.1>,10,{453=100},公会捐献,公會捐獻,union donation,404404,?? ??,公会币获得量+%d,公會幣獲得量+%d,Union coins earned +%d,404404,?? ?? ???+%d
+41,情场高手,情場高手,Master of Romance,404404,??? ???,city/develop/train/icon_jyfbcc.png,24,0,<0.01;0.02;0.03;0.04;0.05>,5,{453=75},礼物副本,禮物副本,Gift Dungeon,L? v?t phó b?n,?? ??,产出增加+%d,產出增加+%d,Production +%d,404404,?? ??+%d

@@ -1,0 +1,48 @@
+﻿变量名,huodongID,_beizhu,name,name_tw,name_en,name_vn,name_kr,res,item,rechargeID,limitType,limitNum
+默认值,0,"""""","""""","""""","""""","""""","""""","""""",{},-1,,
+ID,活动版本ID,备注,礼包名字,礼包名字,礼包名字,礼包名字,礼包名字,礼包图标,内容(3种最多）,recharge表id,限购类型(1当日限购;2本次活动内限购;3不限购),限购次数
+1,101016,成长礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx4.png,{rmb=60;stamina=100;gold=50000},102,2,1
+2,101016,饰品成长礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx7.png,{501=3;100=5;930=10},106,2,1
+3,101016,个体值礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx5.png,{rmb=300;19=10;gold=100000},106,2,1
+4,101016,抽卡礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_zjbx6.png,{519=10;gold=100000;13=20},108,2,1
+5,101016,抽卡礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx8.png,{519=20;gold=200000;13=30},111,2,1
+,,,,,,,,,,,,
+6,101017,成长礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx4.png,{rmb=60;stamina=100;gold=50000},102,2,1
+7,101017,饰品成长礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx7.png,{501=3;100=5;930=10},106,2,1
+8,101017,个体值礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx5.png,{rmb=300;19=10;gold=100000},106,2,1
+9,101017,抽卡礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_zjbx6.png,{519=10;gold=100000},108,2,1
+10,101017,抽卡礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx8.png,{519=20;gold=200000},111,2,1
+,,,,,,,,,,,,
+11,101018,成长礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx4.png,{rmb=60;stamina=100;gold=50000},102,2,1
+12,101018,饰品成长礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx7.png,{501=3;100=5;930=10},106,2,1
+13,101018,个体值礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx5.png,{rmb=300;19=10;13=10},106,2,1
+14,101018,抽卡礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_zjbx6.png,{519=10;gold=100000;13=20},108,2,1
+15,101018,抽卡礼包,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx8.png,{519=20;gold=200000;13=30},111,2,1
+,,,,,,,,,,,,
+101,1001,回归成长礼包-6元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+102,1001,金币礼包-30元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+103,1001,回归碎片礼包-98元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+104,1001,抽卡礼包-198元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+105,1001,紫色礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+106,1001,回归升星礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1
+,,,,,,,,,,,,
+201,1002,回归成长礼包-6元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+202,1002,金币礼包-30元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+203,1002,回归碎片礼包-98元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+204,1002,抽卡礼包-198元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+205,1002,紫色礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+206,1002,回归升星礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1
+,,,,,,,,,,,,
+301,1003,回归成长礼包-6元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+302,1003,金币礼包-30元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+303,1003,回归碎片礼包-98元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+304,1003,抽卡礼包-198元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+305,1003,紫色礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+306,1003,回归升星礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1
+,,,,,,,,,,,,
+401,1004,回归成长礼包-6元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx1.png,{rmb=180;stamina=100;503=1},102,2,1
+402,1004,金币礼包-30元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_cjbx16.png,{rmb=600;gold=1000000;518=5},106,2,1
+403,1004,回归碎片礼包-98元-限购一次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx17.png,{rmb=1960;502=20;gold=50000},108,2,1
+404,1004,抽卡礼包-198元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx1.png,{rmb=3280;519=20},111,2,1
+405,1004,紫色礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx18.png,{rmb=4880;942=1;2103=60},112,2,1
+406,1004,回归升星礼包-328元-每周限购1次,回归礼包,回歸禮包,404,404,컴백 선물,activity/direct_gift/icon_gjbx19.png,{card={id=9002};rmb=4880;gold=300000},112,2,1

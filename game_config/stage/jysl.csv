@@ -1,0 +1,4 @@
+﻿变量名,x,opp_x_speed,yloop,ylength,scale,resType,opp_y_speed,xloop,y_speed,x_speed,frameScale,y,res,xlength,__version
+默认值,0,0,1,757,2,1,0,0,0,0,1,0,,,
+ID,x,opp_x_speed,yloop,ylength,scale,resType,opp_y_speed,xloop,y_speed,x_speed,frameScale,y,res,xlength,__version
+1,,,,,,,,1,,,,,battle/scene/bg_elitechallenge.png,1136,

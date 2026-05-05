@@ -1,0 +1,8 @@
+﻿变量名,res,normalStyleTemplate
+默认值,"""""",<>
+ID,项链背景图资源路径,普通位类型模板<各位置对应style>
+1,city/emera/necklace/img_hong.png,<2;2;3;4;4;5;5>
+2,city/emera/necklace/img_zi.png,<2;3;3;4;4;5;5>
+3,city/emera/necklace/img_lan.png,<2;3;3;4;4;5;5>
+4,city/emera/necklace/img_jin.png,<3;3;3;4;4;5;5>
+5,city/emera/necklace/img_huang.png,<2;3;3;4;4;5;5>

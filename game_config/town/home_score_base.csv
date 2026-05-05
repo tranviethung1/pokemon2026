@@ -1,0 +1,4 @@
+﻿变量名,getNum,coefficient,originalNum,weeklyScoreTimes,originalScore
+默认值,50,1,1,50,1
+ID,获取数量,系数,原始数量,每周评分次数,原始分数
+1,30,600,30,,

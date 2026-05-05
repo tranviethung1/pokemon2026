@@ -1,0 +1,4 @@
+﻿变量名,levelThreshold,dailyDrawBuffTimes,buffQueueMaxLength
+默认值,0,0,0
+ID,等级阈值,每日抽取Buff次数,Buff队列最大长度
+1,5,1,20

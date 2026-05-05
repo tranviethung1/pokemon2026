@@ -1,0 +1,9 @@
+﻿变量名,shaker,eventID
+默认值,{endT=100;beginT=0;count=1;disx=15;disy=20;isRepeat=TRUE;interval=0},
+ID,震动参数{beginT;count;disx;disy;endT;interval;isRepeat},事件ID
+101,{beginT=0;count=1;disx=10;disy=10;endT=300;interval=0;isRepeat=TRUE},101
+102,{beginT=0;count=1;disx=15;disy=15;endT=200;interval=0;isRepeat=TRUE},102
+103,{beginT=0;count=3;disx=30;disy=30;endT=200;interval=66.6;isRepeat=FALSE},103
+151,{beginT=0;count=1;disx=10;disy=10;endT=300;interval=0;isRepeat=TRUE},151
+152,{beginT=0;count=1;disx=15;disy=15;endT=200;interval=0;isRepeat=TRUE},152
+153,{beginT=0;count=3;disx=30;disy=30;endT=200;interval=66.6;isRepeat=FALSE},153

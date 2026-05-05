@@ -1,0 +1,5 @@
+﻿变量名,homeLevel,expandCostTime,collectionLevel,designLength,spineRes,res,cost
+默认值,999,0,999,21,"""""","""""",{}
+ID,所需家园等级,扩展耗时(秒),收藏等级,设计长度,Spine资源,图片资源,扩展消耗{货币=数量}
+1,6,86400,22,27,,city/town/map/building/11_1.png,{8202=1776800;8203=1421600;coin16=4200}
+2,6,259200,26,36,,city/town/map/building/11_1.png,{8202=3553600;8203=2843200;coin16=8400}

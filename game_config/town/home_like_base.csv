@@ -1,0 +1,4 @@
+﻿变量名,groupFixVal,visitHistoryLimit,weeklyLikeLimit,crossRankRequir,likedAwardLimit,decorateReachValue,visitDelay,likedNum,likedAward,likedAwardRange,randomScale,visitRequir
+默认值,0,10,0,9999999,0,0,3600,9999,{},<<10;100>;<20;100>;<30;100>>,<3;5;2>,3
+ID,分组修正值,访问历史上限,每周点赞上限,跨服排名要求,点赞奖励上限,装饰达成值,访问延迟(秒),点赞数量,点赞奖励,点赞奖励范围<<次数;奖励>>,随机比例<值>,visitRequir
+1,,30,30,240,100,200,300,10,{4000=5;gold=100000;rmb=10},<<10;100>;<20;50>;<30;30>;<50;20>>,<10;0;0>,

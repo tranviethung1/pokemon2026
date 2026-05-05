@@ -1,0 +1,4 @@
+﻿变量名,yloop,xloop,scale,y_speed,x_speed,frameScale,y,opp_y_speed,opp_x_speed,x,ylength,resType,aniName,res,xlength,__version
+默认值,1,0,2,0,0,1,0,0,0,0,757,1,,,,
+ID,yloop,xloop,scale,y_speed,x_speed,frameScale,y,opp_y_speed,opp_x_speed,x,ylength,resType,aniName,res,xlength,__version
+1,,1,0.5,,,,,,,,,,kycj,koudai_sgcjhsyl/kongyu.skel,1136,

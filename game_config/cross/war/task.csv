@@ -1,0 +1,4 @@
+﻿变量名,taskNum,award
+默认值,0,{}
+ID,taskNum,award
+1,10,{rmb=10}

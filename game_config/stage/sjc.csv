@@ -1,0 +1,4 @@
+﻿变量名,x_speed,frameScale,y,opp_y_speed,opp_x_speed,yloop,ylength,resType,xloop,scale,x,y_speed,aniName,res,xlength,__version
+默认值,0,1,0,0,0,1,757,1,0,2,0,0,,,,
+ID,x_speed,frameScale,y,opp_y_speed,opp_x_speed,yloop,ylength,resType,xloop,scale,x,y_speed,aniName,res,xlength,__version
+1,,,,,,,,,1,1.5,,,sjc,koudai_diyaluka_qiyuan/diyaluka_qiyuan_buff.skel,1136,

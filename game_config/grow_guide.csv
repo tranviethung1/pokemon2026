@@ -1,0 +1,46 @@
+﻿变量名,name,desc,type,feature,taskType,taskParam,taskDesc,res,icon,award,items,goto
+默认值,"""""","""""",1,"""""",0,9999,"""""","""""",,{},<>,
+成就ID,名字,描述,类型（1：奖励 2：任务）,功能key(对应unlock的feature字段),任务类型,任务参数,任务描述,右侧大资源图,icon资源,奖励,道具,跳转目标
+1,困难关卡,全新难度，新的挑战,,heroGate,,,,config/grow_guide/hard.jpg,city/levelup/icon_gq_rk@.png,{gold = 10000;rmb = 20},<5000;gold>,20000
+2,困难关卡,全新难度，新的挑战,2,heroGate,30,50,挑战困难关卡50次,config/grow_guide/hard.jpg,city/levelup/icon_gq_rk@.png,{gold = 10000;rmb = 20},<5000;gold>,20000
+3,竞技场,狭路相逢勇者胜,,arena,,,,config/grow_guide/arena.jpg,city/levelup/ico_activity.png,{gold = 10000;rmb = 20},<coin1>,arena
+4,竞技场,狭路相逢勇者胜,2,arena,41,20,竞技场挑战20次,config/grow_guide/arena.jpg,city/levelup/ico_activity.png,{gold = 10000;rmb = 20},<coin1>,arena
+5,日常副本,轻松挑战，获取高额奖励,,activityGate,,,,config/grow_guide/daily.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<gold;12;13;602;603>,activityGate
+6,日常副本,轻松挑战，获取高额奖励,2,activityGate,32,10,挑战10次日常副本,config/grow_guide/daily.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<gold;12;13;602;603>,activityGate
+7,冒险之路,无限征途，勇往直前,,endlessTower,,,,config/grow_guide/endless.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<451;452;19;gold>,endlessTower
+,冒险之路,无限征途，勇往直前,2,endlessTower,77,10,通关10次冒险之路（计数器未实现）,config/grow_guide/endless.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<451;452;19;gold>,endlessTower
+9,公会,加入公会，寻找志同道合的伙伴,,union,,,,config/grow_guide/union.jpg,city/levelup/icon_gh_rk@.png,{gold = 10000;rmb = 20},<coin3>,union
+10,公会,加入公会，寻找志同道合的伙伴,2,union,55,10,捐赠公会10次,config/grow_guide/union.jpg,city/levelup/icon_gh_rk@.png,{gold = 10000;rmb = 20},<coin3>,union
+11,石英大会,竞争角逐，挑战最强,,craft,,,,config/grow_guide/sydh.jpg,city/levelup/ico_activity.png,{gold = 10000;rmb = 20},<coin6>,craft
+12,石英大会,竞争角逐，挑战最强,2,craft,102,5,手动报名参加5次石英大会,config/grow_guide/sydh.jpg,city/levelup/ico_activity.png,{gold = 10000;rmb = 20},<coin6>,craft
+13,天赋强化,全体强化，变得更强,,talent,,,,config/grow_guide/talent.jpg,city/levelup/icon_tf_rk@.png,{gold = 10000;rmb = 20},<talent_point>,talent
+14,天赋强化,全体强化，变得更强,2,talent,99,50,累积使用50点天赋点,config/grow_guide/talent.jpg,city/levelup/icon_tf_rk@.png,{gold = 10000;rmb = 20},<talent_point>,talent
+15,日常任务,不积跬步，无以千里,,dailyTask,,,,config/grow_guide/task.jpg,city/levelup/icon_rw_rk@.png,{gold = 10000;rmb = 20},<role_exp;453;19>,task
+16,日常任务,不积跬步，无以千里,2,dailyTask,70,20,完成20个日常任务,config/grow_guide/task.jpg,city/levelup/icon_rw_rk@.png,{gold = 10000;rmb = 20},<role_exp;453;19>,task
+17,噩梦关卡,无惧噩梦，迎接挑战,,nightmareGate,,,,config/grow_guide/nightmare.jpg,city/levelup/icon_gq_rk@.png,{gold = 10000;rmb = 20},,30000
+18,噩梦关卡,无惧噩梦，迎接挑战,2,nightmareGate,31,5,通关噩梦副本5次,config/grow_guide/nightmare.jpg,city/levelup/icon_gq_rk@.png,{gold = 10000;rmb = 20},,30000
+19,图鉴,收集精灵，解锁能力,,handbook,,,,config/grow_guide/handbook.jpg,city/levelup/icon_tj_rk@.png,{gold = 10000;rmb = 20},,handbook
+,图鉴,收集精灵，解锁能力,2,handbook,,,,config/grow_guide/handbook.jpg,city/levelup/icon_tj_rk@.png,{gold = 10000;rmb = 20},,handbook
+21,以太乐园,随机挑战，其乐无穷,,randomTower,,,,config/grow_guide/randomtower.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<coin2;4000>,randomTower
+22,以太乐园,随机挑战，其乐无穷,2,randomTower,100,20,以太乐园战斗胜利20次,config/grow_guide/randomtower.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<coin2>,randomTower
+23,捕捉精灵,寻找，然后抓住它吧,,limitCapture,,,,config/grow_guide/capture.jpg,city/levelup/icon_jl_rk@.png,{gold = 10000;rmb = 20},<525;524;523>,capture
+24,捕捉精灵,寻找，然后抓住它吧,2,limitCapture,81,5,成功捕捉5只精灵,config/grow_guide/capture.jpg,city/levelup/icon_jl_rk@.png,{gold = 10000;rmb = 20},<525;524;523>,
+25,派遣任务,委派精灵，获得丰富奖励,,dispatchTask,,,,config/grow_guide/dispatch.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<2101;2102;2103;5000>,dispatchTask
+26,派遣任务,委派精灵，获得丰富奖励,2,dispatchTask,101,5,进行5次派遣任务,config/grow_guide/dispatch.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},<2101;2102;2103;5000>,dispatchTask
+27,探险器,,,explorer,,,,config/grow_guide/explorer.jpg,city/levelup/icon_yc_rk@.png,{gold = 10000;rmb = 20},<coin4>,explorer
+28,探险器,,2,explorer,84,5,强化探险器5次,config/grow_guide/explorer.jpg,city/levelup/icon_yc_rk@.png,{gold = 10000;rmb = 20},<coin4>,explorer
+29,元素挑战,挑战神兽，获取碎片,,cloneBattle,,,,config/grow_guide/clone.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},,cloneBattle
+30,元素挑战,挑战神兽，获取碎片,2,cloneBattle,66,3,元素挑战战斗胜利3次,config/grow_guide/clone.jpg,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},,cloneBattle
+31,符石,符石镶嵌，获得强力共鸣效果,,gem,,,,config/grow_guide/gem.png,city/levelup/icon_yc_rk@.png,{gold = 10000;rmb = 20},<529>,gemTitle
+32,符石抽取,符石镶嵌，获得强力共鸣效果,2,gem,105,20,累计抽取符石20次,config/grow_guide/gemdraw.png,city/levelup/icon_yc_rk@.png,{gold = 10000;rmb = 20},<529>,gemDraw
+33,超进化,mega进化，突破极限,,mega,,,,config/grow_guide/mega.png,city/levelup/icon_yc_rk@.png,{gold = 10000;rmb = 20},,
+,,,,,,,,,,,,
+35,钓鱼,悠闲垂钓，收获奖励,,fishing,,,,config/grow_guide/fishing.png,city/levelup/icon_gq_rk@.png,{gold = 10000;rmb = 20},,fishing
+36,钓鱼,悠闲垂钓，收获奖励,2,fishing,109,10,成功钓上10条鱼,config/grow_guide/fishing.png,city/levelup/icon_gq_rk@.png,{gold = 10000;rmb = 20},,fishing
+,,,,,,,,,,,,
+38,狩猎地带,狩猎大师，挑战强者,2,hunting,113,1,完成1次狩猎地带普通线路的挑战,config/grow_guide/sldd.png,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},,hunting
+39,狩猎地带进阶线路,狩猎大师，挑战强者,2,specialHunting,114,1,完成1次狩猎地带进阶线路的挑战,config/grow_guide/sldd.png,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},,specialHunting
+,,,,,,,,,,,,
+40,宝可梦挑战,宝可梦挑战，迈向最强之路,,normalBraveChallenge,,,,config/grow_guide/yztz.png,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},,normalBraveChallenge
+41,宝可梦挑战,宝可梦挑战，迈向最强之路,2,normalBraveChallenge,118,1,完成1次宝可梦挑战的挑战,config/grow_guide/yztz.png,city/levelup/icon_mx_rk@.png,{gold = 10000;rmb = 20},,normalBraveChallenge
+46,精灵试玩,究竟强不强，试了才知道,,testPlay,,,,config/grow_guide/shiwan.jpg,city/levelup/icon_jlsw.png,{gold = 10000;rmb = 20},,handbook

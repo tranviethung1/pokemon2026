@@ -1,0 +1,16 @@
+﻿变量名,huodongID,name,levelLimit,limit,items,costMap,rechargeID,refresh,icon,oldPrice,sort
+默认值,0,"""""",1,1,{},{},-1,FALSE,"""""",0,0
+ID,活动版本ID,名称,等级限制,限购次数,奖励道具,消耗,充值ID,每日刷新,图标,原价,排序
+1,23401,每日免费礼包,1,1,{8122=5;gold=50000},{rmb=0},-1,TRUE,activity/direct_gift/icon_cjbx.png,60,1
+2,23401,超值惊喜礼包,10,1,{8122=10;8125=50;gold=100000},{rmb=60},-1,TRUE,activity/direct_gift/icon_cjbx1.png,120,2
+3,23401,豪华惊喜礼包,20,1,{8122=20;8126=30;gold=200000},{rmb=300},-1,TRUE,activity/direct_gift/icon_cjbx2.png,600,3
+,,,,,,,,,,,
+,启示之塔-登录惊喜,,,,,,,,,,
+101,23500,每日免费礼包,1,1,{8121=5;gold=50000},{rmb=0},-1,TRUE,activity/direct_gift/icon_cjbx.png,60,1
+102,23500,超值惊喜礼包,10,1,{8121=10;gold=100000},{rmb=60},-1,TRUE,activity/direct_gift/icon_cjbx1.png,120,2
+103,23500,豪华惊喜礼包,20,1,{8121=20;gold=200000},{rmb=300},-1,TRUE,activity/direct_gift/icon_cjbx2.png,600,3
+,,,,,,,,,,,
+,好运抽奖-登录惊喜,,,,,,,,,,
+201,104003,每日免费礼包,1,1,{8120=5;gold=50000},{rmb=0},-1,TRUE,activity/direct_gift/icon_cjbx.png,60,1
+202,104003,超值惊喜礼包,10,1,{8120=10;gold=100000},{rmb=60},-1,TRUE,activity/direct_gift/icon_cjbx1.png,120,2
+203,104003,豪华惊喜礼包,20,1,{8120=20;gold=200000},{rmb=300},-1,TRUE,activity/direct_gift/icon_cjbx2.png,600,3

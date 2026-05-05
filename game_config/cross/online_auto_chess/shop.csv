@@ -1,0 +1,4 @@
+﻿变量名,showUnable,limitTimes,limitType,vipStart,endDate,beginDate,sortValue,regainHour,exchangeLimit,itemMap,costMap,levelRange,languages
+默认值,FALSE,0,0,0,20990101,0,0,0,-1,{},{},<1;150>,<cn>
+ID,显示不可用,限购次数,限购类型,VIP等级要求,结束日期(YYYYMMDD),开始日期(YYYYMMDD),排序值,恢复小时,兑换上限,商品{itemID=数量},花费{itemID=数量},等级范围<min;max>,语言区域<lang>
+1001,,,,,,,1,24,2,{24081=3},{coin19=3000},,

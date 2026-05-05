@@ -1,0 +1,9 @@
+﻿变量名,name,passiveType,passiveSkill,buffColor,supplyTarget,logo,iconBg,supplyNum,supplyType,buffType,attrNum2,attrType2,attrNum1,attrType1,passiveGroup,attrNum3,attrType3,attrNatureType3,attrNatureType1,icon,desc,effectTimes
+默认值,"""""",0,0,"""""",0,"""""","""""",0,0,1,"""""",0,"""""",0,0,"""""",0,0,0,"""""","""""",0
+ID,Buff名称,被动类型(3=被动技能),被动技能ID,Buff颜色特效标识,补给目标(1=单体/2=全体),Logo资源路径,图标背景资源路径,补给数值(百分比或固定值),补给类型(1=回血/4=扣血),Buff类型(1=属性/2=回复/3=被动),属性数值2(百分比),属性类型2(属性ID),属性数值1(百分比),属性类型1(属性ID),被动分组ID,属性数值3(百分比),属性类型3(属性ID),属性3自然属性类型,属性1自然属性类型,图标资源路径,Buff描述文本,生效次数(0=永久)
+1,,,,effect,,,city/adventure/random_tower/icon/box_red.png,,,,5%,7,5%,8,,,,,,city/adventure/random_tower/icon/icon_gj.png,我方精灵物攻和特攻+5%,
+2,,,,effect,,,city/adventure/random_tower/icon/box_blue.png,,,,10%,9,10%,10,,,,,,city/adventure/random_tower/icon/icon_fy.png,我方精灵物理和特殊防御力+10%,
+3,,,,,1,,city/adventure/random_tower/icon/box_pink.png,25,1,2,,,,,,,,,,city/adventure/random_tower/icon/icon_hx.png,回复一只精灵25%生命值,
+4,,,,,2,,,10,4,2,,,,,,,,,,,当前生命值减少10%,
+5,,3,80052,effect,,,city/adventure/random_tower/icon/box_green.png,,,3,,,,,,,,,,city/adventure/random_tower/icon/icon_kz.png,下一次战斗开始时，沉默所有敌人一回合,1
+6,,3,80058,effect,,,city/adventure/random_tower/icon/box_blue.png,,,3,,,,,,,,,,city/adventure/random_tower/icon/icon_fy.png,我方精灵战斗开始时获得自身损失生命值的护盾值，持续2回合,

@@ -1,0 +1,6 @@
+﻿变量名,speedX,score,res,params,manualBox,__version
+默认值,0,0,"""""",{times=1},{},
+ID,speedX,score,res,params,manualBox,__version
+1,,50,sprite_jump/ggbianfu.skel,{times=1},,
+2,5,100,sprite_jump/miaomiao.skel,{times=1},{height=150;width=100;x=-50;y=0},
+4,,,sprite_jump/jinglingtiaoyue.skel,{fireStop=1;fireTime=1;times=0},,

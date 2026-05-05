@@ -1,0 +1,4 @@
+﻿变量名,expendCostTime,collectionLevel,homeLevel
+默认值,0,999,999
+ID,消耗时间(秒),收藏等级,所需家园等级
+1,10,10,6

@@ -1,0 +1,4 @@
+﻿变量名,robotName,limit,servOpenDays,ratio,winAward,failAward
+默认值,"""""",10,0,<10%;10%;10%>,{},{}
+ID,robotName,limit,servOpenDays,ratio,winAward,failAward
+1,robot,,,,,

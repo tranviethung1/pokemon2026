@@ -1,0 +1,4 @@
+变量名,initBattleTimes,subCrossGroupSize,quality4BuffFieldNum,quality3BuffFieldNum,battleTimesDailyAdd,rankingRequiredOpenDays,battleTimesLimit,quality2BuffFieldNum,crossGroupSize,fastChallengeThreshold,initBuff,quality1BuffFieldNum,minServerOpenDays
+默认值,10,100,2,3,2,160,20,6,15,0,{},8,0
+ID,初始挑战次数,子跨服组大小,品质4buff槽位数,品质3buff槽位数,每日恢复次数,排行榜开服天数要求,每日次数上限,品质2buff槽位数,跨服组大小,快速挑战阈值,初始buff,品质1buff槽位数,最低开服天数
+1,10,100,2,3,2,1,20,6,15,150000,{1=2},8,1

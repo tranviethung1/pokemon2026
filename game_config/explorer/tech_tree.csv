@@ -1,0 +1,16 @@
+变量名,attrDesc,addType,preTechLevel2,preTechID2,needCoreLevel,levelLimit,attrNum1,attrAddDesc1,costID,preTechLevel1,preTechID1,addAttrNum,attrAddDesc2,attrNum2,attrType1,explorerID,name,attrType2,icon
+默认值,提升所有精灵的生命值、攻击力,1,0,0,0,0,,所有精灵生命值增加,1,0,0,"""""",所有精灵攻击力增加,"""""",0,0,,0,
+ID,属性描述,加成类型,前置天赋等级2,前置天赋ID2,需要核心等级,等级上限,属性数值1,属性增加描述1,消耗ID,前置天赋等级1,前置天赋ID1,加成属性数值,属性增加描述2,属性数值2,属性类型1,探险器ID,名称,属性类型2,图标
+1,全组件固定属性百分比提升,3,,,1,10,,全组件属性提升,,,,0.10%,,,,,晋升组件,,city/develop/explore/icon_sxzj.png
+2,提升所有精灵物攻，特攻属性,,,,1,10,0.50%,物攻提升,2,7,1,,特攻提升,0.50%,7,,机架强攻,8,city/develop/explore/icon_wgts.png
+3,提升所有精灵物防，特防属性,,,,1,10,0.50%,物防提升,2,7,1,,特防提升,0.50%,9,,机架守卫,10,city/develop/explore/icon_wfts.png
+4,提升所有精灵物伤，特伤属性,,,,10,10,30,物伤提升,3,7,2,,特伤提升,30,32,,强攻组件升华,34,city/develop/explore/icon_wsts.png
+5,提升所有精灵生命值属性,,5,3,10,10,0.50%,生命值提升,3,5,2,,,,1,,生命升华,,city/develop/explore/icon_smzts.png
+6,提升所有精灵物伤减免，特伤减免,,,,10,10,30,物伤减免提升,3,7,3,,特伤减免提升,30,33,,守卫组件升华,35,city/develop/explore/icon_wsjmts.png
+7,提升所有精灵物防忽视，特防忽视,,,,20,10,50,物防忽视增加,4,7,4,,特防忽视增加,50,11,,强攻重组,12,city/develop/explore/icon_wfhszj.png
+8,提升所有精灵双暴属性,,,,20,10,30,暴击率提升,4,5,5,,暴击伤害提升,30,14,,双暴异变,15,city/develop/explore/icon_bjlts.png
+9,提升所有精灵抵御率属性,,,,20,10,50,抵御率提升,4,7,6,,,,17,,守卫重组,,city/develop/explore/icon_dklts.png
+10,蚊香蛙探险器战斗技能效果提升,2,,,30,5,1,,5,7,7,,,,7,7,探险器核心升华,,city/develop/explore/icon_wxwtxq.png
+11,波尔凯尼恩飞船战斗技能效果提升,2,5,8,30,5,1,,6,5,7,,,,9,9,探险器核心升华,,city/develop/explore/icon_beknefc.png
+12,准神号飞船战斗技能效果提升,2,5,8,30,5,1,,6,5,9,,,,8,8,探险器核心升华,,city/develop/explore/icon_zshfc.png
+13,嘟嘟探险器战斗技能效果提升,2,,,30,5,1,,5,7,9,,,,6,6,探险器核心升华,,city/develop/explore/icon_ddtxq.png

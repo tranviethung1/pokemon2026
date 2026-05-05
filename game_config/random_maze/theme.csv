@@ -1,0 +1,9 @@
+﻿变量名,desc,moveAction,effectSpine,weight,title,cardDesc,sceneScale,map,sceneSize,descParams,cardNatures,cardParams,skillIDs,attrFix
+默认值,"""""",0,"""""",0,"""""","""""",1,<>,{width=6224;height=2880},{},<>,{},{},{}
+ID,主题描述(含{move}等动态参数),额外移动行动力消耗,特效骨骼动画资源路径,随机权重,主题标题名称,携带精灵描述(%s为动态参数),场景缩放比例,关联地图ID列表<map表ID>,场景尺寸{width;height},描述参数{cardHp=血量变化;move=触发间隔等},适用精灵属性列表<属性ID>,精灵参数{value=属性加成值等},技能ID列表<技能ID>,属性修正{属性ID=百分比}
+1,每{move}次移动后触发一次，火山岩将自动触发一处未激活事件格，将事件格转变为烧血格，移动到当前位置扣除血量,,random_maze/yjpy.skel,100,龟裂爆焰,%s精灵基础六维度属性提升50%%,,<1;2;3>,{height=2880;width=6224},{cardHp=-0.2;move=4},<1;2;3>,{value=0.5},,{1=50%;7=50%;8=50%;9=50%;10=50%;13=50%}
+2,每{move}次移动后触发一次，全场降临暴风雪，未进入保暖区将被冰冻，冰冻需要扣除1点行动力后解冻,,random_maze/ldbx.skel,100,极寒凛冬,每携带1只%s精灵行动力+%s,,<4;5;6>,{height=2880;width=6224},{move=6;moveAction=-1},<4;5;6>,{value=1},,
+3,每{move}次移动触发一次，将对全部精灵进行血量扣除，扣除值根据累计挑战胜利的简单，困难，地狱对手事件数量决定(挑战失败和避战不计入),,random_maze/yuanlingguizhou.skel,100,幽冥鬼咒,携带的%s精灵体力+%s(双属性都满足也仅加1点),,<7;8;9>,{height=2880;width=6224},{battleHard=0.005;battleHell=0.005;battleNormal=0.005;move=8},<11;14;16>,{value=1},,
+4,每{move}次移动后触发一次，第{warnMove}次移动后将出现空风暴预警(预警风暴的吹第{move}次移动后触发风暴，玩家需躲避在障碍物后方，否则会被风暴吹{moveNumber}格,,random_maze/kuangfengsinue.skel,100,狂风冽空,携带的%s精灵体力+%s(双属性都满足也仅加1点),,<10;11;12>,{height=2880;width=6224},{move=8;moveNumber=4;warnMove=4},<10;15;18>,{value=1},,
+5,负重前行，玩家每次扣除的行动力+1，若本次跳过战斗，则返还{skipBattleMoveAction}点行动力,10,,,动能,每携带一只%s精灵，可跳过战斗的次数+%s(后续入队的三种属性精灵不计入),,,,{moveAction=-1;skipBattleMoveAction=1},<4;5;8>,{value=1},,
+6,每{move}次移动后触发一次，任意一行/一竖将生成荆棘壁垒，荆棘壁垒持续{times}次行动后消失，生成期间无法经过荆棘壁垒,,,,深林,携带5/10只%s精灵，在玩法内获得的见闻值提升2%%/5%%,,,,{move=5;times=2},<4;5;7>,{5=0.02;10=0.05},,

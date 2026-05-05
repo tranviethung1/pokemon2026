@@ -1,0 +1,4 @@
+﻿变量名,cardsLimit,specialDefenceWeight,specialDamageWeight,speedWeight,defenceWeight,damageWeight,hpWeight,timesValue,coin,actionValue,skipBattleTimes,cardAct,times,tileSize,shopPrices,actionTip,doubleResultGridIDs,timesDays,sweepNeedPoint
+默认值,12,1,1.2,0.1,1,1.2,9.6,1,100,30,5,2,2,{width=286;height=143},<<0;50;0.2>;<50;100;0.5>;<100;150;0.7>;<150;200;1>>,<>,<>,<3;5;7>,0
+ID,上阵精灵数量上限,特防属性权重,特攻属性权重,速度属性权重,物防属性权重,物攻属性权重,生命属性权重,每日挑战次数基础值,初始航海币数量,初始行动力值,初始避战次数,精灵初始体力值,每周挑战次数上限,格子瓦片尺寸{height;width},商店价格区间<<最小值;最大值;折扣系数>>,行动力不足提示阈值数组,翻倍结果生效的格子ID列表,每周重置天数列表,sweepNeedPoint
+1,,,,,,,,,,,2,5,3,,<<0;50;0.2>;<50;100;0.5>;<100;150;0.7>;<150;200;1>>,<20;15;10;5>,<3;5;6;7;8;9;11;12;15>,<3;5;7>,

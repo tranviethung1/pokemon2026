@@ -1,0 +1,4 @@
+﻿变量名,failStreakCount,winStreakCount,longMatchTimeout,matchExtendTime,normalMatchTimeout,matchRobotTime,seasonWeekTaskNum,eloS,matchAwardTime,openWeekday,openTime,matchAward
+默认值,3,3,300,30,30,35,7,400,0,<1;2;3;4;5;6;7>,<<100;2300>>,{}
+ID,连败保护次数,连胜保护次数,长匹配超时(秒),匹配延长时间(秒),普通匹配超时(秒),机器人匹配时间(秒),赛季周任务数量,ELO基准值,匹配奖励时间(秒),开放星期<1-7>,开放时间<<开始;结束>>,匹配奖励{itemID=数量}
+1,,,,,60,45,4,8000,3,<1;2;3;4;5;6;7>,<<1000;2300>>,{coin19=500;gold=50000}

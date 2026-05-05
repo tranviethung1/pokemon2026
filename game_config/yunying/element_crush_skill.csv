@@ -1,0 +1,14 @@
+﻿变量名,icon,skill,spine1,spine2
+默认值,,0,,
+ID,图标,技能类型,特效1,特效2
+,精灵消消乐-元素定义 - type=74 elementCrush,,,
+1,activity/element_crush/icon_huo.png,0,,
+2,activity/element_crush/icon_shui.png,0,,
+3,activity/element_crush/icon_cao.png,0,,
+4,activity/element_crush/icon_dian.png,0,,
+5,activity/element_crush/icon_fei.png,0,,
+101,activity/element_crush/icon_huo.png,102,2_ts_zhans_huo_loop,4_huo_xiaochu
+102,activity/element_crush/icon_shui.png,103,2_ts_zhans_shui_loop,3_shui_xiaochu
+103,activity/element_crush/icon_cao.png,104,2_ts_zhans_cao_loop,7_cao
+104,activity/element_crush/icon_dian.png,105,2_3_ts_zhans_leidian_loop,5_leidian
+105,activity/element_crush/icon_fei.png,110,2_ts_zhans_fei_loop,6_fei

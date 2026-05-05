@@ -1,0 +1,9 @@
+﻿变量名,type,name,hide,languages,sort,__version
+默认值,1,"""""",0,<cn;tw;en;en_us;en_eu;vn;th;kr>,1,
+ID,称号类型,称号标题语言包,hide,languages,sort,__version
+1,,荣 誉,,,,
+2,2,冒 险,,,2,
+3,3,活 动,,,3,
+4,4,成 就,,,4,
+5,5,定制,,<cn;tw;en_us>,6,
+99,99,其 他,,,5,

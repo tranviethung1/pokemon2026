@@ -1,0 +1,5 @@
+﻿变量名,ultimateSub,ultimateAdd,damageSub,damageAdd,hit,dodge,blockPower,breakBlock,block,strikeResistance,strikeDamage,mp2Recover,mp1Recover,hpRecover,mp2,mp1,activeSkill,strike,speed,specialDefenceIgnore,defenceIgnore,specialDefence,defence,specialDamage,damage,hp,classify,star,level,natureRestraint,cure,rebound,suckBlood,damageReduce,damageDeepen,skills,fight_soul,__version,roleForce,roleId
+默认值,0,0,1,1,10000,0,1,1,1,1,15000,1,1,1,1,1000,0,1,1,1,1,1,1,1,1,1,0,5,90,0,1,0,0,1,1,{},{},,,
+ID,ultimateSub,ultimateAdd,damageSub,damageAdd,hit,dodge,blockPower,breakBlock,block,strikeResistance,strikeDamage,mp2Recover,mp1Recover,hpRecover,mp2,mp1,activeSkill,strike,speed,specialDefenceIgnore,defenceIgnore,specialDefence,defence,specialDamage,damage,hp,classify,star,level,natureRestraint,cure,rebound,suckBlood,damageReduce,damageDeepen,skills,fight_soul,__version,roleForce,roleId
+2,,,,,,,,,,,,,,,,,,20000,3000,0,0,49000,49000,1000000,1000000,2800000,3,12,100,,,,,,,,,,1,30501
+8,,,,,,,,,,,,,,,,,,20000,2500,0,0,42000,42000,1000000,1000000,2800000,3,12,100,,,,,,,,,,2,30502

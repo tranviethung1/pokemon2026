@@ -1,0 +1,4 @@
+﻿变量名,countdown,height_score,startCountDown,px_to_height,interval,gravity,fall_speed,speedy,speedx,__version,jump_height_max,stage_floor
+默认值,0,0,3,0,0,0,0,0,0,,,
+ID,countdown,height_score,startCountDown,px_to_height,interval,gravity,fall_speed,speedy,speedx,__version,jump_height_max,stage_floor
+1,70,1.6,,0.02,140,0.8,40,30,20,,600,30

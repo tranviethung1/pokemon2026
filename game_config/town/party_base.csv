@@ -1,0 +1,4 @@
+﻿变量名,dartGameCount,dartLessOffRatio,groupSize,dartMaxOff,dartCount,dartLessOff,lastFinishTime,createCount,joinCount,joinCD,dartTarget,dartShakePosPerTime
+默认值,0,0.3,20,40,0,20,15,2,2,15,100,0.05
+ID,飞镖游戏次数,飞镖偏移减少比例,分组大小,飞镖最大偏移,飞镖次数,飞镖偏移减少,上次完成时间,每日创建次数,每日参与次数,参与CD(分钟),飞镖目标分数,每次抖动位置
+1,1,0.4,,53,5,21,,1,5,10,204,

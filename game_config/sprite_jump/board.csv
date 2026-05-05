@@ -1,0 +1,8 @@
+﻿变量名,size,__version,res,speedX,times
+默认值,{width=400;height=44},,,,
+ID,size,__version,res,speedX,times
+1,,,activity/sprite_jump/board1.png,0,-1
+2,,,activity/sprite_jump/board2.png,0,0
+3,,,activity/sprite_jump/board3.png,0,1
+4,,,activity/sprite_jump/board1.png,5,-1
+5,{height=0;width=0},,activity/sprite_jump/board1.png,0,0
