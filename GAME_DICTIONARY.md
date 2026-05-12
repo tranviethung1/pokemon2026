@@ -785,6 +785,7 @@
 | 礼物副本 | Gift Dungeon | Phó bản quà tặng | |
 | 碎片副本 | Shard Dungeon | Phó bản mảnh ghép | |
 | 冒险之路 | Adventure Road | Con đường phiêu lưu | |
+| 卡牌冒险玩法 | Card Adventure | Phiêu lưu thẻ bài | |
 | 荣誉币 | Honor Coins | Xu vinh dự | |
 | 世界锦标赛 | World Championship | Giải vô địch thế giới | |
 | 许愿中心 | Wishing Center | Trung tâm ước nguyện | |
@@ -862,6 +863,160 @@
 | 狩猎勇者 | Hunting Warrior | Chiến binh săn bắn |
 | 狩猎大师 | Hunting master | Bậc thầy săn bắn |
 | 绝世狩猎王 | Peerless Hunting King | Vua săn bắn vô song |
+
+### 5.1. Bổ sung từ `achievement_task.csv`
+*Bảng này chỉ thêm các `title` còn thiếu trong từ điển. Cột `Gốc (CSV)` giữ nguyên chuỗi gốc từ file vì nguồn hiện trộn cả CN và EN.*
+
+| Gốc (CSV) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| Device | Device | Thiết bị |
+| Doduo's Scanner | Doduo's Scanner | Máy quét Doduo |
+| Poliwhirl Explorer Device | Poliwhirl Explorer Device | Thiết bị thám hiểm Poliwhirl |
+| Pseudo-legendary Aircraft | Pseudo-legendary Aircraft | Phi thuyền chuẩn thần |
+| Volcanion Airship | Volcanion Airship | Khí cầu Volcanion |
+| Explorer Device level | Explorer Device level | Cấp thiết bị thám hiểm |
+| Little Achiever | Little Achiever | Thành tựu nho nhỏ |
+| You have the ability to fight! | You have the ability to fight! | Bạn đã đủ sức chiến đấu! |
+| Try me if you're not convinced | Try me if you're not convinced | Không phục thì thử đi! |
+| Anyone else | Anyone else | Còn ai nữa? |
+| Unbeatable loneliness | Unbeatable loneliness | Cô độc vô địch |
+| The Informidable | The Informidable | Bất khả chiến bại |
+| Entrepreneur | Entrepreneur | Tự tay gây dựng |
+| The First Bucket of Gold | The First Bucket of Gold | Khoản vàng đầu tiên |
+| Financial Rookie | Financial Rookie | Tân binh tài chính |
+| Financial Leader | Financial Leader | Đầu lĩnh tài chính |
+| Money Saving Expert | Money Saving Expert | Chuyên gia tích lũy |
+| Financial Giant | Financial Giant | Tài phiệt tài chính |
+| Entering the Wealthy ranking | Entering the Wealthy ranking | Lọt vào bảng xếp hạng nhà giàu |
+| World's Richest | World's Richest | Người giàu nhất thế giới |
+| Infinite amount of money | Infinite amount of money | Tiền tiêu không hết |
+| Easy-peasy | Easy-peasy | Dễ như ăn bánh |
+| Don't feel bad for spilling it | Don't feel bad for spilling it | Vung tay không tiếc |
+| Few packets of money | Few packets of money | Vài túi tiền |
+| Take the Mercedes Sportscar for a spin | Take the Mercedes Sportscar for a spin | Lái Mercedes đi dạo |
+| Live in bangalows and mansions | Live in bangalows and mansions | Sống trong biệt thự dinh cơ |
+| Buy yachtes and mansions | Buy yachtes and mansions | Mua du thuyền và biệt thự |
+| Not in short of money | Not in short of money | Không thiếu tiền |
+| Clumsy | Clumsy | Mạnh tay tiêu xài |
+| Spendthrift | Spendthrift | Tiêu tiền như nước |
+| Earn the nickels and dimes | Earn the nickels and dimes | Tích tiểu thành đại |
+| Earning big money | Earning big money | Kiếm tiền lớn |
+| You're welcome | You're welcome | Coi như chút lòng thành |
+| Wise Investor | Wise Investor | Nhà đầu tư khôn ngoan |
+| Golden Pig | Golden Pig | Heo vàng |
+| Wealthy Butterfly | Wealthy Butterfly | Hồ điệp đại gia |
+| Tycoon | Tycoon | Đại phú hào |
+| Eat and drink well | Eat and drink well | Ăn ngon uống đã |
+| Buy whatever you feel like buying | Buy whatever you feel like buying | Muốn mua gì thì mua |
+| Blind Shopping | Blind Shopping | Mua sắm nhắm mắt |
+| Only choose what you like | Only choose what you like | Chỉ chọn món mình thích |
+| Only choose the most expensive | Only choose the most expensive | Chỉ chọn món đắt nhất |
+| Do anything you want, you're rich | Do anything you want, you're rich | Giàu thì cứ tùy ý |
+| Mysterious Rich Man | Mysterious Rich Man | Đại gia bí ẩn |
+| Grand training | Grand training | Huấn luyện tông sư |
+| Master training | Master training | Huấn luyện đại sư |
+| I am all | I am all | Vì mọi người |
+| Normal refresh | Normal refresh | Làm mới thường |
+| Mystery refresh | Mystery refresh | Làm mới bí ẩn |
+| Index 2200! | Index 2200! | Chỉ số 2200! |
+| Red gem | Red gem | Phù thạch đỏ |
+| Did you just get the Pokédex? | Did you just get the Pokédex? | Vừa nhận Pokédex à? |
+| Begin the Pokémon Adventure | Begin the Pokémon Adventure | Bắt đầu hành trình Pokémon |
+| Go for an adventure for some time | Go for an adventure for some time | Phiêu lưu cũng được một thời gian |
+| Collect more than a hundred | Collect more than a hundred | Sưu tầm hơn trăm |
+| You've caught many Pokémons | You've caught many Pokémons | Đã thu phục không ít Pokémon |
+| Unstoppable | Unstoppable | Không thể dừng lại |
+| Pokedex250 | Pokedex250 | Pokédex 250 |
+| Complete all Pokédex entries! | Complete all Pokédex entries! | Hoàn thành toàn bộ Pokédex! |
+| Pokémon level | Pokémon level | Cấp Pokémon |
+| Pokémon Breakthrough | Pokémon Breakthrough | Đột phá Pokémon |
+| Pokémon star level | Pokémon star level | Sao Pokémon |
+| Normal Effort Value | Normal Effort Value | Giá trị nỗ lực thường |
+| Advanced Effort Value | Advanced Effort Value | Giá trị nỗ lực cao cấp |
+| Accessories Strengthen | Accessories Strengthen | Cường hóa phụ kiện |
+| Trinket Awakening | Trinket Awakening | Thức tỉnh trang sức |
+| Held Items Level | Held Items Level | Cấp đạo cụ mang theo |
+| Held Items Quality | Held Items Quality | Phẩm chất đạo cụ mang theo |
+| Is attracted | Is attracted | Có cảm tình |
+| I like you | I like you | Thích bạn rồi |
+| Loving heart | Loving heart | Tấm lòng yêu mến |
+| Level challenge | Level challenge | Thử thách ải |
+| Coin dungeon | Coin dungeon | Phó bản vàng |
+| S Dispatch Quest | S Dispatch Quest | Nhiệm vụ phái đi hạng S |
+| S+ Dispatch Quest | S+ Dispatch Quest | Nhiệm vụ phái đi hạng S+ |
+| 契约副本 | Contract Dungeon | Phó bản khế ước |
+| First fish | First fish | Con cá đầu tiên |
+| 200 fish | 200 fish | 200 con cá |
+| The old man and the sea | The old man and the sea | Ông già và biển cả |
+| Lost bait | Lost bait | Mồi câu thất lạc |
+| Catch a tyrannosaurus | Catch a tyrannosaurus | Câu được Gyarados |
+| Catch a leaping fish | Catch a leaping fish | Câu được Mudkip |
+| Catch a shellless sea hare | Catch a shellless sea hare | Câu được Shellos |
+| Catch a small ball flying fish | Catch a small ball flying fish | Câu được Mantyke |
+| Catch a wild bass | Catch a wild bass | Câu được Basculin |
+| Catch a spider | Catch a spider | Câu được Dewpider |
+| Catch the gem starfish | Catch the gem starfish | Câu được Starmie |
+| Catch a roaring whale | Catch a roaring whale | Câu được Wailmer |
+| Catch the Ancient Airacantha | Catch the Ancient Airacantha | Câu được Relicanth |
+| Catch the Catfish King | Catch the Catfish King | Câu được Whiscash |
+| Catch the gill fish | Catch the gill fish | Câu được Dracovish |
+| Fishing master | Fishing master | Cao thủ câu cá |
+| Fishing expert | Fishing expert | Chuyên gia câu cá |
+| Master Fishing | Master Fishing | Tông sư câu cá |
+| Catch the Horsea | Catch the Horsea | Câu được Horsea |
+| Catch Lumineon | Catch Lumineon | Câu được Lumineon |
+| Catch Tentacool | Catch Tentacool | Câu được Tentacool |
+| Catch the Octillery | Catch the Octillery | Câu được Octillery |
+| Catch "Kyogre" | Catch "Kyogre" | Câu được "Kyogre" |
+| Clear the first round! | Clear the first round! | Vượt qua vòng đầu! |
+| Gym Challenger | Gym Challenger | Người thách đấu nhà thi đấu |
+| 深渊冒险之路 | Abyss Adventure Road | Con đường phiêu lưu vực sâu |
+| Undefeated | Undefeated | Bách chiến bất bại |
+| Fearless Fighter | Fearless Fighter | Chiến binh không sợ hãi |
+| Arena Manic | Arena Manic | Cuồng nhân đấu trường |
+| Informidable Fighter | Informidable Fighter | Đấu sĩ vô địch |
+| Relentless Fighter | Relentless Fighter | Đấu sĩ không ngừng nghỉ |
+| Ending with a Battle | Ending with a Battle | Lấy chiến chấm chiến |
+| Indigo Plateau Conference | Indigo Plateau Conference | Hội nghị Cao nguyên Indigo |
+| New friend | New friend | Bạn mới |
+| Socialite | Socialite | Cao thủ xã giao |
+| Excellent Swimmer | Excellent Swimmer | Bơi lội siêu hạng |
+| Gift rose | Gift rose | Tặng hoa hồng |
+| Someone liked me | Someone liked me | Có người thích tôi |
+| Pocket Egg Pair | Pocket Egg Pair | Trứng đôi may mắn |
+| Hat Trick | Hat Trick | Hat-trick |
+| My family owns a mine | My family owns a mine | Nhà tôi có mỏ |
+| Title collection | Title collection | Sưu tập danh hiệu |
+| Image Collection | Image Collection | Sưu tập hình tượng |
+| Avatar frame collection | Avatar frame collection | Sưu tập khung avatar |
+| Avatar collection | Avatar collection | Sưu tập avatar |
+| Wake up, your energy is full | Wake up, your energy is full | Tỉnh đi, thể lực đầy rồi |
+| Mails piling up | Mails piling up | Thư chồng chất |
+| Cute Mimikyu | Cute Mimikyu | Mimikyu đáng yêu |
+| Charming little lads | Charming little lads | Những bé cưng mê người |
+| The Dragon King arrives | The Dragon King arrives | Long vương giá lâm |
+| Treasure naturally appears from the deep mountains | Treasure naturally appears from the deep mountains | Báu vật xuất hiện từ núi sâu |
+| Invisible Variety | Invisible Variety | Ditto vô hình |
+| We won! | We won! | Chúng ta thắng rồi! |
+| Unexpected accident... | Unexpected accident... | Bất ngờ ngoài ý muốn... |
+| Ah, new rarity! | Ah, new rarity! | A, độ hiếm mới! |
+| Master of the ocean | Master of the ocean | Chúa tể đại dương |
+| Team up with water ninjas | Team up with water ninjas | Sát cánh cùng ninja nước |
+| Guardian of the star wall, the princess is here! | Guardian of the star wall, the princess is here! | Người bảo hộ tường sao, công chúa giá lâm! |
+| Change fate against the sky, fight endlessly! | Change fate against the sky, fight endlessly! | Nghịch thiên cải mệnh, chiến mãi không ngừng! |
+| 神形双体&精神掌控！ | Twin Divine Forms & Psychic Control! | Song hình thần thánh và khống chế tinh thần! |
+| 冰与火之歌 | Song of Ice and Fire | Bài ca băng và lửa |
+| 红莲假面&火系斗士 | Crimson Mask & Fire Fighter | Mặt nạ hồng liên và đấu sĩ hệ lửa |
+| 冰与电之歌 | Song of Ice and Lightning | Bài ca băng và điện |
+| 日光回旋下苍穹 | Sunlight Spirals Across the Sky | Nhật quang xoáy giữa trời xanh |
+| 月华飞溅落灵霄 | Moonlight Splashes Across the Firmament | Nguyệt hoa tung giữa trời cao |
+| Trainers who are near Meowth can get rich! | Trainers who are near Meowth can get rich! | Ở gần Meowth là có thể phát tài! |
+| 卡牌入门 | Card Beginner | Nhập môn thẻ bài |
+| 卡牌老手 | Card Veteran | Lão làng thẻ bài |
+| 卡牌精通 | Card Mastery | Tinh thông thẻ bài |
+| 卡牌学徒 | Card Apprentice | Học việc thẻ bài |
+| 卡牌大师 | Card Master | Đại sư thẻ bài |
+| 卡牌王者 | Card King | Vua thẻ bài |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

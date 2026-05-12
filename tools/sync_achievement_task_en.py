@@ -12,6 +12,7 @@ from pathlib import Path
 
 
 TRACKED_FIELDS = {"id", "targetType2", "point", "title", "title_en", "desc", "desc_en"}
+CJK_PATTERN = re.compile(r"[\u3400-\u9fff]")
 
 
 def parse_args() -> argparse.Namespace:
@@ -23,6 +24,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--lua-source", required=True, type=Path, help="Path to achievement_task.lua")
     parser.add_argument("--csv-target", required=True, type=Path, help="Path to achievement_task.csv")
+    parser.add_argument(
+        "--dictionary",
+        type=Path,
+        help="Optional path to GAME_DICTIONARY.md for translating rows still left in Chinese.",
+    )
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -40,6 +46,10 @@ def normalize_key_part(value: object) -> str:
         return text.split(".", 1)[0]
 
     return text
+
+
+def contains_cjk(text: str) -> bool:
+    return bool(CJK_PATTERN.search(text))
 
 
 def decode_lua_string(raw: str) -> str:
@@ -131,7 +141,126 @@ def parse_lua_records(lua_path: Path) -> dict[tuple[str, str, str], dict[str, st
     return records
 
 
-def sync_csv(csv_path: Path, source_records: dict[tuple[str, str, str], dict[str, str]], dry_run: bool) -> int:
+def is_key_column(value: str) -> bool:
+    return bool(re.fullmatch(r"[a-z][A-Za-z0-9_.-]*", value))
+
+
+def parse_dictionary_mappings(dictionary_path: Path) -> dict[str, str]:
+    mappings: dict[str, str] = {}
+    lines = dictionary_path.read_text(encoding="utf-8").splitlines()
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped.startswith("|") or ":---" in stripped:
+            continue
+
+        parts = [part.strip() for part in stripped.strip("|").split("|")]
+        if len(parts) < 2:
+            continue
+        if parts[0] in {"ID", "Gốc (CN)", "Gốc (CSV)"} or parts[1] in {"English", "Thuật ngữ (Key)"}:
+            continue
+
+        if parts[0].isdigit():
+            if len(parts) >= 3 and contains_cjk(parts[1]) and parts[2]:
+                mappings.setdefault(parts[1], parts[2])
+            continue
+
+        if contains_cjk(parts[0]):
+            if len(parts) >= 3 and is_key_column(parts[1]) and parts[2]:
+                mappings.setdefault(parts[0], parts[2])
+            elif parts[1]:
+                mappings.setdefault(parts[0], parts[1])
+
+    return mappings
+
+
+def translate_remaining_title(title: str, dictionary_mappings: dict[str, str]) -> str:
+    if not contains_cjk(title):
+        return title
+
+    return dictionary_mappings.get(title, title)
+
+
+def translate_remaining_desc(desc: str, dictionary_mappings: dict[str, str]) -> str:
+    if not contains_cjk(desc):
+        return desc
+
+    exact = dictionary_mappings.get(desc)
+    if exact:
+        return exact
+
+    trainer = dictionary_mappings.get("训练家", "Trainer")
+    contract_dungeon = dictionary_mappings.get("契约副本", "Contract Dungeon")
+    abyss_road = dictionary_mappings.get("深渊冒险之路", "Abyss Adventure Road")
+    card_adventure = dictionary_mappings.get("卡牌冒险玩法", "Card Adventure")
+
+    match = re.fullmatch(r"人物等级达到(\d+)", desc)
+    if match:
+        return f"Reach {trainer} Level {match.group(1)}"
+
+    match = re.fullmatch(r"契约副本任意难度累积通关(\d+)次", desc)
+    if match:
+        return f"Clear any difficulty modes of the {contract_dungeon} for {match.group(1)} times"
+
+    match = re.fullmatch(r"深渊冒险之路通关第(\d+)关", desc)
+    if match:
+        return f"Clear stage {match.group(1)} of {abyss_road}"
+
+    match = re.fullmatch(r"首次获得一只(.+)", desc)
+    if match:
+        monster_name = dictionary_mappings.get(match.group(1))
+        if monster_name:
+            return f"Get a {monster_name} for the first time"
+
+    match = re.fullmatch(r"卡牌冒险玩法累计挑战(\d+)次", desc)
+    if match:
+        return f"Challenge {card_adventure} {match.group(1)} times in total"
+
+    match = re.fullmatch(r"卡牌冒险玩法累计通关(\d+)次", desc)
+    if match:
+        return f"Clear {card_adventure} {match.group(1)} times in total"
+
+    return desc
+
+
+def translate_remaining_rows(
+    rows: list[list[str]],
+    title_idx: int,
+    desc_idx: int,
+    dictionary_mappings: dict[str, str],
+) -> tuple[int, int, int]:
+    title_updates = 0
+    desc_updates = 0
+    remaining_cjk = 0
+
+    for row in rows[3:]:
+        if not row or not any(cell.strip() for cell in row):
+            continue
+
+        original_title = row[title_idx]
+        translated_title = translate_remaining_title(original_title, dictionary_mappings)
+        if translated_title != original_title:
+            row[title_idx] = translated_title
+            title_updates += 1
+
+        original_desc = row[desc_idx]
+        translated_desc = translate_remaining_desc(original_desc, dictionary_mappings)
+        if translated_desc != original_desc:
+            row[desc_idx] = translated_desc
+            desc_updates += 1
+
+        if contains_cjk(row[title_idx]) or contains_cjk(row[desc_idx]):
+            remaining_cjk += 1
+
+    return title_updates, desc_updates, remaining_cjk
+
+
+def sync_csv(
+    csv_path: Path,
+    source_records: dict[tuple[str, str, str], dict[str, str]],
+    dictionary_path: Path | None,
+    dry_run: bool,
+) -> int:
     with csv_path.open("r", encoding="utf-8-sig", newline="") as handle:
         rows = list(csv.reader(handle))
 
@@ -155,6 +284,8 @@ def sync_csv(csv_path: Path, source_records: dict[tuple[str, str, str], dict[str
     matched_rows = 0
     title_updates = 0
     desc_updates = 0
+    dictionary_title_updates = 0
+    dictionary_desc_updates = 0
     missing_source_keys: list[tuple[str, str, str]] = []
     missing_title_rows: list[tuple[str, str, str]] = []
     missing_desc_rows: list[tuple[str, str, str]] = []
@@ -192,6 +323,18 @@ def sync_csv(csv_path: Path, source_records: dict[tuple[str, str, str], dict[str
         else:
             missing_desc_rows.append(key)
 
+    remaining_cjk = 0
+    if dictionary_path:
+        dictionary_mappings = parse_dictionary_mappings(dictionary_path)
+        dictionary_title_updates, dictionary_desc_updates, remaining_cjk = translate_remaining_rows(
+            rows, title_idx, desc_idx, dictionary_mappings
+        )
+    else:
+        for row in rows[3:]:
+            if row and any(cell.strip() for cell in row):
+                if contains_cjk(row[title_idx]) or contains_cjk(row[desc_idx]):
+                    remaining_cjk += 1
+
     if not dry_run:
         with csv_path.open("w", encoding="utf-8-sig", newline="") as handle:
             writer = csv.writer(handle, lineterminator="\n")
@@ -202,6 +345,9 @@ def sync_csv(csv_path: Path, source_records: dict[tuple[str, str, str], dict[str
     print(f"Matched rows: {matched_rows}")
     print(f"Title updates: {title_updates}")
     print(f"Desc updates: {desc_updates}")
+    print(f"Dictionary title updates: {dictionary_title_updates}")
+    print(f"Dictionary desc updates: {dictionary_desc_updates}")
+    print(f"Remaining CJK rows: {remaining_cjk}")
     print(f"Missing source rows: {len(missing_source_keys)}")
     print(f"Missing source title: {len(missing_title_rows)}")
     print(f"Missing source desc: {len(missing_desc_rows)}")
@@ -227,7 +373,7 @@ def main() -> int:
         print(f"No achievement records parsed from {args.lua_source}", file=sys.stderr)
         return 1
 
-    return sync_csv(args.csv_target, source_records, args.dry_run)
+    return sync_csv(args.csv_target, source_records, args.dictionary, args.dry_run)
 
 
 if __name__ == "__main__":

@@ -92,10 +92,10 @@ ID,成就分类 1=人物成长 2=精灵收集 3=精灵培养 4=副本活动 5=�
 1089,1,3,3,1000,,,50,{453=50;rmb=300},FALSE,6,Master training,Total privilege type point reaches level 1000,trainer,
 1090,1,,,124,,,30,{14=30;rmb=100},FALSE,9,Adamant Trainer,Reach Trainer Level 124,10000,
 1091,1,,,129,,,30,{14=30;rmb=100},FALSE,10,Adamant Trainer,Reach Trainer Level 129,10000,
-1092,1,,,134,,,30,{14=30;rmb=100},FALSE,11,不屈的训练家,人物等级达到134,10000,
-1093,1,,,139,,,30,{14=30;rmb=100},FALSE,12,不屈的训练家,人物等级达到139,10000,
-1094,1,,,144,,,30,{14=30;rmb=100},FALSE,13,不屈的训练家,人物等级达到144,10000,
-1095,1,,,149,,,30,{14=30;rmb=100},FALSE,14,不屈的训练家,人物等级达到149,10000,
+1092,1,,,134,,,30,{14=30;rmb=100},FALSE,11,Adamant Trainer,Reach Trainer Level 134,10000,
+1093,1,,,139,,,30,{14=30;rmb=100},FALSE,12,Adamant Trainer,Reach Trainer Level 139,10000,
+1094,1,,,144,,,30,{14=30;rmb=100},FALSE,13,Adamant Trainer,Reach Trainer Level 144,10000,
+1095,1,,,149,,,30,{14=30;rmb=100},FALSE,14,Adamant Trainer,Reach Trainer Level 149,10000,
 1101,1,82,82,1,31,,50,{gold=20000;rmb=50},,,perfect!,The individual value of any Pokémon is refined to all perfection,,
 1102,1,82,82,10,31,,50,{gold=20000;rmb=500},,2,perfect!,Have a total of 10 geniuses all perfect,,
 1103,1,83,83,300,,,30,{gold=20000;rmb=30},FALSE,,I am all,A total of 300 pieces of fragments were given away in the Wishing Center,,
@@ -368,9 +368,9 @@ ID,成就分类 1=人物成长 2=精灵收集 3=精灵培养 4=副本活动 5=�
 4067,4,40,40,1,100380,,30,{gold=20000;rmb=300},,33,Adventure Road,Clear Adventure Road level 380,endlessTower,
 4068,4,40,40,1,100390,,30,{gold=20000;rmb=300},,34,Adventure Road,Clear Adventure Road level 390,endlessTower,
 4069,4,40,40,1,100400,,50,{2525=1;rmb=300},,35,Adventure Road,Clear Adventure Road level 400,endlessTower,
-4081,4,102,102,100,,,15,{gold=20000;rmb=50},,,契约副本,契约副本任意难度累积通关100次,,<cn;kr;tw;en;en_us;en_eu>
-4082,4,102,102,500,,,20,{gold=20000;rmb=50},,2,契约副本,契约副本任意难度累积通关500次,,<cn;kr;tw;en;en_us;en_eu>
-4083,4,102,102,1000,,,30,{gold=20000;rmb=50},,3,契约副本,契约副本任意难度累积通关1000次,,<cn;kr;tw;en;en_us;en_eu>
+4081,4,102,102,100,,,15,{gold=20000;rmb=50},,,Contract Dungeon,Clear any difficulty modes of the Contract Dungeon for 100 times,,<cn;kr;tw;en;en_us;en_eu>
+4082,4,102,102,500,,,20,{gold=20000;rmb=50},,2,Contract Dungeon,Clear any difficulty modes of the Contract Dungeon for 500 times,,<cn;kr;tw;en;en_us;en_eu>
+4083,4,102,102,1000,,,30,{gold=20000;rmb=50},,3,Contract Dungeon,Clear any difficulty modes of the Contract Dungeon for 1000 times,,<cn;kr;tw;en;en_us;en_eu>
 4100,4,79,7901,1,,,10,{2518=1;rmb=20},,,First fish,Successfully caught a fish,,<cn;kr;tw;en;en_us;en_eu>
 4101,4,79,7902,200,,,50,{gold=20000;rmb=200},FALSE,,200 fish,Cumulatively successfully caught 200 fish,,<cn;kr;tw;en;en_us;en_eu>
 4102,4,79,7903,1,2,,30,{2522=1;rmb=50},,,The old man and the sea,Successfully caught an Pokemon,,<cn;kr;tw;en;en_us;en_eu>
@@ -396,8 +396,8 @@ ID,成就分类 1=人物成长 2=精灵收集 3=精灵培养 4=副本活动 5=�
 4122,4,78,7816,1,9999,,50,{gold=20000;rmb=200},FALSE,2,"Catch ""Kyogre""","Successfully caught ""Kyogre"" in the fishing competition",,<cn;kr;tw;en;en_us;en_eu>
 4123,4,89,89,1,,,50,{gold=20000;rmb=200},,,Clear the first round!,Successfully cleared all Gym dungeon (excluding the owner),,<cn;kr;tw;en;en_us;en_eu>
 4124,4,89,89,4,,,50,{2523=1;rmb=350},,2,Gym Challenger,Successfully cleared all Gym dungeon in total 4 times(excluding the owner),,<cn;kr;tw;en;en_us;en_eu>
-4125,4,106,106,1,200050,,50,{2529=1;rmb=200},,,深渊冒险之路,深渊冒险之路通关第50关,,<cn;kr;tw;en;en_us;en_eu>
-4126,4,106,106,1,200100,,50,{2530=1;rmb=300},,2,深渊冒险之路,深渊冒险之路通关第100关,,<cn;kr;tw;en;en_us;en_eu>
+4125,4,106,106,1,200050,,50,{2529=1;rmb=200},,,Abyss Adventure Road,Clear stage 50 of Abyss Adventure Road,,<cn;kr;tw;en;en_us;en_eu>
+4126,4,106,106,1,200100,,50,{2530=1;rmb=300},,2,Abyss Adventure Road,Clear stage 100 of Abyss Adventure Road,,<cn;kr;tw;en;en_us;en_eu>
 5001,5,46,46,100,,,10,{coin1=400;rmb=30},,,Undefeated,Fight in the Arena 100 times,arena,
 5002,5,46,46,200,,,15,{coin1=400;rmb=30},,2,Fearless Fighter,Fight in the Arena 200 times,arena,
 5003,5,46,46,500,,,20,{coin1=600;rmb=50},,3,Arena Manic,Fight in the Arena 500 times,arena,
@@ -466,12 +466,12 @@ ID,成就分类 1=人物成长 2=精灵收集 3=精灵培养 4=副本活动 5=�
 7024,7,91,104,1,7011,,50,{2065=1;rmb=100},,,Team up with water ninjas,Get Ash-Greninja for the first time,,
 7025,7,91,105,1,3632,,50,{2070=1;rmb=200},,,"Guardian of the star wall, the princess is here!",Get a Mega Diancie for the first time,,
 7026,7,91,106,1,762,,50,{2126=1;rmb=200},,,"Change fate against the sky, fight endlessly!",Get a Super Mewtwo X for the first time,,
-7027,7,91,107,1,763,,50,{2132=1;rmb=200},,,神形双体&精神掌控！,Get a Super Mewtwo Y for the first time,,<cn;kr;en;tw;en_us;en_eu>
-7028,7,91,108,1,3242,,50,{2138=1;rmb=200},,,冰与火之歌,首次获得一只焰白酋雷姆,,<cn;kr;en;tw;en_us;en_eu>
-7029,7,91,109,1,7101,,50,{2141=1;rmb=100},,,红莲假面&火系斗士,首次获得一只假面超级火焰鸡,,<cn;kr;en;tw;en_us;en_eu>
-7030,7,91,110,1,3243,,50,{2145=1;rmb=200},,,冰与电之歌,首次获得一只暗黑酋雷姆,,<cn;kr;en;tw;en_us;en_eu>
-7031,7,91,111,1,4103,,50,{2951=1;rmb=200},,,日光回旋下苍穹,首次获得一只黄昏之鬃,,<cn>
-7032,7,91,112,1,4104,,50,{2958=1;rmb=200},,,月华飞溅落灵霄,首次获得一只拂晓之翼,,<cn>
+7027,7,91,107,1,763,,50,{2132=1;rmb=200},,,Twin Divine Forms & Psychic Control!,Get a Super Mewtwo Y for the first time,,<cn;kr;en;tw;en_us;en_eu>
+7028,7,91,108,1,3242,,50,{2138=1;rmb=200},,,Song of Ice and Fire,Get a White Kyurem for the first time,,<cn;kr;en;tw;en_us;en_eu>
+7029,7,91,109,1,7101,,50,{2141=1;rmb=100},,,Crimson Mask & Fire Fighter,Get a Masked Mega Blaziken for the first time,,<cn;kr;en;tw;en_us;en_eu>
+7030,7,91,110,1,3243,,50,{2145=1;rmb=200},,,Song of Ice and Lightning,Get a Black Kyurem for the first time,,<cn;kr;en;tw;en_us;en_eu>
+7031,7,91,111,1,4103,,50,{2951=1;rmb=200},,,Sunlight Spirals Across the Sky,Get a Dusk Mane for the first time,,<cn>
+7032,7,91,112,1,4104,,50,{2958=1;rmb=200},,,Moonlight Splashes Across the Firmament,Get a Dawn Wings for the first time,,<cn>
 7201,7,92,201,12,211,,50,{rmb=20},,,Trainers who are near Meowth can get rich!,Unlock Meowth's Pay Day,,
 8001,4,93,93,10,,,20,{coin14=600;rmb=30},,,Hunter,A total of 10 clearances in the Safari Zone on normal routes,,<cn;kr;en;tw;en_us;en_eu>
 8002,4,93,93,30,,,40,{coin14=1000;rmb=50},,2,Advance Hunter,A total of 30 clearances in the Safari Zone on normal routes,,<cn;kr;en;tw;en_us;en_eu>
@@ -479,9 +479,9 @@ ID,成就分类 1=人物成长 2=精灵收集 3=精灵培养 4=副本活动 5=�
 8011,4,94,94,10,,,30,{coin14=800;rmb=60},,,Hunting Warrior,A total of 10 clearances in the Safari Zone advanced route,,<cn;kr;en;tw;en_us;en_eu>
 8012,4,94,94,30,,,60,{coin14=1500;rmb=100},,2,Hunting master,A total of 30 clearances in the Safari Zone advanced route,,<cn;kr;en;tw;en_us;en_eu>
 8013,4,94,94,50,,,100,{coin14=5000;rmb=200},,3,Peerless Hunting King,A total of 50 clearances in the Safari Zone advanced route,,<cn;kr;en;tw;en_us;en_eu>
-8101,4,104,104,20,,,20,{coin19=600;rmb=30},,,卡牌入门,卡牌冒险玩法累计挑战20次,,<cn;kr;en;tw;en_us;en_eu>
-8102,4,104,104,50,,,40,{coin19=1000;rmb=50},,2,卡牌老手,卡牌冒险玩法累计挑战50次,,<cn;kr;en;tw;en_us;en_eu>
-8103,4,104,104,100,,,80,{coin19=3000;rmb=100},,3,卡牌精通,卡牌冒险玩法累计挑战100次,,<cn;kr;en;tw;en_us;en_eu>
-8111,4,105,105,15,,,30,{coin19=800;rmb=60},,,卡牌学徒,卡牌冒险玩法累计通关15次,,<cn;kr;en;tw;en_us;en_eu>
-8112,4,105,105,35,,,60,{coin19=1500;rmb=100},,2,卡牌大师,卡牌冒险玩法累计通关35次,,<cn;kr;en;tw;en_us;en_eu>
-8113,4,105,105,60,,,100,{coin19=5000;rmb=200},,3,卡牌王者,卡牌冒险玩法累计通关60次,,<cn;kr;en;tw;en_us;en_eu>
+8101,4,104,104,20,,,20,{coin19=600;rmb=30},,,Card Beginner,Challenge Card Adventure 20 times in total,,<cn;kr;en;tw;en_us;en_eu>
+8102,4,104,104,50,,,40,{coin19=1000;rmb=50},,2,Card Veteran,Challenge Card Adventure 50 times in total,,<cn;kr;en;tw;en_us;en_eu>
+8103,4,104,104,100,,,80,{coin19=3000;rmb=100},,3,Card Mastery,Challenge Card Adventure 100 times in total,,<cn;kr;en;tw;en_us;en_eu>
+8111,4,105,105,15,,,30,{coin19=800;rmb=60},,,Card Apprentice,Clear Card Adventure 15 times in total,,<cn;kr;en;tw;en_us;en_eu>
+8112,4,105,105,35,,,60,{coin19=1500;rmb=100},,2,Card Master,Clear Card Adventure 35 times in total,,<cn;kr;en;tw;en_us;en_eu>
+8113,4,105,105,60,,,100,{coin19=5000;rmb=200},,3,Card King,Clear Card Adventure 60 times in total,,<cn;kr;en;tw;en_us;en_eu>
