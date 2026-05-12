@@ -1,10 +1,10 @@
 ﻿变量名,name,icon
 默认值,"""""",""""""
 ID,成就分类名称,成就分类图标
-1,Growth,city/task/achievement/icon_rucz.png
-2,Collection,city/task/achievement/icon_jlsj.png
-3,Training,city/task/achievement/icon_jlpy.png
-4,Dungeon,city/task/achievement/icon_fbhd.png
-5,Arena,city/task/achievement/icon_jjtz.png
-6,Social,city/task/achievement/icon_sj.png
-7,Hidden,
+1,人物成长,city/task/achievement/icon_rucz.png
+2,精灵收集,city/task/achievement/icon_jlsj.png
+3,精灵培养,city/task/achievement/icon_jlpy.png
+4,副本活动,city/task/achievement/icon_fbhd.png
+5,竞技挑战,city/task/achievement/icon_jjtz.png
+6,社交,city/task/achievement/icon_sj.png
+7,隐藏成就,
