@@ -846,18 +846,18 @@
 | 高级训练家 | Advanced Trainer | Huấn luyện viên cao cấp |
 | 黄金训练家 | Golden Trainer | Huấn luyện viên vàng |
 | 新的起点 | New Start | Khởi đầu mới |
-| 不屈的训练家 | Adamant Trainer | Huấn luyện viên kiên cường |
+| 不屈的训练家 | Unyielding Trainer | Huấn luyện viên kiên cường |
 | 适格者冒险家 | Qualified Adventurer | Nhà phiêu lưu đạt chuẩn |
 | 勇者冒险家 | Heroic Adventurer | Nhà phiêu lưu quả cảm |
 | 馆长冒险家 | Gym Leader Adventurer | Nhà phiêu lưu thủ lĩnh nhà thi đấu |
 | 霸主冒险家 | Overlord Adventurer | Nhà phiêu lưu bá chủ |
-| 强化训练 | Intensive training | Huấn luyện tăng cường |
+| 强化训练 | Intensive Training | Huấn luyện tăng cường |
 | 特别训练 | Special Training | Huấn luyện đặc biệt |
 | 进阶训练 | Advanced Training | Huấn luyện tiến阶 |
-| 专业训练 | Professional training | Huấn luyện chuyên nghiệp |
-| 从基础开始 | Start from the basics | Bắt đầu từ nền tảng |
-| 驾轻就熟 | The Proficient | Thành thạo |
-| 元素大使 | Element ambassador | Sứ giả nguyên tố |
+| 专业训练 | Professional Training | Huấn luyện chuyên nghiệp |
+| 从基础开始 | Start from the Basics | Bắt đầu từ nền tảng |
+| 驾轻就熟 | Proficient | Thành thạo |
+| 元素大使 | Elemental Ambassador | Sứ giả nguyên tố |
 | 天赋达人 | Talent Expert | Chuyên gia thiên phú |
 
 ---
@@ -886,7 +886,7 @@
 | 资深组装师 | Senior Assembler | Thợ lắp ráp kỳ cựu |
 | 高级组装师 | Advanced Assembler | Thợ lắp ráp cao cấp |
 | 组装大师 | Assembling Master | Bậc thầy lắp ráp |
-| 完美！ | perfect! | Hoàn hảo! |
+| 完美！ | Perfect! | Hoàn hảo! |
 | 一般系收藏家 | Normal-type Collector | Nhà sưu tầm hệ Thường |
 | 火系收藏家 | Fire-type Collector | Nhà sưu tầm hệ Lửa |
 | 水系收藏家 | Water-type Collector | Nhà sưu tầm hệ Nước |
@@ -899,7 +899,7 @@
 | 飞行系收藏家 | Flying-type Collector | Nhà sưu tầm hệ Bay |
 | 超能系收藏家 | Psychic-type Collector | Nhà sưu tầm hệ Siêu Linh |
 | 虫系收藏家 | Bug-type Collector | Nhà sưu tầm hệ Côn Trùng |
-| 岩石系收藏家 | Stone-type Collector | Nhà sưu tầm hệ Đá |
+| 岩石系收藏家 | Rock-type Collector | Nhà sưu tầm hệ Đá |
 | 幽灵系收藏家 | Ghost-type Collector | Nhà sưu tầm hệ Ma |
 | 龙系收藏家 | Dragon-type Collector | Nhà sưu tầm hệ Rồng |
 | 恶系收藏家 | Dark-type Collector | Nhà sưu tầm hệ Bóng Tối |
@@ -913,10 +913,10 @@
 | 购物狂 | Shopaholic | Tín đồ mua sắm |
 | 上班族 | Salaryman | Dân công sở |
 | 狩猎者 | Hunter | Thợ săn |
-| 狩猎高手 | Advance Hunter | Thợ săn cao thủ |
-| 狩猎之王 | King of hunting | Vua săn bắn |
+| 狩猎高手 | Advanced Hunter | Thợ săn cao thủ |
+| 狩猎之王 | Hunting King | Vua săn bắn |
 | 狩猎勇者 | Hunting Warrior | Chiến binh săn bắn |
-| 狩猎大师 | Hunting master | Bậc thầy săn bắn |
+| 狩猎大师 | Hunting Master | Bậc thầy săn bắn |
 | 绝世狩猎王 | Peerless Hunting King | Vua săn bắn vô song |
 
 ### 5.1. Bổ sung từ `achievement_task.csv`
@@ -1072,6 +1072,43 @@
 | 卡牌学徒 | Card Apprentice | Học việc thẻ bài |
 | 卡牌大师 | Card Master | Đại sư thẻ bài |
 | 卡牌王者 | Card King | Vua thẻ bài |
+
+### 5.2. Chuẩn hóa thêm từ `achievement_task.csv`
+*Các thuật ngữ dưới đây được thêm/cập nhật khi dịch `game_config/achievement/achievement_task.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 任务目标类型 | Task Target Type | Loại mục tiêu nhiệm vụ |
+| 任务分类 | Task Category | Phân loại nhiệm vụ |
+| 任务目标参数 | Task Target Parameter | Tham số mục tiêu nhiệm vụ |
+| 任务目标参数2 | Task Target Parameter 2 | Tham số mục tiêu nhiệm vụ 2 |
+| 运营活动 | Live Ops Event | Sự kiện vận hành |
+| 任务奖励 | Task Rewards | Phần thưởng nhiệm vụ |
+| 是否显示 | Display Flag | Cờ hiển thị |
+| 任务顺序 | Task Order | Thứ tự nhiệm vụ |
+| 标题 | Title | Tiêu đề |
+| 描述 | Description | Mô tả |
+| 跳转 | Jump To | Điều hướng |
+| 语言区域 | Language Regions | Vùng ngôn ngữ |
+| 嘟嘟探测器 | Doduo Scanner | Máy quét Doduo |
+| 蚊香蛙探险器 | Poliwhirl Explorer Device | Thiết bị thám hiểm Poliwhirl |
+| 准神号飞船 | Pseudo-Legendary Airship | Phi thuyền chuẩn thần |
+| 波尔凯尼恩飞船 | Volcanion Airship | Khí cầu Volcanion |
+| 独孤求败 | Seeking a Worthy Rival | Tìm đối thủ xứng tầm |
+| 钻石十连抽 | Diamond 10-draw | Quay 10 bằng kim cương |
+| 金币十连抽 | Gold 10-draw | Quay 10 bằng vàng |
+| 寻宝五连抽 | Treasure Hunt 5-draw | Quay săn báu 5 lần |
+| 优精灵 | Rare Pokémon | Pokémon hiếm |
+| 精灵赛跑季 | Pokémon Racing Season | Mùa đua Pokémon |
+| 钓鱼大赛 | Fishing Contest | Đại hội câu cá |
+| 道馆副本 | Gym Dungeon | Phó bản nhà thi đấu |
+| 石英大会 | Indigo Plateau Conference | Hội nghị Cao nguyên Indigo |
+| 狩猎地带普通线路 | Safari Zone Normal Route | Tuyến thường Khu săn bắt |
+| 狩猎地带进阶线路 | Safari Zone Advanced Route | Tuyến nâng cao Khu săn bắt |
+| 终结大地，毁灭一切! | End the Earth, Destroy Everything! | Kết thúc mặt đất, hủy diệt tất cả! |
+| 呼风唤雨，扩张海域 | Call the Wind and Rain, Expand the Seas | Gọi mưa gió, mở rộng biển cả |
+| 羁绊进化&水之忍者 | Bond Evolution & Water Ninja | Tiến hóa liên kết & Ninja nước |
+| 近我喵喵者，即可暴富！ | Trainers Near Meowth Can Get Rich! | Ở gần Meowth là có thể phát tài! |
 
 ---
 
