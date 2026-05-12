@@ -1,0 +1,5 @@
+require("battle.models.buff.buff_node")
+require("lushi_battle.models.buff.buff_node")
+require("lushi_battle.models.buff.buff")
+require("lushi_battle.models.buff.buff_class")
+require("lushi_battle.models.buff.buff_effect")

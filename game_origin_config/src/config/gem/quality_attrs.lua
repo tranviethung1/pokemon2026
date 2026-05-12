@@ -1,0 +1,1065 @@
+slot0 = {
+	__size = 0
+}
+csv.gem.quality_attrs = {
+	{
+		id = 1,
+		attrType1 = 1,
+		attrNum1 = "1%"
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "1%",
+		id = 2,
+		attrType1 = 7,
+		attrNum1 = "1%",
+		qualityNum = 200
+	},
+	{
+		attrType2 = 13,
+		attrNum2 = "1%",
+		attrNum3 = "1%",
+		attrNum4 = "1%",
+		attrType1 = 1,
+		attrNum5 = "1%",
+		qualityNum = 300,
+		attrNum6 = "1%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 3,
+		attrType5 = 8,
+		attrNum1 = "1%",
+		attrType6 = 10
+	},
+	{
+		id = 4,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 400
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "2%",
+		id = 5,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 500
+	},
+	{
+		attrType2 = 13,
+		attrNum2 = "2%",
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 600,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 6,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		id = 7,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 750
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "2%",
+		id = 8,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 900
+	},
+	{
+		attrType2 = 13,
+		attrNum2 = "2%",
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 1050,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 9,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		id = 10,
+		attrType1 = 1,
+		attrNum1 = "3%",
+		qualityNum = 1200
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "3%",
+		id = 11,
+		attrType1 = 7,
+		attrNum1 = "3%",
+		qualityNum = 1350
+	},
+	{
+		attrType2 = 13,
+		attrNum2 = "3%",
+		attrNum3 = "3%",
+		attrNum4 = "3%",
+		attrType1 = 1,
+		attrNum5 = "3%",
+		qualityNum = 1500,
+		attrNum6 = "3%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 12,
+		attrType5 = 8,
+		attrNum1 = "3%",
+		attrType6 = 10
+	},
+	{
+		id = 13,
+		attrType1 = 1,
+		attrNum1 = "4%",
+		qualityNum = 1650
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "4%",
+		id = 14,
+		attrType1 = 7,
+		attrNum1 = "4%",
+		qualityNum = 1800
+	},
+	{
+		attrType2 = 13,
+		attrNum2 = "4%",
+		attrNum3 = "4%",
+		attrNum4 = "4%",
+		attrType1 = 1,
+		attrNum5 = "4%",
+		qualityNum = 1950,
+		attrNum6 = "4%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 15,
+		attrType5 = 8,
+		attrNum1 = "4%",
+		attrType6 = 10
+	},
+	{
+		id = 16,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2200
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "5%",
+		id = 17,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 2450
+	},
+	{
+		attrType2 = 13,
+		attrNum2 = "5%",
+		attrNum3 = "5%",
+		attrNum4 = "5%",
+		attrType1 = 1,
+		attrNum5 = "5%",
+		qualityNum = 2700,
+		attrNum6 = "5%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 18,
+		attrType5 = 8,
+		attrNum1 = "5%",
+		attrType6 = 10
+	},
+	{
+		id = 19,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2950
+	},
+	{
+		attrType2 = 8,
+		attrNum2 = "5%",
+		id = 20,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 3200
+	},
+	{
+		gemQualitySeqID = 2,
+		attrType1 = 1,
+		attrNum1 = "1%",
+		id = 21
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "1%",
+		attrType2 = 8,
+		id = 22,
+		attrType1 = 7,
+		attrNum1 = "1%",
+		qualityNum = 200
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "1%",
+		attrType2 = 13,
+		attrNum3 = "1%",
+		attrNum4 = "1%",
+		attrType1 = 1,
+		attrNum5 = "1%",
+		qualityNum = 300,
+		attrNum6 = "1%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 23,
+		attrType5 = 8,
+		attrNum1 = "1%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 2,
+		id = 24,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 400
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 25,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 500
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 600,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 26,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 2,
+		id = 27,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 750
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 28,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 900
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 1050,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 29,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 2,
+		id = 30,
+		attrType1 = 1,
+		attrNum1 = "3%",
+		qualityNum = 1200
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "3%",
+		attrType2 = 8,
+		id = 31,
+		attrType1 = 7,
+		attrNum1 = "3%",
+		qualityNum = 1350
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "3%",
+		attrType2 = 13,
+		attrNum3 = "3%",
+		attrNum4 = "3%",
+		attrType1 = 1,
+		attrNum5 = "3%",
+		qualityNum = 1500,
+		attrNum6 = "3%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 32,
+		attrType5 = 8,
+		attrNum1 = "3%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 2,
+		id = 33,
+		attrType1 = 1,
+		attrNum1 = "4%",
+		qualityNum = 1650
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "4%",
+		attrType2 = 8,
+		id = 34,
+		attrType1 = 7,
+		attrNum1 = "4%",
+		qualityNum = 1800
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "4%",
+		attrType2 = 13,
+		attrNum3 = "4%",
+		attrNum4 = "4%",
+		attrType1 = 1,
+		attrNum5 = "4%",
+		qualityNum = 1950,
+		attrNum6 = "4%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 35,
+		attrType5 = 8,
+		attrNum1 = "4%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 2,
+		id = 36,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2200
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 37,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 2450
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "5%",
+		attrType2 = 13,
+		attrNum3 = "5%",
+		attrNum4 = "5%",
+		attrType1 = 1,
+		attrNum5 = "5%",
+		qualityNum = 2700,
+		attrNum6 = "5%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 38,
+		attrType5 = 8,
+		attrNum1 = "5%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 2,
+		id = 39,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2950
+	},
+	{
+		gemQualitySeqID = 2,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 40,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 3200
+	},
+	{
+		gemQualitySeqID = 3,
+		attrType1 = 1,
+		attrNum1 = "1%",
+		id = 41
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "1%",
+		attrType2 = 8,
+		id = 42,
+		attrType1 = 7,
+		attrNum1 = "1%",
+		qualityNum = 200
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "1%",
+		attrType2 = 13,
+		attrNum3 = "1%",
+		attrNum4 = "1%",
+		attrType1 = 1,
+		attrNum5 = "1%",
+		qualityNum = 300,
+		attrNum6 = "1%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 43,
+		attrType5 = 8,
+		attrNum1 = "1%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 3,
+		id = 44,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 400
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 45,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 500
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 600,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 46,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 3,
+		id = 47,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 750
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 48,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 900
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 1050,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 49,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 3,
+		id = 50,
+		attrType1 = 1,
+		attrNum1 = "3%",
+		qualityNum = 1200
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "3%",
+		attrType2 = 8,
+		id = 51,
+		attrType1 = 7,
+		attrNum1 = "3%",
+		qualityNum = 1350
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "3%",
+		attrType2 = 13,
+		attrNum3 = "3%",
+		attrNum4 = "3%",
+		attrType1 = 1,
+		attrNum5 = "3%",
+		qualityNum = 1500,
+		attrNum6 = "3%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 52,
+		attrType5 = 8,
+		attrNum1 = "3%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 3,
+		id = 53,
+		attrType1 = 1,
+		attrNum1 = "4%",
+		qualityNum = 1650
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "4%",
+		attrType2 = 8,
+		id = 54,
+		attrType1 = 7,
+		attrNum1 = "4%",
+		qualityNum = 1800
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "4%",
+		attrType2 = 13,
+		attrNum3 = "4%",
+		attrNum4 = "4%",
+		attrType1 = 1,
+		attrNum5 = "4%",
+		qualityNum = 1950,
+		attrNum6 = "4%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 55,
+		attrType5 = 8,
+		attrNum1 = "4%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 3,
+		id = 56,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2200
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 57,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 2450
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "5%",
+		attrType2 = 13,
+		attrNum3 = "5%",
+		attrNum4 = "5%",
+		attrType1 = 1,
+		attrNum5 = "5%",
+		qualityNum = 2700,
+		attrNum6 = "5%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 58,
+		attrType5 = 8,
+		attrNum1 = "5%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 3,
+		id = 59,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2950
+	},
+	{
+		gemQualitySeqID = 3,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 60,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 3200
+	},
+	{
+		gemQualitySeqID = 4,
+		attrType1 = 1,
+		attrNum1 = "1%",
+		id = 61
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "1%",
+		attrType2 = 8,
+		id = 62,
+		attrType1 = 7,
+		attrNum1 = "1%",
+		qualityNum = 200
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "1%",
+		attrType2 = 13,
+		attrNum3 = "1%",
+		attrNum4 = "1%",
+		attrType1 = 1,
+		attrNum5 = "1%",
+		qualityNum = 300,
+		attrNum6 = "1%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 63,
+		attrType5 = 8,
+		attrNum1 = "1%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 4,
+		id = 64,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 400
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 65,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 500
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 600,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 66,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 4,
+		id = 67,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 750
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 68,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 900
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 1050,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 69,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 4,
+		id = 70,
+		attrType1 = 1,
+		attrNum1 = "3%",
+		qualityNum = 1200
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "3%",
+		attrType2 = 8,
+		id = 71,
+		attrType1 = 7,
+		attrNum1 = "3%",
+		qualityNum = 1350
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "3%",
+		attrType2 = 13,
+		attrNum3 = "3%",
+		attrNum4 = "3%",
+		attrType1 = 1,
+		attrNum5 = "3%",
+		qualityNum = 1500,
+		attrNum6 = "3%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 72,
+		attrType5 = 8,
+		attrNum1 = "3%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 4,
+		id = 73,
+		attrType1 = 1,
+		attrNum1 = "4%",
+		qualityNum = 1650
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "4%",
+		attrType2 = 8,
+		id = 74,
+		attrType1 = 7,
+		attrNum1 = "4%",
+		qualityNum = 1800
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "4%",
+		attrType2 = 13,
+		attrNum3 = "4%",
+		attrNum4 = "4%",
+		attrType1 = 1,
+		attrNum5 = "4%",
+		qualityNum = 1950,
+		attrNum6 = "4%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 75,
+		attrType5 = 8,
+		attrNum1 = "4%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 4,
+		id = 76,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2200
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 77,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 2450
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "5%",
+		attrType2 = 13,
+		attrNum3 = "5%",
+		attrNum4 = "5%",
+		attrType1 = 1,
+		attrNum5 = "5%",
+		qualityNum = 2700,
+		attrNum6 = "5%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 78,
+		attrType5 = 8,
+		attrNum1 = "5%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 4,
+		id = 79,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2950
+	},
+	{
+		gemQualitySeqID = 4,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 80,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 3200
+	},
+	{
+		gemQualitySeqID = 5,
+		attrType1 = 1,
+		attrNum1 = "1%",
+		id = 81
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "1%",
+		attrType2 = 8,
+		id = 82,
+		attrType1 = 7,
+		attrNum1 = "1%",
+		qualityNum = 200
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "1%",
+		attrType2 = 13,
+		attrNum3 = "1%",
+		attrNum4 = "1%",
+		attrType1 = 1,
+		attrNum5 = "1%",
+		qualityNum = 300,
+		attrNum6 = "1%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 83,
+		attrType5 = 8,
+		attrNum1 = "1%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 5,
+		id = 84,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 400
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 85,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 500
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 600,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 86,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 5,
+		id = 87,
+		attrType1 = 1,
+		attrNum1 = "2%",
+		qualityNum = 750
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "2%",
+		attrType2 = 8,
+		id = 88,
+		attrType1 = 7,
+		attrNum1 = "2%",
+		qualityNum = 900
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "2%",
+		attrType2 = 13,
+		attrNum3 = "2%",
+		attrNum4 = "2%",
+		attrType1 = 1,
+		attrNum5 = "2%",
+		qualityNum = 1050,
+		attrNum6 = "2%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 89,
+		attrType5 = 8,
+		attrNum1 = "2%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 5,
+		id = 90,
+		attrType1 = 1,
+		attrNum1 = "3%",
+		qualityNum = 1200
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "3%",
+		attrType2 = 8,
+		id = 91,
+		attrType1 = 7,
+		attrNum1 = "3%",
+		qualityNum = 1350
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "3%",
+		attrType2 = 13,
+		attrNum3 = "3%",
+		attrNum4 = "3%",
+		attrType1 = 1,
+		attrNum5 = "3%",
+		qualityNum = 1500,
+		attrNum6 = "3%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 92,
+		attrType5 = 8,
+		attrNum1 = "3%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 5,
+		id = 93,
+		attrType1 = 1,
+		attrNum1 = "4%",
+		qualityNum = 1650
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "4%",
+		attrType2 = 8,
+		id = 94,
+		attrType1 = 7,
+		attrNum1 = "4%",
+		qualityNum = 1800
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "4%",
+		attrType2 = 13,
+		attrNum3 = "4%",
+		attrNum4 = "4%",
+		attrType1 = 1,
+		attrNum5 = "4%",
+		qualityNum = 1950,
+		attrNum6 = "4%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 95,
+		attrType5 = 8,
+		attrNum1 = "4%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 5,
+		id = 96,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2200
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 97,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 2450
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "5%",
+		attrType2 = 13,
+		attrNum3 = "5%",
+		attrNum4 = "5%",
+		attrType1 = 1,
+		attrNum5 = "5%",
+		qualityNum = 2700,
+		attrNum6 = "5%",
+		attrType3 = 7,
+		attrType4 = 9,
+		id = 98,
+		attrType5 = 8,
+		attrNum1 = "5%",
+		attrType6 = 10
+	},
+	{
+		gemQualitySeqID = 5,
+		id = 99,
+		attrType1 = 1,
+		attrNum1 = "5%",
+		qualityNum = 2950
+	},
+	{
+		gemQualitySeqID = 5,
+		attrNum2 = "5%",
+		attrType2 = 8,
+		id = 100,
+		attrType1 = 7,
+		attrNum1 = "5%",
+		qualityNum = 3200
+	},
+	__size = 100,
+	__default = {
+		__index = {
+			gemQualitySeqID = 1,
+			attrType3 = 0,
+			attrType2 = 0,
+			attrType4 = 0,
+			attrType5 = 0,
+			attrType1 = 0,
+			attrType6 = 0,
+			qualityNum = 100
+		}
+	}
+}
+
+return csv.gem.quality_attrs

@@ -1,0 +1,1227 @@
+slot0 = {
+	__size = 0
+}
+csv.server.merge = {
+	{
+		realityMerge = 1,
+		serverID = 2,
+		craftAwardVer = 101,
+		id = 1,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.dev.1",
+		servers = {
+			"game.dev.1",
+			"game.dev.2"
+		}
+	},
+	__size = 58,
+	[101] = {
+		realityMerge = 1,
+		serverID = 1,
+		craftAwardVer = 101,
+		id = 101,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.1",
+		servers = {
+			"game.en.1",
+			"game.en.2",
+			"game.en.3",
+			"game.en.4",
+			"game.en.5",
+			"game.en.6",
+			"game.en.7",
+			"game.en.8",
+			"game.en.9",
+			"game.en.10"
+		}
+	},
+	[102] = {
+		realityMerge = 1,
+		serverID = 11,
+		craftAwardVer = 101,
+		id = 102,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.2",
+		servers = {
+			"game.en.11",
+			"game.en.12",
+			"game.en.13",
+			"game.en.14",
+			"game.en.15",
+			"game.en.16",
+			"game.en.17",
+			"game.en.18",
+			"game.en.19",
+			"game.en.20"
+		}
+	},
+	[103] = {
+		realityMerge = 1,
+		serverID = 21,
+		craftAwardVer = 101,
+		id = 103,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.3",
+		servers = {
+			"game.en.21",
+			"game.en.22",
+			"game.en.23",
+			"game.en.24",
+			"game.en.25",
+			"game.en.26",
+			"game.en.27",
+			"game.en.28",
+			"game.en.29",
+			"game.en.30"
+		}
+	},
+	[104] = {
+		realityMerge = 1,
+		serverID = 31,
+		craftAwardVer = 101,
+		id = 104,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.4",
+		servers = {
+			"game.en.31",
+			"game.en.32",
+			"game.en.33",
+			"game.en.34",
+			"game.en.35",
+			"game.en.36",
+			"game.en.37",
+			"game.en.38",
+			"game.en.39",
+			"game.en.40"
+		}
+	},
+	[105] = {
+		realityMerge = 1,
+		serverID = 41,
+		craftAwardVer = 101,
+		id = 105,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.5",
+		servers = {
+			"game.en.41",
+			"game.en.42",
+			"game.en.43",
+			"game.en.44",
+			"game.en.45",
+			"game.en.46",
+			"game.en.47",
+			"game.en.48",
+			"game.en.49",
+			"game.en.50"
+		}
+	},
+	[106] = {
+		realityMerge = 1,
+		serverID = 51,
+		craftAwardVer = 101,
+		id = 106,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.6",
+		servers = {
+			"game.en.51",
+			"game.en.52",
+			"game.en.53",
+			"game.en.54",
+			"game.en.55",
+			"game.en.56",
+			"game.en.57",
+			"game.en.58",
+			"game.en.59",
+			"game.en.60"
+		}
+	},
+	[107] = {
+		realityMerge = 1,
+		serverID = 61,
+		craftAwardVer = 101,
+		id = 107,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.7",
+		servers = {
+			"game.en.61",
+			"game.en.62",
+			"game.en.63",
+			"game.en.64",
+			"game.en.65",
+			"game.en.66",
+			"game.en.67",
+			"game.en.68",
+			"game.en.69",
+			"game.en.70"
+		}
+	},
+	[108] = {
+		realityMerge = 1,
+		serverID = 71,
+		craftAwardVer = 101,
+		id = 108,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.8",
+		servers = {
+			"game.en.71",
+			"game.en.72",
+			"game.en.73",
+			"game.en.74",
+			"game.en.75",
+			"game.en.76",
+			"game.en.77",
+			"game.en.78",
+			"game.en.79",
+			"game.en.80"
+		}
+	},
+	[109] = {
+		realityMerge = 1,
+		serverID = 81,
+		craftAwardVer = 101,
+		id = 109,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.9",
+		servers = {
+			"game.en.81",
+			"game.en.82",
+			"game.en.83",
+			"game.en.84",
+			"game.en.85",
+			"game.en.86",
+			"game.en.87",
+			"game.en.88",
+			"game.en.89",
+			"game.en.90"
+		}
+	},
+	[110] = {
+		realityMerge = 1,
+		serverID = 91,
+		craftAwardVer = 101,
+		id = 110,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.10",
+		servers = {
+			"game.en.91",
+			"game.en.92",
+			"game.en.93",
+			"game.en.94",
+			"game.en.95",
+			"game.en.96",
+			"game.en.97",
+			"game.en.98",
+			"game.en.99",
+			"game.en.100"
+		}
+	},
+	[111] = {
+		realityMerge = 1,
+		serverID = 101,
+		craftAwardVer = 101,
+		id = 111,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.11",
+		servers = {
+			"game.en.101",
+			"game.en.102",
+			"game.en.103",
+			"game.en.104",
+			"game.en.105",
+			"game.en.106",
+			"game.en.107",
+			"game.en.108",
+			"game.en.109",
+			"game.en.110"
+		}
+	},
+	[112] = {
+		realityMerge = 1,
+		serverID = 111,
+		craftAwardVer = 101,
+		id = 112,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.12",
+		servers = {
+			"game.en.111",
+			"game.en.112",
+			"game.en.113",
+			"game.en.114",
+			"game.en.115",
+			"game.en.116",
+			"game.en.117",
+			"game.en.118",
+			"game.en.119",
+			"game.en.120"
+		}
+	},
+	[113] = {
+		realityMerge = 1,
+		serverID = 121,
+		craftAwardVer = 101,
+		id = 113,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.13",
+		servers = {
+			"game.en.121",
+			"game.en.122",
+			"game.en.123",
+			"game.en.124",
+			"game.en.125",
+			"game.en.126",
+			"game.en.127",
+			"game.en.128",
+			"game.en.129",
+			"game.en.130"
+		}
+	},
+	[114] = {
+		realityMerge = 1,
+		serverID = 131,
+		craftAwardVer = 101,
+		id = 114,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.14",
+		servers = {
+			"game.en.131",
+			"game.en.132",
+			"game.en.133",
+			"game.en.134",
+			"game.en.135",
+			"game.en.136",
+			"game.en.137",
+			"game.en.138",
+			"game.en.139",
+			"game.en.140"
+		}
+	},
+	[115] = {
+		realityMerge = 1,
+		serverID = 141,
+		craftAwardVer = 101,
+		id = 115,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.15",
+		servers = {
+			"game.en.141",
+			"game.en.142",
+			"game.en.143",
+			"game.en.144",
+			"game.en.145",
+			"game.en.146",
+			"game.en.147",
+			"game.en.148",
+			"game.en.149",
+			"game.en.150"
+		}
+	},
+	[116] = {
+		realityMerge = 1,
+		serverID = 151,
+		craftAwardVer = 101,
+		id = 116,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.16",
+		servers = {
+			"game.en.151",
+			"game.en.152",
+			"game.en.153",
+			"game.en.154",
+			"game.en.155",
+			"game.en.156",
+			"game.en.157",
+			"game.en.158",
+			"game.en.159",
+			"game.en.160"
+		}
+	},
+	[117] = {
+		realityMerge = 1,
+		serverID = 161,
+		craftAwardVer = 101,
+		id = 117,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.17",
+		servers = {
+			"game.en.161",
+			"game.en.162",
+			"game.en.163",
+			"game.en.164",
+			"game.en.165",
+			"game.en.166",
+			"game.en.167",
+			"game.en.168",
+			"game.en.169",
+			"game.en.170"
+		}
+	},
+	[118] = {
+		realityMerge = 1,
+		serverID = 171,
+		craftAwardVer = 101,
+		id = 118,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.18",
+		servers = {
+			"game.en.171",
+			"game.en.172",
+			"game.en.173",
+			"game.en.174",
+			"game.en.175",
+			"game.en.176",
+			"game.en.177",
+			"game.en.178",
+			"game.en.179",
+			"game.en.180"
+		}
+	},
+	[119] = {
+		realityMerge = 1,
+		serverID = 181,
+		craftAwardVer = 101,
+		id = 119,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.19",
+		servers = {
+			"game.en.181",
+			"game.en.182",
+			"game.en.183",
+			"game.en.184",
+			"game.en.185",
+			"game.en.186",
+			"game.en.187",
+			"game.en.188",
+			"game.en.189",
+			"game.en.190"
+		}
+	},
+	[120] = {
+		realityMerge = 1,
+		serverID = 191,
+		craftAwardVer = 101,
+		id = 120,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.20",
+		servers = {
+			"game.en.191",
+			"game.en.192",
+			"game.en.193",
+			"game.en.194",
+			"game.en.195",
+			"game.en.196",
+			"game.en.197",
+			"game.en.198",
+			"game.en.199",
+			"game.en.200"
+		}
+	},
+	[121] = {
+		realityMerge = 1,
+		serverID = 201,
+		craftAwardVer = 101,
+		id = 121,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.21",
+		servers = {
+			"game.en.201",
+			"game.en.202",
+			"game.en.203",
+			"game.en.204",
+			"game.en.205",
+			"game.en.206",
+			"game.en.207",
+			"game.en.208",
+			"game.en.209",
+			"game.en.210"
+		}
+	},
+	[122] = {
+		realityMerge = 1,
+		serverID = 211,
+		craftAwardVer = 101,
+		id = 122,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.22",
+		servers = {
+			"game.en.211",
+			"game.en.212",
+			"game.en.213",
+			"game.en.214",
+			"game.en.215",
+			"game.en.216",
+			"game.en.217",
+			"game.en.218",
+			"game.en.219",
+			"game.en.220"
+		}
+	},
+	[123] = {
+		realityMerge = 1,
+		serverID = 221,
+		craftAwardVer = 101,
+		id = 123,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.23",
+		servers = {
+			"game.en.221",
+			"game.en.222",
+			"game.en.223",
+			"game.en.224",
+			"game.en.225",
+			"game.en.226",
+			"game.en.227",
+			"game.en.228",
+			"game.en.229",
+			"game.en.230"
+		}
+	},
+	[124] = {
+		realityMerge = 1,
+		serverID = 231,
+		craftAwardVer = 101,
+		id = 124,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.24",
+		servers = {
+			"game.en.231",
+			"game.en.232",
+			"game.en.233",
+			"game.en.234",
+			"game.en.235",
+			"game.en.236",
+			"game.en.237",
+			"game.en.238",
+			"game.en.239",
+			"game.en.240"
+		}
+	},
+	[125] = {
+		realityMerge = 1,
+		serverID = 241,
+		craftAwardVer = 101,
+		id = 125,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.25",
+		servers = {
+			"game.en.241",
+			"game.en.242",
+			"game.en.243",
+			"game.en.244",
+			"game.en.245",
+			"game.en.246",
+			"game.en.247",
+			"game.en.248",
+			"game.en.249",
+			"game.en.250"
+		}
+	},
+	[126] = {
+		realityMerge = 1,
+		serverID = 251,
+		craftAwardVer = 101,
+		id = 126,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.26",
+		servers = {
+			"game.en.251",
+			"game.en.252",
+			"game.en.253",
+			"game.en.254",
+			"game.en.255",
+			"game.en.256",
+			"game.en.257",
+			"game.en.258",
+			"game.en.259",
+			"game.en.260"
+		}
+	},
+	[127] = {
+		realityMerge = 1,
+		serverID = 261,
+		craftAwardVer = 101,
+		id = 127,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.27",
+		servers = {
+			"game.en.261",
+			"game.en.262",
+			"game.en.263",
+			"game.en.264",
+			"game.en.265",
+			"game.en.266",
+			"game.en.267",
+			"game.en.268",
+			"game.en.269",
+			"game.en.270"
+		}
+	},
+	[128] = {
+		realityMerge = 1,
+		serverID = 271,
+		craftAwardVer = 101,
+		id = 128,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.28",
+		servers = {
+			"game.en.271",
+			"game.en.272",
+			"game.en.273",
+			"game.en.274",
+			"game.en.275",
+			"game.en.276",
+			"game.en.277",
+			"game.en.278",
+			"game.en.279",
+			"game.en.280"
+		}
+	},
+	[129] = {
+		realityMerge = 1,
+		serverID = 281,
+		craftAwardVer = 101,
+		id = 129,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.29",
+		servers = {
+			"game.en.281",
+			"game.en.282",
+			"game.en.283",
+			"game.en.284",
+			"game.en.285",
+			"game.en.286",
+			"game.en.287",
+			"game.en.288",
+			"game.en.289",
+			"game.en.290"
+		}
+	},
+	[130] = {
+		realityMerge = 1,
+		serverID = 291,
+		craftAwardVer = 101,
+		id = 130,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.30",
+		servers = {
+			"game.en.291",
+			"game.en.292",
+			"game.en.293",
+			"game.en.294",
+			"game.en.295",
+			"game.en.296",
+			"game.en.297",
+			"game.en.298",
+			"game.en.299",
+			"game.en.300"
+		}
+	},
+	[131] = {
+		realityMerge = 1,
+		serverID = 301,
+		craftAwardVer = 101,
+		id = 131,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.31",
+		servers = {
+			"game.en.301",
+			"game.en.302",
+			"game.en.303",
+			"game.en.304",
+			"game.en.305",
+			"game.en.306",
+			"game.en.307",
+			"game.en.308",
+			"game.en.309",
+			"game.en.310"
+		}
+	},
+	[132] = {
+		realityMerge = 1,
+		serverID = 311,
+		craftAwardVer = 101,
+		id = 132,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.32",
+		servers = {
+			"game.en.311",
+			"game.en.312",
+			"game.en.313",
+			"game.en.314",
+			"game.en.315",
+			"game.en.316",
+			"game.en.317",
+			"game.en.318",
+			"game.en.319",
+			"game.en.320"
+		}
+	},
+	[133] = {
+		realityMerge = 1,
+		serverID = 321,
+		craftAwardVer = 101,
+		id = 133,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.33",
+		servers = {
+			"game.en.321",
+			"game.en.322",
+			"game.en.323",
+			"game.en.324",
+			"game.en.325",
+			"game.en.326",
+			"game.en.327",
+			"game.en.328",
+			"game.en.329",
+			"game.en.330"
+		}
+	},
+	[134] = {
+		realityMerge = 1,
+		serverID = 331,
+		craftAwardVer = 101,
+		id = 134,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.34",
+		servers = {
+			"game.en.331",
+			"game.en.332",
+			"game.en.333",
+			"game.en.334",
+			"game.en.335",
+			"game.en.336",
+			"game.en.337",
+			"game.en.338",
+			"game.en.339",
+			"game.en.340"
+		}
+	},
+	[135] = {
+		realityMerge = 1,
+		serverID = 341,
+		craftAwardVer = 101,
+		id = 135,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.35",
+		servers = {
+			"game.en.341",
+			"game.en.342",
+			"game.en.343",
+			"game.en.344",
+			"game.en.345",
+			"game.en.346",
+			"game.en.347",
+			"game.en.348",
+			"game.en.349",
+			"game.en.350"
+		}
+	},
+	[136] = {
+		realityMerge = 1,
+		serverID = 351,
+		craftAwardVer = 101,
+		id = 136,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.36",
+		servers = {
+			"game.en.351",
+			"game.en.352",
+			"game.en.353",
+			"game.en.354",
+			"game.en.355",
+			"game.en.356",
+			"game.en.357",
+			"game.en.358",
+			"game.en.359",
+			"game.en.360"
+		}
+	},
+	[137] = {
+		realityMerge = 1,
+		serverID = 361,
+		craftAwardVer = 101,
+		id = 137,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.37",
+		servers = {
+			"game.en.361",
+			"game.en.362",
+			"game.en.363",
+			"game.en.364",
+			"game.en.365",
+			"game.en.366",
+			"game.en.367",
+			"game.en.368",
+			"game.en.369",
+			"game.en.370"
+		}
+	},
+	[138] = {
+		realityMerge = 1,
+		serverID = 371,
+		craftAwardVer = 101,
+		id = 138,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.38",
+		servers = {
+			"game.en.371",
+			"game.en.372",
+			"game.en.373",
+			"game.en.374",
+			"game.en.375",
+			"game.en.376",
+			"game.en.377",
+			"game.en.378",
+			"game.en.379",
+			"game.en.380"
+		}
+	},
+	[139] = {
+		realityMerge = 1,
+		serverID = 381,
+		craftAwardVer = 101,
+		id = 139,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.39",
+		servers = {
+			"game.en.381",
+			"game.en.382",
+			"game.en.383",
+			"game.en.384",
+			"game.en.385",
+			"game.en.386",
+			"game.en.387",
+			"game.en.388",
+			"game.en.389",
+			"game.en.390"
+		}
+	},
+	[140] = {
+		realityMerge = 1,
+		serverID = 391,
+		craftAwardVer = 101,
+		id = 140,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.40",
+		servers = {
+			"game.en.391",
+			"game.en.392",
+			"game.en.393",
+			"game.en.394",
+			"game.en.395",
+			"game.en.396",
+			"game.en.397",
+			"game.en.398",
+			"game.en.399",
+			"game.en.400"
+		}
+	},
+	[141] = {
+		realityMerge = 1,
+		serverID = 401,
+		craftAwardVer = 101,
+		id = 141,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.41",
+		servers = {
+			"game.en.401",
+			"game.en.402",
+			"game.en.403",
+			"game.en.404",
+			"game.en.405",
+			"game.en.406",
+			"game.en.407",
+			"game.en.408",
+			"game.en.409",
+			"game.en.410"
+		}
+	},
+	[142] = {
+		realityMerge = 1,
+		serverID = 411,
+		craftAwardVer = 101,
+		id = 142,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.42",
+		servers = {
+			"game.en.411",
+			"game.en.412",
+			"game.en.413",
+			"game.en.414",
+			"game.en.415",
+			"game.en.416",
+			"game.en.417",
+			"game.en.418",
+			"game.en.419",
+			"game.en.420"
+		}
+	},
+	[143] = {
+		realityMerge = 1,
+		serverID = 421,
+		craftAwardVer = 101,
+		id = 143,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.43",
+		servers = {
+			"game.en.421",
+			"game.en.422",
+			"game.en.423",
+			"game.en.424",
+			"game.en.425",
+			"game.en.426",
+			"game.en.427",
+			"game.en.428",
+			"game.en.429",
+			"game.en.430"
+		}
+	},
+	[144] = {
+		realityMerge = 1,
+		serverID = 431,
+		craftAwardVer = 101,
+		id = 144,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.44",
+		servers = {
+			"game.en.431",
+			"game.en.432",
+			"game.en.433",
+			"game.en.434",
+			"game.en.435",
+			"game.en.436",
+			"game.en.437",
+			"game.en.438",
+			"game.en.439",
+			"game.en.440"
+		}
+	},
+	[145] = {
+		realityMerge = 1,
+		serverID = 441,
+		craftAwardVer = 101,
+		id = 145,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.45",
+		servers = {
+			"game.en.441",
+			"game.en.442",
+			"game.en.443",
+			"game.en.444",
+			"game.en.445",
+			"game.en.446",
+			"game.en.447",
+			"game.en.448",
+			"game.en.449",
+			"game.en.450"
+		}
+	},
+	[146] = {
+		realityMerge = 1,
+		serverID = 451,
+		craftAwardVer = 101,
+		id = 146,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.46",
+		servers = {
+			"game.en.451",
+			"game.en.452",
+			"game.en.453",
+			"game.en.454",
+			"game.en.455",
+			"game.en.456",
+			"game.en.457",
+			"game.en.458",
+			"game.en.459",
+			"game.en.460"
+		}
+	},
+	[147] = {
+		realityMerge = 1,
+		serverID = 461,
+		craftAwardVer = 101,
+		id = 147,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.47",
+		servers = {
+			"game.en.461",
+			"game.en.462",
+			"game.en.463",
+			"game.en.464",
+			"game.en.465",
+			"game.en.466",
+			"game.en.467",
+			"game.en.468",
+			"game.en.469",
+			"game.en.470"
+		}
+	},
+	[148] = {
+		realityMerge = 1,
+		serverID = 471,
+		craftAwardVer = 101,
+		id = 148,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.en.48",
+		servers = {
+			"game.en.471",
+			"game.en.472",
+			"game.en.473",
+			"game.en.474",
+			"game.en.475",
+			"game.en.476",
+			"game.en.477",
+			"game.en.478",
+			"game.en.479",
+			"game.en.480"
+		}
+	},
+	[1111] = {
+		realityMerge = 1,
+		serverID = 1,
+		craftAwardVer = 101,
+		id = 1111,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.1",
+		servers = {
+			"game.vn.1",
+			"game.vn.2",
+			"game.vn.3",
+			"game.vn.4",
+			"game.vn.5",
+			"game.vn.6",
+			"game.vn.7",
+			"game.vn.8",
+			"game.vn.9",
+			"game.vn.10"
+		}
+	},
+	[1112] = {
+		realityMerge = 1,
+		serverID = 11,
+		craftAwardVer = 101,
+		id = 1112,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.2",
+		servers = {
+			"game.vn.11",
+			"game.vn.12",
+			"game.vn.13",
+			"game.vn.14",
+			"game.vn.15",
+			"game.vn.16",
+			"game.vn.17",
+			"game.vn.18",
+			"game.vn.19",
+			"game.vn.20"
+		}
+	},
+	[1113] = {
+		realityMerge = 1,
+		serverID = 21,
+		craftAwardVer = 101,
+		id = 1113,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.3",
+		servers = {
+			"game.vn.21",
+			"game.vn.22",
+			"game.vn.23",
+			"game.vn.24",
+			"game.vn.25",
+			"game.vn.26",
+			"game.vn.27",
+			"game.vn.28",
+			"game.vn.29",
+			"game.vn.30"
+		}
+	},
+	[1114] = {
+		realityMerge = 1,
+		serverID = 31,
+		craftAwardVer = 101,
+		id = 1114,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.4",
+		servers = {
+			"game.vn.31",
+			"game.vn.32",
+			"game.vn.33",
+			"game.vn.34",
+			"game.vn.35",
+			"game.vn.36",
+			"game.vn.37",
+			"game.vn.38",
+			"game.vn.39",
+			"game.vn.40"
+		}
+	},
+	[1115] = {
+		realityMerge = 1,
+		serverID = 41,
+		craftAwardVer = 101,
+		id = 1115,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.5",
+		servers = {
+			"game.vn.41",
+			"game.vn.42",
+			"game.vn.43",
+			"game.vn.44",
+			"game.vn.45",
+			"game.vn.46",
+			"game.vn.47",
+			"game.vn.48",
+			"game.vn.49",
+			"game.vn.50"
+		}
+	},
+	[1116] = {
+		realityMerge = 1,
+		serverID = 51,
+		craftAwardVer = 101,
+		id = 1116,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.6",
+		servers = {
+			"game.vn.51",
+			"game.vn.52",
+			"game.vn.53",
+			"game.vn.54",
+			"game.vn.55",
+			"game.vn.56",
+			"game.vn.57",
+			"game.vn.58",
+			"game.vn.59",
+			"game.vn.60"
+		}
+	},
+	[1117] = {
+		realityMerge = 1,
+		serverID = 61,
+		craftAwardVer = 101,
+		id = 1117,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.7",
+		servers = {
+			"game.vn.61",
+			"game.vn.62",
+			"game.vn.63",
+			"game.vn.64",
+			"game.vn.65",
+			"game.vn.66",
+			"game.vn.67",
+			"game.vn.68",
+			"game.vn.69",
+			"game.vn.70"
+		}
+	},
+	[1118] = {
+		realityMerge = 1,
+		serverID = 71,
+		craftAwardVer = 101,
+		id = 1118,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.8",
+		servers = {
+			"game.vn.71",
+			"game.vn.72",
+			"game.vn.73",
+			"game.vn.74",
+			"game.vn.75",
+			"game.vn.76",
+			"game.vn.77",
+			"game.vn.78",
+			"game.vn.79",
+			"game.vn.80"
+		}
+	},
+	[1119] = {
+		realityMerge = 1,
+		serverID = 81,
+		craftAwardVer = 101,
+		id = 1119,
+		randomTowerAwardVer = 101,
+		pwAwardVer = 101,
+		destServer = "gamemerge.vn.9",
+		servers = {
+			"game.vn.81",
+			"game.vn.82",
+			"game.vn.83",
+			"game.vn.84",
+			"game.vn.85",
+			"game.vn.86",
+			"game.vn.87",
+			"game.vn.88",
+			"game.vn.89",
+			"game.vn.90"
+		}
+	},
+	__default = {
+		__index = {
+			realityMerge = 0,
+			pwAwardVer = 0,
+			craftAwardVer = 0,
+			randomTowerAwardVer = 0,
+			servers = {}
+		}
+	}
+}
+
+return csv.server.merge

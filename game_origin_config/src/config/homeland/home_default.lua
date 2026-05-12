@@ -1,0 +1,150 @@
+slot0 = {
+	{},
+	__size = 1
+}
+csv.homeland.home_default = {
+	{
+		id = 1,
+		layerID = 1,
+		defaultFurns = {
+			{
+				52036,
+				1,
+				6,
+				15,
+				false
+			},
+			{
+				52033,
+				1,
+				6,
+				10,
+				true
+			},
+			{
+				52020,
+				1,
+				8,
+				11,
+				true
+			},
+			{
+				52024,
+				1,
+				12,
+				7,
+				false
+			},
+			{
+				52027,
+				1,
+				14,
+				13,
+				false
+			},
+			{
+				52031,
+				1,
+				15,
+				15,
+				true
+			},
+			{
+				53008,
+				2,
+				5,
+				12,
+				false
+			},
+			{
+				53009,
+				2,
+				12,
+				5
+			}
+		}
+	},
+	{
+		id = 2,
+		layerID = 2,
+		defaultFurns = {
+			{
+				52036,
+				2,
+				6,
+				15,
+				false
+			},
+			{
+				52033,
+				2,
+				6,
+				10,
+				true
+			},
+			{
+				52020,
+				2,
+				8,
+				11,
+				true
+			},
+			{
+				52024,
+				2,
+				12,
+				7,
+				false
+			},
+			{
+				52027,
+				2,
+				14,
+				13,
+				false
+			},
+			{
+				52031,
+				2,
+				15,
+				15,
+				true
+			},
+			{
+				53008,
+				2,
+				5,
+				12,
+				false
+			},
+			{
+				53009,
+				2,
+				12,
+				5
+			}
+		}
+	},
+	__size = 2,
+	__default = {
+		__index = {
+			defaultFurns = ({
+				default = slot0[1]
+			}).default,
+			defaultCards = ({
+				default = slot0[1]
+			}).default,
+			languages = {
+				"cn",
+				"br",
+				"en",
+				"en_zd",
+				"vn",
+				"kr",
+				"th"
+			}
+		}
+	}
+}
+
+return csv.homeland.home_default

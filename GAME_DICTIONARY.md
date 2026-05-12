@@ -859,6 +859,25 @@
 | 驾轻就熟 | The Proficient | Thành thạo |
 | 元素大使 | Element ambassador | Sứ giả nguyên tố |
 | 天赋达人 | Talent Expert | Chuyên gia thiên phú |
+
+---
+
+## 5.1. Trợ chiến / Aid (Aid Skills)
+
+| Gốc (CN) | English | Tiếng Việt | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| 助战 | Aid | Trợ chiến | |
+| 助战技能 | Aid Skill | Kỹ năng trợ chiến | |
+| 助战技能效果 | Aid Skill Effect | Hiệu ứng kỹ năng trợ chiến | |
+| 开启助战技能 | Unlock Aid Skill | Mở kỹ năng trợ chiến | |
+| 助战触发次数 | Aid Trigger Count | Số lần kích hoạt trợ chiến | |
+| 助战触发条件 | Aid Trigger Condition | Điều kiện kích hoạt trợ chiến | |
+| 必杀技 | Ultimate | Tuyệt kỹ | |
+| 大回合 | Major Turn | Đại lượt | |
+| 回合 | Turn | Lượt | |
+| 物理伤害 | Physical Damage | Sát thương vật lý | |
+| 特殊伤害 | Special Damage | Sát thương đặc biệt | |
+| 伤害系数 | Damage Multiplier | Hệ số sát thương | |
 | 机甲新手 | Mecha Rookie | Tân binh cơ giáp |
 | 机甲达人 | Mecha Expert | Chuyên gia cơ giáp |
 | 机甲大师 | Mecha Master | Bậc thầy cơ giáp |

@@ -1,0 +1,368 @@
+slot0 = {
+	__size = 0
+}
+csv.cross.union_fight.battle_fix = {
+	{
+		defence = 1,
+		specialDamage = 1.2,
+		damage = 1.2,
+		hpMax = 1,
+		id = 1,
+		specialDefence = 1,
+		mp1Recover = 1,
+		cure = 1
+	},
+	{
+		specialDefence = 0.9,
+		defence = 0.9,
+		damage = 1,
+		hpMax = 1,
+		mp1Recover = 1,
+		specialDamage = 1,
+		id = 2,
+		battleTimes = 2,
+		cure = 1
+	},
+	{
+		specialDefence = 0.8,
+		defence = 0.8,
+		damage = 0.9,
+		hpMax = 0.9,
+		mp1Recover = 0.9,
+		specialDamage = 0.9,
+		id = 3,
+		battleTimes = 3,
+		cure = 0.9
+	},
+	{
+		specialDefence = 0.7,
+		defence = 0.7,
+		damage = 0.8,
+		hpMax = 0.8,
+		mp1Recover = 0.8,
+		specialDamage = 0.8,
+		id = 4,
+		battleTimes = 4,
+		cure = 0.8
+	},
+	{
+		specialDefence = 0.6,
+		defence = 0.6,
+		damage = 0.7,
+		hpMax = 0.7,
+		mp1Recover = 0.7,
+		specialDamage = 0.7,
+		id = 5,
+		battleTimes = 5,
+		cure = 0.7
+	},
+	{
+		specialDefence = 0.45,
+		defence = 0.45,
+		damage = 0.6,
+		hpMax = 0.6,
+		mp1Recover = 0.6,
+		specialDamage = 0.6,
+		id = 6,
+		battleTimes = 6,
+		cure = 0.6
+	},
+	{
+		specialDefence = 0.3,
+		defence = 0.3,
+		damage = 0.5,
+		hpMax = 0.45,
+		mp1Recover = 0.45,
+		specialDamage = 0.5,
+		id = 7,
+		battleTimes = 7,
+		cure = 0.45
+	},
+	{
+		specialDefence = 0.2,
+		defence = 0.2,
+		damage = 0.5,
+		hpMax = 0.3,
+		mp1Recover = 0.3,
+		specialDamage = 0.5,
+		id = 8,
+		battleTimes = 8,
+		cure = 0.3
+	},
+	{
+		specialDefence = 0.1,
+		defence = 0.1,
+		damage = 0.4,
+		hpMax = 0.2,
+		mp1Recover = 0.2,
+		specialDamage = 0.4,
+		id = 9,
+		battleTimes = 9,
+		cure = 0.2
+	},
+	{
+		specialDefence = 0.1,
+		defence = 0.1,
+		damage = 0.4,
+		hpMax = 0.1,
+		mp1Recover = 0.1,
+		specialDamage = 0.4,
+		id = 10,
+		battleTimes = 10,
+		cure = 0.1
+	},
+	{
+		specialDefence = 1,
+		type = 2,
+		damage = 1.2,
+		hpMax = 1,
+		defence = 1,
+		mp1Recover = 1,
+		specialDamage = 1.2,
+		id = 11,
+		cure = 1
+	},
+	{
+		defence = 0.9,
+		type = 2,
+		damage = 1,
+		hpMax = 1,
+		specialDefence = 0.9,
+		mp1Recover = 1,
+		specialDamage = 1,
+		id = 12,
+		battleTimes = 2,
+		cure = 1
+	},
+	{
+		defence = 0.8,
+		type = 2,
+		damage = 0.9,
+		hpMax = 0.9,
+		specialDefence = 0.8,
+		mp1Recover = 0.9,
+		specialDamage = 0.9,
+		id = 13,
+		battleTimes = 3,
+		cure = 0.9
+	},
+	{
+		defence = 0.7,
+		type = 2,
+		damage = 0.8,
+		hpMax = 0.8,
+		specialDefence = 0.7,
+		mp1Recover = 0.8,
+		specialDamage = 0.8,
+		id = 14,
+		battleTimes = 4,
+		cure = 0.8
+	},
+	{
+		defence = 0.6,
+		type = 2,
+		damage = 0.7,
+		hpMax = 0.7,
+		specialDefence = 0.6,
+		mp1Recover = 0.7,
+		specialDamage = 0.7,
+		id = 15,
+		battleTimes = 5,
+		cure = 0.7
+	},
+	{
+		defence = 0.45,
+		type = 2,
+		damage = 0.6,
+		hpMax = 0.6,
+		specialDefence = 0.45,
+		mp1Recover = 0.6,
+		specialDamage = 0.6,
+		id = 16,
+		battleTimes = 6,
+		cure = 0.6
+	},
+	{
+		defence = 0.3,
+		type = 2,
+		damage = 0.5,
+		hpMax = 0.45,
+		specialDefence = 0.3,
+		mp1Recover = 0.45,
+		specialDamage = 0.5,
+		id = 17,
+		battleTimes = 7,
+		cure = 0.45
+	},
+	{
+		defence = 0.2,
+		type = 2,
+		damage = 0.5,
+		hpMax = 0.3,
+		specialDefence = 0.2,
+		mp1Recover = 0.3,
+		specialDamage = 0.5,
+		id = 18,
+		battleTimes = 8,
+		cure = 0.3
+	},
+	{
+		defence = 0.1,
+		type = 2,
+		damage = 0.4,
+		hpMax = 0.2,
+		specialDefence = 0.1,
+		mp1Recover = 0.2,
+		specialDamage = 0.4,
+		id = 19,
+		battleTimes = 9,
+		cure = 0.2
+	},
+	{
+		defence = 0.1,
+		type = 2,
+		damage = 0.4,
+		hpMax = 0.1,
+		specialDefence = 0.1,
+		mp1Recover = 0.1,
+		specialDamage = 0.4,
+		id = 20,
+		battleTimes = 10,
+		cure = 0.1
+	},
+	{
+		specialDefence = 1,
+		type = 3,
+		damage = 1.2,
+		hpMax = 1,
+		defence = 1,
+		mp1Recover = 1,
+		specialDamage = 1.2,
+		id = 21,
+		cure = 1
+	},
+	{
+		defence = 0.9,
+		type = 3,
+		damage = 1,
+		hpMax = 1,
+		specialDefence = 0.9,
+		mp1Recover = 1,
+		specialDamage = 1,
+		id = 22,
+		battleTimes = 2,
+		cure = 1
+	},
+	{
+		defence = 0.8,
+		type = 3,
+		damage = 0.9,
+		hpMax = 0.9,
+		specialDefence = 0.8,
+		mp1Recover = 0.9,
+		specialDamage = 0.9,
+		id = 23,
+		battleTimes = 3,
+		cure = 0.9
+	},
+	{
+		defence = 0.7,
+		type = 3,
+		damage = 0.8,
+		hpMax = 0.8,
+		specialDefence = 0.7,
+		mp1Recover = 0.8,
+		specialDamage = 0.8,
+		id = 24,
+		battleTimes = 4,
+		cure = 0.8
+	},
+	{
+		defence = 0.6,
+		type = 3,
+		damage = 0.7,
+		hpMax = 0.7,
+		specialDefence = 0.6,
+		mp1Recover = 0.7,
+		specialDamage = 0.7,
+		id = 25,
+		battleTimes = 5,
+		cure = 0.7
+	},
+	{
+		defence = 0.45,
+		type = 3,
+		damage = 0.6,
+		hpMax = 0.6,
+		specialDefence = 0.45,
+		mp1Recover = 0.6,
+		specialDamage = 0.6,
+		id = 26,
+		battleTimes = 6,
+		cure = 0.6
+	},
+	{
+		defence = 0.3,
+		type = 3,
+		damage = 0.5,
+		hpMax = 0.45,
+		specialDefence = 0.3,
+		mp1Recover = 0.45,
+		specialDamage = 0.5,
+		id = 27,
+		battleTimes = 7,
+		cure = 0.45
+	},
+	{
+		defence = 0.2,
+		type = 3,
+		damage = 0.5,
+		hpMax = 0.3,
+		specialDefence = 0.2,
+		mp1Recover = 0.3,
+		specialDamage = 0.5,
+		id = 28,
+		battleTimes = 8,
+		cure = 0.3
+	},
+	{
+		defence = 0.1,
+		type = 3,
+		damage = 0.4,
+		hpMax = 0.2,
+		specialDefence = 0.1,
+		mp1Recover = 0.2,
+		specialDamage = 0.4,
+		id = 29,
+		battleTimes = 9,
+		cure = 0.2
+	},
+	{
+		defence = 0.1,
+		type = 3,
+		damage = 0.4,
+		hpMax = 0.1,
+		specialDefence = 0.1,
+		mp1Recover = 0.1,
+		specialDamage = 0.4,
+		id = 30,
+		battleTimes = 10,
+		cure = 0.1
+	},
+	__size = 30,
+	__default = {
+		__index = {
+			specialDefence = -1,
+			type = 1,
+			damage = -1,
+			hpMax = -1,
+			defence = -1,
+			mp1Recover = -1,
+			specialDamage = -1,
+			battleTimes = 1,
+			cure = -1
+		}
+	}
+}
+
+return csv.cross.union_fight.battle_fix

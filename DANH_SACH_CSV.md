@@ -10,11 +10,11 @@
 - [ ] 📄 `game_config/abyss_endless_tower/task.csv`
 - [x] 📄 `game_config/achievement/achievement.csv`
 - [x] 📄 `game_config/achievement/achievement_level.csv`
-- [ ] 📄 `game_config/achievement/achievement_task.csv`
+- [x] 📄 `game_config/achievement/achievement_task.csv`
 - [ ] 📄 `game_config/activity_city_theme.csv`
 - [ ] 📄 `game_config/aid/aid.csv`
 - [ ] 📄 `game_config/aid/aid_skill.csv`
-- [ ] 📄 `game_config/aid/aid_skill_describe.csv`
+- [x] 📄 `game_config/aid/aid_skill_describe.csv`
 - [ ] 📄 `game_config/aid/awake.csv`
 - [ ] 📄 `game_config/aid/awake_material.csv`
 - [ ] 📄 `game_config/aid/awake_meterial.csv`

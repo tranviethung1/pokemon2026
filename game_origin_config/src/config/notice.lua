@@ -1,0 +1,285 @@
+slot0 = {
+	__size = 0
+}
+csv.notice = {
+	{
+		desc_en = "Draw powerful Pokémons to enhance your strength",
+		name_en = "Draw a card",
+		name = "Draw a card",
+		openLv = 2,
+		desc_th = "สุ่มโปเกมอนที่ทรงพลังเพื่อเพิ่มความแข็งแกร่งของคุณ",
+		desc = "Draw powerful Pokémons to enhance your strength",
+		name_th = "จั่วการ์ด",
+		id = 1,
+		icon = "city/levelup/icon_nd_rk@.png"
+	},
+	{
+		desc_en = "Send out Pokémons and adjust the formation",
+		name_en = "Adjust line-up",
+		name = "Adjust line-up",
+		openLv = 2,
+		desc_th = "ส่งโปเกมอนและปรับรูปแบบ",
+		desc = "Send out Pokémons and adjust the formation",
+		name_th = "ปรับทีม",
+		id = 2,
+		icon = "city/levelup/icon_bd_rk@.png"
+	},
+	{
+		noticeLv = 2,
+		name_en = "Pokémon Upgrade",
+		name = "Pokémon Upgrade",
+		openLv = 3,
+		desc_en = "Upgrade Pokémons to boost the Pokémon's energy and combat power",
+		desc_th = "อัพเกรดโปเกมอนเพื่อเพิ่มพลังและพลังการต่อสู้ของโปเกมอน",
+		desc = "Upgrade Pokémons to boost the Pokémon's energy and combat power",
+		name_th = "อัพเกรดโปเกมอน",
+		id = 3,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 2,
+		name_en = "Upgrade move",
+		name = "Upgrade move",
+		openLv = 3,
+		desc_en = "Level up move to enhance its power",
+		desc_th = "เลื่อนระดับเพื่อเพิ่มพลัง",
+		desc = "Level up move to enhance its power",
+		name_th = "อัพเกรดย้าย",
+		id = 4,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 3,
+		name_en = "Pokémon upgrade",
+		name = "Pokémon upgrade",
+		openLv = 4,
+		desc_en = "Quick upgrade in Pokémon level",
+		desc_th = "อัปเกรดอย่างรวดเร็วในระดับโปเกมอน",
+		desc = "Quick upgrade in Pokémon level",
+		name_th = "อัพเกรดโปเกมอน",
+		id = 5,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 3,
+		name_en = "Shop",
+		name = "Shop",
+		openLv = 9,
+		desc_en = "Shop is now open, you may now purchase various items",
+		desc_th = "เปิดร้านแล้ว สามารถซื้อสินค้าต่างๆได้",
+		desc = "Shop is now open, you may now purchase various items",
+		name_th = "ร้านค้า",
+		id = 6,
+		icon = "city/levelup/icon_sd_rk.png"
+	},
+	{
+		noticeLv = 3,
+		name_en = "Pokédex",
+		name = "Pokédex",
+		openLv = 10,
+		desc_en = "Collect Pokémons and unlock Pokédex entries to become a strong trainer!",
+		desc_th = "รวบรวมโปเกมอนและปลดล็อกรายการโปเกมอนเพื่อเป็นผู้ฝึกสอนที่แข็งแกร่ง!",
+		desc = "Collect Pokémons and unlock Pokédex entries to become a strong trainer!",
+		name_th = "Pokédex",
+		id = 7,
+		icon = "city/levelup/icon_tj_rk@.png"
+	},
+	{
+		noticeLv = 4,
+		name_en = "Held Items",
+		name = "Held Items",
+		openLv = 11,
+		desc_en = "Held Item, it gives additional effects",
+		desc_th = "ถือไอเทม มันให้เอฟเฟกต์เพิ่มเติม",
+		desc = "Held Item, it gives additional effects",
+		name_th = "Held Items",
+		id = 8,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 9,
+		name_en = "Daily Quests",
+		name = "Daily Quests",
+		openLv = 12,
+		desc_en = "Open daily quests and get rewards",
+		desc_th = "เปิดเควสรายวันและรับรางวัล",
+		desc = "Open daily quests and get rewards",
+		name_th = "เควสรายวัน",
+		id = 9,
+		icon = "city/levelup/icon_rw_rk@.png"
+	},
+	{
+		noticeLv = 9,
+		name_en = "Training privilege",
+		name = "Training privilege",
+		openLv = 12,
+		desc_en = "Upgrade training privileges to gain various privileges",
+		desc_th = "อัพเกรดสิทธิ์การอบรมเพื่อรับสิทธิพิเศษต่างๆ",
+		desc = "Upgrade training privileges to gain various privileges",
+		name_th = "สิทธิพิเศษในการฝึก",
+		id = 10,
+		icon = "city/levelup/icon_mxzz_rk.png"
+	},
+	{
+		noticeLv = 11,
+		name_en = "Individual Value",
+		name = "Individual Value",
+		openLv = 14,
+		desc_en = "Reset IV to get the perfect Pokémon",
+		desc_th = "รีเซ็ต IV เพื่อรับโปเกมอนที่สมบูรณ์แบบ",
+		desc = "Reset IV to get the perfect Pokémon",
+		name_th = "Individual Value",
+		id = 11,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 12,
+		name_en = "Arena",
+		name = "Arena",
+		openLv = 15,
+		desc_en = "The Arena is open, it's time to test your strength!",
+		desc_th = "อารีน่าเปิดแล้ว ได้เวลาทดสอบความแข็งแกร่งของคุณแล้ว!",
+		desc = "The Arena is open, it's time to test your strength!",
+		name_th = "อารีน่า",
+		id = 12,
+		icon = "city/levelup/icon_jj_rk@.png"
+	},
+	{
+		noticeLv = 12,
+		name_en = "Leaderboard",
+		name = "Leaderboard",
+		openLv = 18,
+		desc_en = "Leaderboards are open, you can now view your rankings",
+		desc_th = "กระดานผู้นำเปิดอยู่ คุณสามารถดูอันดับของคุณได้แล้ว",
+		desc = "Leaderboards are open, you can now view your rankings",
+		name_th = "กระดานผู้นำ",
+		id = 13,
+		icon = "city/levelup/icon_ph_rk.png"
+	},
+	{
+		noticeLv = 12,
+		name_en = "Event dungeon",
+		name = "Event dungeon",
+		openLv = 18,
+		desc_en = "Unlock event dungeon to get resources quickly",
+		desc_th = "ปลดล็อกดันเจี้ยนกิจกรรมเพื่อรับทรัพยากรอย่างรวดเร็ว",
+		desc = "Unlock event dungeon to get resources quickly",
+		name_th = "ดันเจี้ยนเหตุการณ์",
+		id = 14,
+		icon = "city/levelup/icon_mx_rk@.png"
+	},
+	{
+		noticeLv = 15,
+		name_en = "union",
+		name = "union",
+		openLv = 20,
+		desc_en = "union feature has open, find your companions now!",
+		desc_th = "ฟีเจอร์สหภาพเปิดแล้ว หาเพื่อนของคุณตอนนี้!",
+		desc = "union feature has open, find your companions now!",
+		name_th = "กิลด์",
+		id = 15,
+		icon = "city/levelup/icon_gh_rk@.png"
+	},
+	{
+		noticeLv = 18,
+		name_en = "Inherit",
+		name = "Inherit",
+		openLv = 22,
+		desc_en = "Nature and Individual values can be inherited",
+		desc_th = "ธรรมชาติและคุณค่าส่วนบุคคลสามารถสืบทอดได้",
+		desc = "Nature and Individual values can be inherited",
+		name_th = "สืบทอด",
+		id = 16,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 18,
+		name_en = "Revive",
+		name = "Revive",
+		openLv = 23,
+		desc_en = "Reborn Pokémons to get training items quickly",
+		desc_th = "เกิดใหม่โปเกมอนเพื่อรับไอเทมฝึกฝนอย่างรวดเร็ว",
+		desc = "Reborn Pokémons to get training items quickly",
+		name_th = "ฟื้นคืนชีพ",
+		id = 17,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 22,
+		name_en = "Endless Tower",
+		name = "Endless Tower",
+		openLv = 24,
+		desc_en = "Endless Tower is now open, let's dive into an endless challenge",
+		desc_th = "Endless Tower เปิดแล้ว มาดำดิ่งสู่ความท้าทายไม่รู้จบกัน",
+		desc = "Endless Tower is now open, let's dive into an endless challenge",
+		name_th = "แดนสวรรค์",
+		id = 18,
+		icon = "city/levelup/icon_mx_rk@.png"
+	},
+	{
+		noticeLv = 22,
+		name_en = "Effort Value",
+		name = "Effort Value",
+		openLv = 24,
+		desc_en = "Increase Effort Value to enhance the Pokémon's stats",
+		desc_th = "เพิ่มค่าความพยายามเพื่อเพิ่มค่าสถานะของโปเกมอน",
+		desc = "Increase Effort Value to enhance the Pokémon's stats",
+		name_th = "Effort Value",
+		id = 19,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 23,
+		name_en = "Friendship",
+		name = "Friendship",
+		openLv = 25,
+		desc_en = "Send gift to enhance friendship level with the Pokémon",
+		desc_th = "ส่งของขวัญเพื่อเพิ่มระดับมิตรภาพกับโปเกมอน",
+		desc = "Send gift to enhance friendship level with the Pokémon",
+		name_th = "มิตรภาพ",
+		id = 20,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 24,
+		name_en = "Talent",
+		name = "Talent",
+		openLv = 27,
+		desc_en = "Activate talent to enhance your strength",
+		desc_th = "เปิดใช้งานความสามารถเพื่อเพิ่มความแข็งแกร่งของคุณ",
+		desc = "Activate talent to enhance your strength",
+		name_th = "ความสามารถพิเศษ",
+		id = 21,
+		icon = "city/levelup/icon_yc_rk@.png"
+	},
+	{
+		noticeLv = 25,
+		name_en = "Dispatch",
+		name = "Dispatch",
+		openLv = 30,
+		desc_en = "Dispatch is open, giving you chances of getting rewards easily",
+		desc_th = "Dispatch เปิดแล้ว ให้คุณลุ้นรับรางวัลง่ายๆ",
+		desc = "Dispatch is open, giving you chances of getting rewards easily",
+		name_th = "ส่งน้อง",
+		id = 22,
+		icon = "city/levelup/icon_mx_rk@.png"
+	},
+	__size = 22,
+	__default = {
+		__index = {
+			noticeLv = 1,
+			name = "",
+			name_en = "",
+			openLv = 1,
+			desc_en = "",
+			desc_th = "",
+			type = 1,
+			desc = "",
+			name_th = "",
+			icon = "",
+			goToPanel = ""
+		}
+	}
+}
+
+return csv.notice
