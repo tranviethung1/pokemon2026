@@ -1,6 +1,6 @@
-﻿Variable Name,name,icon
-Default Value,"""""",""""""
-ID,Achievement Category Name,Achievement Category Icon
+﻿变量名,name,icon
+默认值,"""""",""""""
+ID,成就分类名称,成就分类图标
 1,Trainer Growth,city/task/achievement/icon_rucz.png
 2,Pokémon Collection,city/task/achievement/icon_jlsj.png
 3,Pokémon Training,city/task/achievement/icon_jlpy.png

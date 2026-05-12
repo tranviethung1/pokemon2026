@@ -1,6 +1,6 @@
-Variable Name,type,targetType,targetType2,targetArg,targetArg2,yyID,point,award,isShow,sort,title,desc,jumpTo,languages
-Default Value,0,1,1,,,,0,{},TRUE,1,"""""","""""","""""",<cn;tw;en;en_us;en_eu;vn;th;kr>
-ID,Achievement Category 1=Trainer Growth 2=Pokémon Collection 3=Pokémon Training 4=Dungeons & Events 5=Competitive Challenges 6=Social,Task Target Type,Task Category (Client),Task Target Parameter (Count),Task Target Parameter 2 (Corresponding Parameter ID),Enter yyID for Live Ops Achievements,Achievement Points Earned,Task Rewards,"Display? (1=Show, FALSE=Hide)",Task Order,Title,Description,Jump To,Language Regions
+﻿变量名,type,targetType,targetType2,targetArg,targetArg2,yyID,point,award,isShow,sort,title,desc,jumpTo,languages
+默认值,0,1,1,,,,0,{},TRUE,1,"""""","""""","""""",<cn;tw;en;en_us;en_eu;vn;th;kr>
+ID,成就分类 1=人物成长 2=精灵收集 3=精灵培养 4=副本活动 5=竞技挑战 6=社交,任务目标类型,任务分类（客户端用）,任务目标参数(数量）,任务目标参数2（对应参数ID）,若是运营活动成就填yyID,获得成就点,任务奖励,是否显示（1显示 FALSE不显示）,任务顺序,标题,描述,跳转,语言区域
 1001,1,,,40,,,20,{14=5;rmb=20},,,Rookie Trainer,Trainer level reaches 40,10000,
 1002,1,,,60,,,20,{14=5;rmb=30},,2,Intermediate Trainer,Trainer level reaches 60,10000,
 1003,1,,,80,,,30,{14=10;rmb=30},,3,Advanced Trainer,Trainer level reaches 80,10000,

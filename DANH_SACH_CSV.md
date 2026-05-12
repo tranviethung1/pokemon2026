@@ -22,7 +22,7 @@
 - [ ] 📄 `game_config/aid/level.csv`
 - [ ] 📄 `game_config/aid/material.csv`
 - [ ] 📄 `game_config/aid/scene.csv`
-- [ ] 📄 `game_config/aid/stage.csv`
+- [x] 📄 `game_config/aid/stage.csv`
 - [ ] 📄 `game_config/aid/strength_meterial.csv`
 - [ ] 📄 `game_config/arms/arms.csv`
 - [ ] 📄 `game_config/arms/stage.csv`
