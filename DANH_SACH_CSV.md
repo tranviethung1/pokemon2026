@@ -9,7 +9,7 @@
 - [ ] 📄 `game_config/abyss_endless_tower/scene.csv`
 - [ ] 📄 `game_config/abyss_endless_tower/task.csv`
 - [x] 📄 `game_config/achievement/achievement.csv`
-- [ ] 📄 `game_config/achievement/achievement_level.csv`
+- [x] 📄 `game_config/achievement/achievement_level.csv`
 - [ ] 📄 `game_config/achievement/achievement_task.csv`
 - [ ] 📄 `game_config/activity_city_theme.csv`
 - [ ] 📄 `game_config/aid/aid.csv`

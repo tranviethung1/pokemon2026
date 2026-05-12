@@ -787,6 +787,13 @@
 | 成就分类图标 | Achievement Category Icon | Biểu tượng nhóm thành tựu | |
 | 训练家 | Trainer | Huấn luyện viên | |
 | 精灵 | Pokémon | Pokémon | |
+| 成就等级 | Achievement Level | Cấp thành tựu | |
+| 成就总览 | Achievements Overview | Tổng quan thành tựu | |
+| 所需成就点 | Required Achievement Points | Điểm thành tựu cần thiết | |
+| 等级奖励 | Level Rewards | Thưởng theo cấp | |
+| 等级图标 | Level Icon | Biểu tượng cấp | |
+| 宝箱图标 | Chest Icon | Biểu tượng rương | |
+| spine动画 | Spine Animation | Hiệu ứng Spine | |
 | 冒险执照 | Adventure Pass | Giấy phép phiêu lưu | |
 | 特权属性点 | Privilege Attribute Points | Điểm thuộc tính đặc quyền | |
 | 基础天赋 | Base Talent | Thiên phú cơ bản | |
