@@ -20,7 +20,7 @@
 - [ ] 📄 `game_config/aid/awake_meterial.csv`
 - [ ] 📄 `game_config/aid/base.csv`
 - [ ] 📄 `game_config/aid/level.csv`
-- [ ] 📄 `game_config/aid/material.csv`
+- [x] 📄 `game_config/aid/material.csv`
 - [ ] 📄 `game_config/aid/scene.csv`
 - [x] 📄 `game_config/aid/stage.csv`
 - [ ] 📄 `game_config/aid/strength_meterial.csv`

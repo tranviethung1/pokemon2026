@@ -1298,5 +1298,20 @@
 | 【助·全力模式】 | 【Aid: All-Out Mode】 | 【Hỗ trợ: Chế độ toàn lực】 |
 | 【助·雷电幻影】 | 【Aid: Thunder Phantom】 | 【Hỗ trợ: Ảo ảnh lôi điện】 |
 
+### 6.2. Bổ sung từ `aid/material.csv`
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 助战精华 | Aid Essence | Tinh hoa trợ chiến |
+| 助战源晶 | Aid Source Crystal | Tinh thể nguồn trợ chiến |
+| 用于突破{pokemon}助战进阶的专属材料 | Exclusive material used to advance {pokemon}'s Aid breakthrough | Vật liệu độc quyền dùng để đột phá nâng cấp trợ chiến của {pokemon} |
+| 用于{pokemon}助战觉醒的专属材料 | Exclusive material used to awaken {pokemon}'s Aid | Vật liệu độc quyền dùng để thức tỉnh trợ chiến của {pokemon} |
+| 六尾 | Vulpix | Vulpix |
+| 龙卷云·化身形态 | Tornadus (Incarnate Forme) | Tornadus (Hóa Thân) |
+| 雷电云·化身形态 | Thundurus (Incarnate Forme) | Thundurus (Hóa Thân) |
+| 土地云·化身形态 | Landorus (Incarnate Forme) | Landorus (Hóa Thân) |
+| 美洛耶塔·歌声形态 | Meloetta (Aria Forme) | Meloetta (Dạng Aria) |
+| 基格尔德·100% | Zygarde 100% | Zygarde 100% |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
