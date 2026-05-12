@@ -1313,5 +1313,39 @@
 | 美洛耶塔·歌声形态 | Meloetta (Aria Forme) | Meloetta (Dạng Aria) |
 | 基格尔德·100% | Zygarde 100% | Zygarde 100% |
 
+### 6.3. Bổ sung từ `aid/aid_skill_describe.csv`
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 助战技能效果 | Aid Skill Effect | Hiệu ứng kỹ năng trợ chiến |
+| 助战触发次数 | Aid Trigger Count | Số lần kích hoạt trợ chiến |
+| 助战触发条件 | Aid Trigger Condition | Điều kiện kích hoạt trợ chiến |
+| 开启助战技能 | Unlock Aid Skill | Mở khóa kỹ năng trợ chiến |
+| 【中毒Ⅰ】 | 【Poison I】 | 【Độc I】 |
+| 【速度Ⅱ】 | 【Speed II】 | 【Tốc độ II】 |
+| 【石化】 | 【Petrify】 | 【Hóa đá】 |
+| 【沉默】 | 【Silence】 | 【Câm lặng】 |
+| 【反弹Ⅱ】 | 【Reflect II】 | 【Phản đòn II】 |
+| 【助·恐惧Ⅰ】 | 【Aid: Fear I】 | 【Hỗ trợ: Sợ hãi I】 |
+| 【助·恐惧Ⅱ】 | 【Aid: Fear II】 | 【Hỗ trợ: Sợ hãi II】 |
+| 【助·掠杀】 | 【Aid: Hunt】 | 【Hỗ trợ: Săn giết】 |
+| 【冰冻Ⅰ】 | 【Freeze I】 | 【Đóng băng I】 |
+| 【爆炎】 | 【Blazing Flame】 | 【Bạo viêm】 |
+| 【花舞】 | 【Flower Dance】 | 【Hoa vũ】 |
+| 【助·致盲Ⅰ】 | 【Aid: Blind I】 | 【Hỗ trợ: Mù I】 |
+| 【助·致盲Ⅱ】 | 【Aid: Blind II】 | 【Hỗ trợ: Mù II】 |
+| 【助·失衡】 | 【Aid: Imbalance】 | 【Hỗ trợ: Mất thăng bằng】 |
+| 【助·激怒】 | 【Aid: Enrage】 | 【Hỗ trợ: Kích nộ】 |
+| 【助·幸运】 | 【Aid: Luck】 | 【Hỗ trợ: May mắn】 |
+| 【感电Ⅰ】 | 【Electrified I】 | 【Nhiễm điện I】 |
+| 【感电Ⅱ】 | 【Electrified II】 | 【Nhiễm điện II】 |
+| 【助·蝎毒】 | 【Aid: Scorpion Poison】 | 【Hỗ trợ: Độc bọ cạp】 |
+| 【神速】 | 【Extreme Speed】 | 【Thần tốc】 |
+| 【污泥鱼雷】 | 【Sludge Torpedo】 | 【Ngư lôi bùn】 |
+| 【魅惑】 | 【Charm】 | 【Mê hoặc】 |
+| 【助·水流刃】 | 【Aid: Aqua Blade】 | 【Hỗ trợ: Lưỡi nước】 |
+| 【流沙陷阱】 | 【Quicksand Trap】 | 【Bẫy cát lún】 |
+| 【麻痹】 | 【Paralysis】 | 【Tê liệt】 |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
