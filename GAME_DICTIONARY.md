@@ -1,0 +1,867 @@
+# POKÉMON 2026 - MULTILINGUAL DICTIONARY
+
+> [!NOTE]
+> Đây là từ điển dùng chung cho dự án (Trung - Anh - Việt). Đảm bảo tính nhất quán giữa các ngôn ngữ.
+
+---
+
+## 1. Thuộc tính & Chỉ số (Attributes)
+
+| Gốc (CN) | Thuật ngữ (Key) | English | Tiếng Việt |
+| :--- | :--- | :--- | :--- |
+| 生命 | attrHp | HP | Sinh lực (HP) |
+| 血量恢复 | attrHpRecover | HP Recover | Hồi phục máu |
+| 怒气恢复速度 | attrMp1Recover | Rage Recover Speed | Tốc độ hồi nộ |
+| 物攻 | attrDamage | P.ATK (Physical) | Công vật lý |
+| 特攻 | attrSpecialDamage | S.ATK (Special) | Công đặc biệt |
+| 物防 | attrDefence | P.DEF (Physical) | Thủ vật lý |
+| 特防 | attrSpecialDefence | S.DEF (Special) | Thủ đặc biệt |
+| 速度 | attrSpeed | Speed | Tốc độ |
+| 暴击率 | attrStrike | Crit Rate | Tỷ lệ bạo kích |
+| 暴击伤害 | attrStrikeDamage | Crit Damage | Sát thương bạo kích |
+| 闪避率 | attrDodge | Dodge Rate | Tỷ lệ né tránh |
+| 命中率 | attrHit | Hit Rate | Tỷ lệ chính xác |
+| 伤害加成 | attrDamageAdd | Damage Bonus | Tăng sát thương |
+| 伤害减免 | attrDamageSub | Damage Reduction | Giảm sát thương |
+| 吸血率 | attrSuckBlood | Life Steal | Tỷ lệ hút máu |
+| 反弹率 | attrRebound | Reflect Rate | Tỷ lệ phản đòn |
+| 治疗率 | attrCure | Healing Rate | Tỷ lệ trị thương |
+| 物防忽视 | attrDefenceIgnore | P.DEF Ignore | Bỏ qua thủ vật lý |
+| 特防忽视 | attrSpecialDefenceIgnore | S.DEF Ignore | Bỏ qua thủ đặc biệt |
+| 暴击抗性 | attrStrikeResistance | Crit Resistance | Kháng bạo kích |
+| 抵御率 | attrBlock | Block Rate | Tỷ lệ đỡ đòn |
+| 破抵御率 | attrBreakBlock | Break Block | Phá đỡ đòn |
+| 抵御强度 | attrBlockPower | Block Power | Cường độ đỡ đòn |
+| 必杀伤害加成 | attrUltimateAdd | Ultimate DMG Bonus | Tăng ST tuyệt kỹ |
+| 必杀伤害减免 | attrUltimateSub | Ultimate DMG Reduction | Giảm ST tuyệt kỹ |
+| 控制率 | attrControlPer | Control Rate | Tỷ lệ khống chế |
+| 免控率 | attrImmuneControl | Control Immunity | Kháng khống chế |
+| 伤害加深 | attrDamageDeepen | DMG Deepen | Sát thương sâu |
+| 物伤加成 | attrPhysicalDamageAdd | P.DMG Bonus | Tăng ST vật lý |
+| 特伤加成 | attrSpecialDamageAdd | S.DMG Bonus | Tăng ST đặc biệt |
+
+---
+
+## 2. Hệ & Nguyên tố (Types/Elements)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 一般系 | Normal | Hệ Thường |
+| 火系 | Fire | Hệ Lửa |
+| 水系 | Water | Hệ Nước |
+| 草系 | Grass | Hệ Cỏ |
+| 电系 | Electricity | Hệ Điện |
+| 冰系 | Ice | Hệ Băng |
+| 格斗系 | Fighting | Hệ Giác Đấu |
+| 毒系 | Poison | Hệ Độc |
+| 地面系 | Ground | Hệ Đất |
+| 飞行系 | Flying | Hệ Bay |
+| 超能系 | Psychic | Hệ Siêu Linh |
+| 虫系 | Bug | Hệ Côn Trùng |
+| 岩石系 | Rock | Hệ Đá |
+| 幽灵系 | Ghost | Hệ Ma |
+| 龙系 | Dragon | Hệ Rồng |
+| 恶系 | Dark | Hệ Bóng Tối |
+| 钢系 | Steel | Hệ Thép |
+| 妖精系 | Fairy | Hệ Tiên |
+
+---
+
+## 2.1. Chỉ số bổ trợ Hệ (Type-specific Attributes)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 系伤害加成 | [Type] DMG Bonus | Tăng sát thương hệ [Hệ] |
+| 系伤害减免 | [Type] DMG Reduction | Giảm sát thương hệ [Hệ] |
+| 系治疗率 | [Type] Healing Rate | Tỷ lệ trị thương hệ [Hệ] |
+| 系抗性 | [Type] Resistance | Kháng hệ [Hệ] |
+
+---
+
+## 2.2. Tính cách Pokémon (Pokémon Natures)
+
+| ID | English | Tiếng Việt | Tác động (Up/Down) |
+| :--- | :--- | :--- | :--- |
+| 1 | Hardy | Cần cù | - |
+| 2 | Docile | Ngoan ngoãn | - |
+| 3 | Serious | Nghiêm túc | - |
+| 4 | Bashful | Nhút nhát | - |
+| 5 | Quirky | Kỳ quặc | - |
+| 6 | Timid | Nhút nhát (Timid) | +Speed / -ATK |
+| 7 | Hasty | Nôn nóng | +Speed / -DEF |
+| 8 | Jolly | Vui vẻ | +Speed / -S.ATK |
+| 9 | Naive | Ngây thơ | +Speed / -S.DEF |
+| 10 | Lonely | Cô độc | +ATK / -DEF |
+| 11 | Brave | Dũng cảm | +ATK / -Speed |
+| 12 | Adamant | Cứng cỏi | +ATK / -S.ATK |
+| 13 | Naughty | Nghịch ngợm | +ATK / -S.DEF |
+| 14 | Bold | Táo bạo | +DEF / -ATK |
+| 15 | Relaxed | Thoải mái | +DEF / -Speed |
+| 16 | Impish | Tinh quái | +DEF / -S.ATK |
+| 17 | Lax | Lỏng lẻo | +DEF / -S.DEF |
+| 18 | Modest | Khiêm tốn | +S.ATK / -ATK |
+| 19 | Mild | Ôn hòa | +S.ATK / -DEF |
+| 20 | Quiet | Lặng lẽ | +S.ATK / -Speed |
+| 21 | Rash | Hấp tấp | +S.ATK / -S.DEF |
+| 22 | Calm | Điềm tĩnh | +S.DEF / -ATK |
+| 23 | Gentle | Nhẹ nhàng | +S.DEF / -DEF |
+| 24 | Sassy | Ngỗ ngược | +S.DEF / -Speed |
+| 25 | Careful | Cẩn thận | +S.DEF / -S.ATK |
+
+---
+
+## 3. Từ khóa Kỹ năng & Trạng thái (Skill Keywords)
+*Thường nằm trong ngoặc `【 】` - Dùng để hiển thị màu và hiệu ứng đặc biệt*
+
+| Gốc (CN) | English | Tiếng Việt | Loại |
+| :--- | :--- | :--- | :--- |
+| 【寄生种子】 | 【Leech Seed】 | 【Hạt Giống Ký Sinh】 | Skill/Drain |
+| 【灼烧】 | 【Burn】 | 【Thiêu Đốt】 | Status (DoT) |
+| 【麻痹】 | 【Paralysis】 | 【Tê Liệt】 | Status (CC) |
+| 【畏缩】 | 【Flinch】 | 【Nao Núng】 | Status (CC) |
+| 【石化】 | 【Petrify】 | 【Hóa Đá】 | Status (CC) |
+| 【恐惧】 | 【Fear】 | 【Sợ Hãi】 | Status (CC) |
+| 【中毒】 | 【Poison】 | 【Trúng Độc】 | Status (DoT) |
+| 【眩晕】 | 【Stun】 | 【Choáng】 | Status (CC) |
+| 【冰冻】 | 【Freeze】 | 【Băng Giá】 | Status (CC) |
+| 【嘲讽】 | 【Taunt】 | 【Khiêu Khích】 | Status (CC) |
+| 【护盾】 | 【Shield】 | 【Lớp Khiên】 | Buff |
+| 【感电】 | 【Electrified】 | 【Cảm Điện】 | Status |
+| 【超导】 | 【Superconduct】 | 【Siêu Dẫn】 | Status |
+| 【引火】 | 【Flash Fire】 | 【Dẫn Lửa】 | Buff |
+| 【极光幕】 | 【Aurora Veil】 | 【Màn Cực Quang】 | Field Effect |
+| 【光合作用】 | 【Synthesis】 | 【Quang Hợp】 | Recovery |
+| 【回击之盾】 | 【Counter Shield】 | 【Khiên Phản Đòn】 | Buff |
+| 【盘旋】 | 【Coil/Hover】 | 【Lượn Vòng】 | Special |
+| 【滞空】 | 【Airborne】 | 【Trên Không】 | Special |
+| 【蓄电】 | 【Volt Absorb】 | 【Tích Điện】 | Passive/Buff |
+| 【双防】 | 【Dual Defense】 | 【Song Thủ】 | Buff (DEF/SDEF) |
+| 【物防降低】 | 【DEF Down】 | 【Giảm Thủ Vật Lý】 | Debuff |
+| 【特防降低】 | 【SP.DEF Down】 | 【Giảm Thủ Đặc Biệt】 | Debuff |
+| 【净化】 | 【Purify】 | 【Thanh Tẩy】 | Cleanse |
+
+---
+
+## 4. Chiêu thức tiêu biểu (Common Skills)
+
+| Gốc (CN) | English | Tiếng Việt | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| 藤鞭 | Vine Whip | Roi Mây | |
+| 毒叶快刀 | Razor Leaf | Lá Dao Độc | |
+| 强力鞭打 | Power Whip | Quất Mạnh | |
+| 阳光烈焰 | Solar Beam | Tia Sáng Mặt Trời | |
+| 火焰拳 | Fire Punch | Đấm Lửa | |
+| 火焰喷射 | Flamethrower | Phun Lửa | |
+| 撞击 | Tackle | Húc | |
+| 水枪 | Water Gun | Súng Phun Nước | |
+| 水炮 | Hydro Pump | Vòi Rồng Phun Nước | |
+| 十万伏特 | Thunderbolt | Thập Vạn Phục-tơ | |
+| 电球 | Electro Ball | Cầu Điện | |
+| 咬碎 | Crunch | Nhai Nghiến | |
+| 燕返 | Aerial Ace | Phi Không Kích | |
+| 钢铁之尾 | Iron Tail | Đuôi Thép | |
+
+---
+
+## 4. Danh sách Pokémon (Full Pokémon List)
+
+| ID | Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- | :--- |
+| 1 | 妙蛙种子 | Bulbasaur | Bulbasaur |
+| 2 | 妙蛙草 | Ivysaur | Ivysaur |
+| 3 | 妙蛙花 | Venusaur | Venusaur |
+| 4 | 超级妙蛙花 | Mega Venusaur | Mega Venusaur |
+| 11 | 小火龙 | Charmander | Charmander |
+| 12 | 火恐龙 | Charmeleon | Charmeleon |
+| 13 | 喷火龙 | Charizard | Charizard |
+| 14 | 超级喷火龙X | Mega Charizard X | Mega Charizard X |
+| 15 | 超级喷火龙Y | Mega Charizard Y | Mega Charizard Y |
+| 21 | 杰尼龟 | Squirtle | Squirtle |
+| 22 | 卡咪龟 | Wartortle | Wartortle |
+| 23 | 水箭龟 | Blastoise | Blastoise |
+| 24 | 超级水箭龟 | Mega Blastoise | Mega Blastoise |
+| 25 | 皮卡丘 | Pikachu | Pikachu |
+| 31 | 绿毛虫 | Caterpie | Caterpie |
+| 33 | 巴大蝶 | Butterfree | Butterfree |
+| 41 | 大针蜂 | Beedrill | Beedrill |
+| 44 | 超级大针蜂 | Mega Beedrill | Mega Beedrill |
+| 51 | 波波 | Pidgey | Pidgey |
+| 52 | 比比鸟 | Pidgeotto | Pidgey |
+| 53 | 大比鸟 | Pidgeot | Pidgeot |
+| 54 | 超级大比鸟 | Mega Pidgeot | Mega Pidgeot |
+| 61 | 小拉达 | Rattata | Rattata |
+| 62 | 拉达 | Raticate | Raticate |
+| 71 | 烈雀 | Spearow | Spearow |
+| 72 | 大嘴雀 | Fearow | Fearow |
+| 81 | 阿柏蛇 | Ekans | Arbok |
+| 82 | 阿柏怪 | Arbok | Arbok |
+| 91 | 皮丘 | Pichu | Pichu |
+| 92 | 皮卡丘 | Pikachu | Pikachu |
+| 93 | 雷丘 | Raichu | Raichu |
+| 101 | 穿山鼠 | Sandshrew | Sandshrew |
+| 102 | 穿山王 | Sandslash | Sandslash |
+| 111 | 尼多兰 | Nidoran♀ | Nidoran Cái |
+| 112 | 尼多娜 | Nidorina | Nidorina |
+| 113 | 尼多后 | Nidoqueen | Nidoqueen |
+| 121 | 尼多朗 | Nidoran♂ | Nidoran Đực |
+| 122 | 尼多力诺 | Nidorino | Nidorino |
+| 123 | 尼多王 | Nidoking | Nidoking |
+| 131 | 皮宝宝 | Cleffa | Cleffa |
+| 132 | 皮皮 | Clefairy | Clefairy |
+| 133 | 皮可西 | Clefable | Clefable |
+| 143 | 阿罗拉六尾 | Alolan Vulpix | Vulpix Alola |
+| 144 | 阿罗拉九尾 | Alolan Ninetales | Ninetales Alola |
+| 151 | 宝宝丁 | Igglybuff | 宝宝丁 (Igglybuff) |
+| 152 | 胖丁 | Jigglypuff | Jigglypuff |
+| 153 | 胖可丁 | Wigglytuff | Wigglytuff |
+| 161 | 超音蝠 | Zubat | Zubat |
+| 162 | 大嘴蝠 | Golbat | Golbat |
+| 163 | 叉字蝠 | Crobat | Crobat |
+| 171 | 走路草 | Oddish | Oddish |
+| 172 | 臭臭花 | Gloom | Gloom |
+| 173 | 霸王花 | Vileplume | Vileplume |
+| 191 | 毛球 | Venonat | 毛球 (Venonat) |
+| 192 | 摩鲁蛾 | Venomoth | Venomoth |
+| 211 | 喵喵 | Meowth | Meowth |
+| 212 | 猫老大 | Persian | Persian |
+| 221 | 可达鸭 | Psyduck | Psyduck |
+| 222 | 哥达鸭 | Golduck | Golduck |
+| 231 | 猴怪 | Mankey | Mankey |
+| 232 | 火暴猴 | Primeape | Primeape |
+| 241 | 卡蒂狗 | Growlithe | Growlithe |
+| 242 | 风速狗 | Arcanine | Arcanine |
+| 251 | 蚊香蝌蚪 | Poliwag | Poliwag |
+| 252 | 蚊香君 | Poliwhirl | Poliwag |
+| 253 | 蚊香泳士 | Poliwrath | Poliwrath |
+| 254 | 蚊香蛙皇 | Politoed | Politoed |
+| 261 | 凯西 | Abra | Abra |
+| 262 | 勇基拉 | Kadabra | Kadabra |
+| 263 | 胡地 | Alakazam | Alakazam |
+| 264 | 超级胡地 | Mega Alakazam | Mega Alakazam |
+| 271 | 腕力 | Machop | Machop |
+| 272 | 豪力 | Machoke | Machop |
+| 273 | 怪力 | Machamp | Machamp |
+| 281 | 喇叭芽 | Bellsprout | Bellsprout |
+| 282 | 口呆花 | Weepinbell | Bellsprout |
+| 283 | 大食花 | Victreebel | Vileplume |
+| 301 | 小拳石 | Geodude | Geodude |
+| 302 | 隆隆石 | Graveler | Graveler |
+| 303 | 隆隆岩 | Golem | Golem |
+| 311 | 小火马 | Ponyta | Ponyta |
+| 312 | 烈焰马 | Rapidash | Rapidash |
+| 321 | 呆呆兽 | Slowpoke | Slowpoke |
+| 322 | 呆壳兽 | Slowbro | Slowbro |
+| 323 | 呆呆王 | Slowking | Slowking |
+| 331 | 小磁怪 | Magnemite | Magneton |
+| 332 | 三合一磁怪 | Magneton | Magneton |
+| 333 | 自爆磁怪 | Magnezone | Magnezone |
+| 341 | 大葱鸭 | Farfetch'd | Farfetch'd |
+| 351 | 嘟嘟 | Doduo | Doduo |
+| 352 | 嘟嘟利 | Dodrio | Dodrio |
+| 371 | 臭泥 | Grimer | Grimer |
+| 372 | 臭臭泥 | Muk | Muk |
+| 381 | 大舌贝 | Shellder | Shellder |
+| 382 | 刺甲贝 | Cloyster | Cloyster |
+| 391 | 鬼斯 | Gastly | Gastly |
+| 392 | 鬼斯通 | Haunter | Haunter |
+| 393 | 耿鬼 | Gengar | Gengar |
+| 394 | 超级耿鬼 | Mega Gengar | Mega Gengar |
+| 401 | 大岩蛇 | Onix | Onix |
+| 402 | 大钢蛇 | Steelix | Steelix |
+| 403 | 超级大钢蛇 | Mega Steelix | Mega Steelix |
+| 411 | 催眠貘 | Drowzee | Drowzee |
+| 412 | 引梦貘人 | Hypno | Hypno |
+| 431 | 霹雳电球 | Voltorb | Electrode |
+| 432 | 顽皮雷弹 | Electrode | Electrode |
+| 441 | 蛋蛋 | Exeggcute | Exeggcute |
+| 442 | 椰蛋树 | Exeggutor | Exeggutor |
+| 451 | 卡拉卡拉 | Cubone | Cubone |
+| 452 | 嘎啦嘎啦 | Marowak | Marowak |
+| 461 | 无畏小子 | Tyrogue | Tyrogue |
+| 462 | 飞腿郎 | Hitmonlee | Machop |
+| 463 | 快拳郎 | Hitmonchan | Machop |
+| 464 | 战舞郎 | Hitmontop | Machop |
+| 471 | 大舌头 | Lickitung | Lickitung |
+| 472 | 大舌舔 | Lickilicky | Lickilicky |
+| 481 | 瓦斯弹 | Koffing | Koffing |
+| 482 | 双弹瓦斯 | Weezing | Koffing |
+| 491 | 独角犀牛 | Rhyhorn | Rhyhorn |
+| 492 | 钻角犀兽 | Rhydon | Rhyhorn |
+| 493 | 超甲狂犀 | Rhyperior | Rhyperior |
+| 501 | 小福蛋 | Happiny | Cleffa |
+| 502 | 吉利蛋 | Chansey | Chansey |
+| 503 | 幸福蛋 | Blissey | Blissey |
+| 541 | 角金鱼 | Goldeen | Seaking |
+| 542 | 金鱼王 | Seaking | Seaking |
+| 551 | 海星星 | Staryu | Starmie |
+| 552 | 宝石海星 | Starmie | Starmie |
+| 561 | 魔尼尼 | Mime Jr. | Mime Jr. |
+| 562 | 魔墙人偶 | Mr. Mime | Mr. Mime |
+| 571 | 飞天螳螂 | Scyther | Scyther |
+| 572 | 巨钳螳螂 | Scizor | Scizor |
+| 574 | 超级巨钳螳螂 | Mega Scizor | Mega Scizor |
+| 591 | 电击怪 | Elekid | Electabuzz |
+| 592 | 电击兽 | Electabuzz | Electabuzz |
+| 593 | 电击魔兽 | Electivire | Electivire |
+| 601 | 鸭嘴宝宝 | Magby | Magmar |
+| 602 | 鸭嘴火兽 | Magmar | Magmar |
+| 603 | 鸭嘴炎兽 | Magmortar | Magmortar |
+| 611 | 凯罗斯 | Pinsir | Pinsir |
+| 631 | 暴鲤龙 | Gyarados | Gyarados |
+| 632 | 超级暴鲤龙 | Mega Gyarados | Mega Gyarados |
+| 641 | 拉普拉斯 | Lapras | Lapras |
+| 691 | 化石盔 | Kabuto | Kabuto |
+| 692 | 镰刀盔 | Kabutops | Kabuto |
+| 701 | 化石翼龙 | Aerodactyl | Aerodactyl |
+| 702 | 超级化石翼龙 | Mega Aerodactyl | Mega Aerodactyl |
+| 711 | 小卡比兽 | Munchlax | Munchlax |
+| 712 | 卡比兽 | Snorlax | Snorlax |
+| 721 | 急冻鸟 | Articuno | Articuno |
+| 731 | 闪电鸟 | Zapdos | Zapdos |
+| 741 | 火焰鸟 | Moltres | Moltres |
+| 751 | 迷你龙 | Dratini | Dragonite |
+| 752 | 哈克龙 | Dragonair | Dragonite |
+| 753 | 快龙 | Dragonite | Dragonite |
+| 761 | 超梦 | Mewtwo | Mewtwo |
+| 762 | 超级超梦X | Mega Mewtwo X | Mega Mewtwo X |
+| 763 | 超级超梦Y | Mega Mewtwo Y | Mega Mewtwo Y |
+| 771 | 梦幻 | Mew | Mew |
+| 781 | 菊草叶 | Chikorita | Chikorita |
+| 782 | 月桂叶 | Bayleef | Chikorita |
+| 783 | 大竺葵 | Meganium | Meganium |
+| 791 | 火球鼠 | Cyndaquil | Typhlosion |
+| 792 | 火岩鼠 | Quilava | Typhlosion |
+| 793 | 火暴兽 | Typhlosion | Typhlosion |
+| 801 | 小锯鳄 | Totodile | Feraligatr |
+| 802 | 蓝鳄 | Croconaw | Feraligatr |
+| 803 | 大力鳄 | Feraligatr | Feraligatr |
+| 861 | 波克比 | Togepi | Togekiss |
+| 862 | 波克基古 | Togetic | Togekiss |
+| 863 | 波克基斯 | Togekiss | Togekiss |
+| 881 | 咩利羊 | Mareep | Mareep |
+| 882 | 茸茸羊 | Flaaffy | Mareep |
+| 883 | 电龙 | Ampharos | Ampharos |
+| 884 | 超级电龙 | Mega Ampharos | Mega Ampharos |
+| 891 | 露力丽 | Azurill | Marill |
+| 892 | 玛力露 | Marill | Marill |
+| 893 | 玛力露丽 | Azumarill | Azumarill |
+| 901 | 盆才怪 | Bonsly | Bonsly |
+| 902 | 树才怪 | Sudowoodo | Sudowoodo |
+| 971 | 梦妖 | Misdreavus | Mismagius |
+| 972 | 梦妖魔 | Mismagius | Mismagius |
+| 991 | 小果然 | Wynaut | Wynaut |
+| 992 | 果然翁 | Wobbuffet | Wynaut |
+| 1031 | 天蝎 | Gligar | Gliscor |
+| 1032 | 天蝎王 | Gliscor | Gliscor |
+| 1071 | 赫拉克罗斯 | Heracross | Heracross |
+| 1072 | 超级赫拉克罗斯 | Mega Heracross | Mega Heracross |
+| 1081 | 狃拉 | Sneasel | Weavile |
+| 1082 | 玛狃拉 | Weavile | Weavile |
+| 1111 | 小山猪 | Swinub | Mamoswine |
+| 1112 | 长毛猪 | Piloswine | Mamoswine |
+| 1113 | 象牙猪 | Mamoswine | Mamoswine |
+| 1141 | 信使鸟 | Delibird | Delibird |
+| 1171 | 戴鲁比 | Houndour | Houndour |
+| 1172 | 黑鲁加 | Houndoom | Houndour |
+| 1173 | 超级黑鲁加 | Mega Houndoom | Mega Houndoom |
+| 1221 | 雷公 | Raikou | Raikou |
+| 1231 | 炎帝 | Entei | Entei |
+| 1241 | 水君 | Suicune | Suicune |
+| 1251 | 幼基拉斯 | Larvitar | Tyranitar |
+| 1252 | 沙基拉斯 | Pupitar | Tyranitar |
+| 1253 | 班基拉斯 | Tyranitar | Tyranitar |
+| 1254 | 超级班基拉斯 | Mega Tyranitar | Mega Tyranitar |
+| 1261 | 洛奇亚 | Lugia | Lugia |
+| 1271 | 凤王 | Ho-Oh | Ho-Oh |
+| 1281 | 时拉比 | Celebi | Celebi |
+| 1291 | 木守宫 | Treecko | Sceptile |
+| 1292 | 森林蜥蜴 | Grovyle | Sceptile |
+| 1293 | 蜥蜴王 | Sceptile | Sceptile |
+| 1294 | 超级蜥蜴王 | Mega Sceptile | Mega Sceptile |
+| 1301 | 火稚鸡 | Torchic | Blaziken |
+| 1302 | 力壮鸡 | Combusken | Blaziken |
+| 1303 | 火焰鸡 | Blaziken | Blaziken |
+| 1304 | 超级火焰鸡 | Mega Blaziken | Mega Blaziken |
+| 1311 | 水跃鱼 | Mudkip | Swampert |
+| 1312 | 沼跃鱼 | Marshtomp | Swampert |
+| 1313 | 巨沼怪 | Swampert | Swampert |
+| 1314 | 超级巨沼怪 | Mega Swampert | Mega Swampert |
+| 1351 | 莲叶童子 | Lotad | Ludicolo |
+| 1352 | 莲帽小童 | Lombre | Ludicolo |
+| 1353 | 乐天河童 | Ludicolo | Ludicolo |
+| 1391 | 拉鲁拉丝 | Ralts | Gardevoir |
+| 1392 | 奇鲁莉安 | Kirlia | Gardevoir |
+| 1393 | 沙奈朵 | Gardevoir | Gardevoir |
+| 1394 | 艾路雷朵 | Gallade | Gardevoir |
+| 1396 | 超级沙奈朵 | Mega Gardevoir | Mega Gardevoir |
+| 1397 | 超级艾路雷朵 | Mega Gallade | Mega Gallade |
+| 1411 | 蘑蘑菇 | Shroomish | Breloom |
+| 1412 | 斗笠菇 | Breloom | Breloom |
+| 1421 | 懒人獭 | Slakoth | Slaking |
+| 1422 | 过动猿 | Vigoroth | Slaking |
+| 1423 | 请假王 | Slaking | Slaking |
+| 1441 | 咕妞妞 | Whismur | Exploud |
+| 1442 | 吼爆弹 | Loudred | Exploud |
+| 1443 | 爆音怪 | Exploud | Exploud |
+| 1481 | 勾魂眼 | Sableye | Sableye |
+| 1501 | 可可多拉 | Aron | Aggron |
+| 1502 | 可多拉 | Lairon | Aggron |
+| 1503 | 波士可多拉 | Aggron | Aggron |
+| 1504 | 超级波士可多拉 | Mega Aggron | Mega Aggron |
+| 1511 | 玛沙那 | Meditite | Medicham |
+| 1512 | 恰雷姆 | Medicham | Medicham |
+| 1611 | 呆火驼 | Numel | Camerupt |
+| 1612 | 喷火驼 | Camerupt | Camerupt |
+| 1641 | 晃晃斑 | Spinda | Spinda |
+| 1651 | 大颚蚁 | Trapinch | Flygon |
+| 1652 | 超音波幼虫 | Vibrava | Flygon |
+| 1653 | 沙漠蜻蜓 | Flygon | Flygon |
+| 1671 | 青绵鸟 | Swablu | Altaria |
+| 1672 | 七夕青鸟 | Altaria | Altaria |
+| 1771 | 丑丑鱼 | Feebas | Milotic |
+| 1772 | 美纳斯 | Milotic | Milotic |
+| 1801 | 怨影娃娃 | Shuppet | Banette |
+| 1802 | 诅咒娃娃 | Banette | Banette |
+| 1803 | 超级诅咒娃娃 | Mega Banette | Mega Banette |
+| 1811 | 夜巡灵 | Duskull | Dusknoir |
+| 1812 | 彷徨夜灵 | Dusclops | Dusknoir |
+| 1813 | 黑夜魔灵 | Dusknoir | Dusknoir |
+| 1841 | 阿勃梭鲁 | Absol | Absol |
+| 1851 | 雪童子 | Snorunt | Glalie |
+| 1852 | 冰鬼护 | Glalie | Glalie |
+| 1853 | 雪妖女 | Froslass | Froslass |
+| 1861 | 海豹球 | Spheal | Walrein |
+| 1862 | 海魔狮 | Sealeo | Walrein |
+| 1863 | 帝牙海狮 | Walrein | Walrein |
+| 1891 | 宝贝龙 | Bagon | Salamence |
+| 1892 | 甲壳龙 | Shelgon | Salamence |
+| 1893 | 暴飞龙 | Salamence | Salamence |
+| 1901 | 铁哑铃 | Beldum | Metagross |
+| 1902 | 金属怪 | Metang | Metagross |
+| 1903 | 巨金怪 | Metagross | Metagross |
+| 1911 | 雷吉洛克 | Regirock | Regirock |
+| 1921 | 雷吉艾斯 | Regice | Regice |
+| 1931 | 雷吉斯奇鲁 | Registeel | Registeel |
+| 1941 | 拉帝亚斯 | Latias | Latias |
+| 1951 | 拉帝欧斯 | Latios | Latios |
+| 1961 | 盖欧卡 | Kyogre | Kyogre |
+| 1962 | 原始盖欧卡 | Primal Kyogre | Primal Kyogre |
+| 1971 | 固拉多 | Groudon | Groudon |
+| 1972 | 原始固拉多 | Primal Groudon | Primal Groudon |
+| 1981 | 裂空座 | Rayquaza | Rayquaza |
+| 1982 | 超级裂空座 | Mega Rayquaza | Mega Rayquaza |
+| 1991 | 基拉祈 | Jirachi | Jirachi |
+| 2011 | 草苗龟 | Turtwig | Torterra |
+| 2012 | 树林龟 | Grotle | Torterra |
+| 2013 | 土台龟 | Torterra | Torterra |
+| 2021 | 小火焰猴 | Chimchar | Infernape |
+| 2022 | 猛火猴 | Monferno | Infernape |
+| 2023 | 烈焰猴 | Infernape | Infernape |
+| 2031 | 波加曼 | Piplup | Empoleon |
+| 2032 | 波皇子 | Prinplup | Empoleon |
+| 2033 | 帝王拿波 | Empoleon | Empoleon |
+| 2041 | 姆克儿 | Starly | Staraptor |
+| 2042 | 姆克鸟 | Staravia | Staraptor |
+| 2043 | 姆克鹰 | Staraptor | Staraptor |
+| 2071 | 小猫怪 | Shinx | Luxray |
+| 2072 | 勒克猫 | Luxio | Luxray |
+| 2073 | 伦琴猫 | Luxray | Luxray |
+| 2121 | 帕奇利兹 | Pachirisu | Pachirisu |
+| 2131 | 泳圈鼬 | Buizel | Floatzel |
+| 2132 | 浮潜鼬 | Floatzel | Floatzel |
+| 2231 | 圆陆鲨 | Gible | Garchomp |
+| 2232 | 尖牙陆鲨 | Gabite | Garchomp |
+| 2233 | 烈咬陆鲨 | Garchomp | Garchomp |
+| 2241 | 利欧路 | Riolu | Lucario |
+| 2242 | 路卡利欧 | Lucario | Lucario |
+| 2243 | 超级路卡利欧 | Mega Lucario | Mega Lucario |
+| 2271 | 不良蛙 | Croagunk | Toxicroak |
+| 2272 | 毒骷蛙 | Toxicroak | Toxicroak |
+| 2301 | 雪笠怪 | Snover | Abomasnow |
+| 2302 | 暴雪王 | Abomasnow | Abomasnow |
+| 2303 | 超级暴雪王 | Mega Abomasnow | Mega Abomasnow |
+| 2321 | 由克希 | Uxie | Uxie |
+| 2331 | 艾姆利多 | Mesprit | Mesprit |
+| 2341 | 亚克诺姆 | Azelf | Azelf |
+| 2351 | 帝牙卢卡 | Dialga | Dialga |
+| 2352 | 帝牙卢卡·起源 | Origin Dialga | Dialga Nguyên Thủy |
+| 2361 | 帕路奇亚 | Palkia | Palkia |
+| 2362 | 帕路奇亚·起源 | Origin Palkia | Palkia Nguyên Thủy |
+| 2371 | 席多蓝恩 | Heatran | Heatran |
+| 2381 | 雷吉奇卡斯 | Regigigas | Regigigas |
+| 2391 | 骑拉帝纳 | Giratina | Giratina |
+| 2401 | 克雷色利亚 | Cresselia | Cresselia |
+| 2411 | 霏欧纳 | Phione | Phione |
+| 2421 | 玛纳霏 | Manaphy | Manaphy |
+| 2431 | 达克莱伊 | Darkrai | Darkrai |
+| 2441 | 谢米 | Shaymin | Shaymin |
+| 2442 | 谢米·天空 | Shaymin Sky Forme | Shaymin (Dạng Bầu Trời) |
+| 2461 | 比克提尼 | Victini | Victini |
+| 2471 | 藤藤蛇 | Snivy | Serperior |
+| 2472 | 青藤蛇 | Servine | Serperior |
+| 2473 | 君主蛇 | Serperior | Serperior |
+| 2481 | 暖暖猪 | Tepig | Emboar |
+| 2482 | 炒炒猪 | Pignite | Emboar |
+| 2483 | 炎武王 | Emboar | Emboar |
+| 2491 | 水水獭 | Oshawott | Samurott |
+| 2492 | 双刃丸 | Dewott | Samurott |
+| 2493 | 大剑鬼 | Samurott | Samurott |
+| 2591 | 石丸子 | Roggenrola | Gigalith |
+| 2592 | 地幔岩 | Boldore | Gigalith |
+| 2593 | 庞岩怪 | Gigalith | Gigalith |
+| 2611 | 螺钉地鼠 | Drilbur | Excadrill |
+| 2612 | 龙头地鼠 | Excadrill | Excadrill |
+| 2631 | 搬运小匠 | Timburr | Conkeldurr |
+| 2632 | 铁骨土人 | Gurdurr | Conkeldurr |
+| 2633 | 修建老匠 | Conkeldurr | Conkeldurr |
+| 2681 | 百足蜈蚣 | Venipede | Scolipede |
+| 2682 | 车轮球 | Whirlipede | Scolipede |
+| 2683 | 蜈蚣王 | Scolipede | Scolipede |
+| 2721 | 黑眼鳄 | Sandile | Krookodile |
+| 2722 | 混混鳄 | Krokorok | Krookodile |
+| 2723 | 流氓鳄 | Krookodile | Krookodile |
+| 2801 | 始祖小鸟 | Archen | Archeops |
+| 2802 | 始祖大鸟 | Archeops | Archeops |
+| 2821 | 索罗亚 | Zorua | Zoroark |
+| 2822 | 索罗亚克 | Zoroark | Zoroark |
+| 2831 | 泡沫栗鼠 | Minccino | Cinccino |
+| 2832 | 奇诺栗鼠 | Cinccino | Cinccino |
+| 2841 | 哥德宝宝 | Gothita | Gothitelle |
+| 2842 | 哥德小童 | Gothorita | Gothitelle |
+| 2843 | 哥德小姐 | Gothitelle | Gothitelle |
+| 2871 | 迷你冰 | Vanillite | Vanilluxe |
+| 2872 | 多多冰 | Vanillish | Vanilluxe |
+| 2873 | 双倍多多冰 | Vanilluxe | Vanilluxe |
+| 2891 | 电飞鼠 | Emolga | Emolga |
+| 2921 | 轻飘飘·雌 | Frillish (F) | Frillish (Cái) |
+| 2922 | 轻飘飘·雄 | Frillish (M) | Frillish (Đực) |
+| 2923 | 胖嘟嘟·雌 | Jellicent (F) | Jellicent (Cái) |
+| 2924 | 胖嘟嘟·雄 | Jellicent (M) | Jellicent (Đực) |
+| 2961 | 齿轮儿 | Klink | Klinklang |
+| 2962 | 齿轮组 | Klang | Klinklang |
+| 2963 | 齿轮怪 | Klinklang | Klinklang |
+| 2991 | 烛光灵 | Litwick | Chandelure |
+| 2992 | 灯火幽灵 | Lampent | Chandelure |
+| 2993 | 水晶灯火灵 | Chandelure | Chandelure |
+| 3001 | 牙牙 | Axew | Haxorus |
+| 3002 | 斧牙龙 | Fraxure | Haxorus |
+| 3003 | 双斧战龙 | Haxorus | Haxorus |
+| 3011 | 喷嚏熊 | Cubchoo | Beartic |
+| 3012 | 冻原熊 | Beartic | Beartic |
+| 3021 | 几何雪花 | Cryogonal | Cryogonal |
+| 3051 | 功夫鼬 | Mienfoo | Mienshao |
+| 3052 | 师父鼬 | Mienshao | Mienshao |
+| 3141 | 单首龙 | Deino | Hydreigon |
+| 3142 | 双首暴龙 | Zweilous | Hydreigon |
+| 3143 | 三首恶龙 | Hydreigon | Hydreigon |
+| 3151 | 燃烧虫 | Larvesta | Volcarona |
+| 3152 | 火神蛾 | Volcarona | Volcarona |
+| 3161 | 勾帕路翁 | Cobalion | Cobalion |
+| 3171 | 代拉基翁 | Terrakion | Terrakion |
+| 3181 | 毕力吉翁 | Virizion | Virizion |
+| 3191 | 龙卷云 | Tornadus | Tornadus |
+| 3201 | 雷电云 | Thundurus | Thundurus |
+| 3211 | 莱希拉姆 | Reshiram | Reshiram |
+| 3221 | 捷克罗姆 | Zekrom | Zekrom |
+| 3231 | 土地云 | Landorus | Landorus |
+| 3241 | 酋雷姆 | Kyurem | Kyurem |
+| 3242 | 焰白酋雷姆 | White Kyurem | Kyurem Trắng |
+| 3243 | 暗黑酋雷姆 | Black Kyurem | Kyurem Đen |
+| 3251 | 凯路迪欧 | Keldeo | Keldeo |
+| 3261 | 美洛耶塔·歌声 | Meloetta Aria Forme | Meloetta (Điệu Nhạc) |
+| 3262 | 美洛耶塔·舞步 | Meloetta Pirouette Forme | Meloetta (Vũ Điệu) |
+| 3271 | 盖诺赛克特 | Genesect | Genesect |
+| 3281 | 哈力栗 | Chespin | Chesnaught |
+| 3282 | 胖胖哈力 | Quilladin | Chesnaught |
+| 3283 | 布里卡隆 | Chesnaught | Chesnaught |
+| 3291 | 火狐狸 | Fennekin | Delphox |
+| 3292 | 长尾火狐 | Braixen | Delphox |
+| 3293 | 妖火红狐 | Delphox | Delphox |
+| 3301 | 呱呱泡蛙 | Froakie | Greninja |
+| 3302 | 呱头蛙 | Frogadier | Greninja |
+| 3303 | 甲贺忍蛙 | Greninja | Greninja |
+| 3341 | 小狮狮 | Litleo | Pyroar |
+| 3342 | 火炎狮 | Pyroar | Pyroar |
+| 3351 | 花蓓蓓 | Flabébé | Florges |
+| 3352 | 花叶蒂 | Floette | Florges |
+| 3353 | 花洁夫人 | Florges | Florges |
+| 3411 | 独剑鞘 | Honedge | Aegislash |
+| 3412 | 双剑鞘 | Doublade | Aegislash |
+| 3413 | 坚盾剑怪·盾牌 | Aegislash Shield Forme | Aegislash (Dạng Khiên) |
+| 3431 | 绵绵泡芙 | Swirlix | Slurpuff |
+| 3432 | 胖甜妮 | Slurpuff | Slurpuff |
+| 3471 | 铁臂枪虾 | Clauncher | Clawitzer |
+| 3472 | 钢炮臂虾 | Clawitzer | Clawitzer |
+| 3501 | 冰雪龙 | Amaura | Aurorus |
+| 3502 | 冰雪巨龙 | Aurorus | Aurorus |
+| 3511 | 摔角鹰人 | Hawlucha | Hawlucha |
+| 3541 | 黏黏宝 | Goomy | Goodra |
+| 3542 | 黏美儿 | Sliggoo | Goodra |
+| 3543 | 黏美龙 | Goodra | Goodra |
+| 3561 | 小木灵 | Phantump | Trevenant |
+| 3562 | 朽木妖 | Trevenant | Trevenant |
+| 3571 | 南瓜精 | Pumpkaboo | Gourgeist |
+| 3572 | 南瓜怪人 | Gourgeist | Gourgeist |
+| 3591 | 嗡蝠 | Noibat | Noivern |
+| 3592 | 音波龙 | Noivern | Noivern |
+| 3601 | 哲尔尼亚斯 | Xerneas | Xerneas |
+| 3611 | 伊裴尔塔尔 | Yveltal | Yveltal |
+| 3621 | 基格尔德·10％ | Zygarde 10% Forme | Zygarde 10% |
+| 3622 | 基格尔德·50％ | Zygarde 50% Forme | Zygarde 50% |
+| 3623 | 基格尔德·100% | Zygarde Complete Forme | Zygarde Hoàn Thiện |
+| 3631 | 蒂安希 | Diancie | Diancie |
+| 3632 | 超级蒂安希 | Mega Diancie | Mega Diancie |
+| 3641 | 惩戒胡帕 | Hoppa Confined | Hoppa Phạt |
+| 3642 | 解放胡帕 | Hoppa Unbound | Hoppa Giải Phóng |
+| 3651 | 波尔凯尼恩 | Volcanion | Volcanion |
+| 3661 | 木木枭 | Rowlet | Decidueye |
+| 3662 | 投羽枭 | Dartrix | Decidueye |
+| 3663 | 狙射树枭 | Decidueye | Decidueye |
+| 3671 | 火斑喵 | Litten | Incineroar |
+| 3672 | 炎热喵 | Torracat | Incineroar |
+| 3673 | 炽焰咆哮虎 | Incineroar | Incineroar |
+| 3681 | 球球海狮 | Popplio | Primarina |
+| 3682 | 花漾海狮 | Brionne | Primarina |
+| 3683 | 西狮海壬 | Primarina | Primarina |
+| 3771 | 好坏星 | Mareanie | Toxapex |
+| 3772 | 超坏星 | Toxapex | Toxapex |
+| 3831 | 童偶熊 | Stufful | Bewear |
+| 3832 | 穿着熊 | Bewear | Bewear |
+| 3841 | 甜竹竹 | Bounsweet | Tsareena |
+| 3842 | 甜舞妮 | Steenee | Tsareena |
+| 3843 | 甜冷美后 | Tsareena | Tsareena |
+| 3881 | 胆小虫 | Wimpod | Golisopod |
+| 3882 | 具甲武者 | Golisopod | Golisopod |
+| 3941 | 爆焰龟兽 | Turtonator | Volcanion |
+| 3961 | 谜拟Ｑ | Mimikyu | Mimikyu |
+| 3981 | 老翁龙 | Drampa | Drampa |
+| 4001 | 心鳞宝 | Jangmo-o | Kommo-o |
+| 4002 | 鳞甲龙 | Hakamo-o | Kommo-o |
+| 4003 | 杖尾鳞甲龙 | Kommo-o | Kommo-o |
+| 4011 | 卡璞·鸣鸣 | Tapu Koko | Tapu Koko |
+| 4012 | 卡璞·蝶蝶 | Tapu Lele | Tapu Lele |
+| 4013 | 卡璞·哞哞 | Tapu Bulu | Tapu Bulu |
+| 4014 | 卡璞·鳍鳍 | Tapu Fini | Tapu Fini |
+| 4023 | 索尔迦雷欧 | Solgaleo | Solgaleo |
+| 4024 | 露奈雅拉 | Lunala | Lunala |
+| 4031 | 虚吾伊德 | Nihilego | Nihilego |
+| 4041 | 爆肌蚊 | Buzzwole | Buzzwole |
+| 4051 | 费洛美螂 | Pheromosa | Pheromosa |
+| 4061 | 电束木 | Xurkitree | Xurkitree |
+| 4071 | 铁火辉夜 | Celesteela | Celesteela |
+| 4081 | 纸御剑 | Kartana | Kartana |
+| 4091 | 恶食大王 | Guzzlord | Guzzlord |
+| 4101 | 奈克洛兹玛 | Necrozma | Necrozma |
+| 4103 | 黄昏之鬃 | Dusk Mane | Hoàng Hôn Chi Bờm |
+| 4104 | 拂晓之翼 | Dawn Wings | Phẩy Sáng Chi Dực |
+| 4111 | 玛机雅娜 | Magearna | Magearna |
+| 4121 | 玛夏多 | Marshadow | Marshadow |
+| 4131 | 毒贝比 | Poipole | Naganadel |
+| 4132 | 四颚针龙 | Naganadel | Naganadel |
+| 4141 | 垒磊石 | Stakataka | Stakataka |
+| 4151 | 砰头小丑 | Blacephalon | Blacephalon |
+| 4161 | 捷拉奥拉 | Zeraora | Zeraora |
+| 4171 | 美录坦 | Meltan | Melmetal |
+| 4172 | 美录梅塔 | Melmetal | Melmetal |
+| 4181 | 敲音猴 | Grookey | Rillaboom |
+| 4182 | 啪咚猴 | Thwackey | Rillaboom |
+| 4183 | 轰擂金刚猩 | Rillaboom | Rillaboom |
+| 4191 | 炎兔儿 | Scorbunny | Cinderace |
+| 4192 | 腾蹴小将 | Raboot | Cinderace |
+| 4193 | 闪焰王牌 | Cinderace | Cinderace |
+| 4201 | 泪眼蜥 | Sobble | Inteleon |
+| 4202 | 变涩蜥 | Drizzile | Inteleon |
+| 4203 | 千面避役 | Inteleon | Inteleon |
+| 4301 | 苹裹龙 | Flapple | Flapple |
+| 4391 | 捣蛋小妖 | Impidimp | Grimmsnarl |
+| 4392 | 诈唬魔 | Morgrem | Grimmsnarl |
+| 4393 | 长毛巨魔 | Grimmsnarl | Grimmsnarl |
+| 4431 | 葱游兵 | Sirfetch'd | Sirfetch'd |
+| 4441 | 踏冰人偶 | Mr. Rime | Mr. Rime |
+| 4521 | 爱管侍 | Indeedee | Indeedee |
+| 4561 | 鳃鱼龙 | Dracovish | Dracovish |
+| 4571 | 铝钢龙 | Duraludon | Archaludon |
+| 4572 | 铝钢桥龙 | Archaludon | Archaludon |
+| 4581 | 多龙梅西亚 | Dreepy | Dragapult |
+| 4582 | 多龙奇 | Drakloak | Dragapult |
+| 4583 | 多龙巴鲁托 | Dragapult | Dragapult |
+| 4591 | 苍响 | Zacian | Zacian |
+| 4601 | 藏玛然特 | Zamazenta | Zamazenta |
+| 4611 | 无极汰那 | Eternatus | 无极汰那 (Eternatus) |
+| 4621 | 熊徒弟 | Kubfu | Urshifu |
+| 4622 | 武道熊师·一击流 | Urshifu Single Strike | Urshifu (Nhất Kích) |
+| 4623 | 武道熊师·连击流 | Urshifu Rapid Strike | Urshifu (Liên Kích) |
+| 4631 | 萨戮德 | Zarude | Zarude |
+| 4641 | 雷吉艾勒奇 | Regieleki | Regieleki |
+| 4651 | 雷吉铎拉戈 | Regidrago | Regidrago |
+| 4661 | 雪暴马 | Glastrier | Glastrier |
+| 4671 | 灵幽马 | Spectrier | Spectrier |
+| 4682 | 蕾冠王·白马 | Calyrex Ice Rider | Calyrex (Bạch Mã) |
+| 4683 | 蕾冠王·黑马 | Calyrex Shadow Rider | Calyrex (Hắc Mã) |
+| 4701 | 劈斧螳螂 | Kleavor | Scyther |
+| 4761 | 新叶喵 | Sprigatito | Meowscarada |
+| 4762 | 蒂蕾喵 | Floragato | Meowscarada |
+| 4763 | 魔幻假面喵 | Meowscarada | Meowscarada |
+| 4771 | 呆火鳄 | Fuecoco | Skeledirge |
+| 4772 | 炙烫鳄 | Crocalor | Skeledirge |
+| 4773 | 骨纹巨声鳄 | Skeledirge | Skeledirge |
+| 4851 | 迷你芙 | Smoliv | Arboliva |
+| 4852 | 奥利纽 | Dolliv | Arboliva |
+| 4853 | 奥利瓦 | Arboliva | Arboliva |
+| 4991 | 小锻匠 | Tinkatink | Tinkaton |
+| 4992 | 巧锻匠 | Tinkatuff | Tinkaton |
+| 4993 | 巨锻匠 | Tinkaton | Tinkaton |
+| 5211 | 振翼发 | Flutter Mane | Flutter Mane |
+| 5221 | 爬地翅 | Slither Wing | Slither Wing |
+| 5241 | 铁辙迹 | Iron Treads | Iron Treads |
+| 5331 | 古剑豹 | Chien-Pao | Chien-Pao |
+| 5361 | 轰鸣月 | Roaring Moon | Roaring Moon |
+| 5381 | 故勒顿 | Koraidon | Koraidon |
+| 5391 | 密勒顿 | Miraidon | Miraidon |
+| 5401 | 波荡水 | Walking Wake | Walking Wake |
+| 5481 | 厄诡椪·碧草面具 | Ogerpon Teal Mask | Ogerpon (Mặt Nạ Cỏ) |
+| 5482 | 厄诡椪·水井面具 | Ogerpon Wellspring Mask | Ogerpon (Mặt Nạ Nước) |
+| 5483 | 厄诡椪·火灶面具 | Ogerpon Hearthflame Mask | Ogerpon (Mặt Nạ Lửa) |
+| 5484 | 厄诡椪·础石面具 | Ogerpon Cornerstone Mask | Ogerpon (Mặt Nạ Đá) |
+| 5561 | 桃歹郎 | Pecharunt | Pecharunt |
+| 7001 | 小智版皮卡丘 | Ash's Pikachu | Pikachu của Ash |
+| 7011 | 小智版甲贺忍蛙 | Ash-Greninja | Greninja của Ash |
+| 7021 | 闪光超级耿鬼 | Shiny Mega Gengar | Gengar Mega (Shiny) |
+| 7031 | 闪光超级班基拉斯 | Shiny Mega Tyranitar | Tyranitar Mega (Shiny) |
+| 7041 | 起源梦幻 | Origin Mew | Mew Khởi Nguyên |
+| 7051 | 闪光超级沙奈朵 | Shiny Mega Gardevoir | Gardevoir Mega (Shiny) |
+| 7061 | 闪光超级艾路雷朵 | Shiny Mega Gallade | Gallade Mega (Shiny) |
+| 7071 | 凯路迪欧·觉悟 | Keldeo Resolute Form | Keldeo (Giác Ngộ) |
+| 7081 | 大吾超级巨金怪 | Steven's Mega Metagross | Metagross Mega của Steven |
+| 7091 | 竹兰超级烈咬陆鲨 | Cynthia's Mega Garchomp | Garchomp Mega của Cynthia |
+| 7101 | 假面超级火焰鸡 | Masked Mega Blaziken | Blaziken Mega (Mặt Nạ) |
+| 7111 | 闪光超级路卡利欧 | Shiny Mega Lucario | Lucario Mega (Shiny) |
+| 7121 | 艾岚超级喷火龙X | Alain's Mega Charizard X | Charizard Mega X của Alain |
+| 7131 | 闪光超级暴雪王 | Shiny Mega Abomasnow | Abomasnow Mega (Shiny) |
+| 7141 | 闪光超级蜥蜴王 | Shiny Mega Sceptile | Sceptile Mega (Shiny) |
+| 7151 | 闪光超级妙蛙花 | Shiny Mega Venusaur | Venusaur Mega (Shiny) |
+| 7161 | 冠军皮卡丘 | Champion Pikachu | Pikachu Quán Quân |
+| 7171 | 小刚超级大钢蛇 | Brock's Mega Steelix | Steelix Mega của Brock |
+| 7181 | 希嘉娜超级暴飞龙 | Zinnia's Mega Salamence | Salamence Mega của Zinnia |
+| 7191 | 红色闪电超级巨钳螳螂 | Red Flash Mega Scizor | Scizor Mega (Sấm Sét Đỏ) |
+| 7201 | 虫王赫拉克罗斯 | King Heracross | Vua Bọ Heracross |
+| 7211 | 大甲超级凯罗斯 | Mega Pinsir | Pinsir Mega |
+| 7221 | 闪光超级化石翼龙 | Shiny Mega Aerodactyl | Aerodactyl Mega (Shiny) |
+| 7231 | 闪光超级龙头地鼠 | Shiny Mega Excadrill | Excadrill Mega (Shiny) |
+| 7241 | 闪光超级雪妖女 | Shiny Mega Froslass | Froslass Mega (Shiny) |
+| 7251 | 闪光超级阿勃梭鲁 | Shiny Mega Absol | Absol Mega (Shiny) |
+| 7261 | 闪光超级炎武王 | Shiny Mega Emboar | Emboar Mega (Shiny) |
+| 9001 | 百变怪·紫色 | Purple Ditto | Ditto (Tím) |
+| 9002 | 百变怪·橙色 | Orange Ditto | Ditto (Cam) |
+| 9003 | 百变怪·红色 | Red Ditto | Ditto (Đỏ) |
+
+---
+
+## 5. Thành tựu & Hệ thống (Achievements & Systems)
+*English trong mục này bám theo chuỗi nguồn của `achievement_task.lua` để giữ nhất quán với cấu hình game.*
+
+| Gốc (CN) | English | Tiếng Việt | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| 成就 | Achievement | Thành tựu | |
+| 成就点 | Achievement Points | Điểm thành tựu | |
+| 训练家 | Trainer | Huấn luyện viên | |
+| 冒险执照 | Adventure Pass | Giấy phép phiêu lưu | |
+| 特权属性点 | Privilege Attribute Points | Điểm thuộc tính đặc quyền | |
+| 基础天赋 | Base Talent | Thiên phú cơ bản | |
+| 进阶天赋 | Upgrade Talent | Thiên phú nâng cao | |
+| 元素天赋 | Elemental Talent | Thiên phú nguyên tố | |
+| 总天赋 | Total Talent | Tổng thiên phú | |
+| 探险器 | Explorer Device | Thiết bị thám hiểm | |
+| 探险器等级 | Explorer Device Level | Cấp thiết bị thám hiểm | |
+| 战力 | Combat Power | Lực chiến | |
+| 个体值 | Individual Value (IV) | Chỉ số cá thể (IV) | |
+| 符石 | Runestone | Phù thạch | |
+| 图鉴 | Pokédex | Pokédex | |
+| 派遣任务 | Dispatch Quest | Nhiệm vụ phái đi | |
+| 关卡挑战 | Stage Challenge | Thử thách ải | |
+| 精英挑战 | Elite Stage | Ải tinh anh | Theo title nguồn |
+| 金币副本 | Coin Dungeon | Phó bản vàng | |
+| 经验副本 | EXP Dungeon | Phó bản kinh nghiệm | |
+| 礼物副本 | Gift Dungeon | Phó bản quà tặng | |
+| 碎片副本 | Shard Dungeon | Phó bản mảnh ghép | |
+| 冒险之路 | Adventure Road | Con đường phiêu lưu | |
+| 荣誉币 | Honor Coins | Xu vinh dự | |
+| 世界锦标赛 | World Championship | Giải vô địch thế giới | |
+| 许愿中心 | Wishing Center | Trung tâm ước nguyện | |
+| 精选商店 | Selected Store | Cửa hàng tuyển chọn | |
+| 神秘商店 | Mystery Store | Cửa hàng bí ẩn | |
+| 公会 | Guild | Bang hội | |
+| 公会钻石红包 | Guild Diamond Red Packet | Hồng bao kim cương bang hội | |
+| 寻宝 | Treasure Hunt | Săn kho báu | |
+| 主城 | Main City | Thành chính | |
+| 全球频道 | Global Channel | Kênh thế giới | |
+| 狩猎地带 | Safari Zone | Khu săn bắt | |
+| 头像 | Avatar | Ảnh đại diện | |
+| 头像框 | Avatar Frame | Khung ảnh đại diện | |
+| 形象 | Image | Hình đại diện | Theo title nguồn |
+| 称号 | Title | Danh hiệu | |
+| 喵喵聚宝功 | Meowth's Pay Day | Chiêu Pay Day của Meowth | |
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 初级训练家 | Rookie trainer | Huấn luyện viên tập sự |
+| 中级训练家 | Intermediate Trainer | Huấn luyện viên trung cấp |
+| 高级训练家 | Advanced Trainer | Huấn luyện viên cao cấp |
+| 黄金训练家 | Golden Trainer | Huấn luyện viên vàng |
+| 新的起点 | New Start | Khởi đầu mới |
+| 不屈的训练家 | Adamant Trainer | Huấn luyện viên kiên cường |
+| 适格者冒险家 | Qualified Adventurer | Nhà phiêu lưu đạt chuẩn |
+| 勇者冒险家 | Heroic Adventurer | Nhà phiêu lưu quả cảm |
+| 馆长冒险家 | Gym Leader Adventurer | Nhà phiêu lưu thủ lĩnh nhà thi đấu |
+| 霸主冒险家 | Overlord Adventurer | Nhà phiêu lưu bá chủ |
+| 强化训练 | Intensive training | Huấn luyện tăng cường |
+| 特别训练 | Special Training | Huấn luyện đặc biệt |
+| 进阶训练 | Advanced Training | Huấn luyện tiến阶 |
+| 专业训练 | Professional training | Huấn luyện chuyên nghiệp |
+| 从基础开始 | Start from the basics | Bắt đầu từ nền tảng |
+| 驾轻就熟 | The Proficient | Thành thạo |
+| 元素大使 | Element ambassador | Sứ giả nguyên tố |
+| 天赋达人 | Talent Expert | Chuyên gia thiên phú |
+| 机甲新手 | Mecha Rookie | Tân binh cơ giáp |
+| 机甲达人 | Mecha Expert | Chuyên gia cơ giáp |
+| 机甲大师 | Mecha Master | Bậc thầy cơ giáp |
+| 菜鸟组装师 | Rookie Assembler | Thợ lắp ráp tập sự |
+| 入门组装师 | Beginner Assembler | Thợ lắp ráp nhập môn |
+| 资深组装师 | Senior Assembler | Thợ lắp ráp kỳ cựu |
+| 高级组装师 | Advanced Assembler | Thợ lắp ráp cao cấp |
+| 组装大师 | Assembling Master | Bậc thầy lắp ráp |
+| 完美！ | perfect! | Hoàn hảo! |
+| 一般系收藏家 | Normal-type Collector | Nhà sưu tầm hệ Thường |
+| 火系收藏家 | Fire-type Collector | Nhà sưu tầm hệ Lửa |
+| 水系收藏家 | Water-type Collector | Nhà sưu tầm hệ Nước |
+| 草系收藏家 | Grass-type Collector | Nhà sưu tầm hệ Cỏ |
+| 电系收藏家 | Electric-type Collector | Nhà sưu tầm hệ Điện |
+| 冰系收藏家 | Ice-type Collector | Nhà sưu tầm hệ Băng |
+| 格斗系收藏家 | Fighting-type Collector | Nhà sưu tầm hệ Giác Đấu |
+| 毒系收藏家 | Poison-type Collector | Nhà sưu tầm hệ Độc |
+| 地面系收藏家 | Ground-type Collector | Nhà sưu tầm hệ Đất |
+| 飞行系收藏家 | Flying-type Collector | Nhà sưu tầm hệ Bay |
+| 超能系收藏家 | Psychic-type Collector | Nhà sưu tầm hệ Siêu Linh |
+| 虫系收藏家 | Bug-type Collector | Nhà sưu tầm hệ Côn Trùng |
+| 岩石系收藏家 | Stone-type Collector | Nhà sưu tầm hệ Đá |
+| 幽灵系收藏家 | Ghost-type Collector | Nhà sưu tầm hệ Ma |
+| 龙系收藏家 | Dragon-type Collector | Nhà sưu tầm hệ Rồng |
+| 恶系收藏家 | Dark-type Collector | Nhà sưu tầm hệ Bóng Tối |
+| 钢系收藏家 | Steel-type Collector | Nhà sưu tầm hệ Thép |
+| 妖精系收藏家 | Fairy-type Collector | Nhà sưu tầm hệ Tiên |
+| 世界锦标赛 | World Championship | Giải vô địch thế giới |
+| 公会小帮手 | Guild Assistant | Trợ thủ bang hội |
+| 公会钻石红包 | Guild Diamond Red Packet | Hồng bao kim cương bang hội |
+| 大力出奇迹 | Hard work can perform miracles | Nỗ lực tạo nên kỳ tích |
+| 痴迷寻宝 | Treasure Hunt Obsession | Say mê săn kho báu |
+| 购物狂 | Shopaholic | Tín đồ mua sắm |
+| 上班族 | Salaryman | Dân công sở |
+| 狩猎者 | Hunter | Thợ săn |
+| 狩猎高手 | Advance Hunter | Thợ săn cao thủ |
+| 狩猎之王 | King of hunting | Vua săn bắn |
+| 狩猎勇者 | Hunting Warrior | Chiến binh săn bắn |
+| 狩猎大师 | Hunting master | Bậc thầy săn bắn |
+| 绝世狩猎王 | Peerless Hunting King | Vua săn bắn vô song |
+
+---
+*Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
