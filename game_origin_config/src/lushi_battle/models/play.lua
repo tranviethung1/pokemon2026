@@ -1,1 +1,0 @@
-AutoChessBattle.PlayModel = class("PlayModel")

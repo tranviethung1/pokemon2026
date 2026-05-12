@@ -1,6 +1,0 @@
-require("lushi_battle.models.object.attribute")
-require("lushi_battle.models.object.base")
-require("lushi_battle.models.object.object")
-require("lushi_battle.models.object.trainer")
-require("lushi_battle.models.object.equipment")
-require("lushi_battle.models.object.event_card")

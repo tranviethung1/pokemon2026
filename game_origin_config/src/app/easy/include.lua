@@ -1,7 +1,0 @@
-require("app.easy.bind.include")
-require("app.easy.math")
-require("app.easy.data")
-require("app.easy.ui")
-require("app.easy.jump")
-require("app.easy.audio")
-require("app.easy.town")

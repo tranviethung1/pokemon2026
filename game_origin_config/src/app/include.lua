@@ -1,5 +1,0 @@
-require("app.defines.include")
-require("app.servers.include")
-require("app.easy.include")
-require("app.sdk.init")
-require("app.guarder.init")
