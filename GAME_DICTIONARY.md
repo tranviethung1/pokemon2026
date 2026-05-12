@@ -782,7 +782,11 @@
 | :--- | :--- | :--- | :--- |
 | 成就 | Achievement | Thành tựu | |
 | 成就点 | Achievement Points | Điểm thành tựu | |
+| 成就分类 | Achievement Category | Nhóm thành tựu | |
+| 成就分类名称 | Achievement Category Name | Tên nhóm thành tựu | |
+| 成就分类图标 | Achievement Category Icon | Biểu tượng nhóm thành tựu | |
 | 训练家 | Trainer | Huấn luyện viên | |
+| 精灵 | Pokémon | Pokémon | |
 | 冒险执照 | Adventure Pass | Giấy phép phiêu lưu | |
 | 特权属性点 | Privilege Attribute Points | Điểm thuộc tính đặc quyền | |
 | 基础天赋 | Base Talent | Thiên phú cơ bản | |
@@ -823,6 +827,13 @@
 
 | Gốc (CN) | English | Tiếng Việt |
 | :--- | :--- | :--- |
+| 人物成长 | Trainer Growth | Phát triển huấn luyện viên |
+| 精灵收集 | Pokémon Collection | Sưu tầm Pokémon |
+| 精灵培养 | Pokémon Training | Huấn luyện Pokémon |
+| 副本活动 | Dungeons & Events | Phó bản & sự kiện |
+| 竞技挑战 | Competitive Challenges | Thử thách cạnh tranh |
+| 社交 | Social | Xã hội |
+| 隐藏成就 | Hidden Achievements | Thành tựu ẩn |
 | 初级训练家 | Rookie trainer | Huấn luyện viên tập sự |
 | 中级训练家 | Intermediate Trainer | Huấn luyện viên trung cấp |
 | 高级训练家 | Advanced Trainer | Huấn luyện viên cao cấp |
