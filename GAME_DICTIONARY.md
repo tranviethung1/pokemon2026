@@ -1208,5 +1208,95 @@
 | Defense into Offense | Defense into Offense | Lấy thủ làm công |
 | Plasma Fists | Plasma Fists | Quyền plasma |
 
+### 6.1. Bổ sung từ `aid_skill.csv`
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 剧毒炸弹 | Toxic Bomb | Bom độc |
+| 闪焰冲锋 | Flare Blitz | Liều mạng bốc lửa |
+| 精神利刃 | Psycho Cut | Tâm linh lợi nhận |
+| 超·精神利刃 | Super Psycho Cut | Siêu tâm linh lợi nhận |
+| 水冰冲撞 | Frostwave Crash | Va chạm băng triều |
+| 恐惧 | Fear | Sợ hãi |
+| 食梦 | Dream Eater | Ăn giấc mơ |
+| 岩击 | Rock Strike | Nham kích |
+| 爆岩冲击 | Explosive Rock Impact | Xung kích nổ đá |
+| 飞天掠杀 | Sky Hunt | Không kích săn lùng |
+| 超·飞天掠杀 | Super Sky Hunt | Siêu không kích săn lùng |
+| 岩浆烈焰 | Magma Blaze | Dung nham liệt diễm |
+| 巨钳 | Vice Grip | Cự kìm |
+| 冰山 | Iceberg | Núi băng |
+| 雷霆万钧 | Thunderous Force | Sấm sét vạn quân |
+| 灰烬烈焰 | Cinder Blaze | Tro tàn liệt diễm |
+| 祝福 | Blessing | Chúc phúc |
+| 电能激荡 | Electro Surge | Điện năng kích đãng |
+| 超·电能激荡 | Super Electro Surge | Siêu điện năng kích đãng |
+| 毒刺 | Poison Sting | Độc châm |
+| 超·寒冰陷阱 | Super Ice Trap | Siêu cạm bẫy băng |
+| 围猎 | Encirclement Hunt | Vây săn |
+| 超·围猎 | Super Encirclement Hunt | Siêu vây săn |
+| 雷霆之爪 | Thunder Claw | Lôi đình chi trảo |
+| 末日炎爆 | Doomsday Flame Burst | Tận thế viêm bạo |
+| 踏浪漩涡 | Tidal Whirlpool | Toàn lãng toàn qua |
+| 漩涡风暴 | Whirlpool Storm | Toàn qua phong bão |
+| 凤翔九天 | Phoenix Ascension | Phượng tường cửu thiên |
+| 时空乱流 | Space-Time Turbulence | Thời không loạn lưu |
+| 泥巴潮汐 | Mud Tide | Nê ba triều tịch |
+| 超·泥巴潮汐 | Super Mud Tide | Siêu nê ba triều tịch |
+| 心灵致动 | Psychic Impulse | Tâm linh trí động |
+| 超·心灵致动 | Super Psychic Impulse | Siêu tâm linh trí động |
+| 抓狂 | Frenzy | Cuồng nộ |
+| 爆裂龙息 | Explosive Dragon Breath | Bạo liệt long tức |
+| 岩石冲击 | Rock Impact | Nham thạch xung kích |
+| 冰封大地 | Frozen Earth | Băng phong đại địa |
+| 加农光炮 | Flash Cannon | Gia nông quang pháo |
+| 超·天恩 | Super Serene Grace | Siêu thiên ân |
+| 真气弹 | Focus Blast | Chân khí đạn |
+| 超·真气弹 | Super Focus Blast | Siêu chân khí đạn |
+| 时光咆哮 | Roar of Time | Thời quang bào hao |
+| 亚空裂斩 | Spacial Rend | Á không liệt trảm |
+| 捏碎 | Crush | Nghiền nát |
+| 幽冥鬼火 | Nether Ghostfire | U minh quỷ hỏa |
+| 沧海之王 | Lord of the Sea | Thương hải chi vương |
+| 噩梦梦境 | Nightmare Dreamscape | Ác mộng mộng cảnh |
+| V热焰 | V-create | V nhiệt diễm |
+| 荆棘舞 | Thorn Dance | Kinh cức vũ |
+| 潜藏猎杀 | Hidden Hunt | Tiềm tàng liệp sát |
+| 虫虫火焰 | Bugfire | Trùng trùng hỏa diễm |
+| 双生魅影 | Twin Phantoms | Song sinh mị ảnh |
+| 聚集光炮 | Focused Flash Cannon | Tụ quang quang pháo |
+| 花海冲击 | Floral Surge | Hoa hải xung kích |
+| 生命链接 | Life Link | Sinh mệnh liên kết |
+| 死亡诅咒 | Death Curse | Tử vong chú nguyền |
+| 蒸汽爆炸 | Steam Eruption | Hơi nước bạo tạc |
+| 强弓劲弩 | Mighty Bow and Crossbow | Cường cung kình nỏ |
+| 以守为攻 | Defense into Offense | Lấy thủ làm công |
+| 等离子闪电拳 | Plasma Fists | Quyền plasma |
+| 【助·风神结界】 | 【Aid: Wind Barrier】 | 【Hỗ trợ: Kết giới gió】 |
+| 【助·涅磐】 | 【Aid: Nirvana】 | 【Hỗ trợ: Niết bàn】 |
+| 【圣火灼烧】 | 【Sacred Flame Burn】 | 【Thiêu đốt thánh hỏa】 |
+| 【助·时间刻印】 | 【Aid: Time Imprint】 | 【Hỗ trợ: Dấu ấn thời gian】 |
+| 【助·天恩】 | 【Aid: Heavenly Grace】 | 【Hỗ trợ: Thiên ân】 |
+| 【祈愿】 | 【Wish】 | 【Điều ước】 |
+| 【助·反击之愿】 | 【Aid: Counter Wish】 | 【Hỗ trợ: Điều ước phản kích】 |
+| 【助·协战之愿】 | 【Aid: Assist Wish】 | 【Hỗ trợ: Điều ước phối hợp】 |
+| 【助·追击之愿】 | 【Aid: Pursuit Wish】 | 【Hỗ trợ: Điều ước truy kích】 |
+| 【时光回响】 | 【Time Echo】 | 【Hồi âm thời gian】 |
+| 【空间折跃】 | 【Spatial Warp】 | 【Bẻ cong không gian】 |
+| 【助·板块移动】 | 【Aid: Tectonic Shift】 | 【Hỗ trợ: Dịch chuyển địa tầng】 |
+| 【助·鬼盾】 | 【Aid: Ghost Shield】 | 【Hỗ trợ: Khiên quỷ】 |
+| 【助·水泡泡】 | 【Aid: Water Bubble】 | 【Hỗ trợ: Bong bóng nước】 |
+| 【助·深度睡眠】 | 【Aid: Deep Sleep】 | 【Hỗ trợ: Ngủ sâu】 |
+| 【噩梦印记】 | 【Nightmare Mark】 | 【Dấu ấn ác mộng】 |
+| 【助·火种】 | 【Aid: Ember Seed】 | 【Hỗ trợ: Hỏa chủng】 |
+| 【助·紫粉色旋律果】 | 【Aid: Magenta Melody Fruit】 | 【Hỗ trợ: Quả giai điệu tím hồng】 |
+| 【助·炮台模式】 | 【Aid: Turret Mode】 | 【Hỗ trợ: Chế độ pháo đài】 |
+| 【助·生命链接】 | 【Aid: Life Link】 | 【Hỗ trợ: Liên kết sinh mệnh】 |
+| 【助·死亡链接】 | 【Aid: Death Link】 | 【Hỗ trợ: Liên kết tử vong】 |
+| 【助·蒸汽】 | 【Aid: Steam】 | 【Hỗ trợ: Hơi nước】 |
+| 【蒸汽爆炸】 | 【Steam Eruption】 | 【Phun trào hơi nước】 |
+| 【助·全力模式】 | 【Aid: All-Out Mode】 | 【Hỗ trợ: Chế độ toàn lực】 |
+| 【助·雷电幻影】 | 【Aid: Thunder Phantom】 | 【Hỗ trợ: Ảo ảnh lôi điện】 |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
