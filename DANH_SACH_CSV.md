@@ -54,7 +54,7 @@
 - [ ] 📄 `game_config/auto_chess/special_effect.csv`
 - [ ] 📄 `game_config/auto_chess/story.csv`
 - [ ] 📄 `game_config/auto_chess/test_auto_chess.csv`
-- [ ] 📄 `game_config/auto_chess/trainer.csv`
+- [x] 📄 `game_config/auto_chess/trainer.csv`
 - [ ] 📄 `game_config/auto_chess/trainer_attack.csv`
 - [ ] 📄 `game_config/auto_chess/trainer_attack_event.csv`
 - [ ] 📄 `game_config/auto_chess/trainer_level.csv`

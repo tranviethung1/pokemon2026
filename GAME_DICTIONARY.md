@@ -1347,5 +1347,31 @@
 | 【流沙陷阱】 | 【Quicksand Trap】 | 【Bẫy cát lún】 |
 | 【麻痹】 | 【Paralysis】 | 【Tê liệt】 |
 
+## 7. Auto Chess
+
+### 7.1. Bổ sung từ `auto_chess/trainer.csv`
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 测试 | Test | Kiểm thử |
+| 新手引导 | Beginner Guide | Hướng dẫn tân thủ |
+| 大木博士 | Professor Oak | Giáo sư Oak |
+| 野生宝可梦 | Wild Pokemon | Pokemon hoang dã |
+| 温和的训练家 | Gentle Trainer | Huấn luyện viên ôn hòa |
+| 首领 | Boss | Thủ lĩnh |
+| 调皮的训练家 | Mischievous Trainer | Huấn luyện viên nghịch ngợm |
+| 强悍的训练家 | Tough Trainer | Huấn luyện viên mạnh mẽ |
+| 森林的住民 | Forest Dweller | Cư dân rừng |
+| PVP阵容测试专用 | PVP Lineup Test Only | Chỉ dùng kiểm thử đội hình PVP |
+| 擂台比试 | Arena Match | Trận đấu võ đài |
+| 恶棍巢穴 | Rogue Hideout | Hang ổ ác ôn |
+| 古老陵墓 | Ancient Tomb | Lăng mộ cổ |
+| 心灵控制 | Mind Control | Điều khiển tâm trí |
+| 夏伯 | Blaine | Blaine |
+| 阿蜜 | Jasmine | Jasmine |
+| 松叶 | Morty | Morty |
+| 玛绣 | Valerie | Valerie |
+| 小菘 | Candice | Candice |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
