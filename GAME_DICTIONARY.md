@@ -67,6 +67,24 @@
 
 ---
 
+## 2.0. Phẩm chất & Màu (Quality Tiers)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 白 | White | Trắng |
+| 绿 | Green | Xanh lá |
+| 蓝 | Blue | Xanh dương |
+| 紫 | Purple | Tím |
+| 橙 | Orange | Cam |
+| 橙+1 | Orange+1 | Cam+1 |
+| 红 | Red | Đỏ |
+| 红+1 | Red+1 | Đỏ+1 |
+| 红+2 | Red+2 | Đỏ+2 |
+| 红+3 | Red+3 | Đỏ+3 |
+| 红+4 | Red+4 | Đỏ+4 |
+
+---
+
 ## 2.1. Chỉ số bổ trợ Hệ (Type-specific Attributes)
 
 | Gốc (CN) | English | Tiếng Việt |
@@ -1017,6 +1035,104 @@
 | 卡牌学徒 | Card Apprentice | Học việc thẻ bài |
 | 卡牌大师 | Card Master | Đại sư thẻ bài |
 | 卡牌王者 | Card King | Vua thẻ bài |
+
+---
+
+## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
+*Mục này dùng cho các file `game_config/aid/*.csv`, đặc biệt là `aid_skill.csv`. English bám theo tool dịch đã dùng trong repo để đảm bảo nhất quán.*
+
+| Gốc (CN) | English | Tiếng Việt | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| 助战技能 | Aid Skill | Kỹ năng hỗ trợ chiến đấu | |
+| 觉醒描述 | Awakening Description | Mô tả thức tỉnh | |
+| 【Aid: Wind Barrier】 | 【Aid: Wind Barrier】 | 【Hỗ trợ: Kết giới gió】 | |
+| 【Aid: Nirvana】 | 【Aid: Nirvana】 | 【Hỗ trợ: Niết bàn】 | |
+| 【Sacred Flame Burn】 | 【Sacred Flame Burn】 | 【Thiêu đốt thánh hỏa】 | |
+| 【Aid: Time Imprint】 | 【Aid: Time Imprint】 | 【Hỗ trợ: Dấu ấn thời gian】 | |
+| 【Aid: Heavenly Grace】 | 【Aid: Heavenly Grace】 | 【Hỗ trợ: Thiên ân】 | |
+| 【Wish】 | 【Wish】 | 【Điều ước】 | |
+| 【Aid: Counter Wish】 | 【Aid: Counter Wish】 | 【Hỗ trợ: Điều ước phản kích】 | |
+| 【Aid: Assist Wish】 | 【Aid: Assist Wish】 | 【Hỗ trợ: Điều ước phối hợp】 | |
+| 【Aid: Pursuit Wish】 | 【Aid: Pursuit Wish】 | 【Hỗ trợ: Điều ước truy kích】 | |
+| 【Time Echo】 | 【Time Echo】 | 【Hồi âm thời gian】 | |
+| 【Spatial Warp】 | 【Spatial Warp】 | 【Bẻ cong không gian】 | |
+| 【Aid: Tectonic Shift】 | 【Aid: Tectonic Shift】 | 【Hỗ trợ: Dịch chuyển địa tầng】 | |
+| 【Aid: Ghost Shield】 | 【Aid: Ghost Shield】 | 【Hỗ trợ: Khiên quỷ】 | |
+| 【Aid: Water Bubble】 | 【Aid: Water Bubble】 | 【Hỗ trợ: Bong bóng nước】 | |
+| 【Aid: Deep Sleep】 | 【Aid: Deep Sleep】 | 【Hỗ trợ: Ngủ sâu】 | |
+| 【Nightmare Mark】 | 【Nightmare Mark】 | 【Dấu ấn ác mộng】 | |
+| 【Aid: Ember Seed】 | 【Aid: Ember Seed】 | 【Hỗ trợ: Hỏa chủng】 | |
+| 【Aid: Magenta Melody Fruit】 | 【Aid: Magenta Melody Fruit】 | 【Hỗ trợ: Quả giai điệu tím hồng】 | |
+| 【Aid: Turret Mode】 | 【Aid: Turret Mode】 | 【Hỗ trợ: Chế độ pháo đài】 | |
+| 【Aid: Life Link】 | 【Aid: Life Link】 | 【Hỗ trợ: Liên kết sinh mệnh】 | |
+| 【Aid: Death Link】 | 【Aid: Death Link】 | 【Hỗ trợ: Liên kết tử vong】 | |
+| 【Aid: Steam】 | 【Aid: Steam】 | 【Hỗ trợ: Hơi nước】 | |
+| 【Steam Eruption】 | 【Steam Eruption】 | 【Phun trào hơi nước】 | |
+| 【Aid: All-Out Mode】 | 【Aid: All-Out Mode】 | 【Hỗ trợ: Chế độ toàn lực】 | |
+| 【Aid: Thunder Phantom】 | 【Aid: Thunder Phantom】 | 【Hỗ trợ: Ảo ảnh lôi điện】 | |
+
+| Gốc (CSV) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| Toxic Bomb | Toxic Bomb | Bom độc |
+| Flare Blitz | Flare Blitz | Liều mạng bốc lửa |
+| Psycho Cut | Psycho Cut | Tâm linh lợi nhận |
+| Super Psycho Cut | Super Psycho Cut | Siêu tâm linh lợi nhận |
+| Frostwave Crash | Frostwave Crash | Va chạm băng triều |
+| Fear | Fear | Sợ hãi |
+| Dream Eater | Dream Eater | Ăn giấc mơ |
+| Rock Strike | Rock Strike | Nham kích |
+| Explosive Rock Impact | Explosive Rock Impact | Xung kích nổ đá |
+| Sky Hunt | Sky Hunt | Không kích săn lùng |
+| Super Sky Hunt | Super Sky Hunt | Siêu không kích săn lùng |
+| Magma Blaze | Magma Blaze | Dung nham liệt diễm |
+| Vice Grip | Vice Grip | Cự kìm |
+| Iceberg | Iceberg | Núi băng |
+| Thunderous Force | Thunderous Force | Sấm sét vạn quân |
+| Cinder Blaze | Cinder Blaze | Tro tàn liệt diễm |
+| Blessing | Blessing | Chúc phúc |
+| Electro Surge | Electro Surge | Điện năng kích đãng |
+| Super Electro Surge | Super Electro Surge | Siêu điện năng kích đãng |
+| Poison Sting | Poison Sting | Độc châm |
+| Super Ice Trap | Super Ice Trap | Siêu cạm bẫy băng |
+| Encirclement Hunt | Encirclement Hunt | Vây săn |
+| Super Encirclement Hunt | Super Encirclement Hunt | Siêu vây săn |
+| Thunder Claw | Thunder Claw | Lôi đình chi trảo |
+| Doomsday Flame Burst | Doomsday Flame Burst | Tận thế viêm bạo |
+| Tidal Whirlpool | Tidal Whirlpool | Toàn lãng toàn qua |
+| Whirlpool Storm | Whirlpool Storm | Toàn qua phong bão |
+| Phoenix Ascension | Phoenix Ascension | Phượng tường cửu thiên |
+| Space-Time Turbulence | Space-Time Turbulence | Thời không loạn lưu |
+| Mud Tide | Mud Tide | Nê ba triều tịch |
+| Super Mud Tide | Super Mud Tide | Siêu nê ba triều tịch |
+| Psychic Impulse | Psychic Impulse | Tâm linh trí động |
+| Super Psychic Impulse | Super Psychic Impulse | Siêu tâm linh trí động |
+| Frenzy | Frenzy | Cuồng nộ |
+| Explosive Dragon Breath | Explosive Dragon Breath | Bạo liệt long tức |
+| Rock Impact | Rock Impact | Nham thạch xung kích |
+| Frozen Earth | Frozen Earth | Băng phong đại địa |
+| Flash Cannon | Flash Cannon | Gia nông quang pháo |
+| Super Serene Grace | Super Serene Grace | Siêu thiên ân |
+| Focus Blast | Focus Blast | Chân khí đạn |
+| Super Focus Blast | Super Focus Blast | Siêu chân khí đạn |
+| Roar of Time | Roar of Time | Thời quang bào hao |
+| Spacial Rend | Spacial Rend | Á không liệt trảm |
+| Crush | Crush | Nghiền nát |
+| Nether Ghostfire | Nether Ghostfire | U minh quỷ hỏa |
+| Lord of the Sea | Lord of the Sea | Thương hải chi vương |
+| Nightmare Dreamscape | Nightmare Dreamscape | Ác mộng mộng cảnh |
+| V-create | V-create | V nhiệt diễm |
+| Thorn Dance | Thorn Dance | Kinh cức vũ |
+| Hidden Hunt | Hidden Hunt | Tiềm tàng liệp sát |
+| Bugfire | Bugfire | Trùng trùng hỏa diễm |
+| Twin Phantoms | Twin Phantoms | Song sinh mị ảnh |
+| Focused Flash Cannon | Focused Flash Cannon | Tụ quang quang pháo |
+| Floral Surge | Floral Surge | Hoa hải xung kích |
+| Life Link | Life Link | Sinh mệnh liên kết |
+| Death Curse | Death Curse | Tử vong chú nguyền |
+| Steam Eruption | Steam Eruption | Hơi nước bạo tạc |
+| Mighty Bow and Crossbow | Mighty Bow and Crossbow | Cường cung kình nỏ |
+| Defense into Offense | Defense into Offense | Lấy thủ làm công |
+| Plasma Fists | Plasma Fists | Quyền plasma |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
