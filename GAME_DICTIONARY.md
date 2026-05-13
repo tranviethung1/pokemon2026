@@ -1470,5 +1470,16 @@
 | 【大葱】 | 【Leek】 | Event |
 | 【穿透】 | 【Penetrate】 | Khác 【贯穿】 / Cleave |
 
+### 7.6. Bổ sung từ `auto_chess/handbook_award.csv` (tên bậc chất lượng)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 灰色 | Gray | Xám |
+| 绿色 | Green | Xanh lá |
+| 蓝色 | Blue | Xanh dương |
+| 紫色 | Purple | Tím |
+| 黄色 | Gold | Vàng |
+| 红色 | Red | Đỏ |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

@@ -43,7 +43,7 @@
 - [ ] 📄 `game_config/auto_chess/formula_const.csv`
 - [ ] 📄 `game_config/auto_chess/game_rule.csv`
 - [ ] 📄 `game_config/auto_chess/game_shop.csv`
-- [ ] 📄 `game_config/auto_chess/handbook_award.csv`
+- [x] 📄 `game_config/auto_chess/handbook_award.csv`
 - [x] 📄 `game_config/auto_chess/key_words.csv`
 - [x] 📄 `game_config/auto_chess/monster.csv`
 - [ ] 📄 `game_config/auto_chess/monster_fix.csv`
