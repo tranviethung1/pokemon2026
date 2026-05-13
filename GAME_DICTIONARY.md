@@ -1506,7 +1506,7 @@
 | 黄色 | Gold | Vàng |
 | 红色 | Red | Đỏ |
 
-### 7.7. Bổ sung từ `auto_chess/game_shop.csv` (mô tả cửa hàng)
+### 7.8. Bổ sung từ `auto_chess/game_shop.csv` (mô tả cửa hàng)
 
 | Gốc (CN) | English | Tiếng Việt |
 | :--- | :--- | :--- |
@@ -1529,7 +1529,7 @@
 | 药水商店 | Potion Shop | Cửa hàng thuốc |
 | 欢迎光临 | Welcome! | Chào mừng! |
 
-### 7.8. Bổ sung từ `auto_chess/event.csv` (tên / mô tả sự kiện — rút gọn)
+### 7.9. Bổ sung từ `auto_chess/event.csv` (tên / mô tả sự kiện — rút gọn)
 
 | Gốc (CN) | English | Ghi chú |
 | :--- | :--- | :--- |
@@ -1542,7 +1542,7 @@
 | 放大镜2–5 | Magnifier II–V | |
 | 解除伪装 | Lift Disguise | `[Disguise]` |
 
-### 7.9. Bổ sung từ `auto_chess/equip.csv` (tên / mô tả / `keyWords`)
+### 7.10. Bổ sung từ `auto_chess/equip.csv` (tên / mô tả / `keyWords`)
 
 | Gốc (CN) | English |
 | :--- | :--- |
@@ -1556,6 +1556,62 @@
 | 咸鱼龙刺 | Salty Fish Spine |
 | 混元之石 | Primordial Stone |
 | 混沌魔方球 | Chaos Magicube |
+
+### 7.11. Bổ sung từ `auto_chess/encounter.csv`
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 普通 | Regular | Thường |
+| 精英 | Elite | Tinh anh |
+| 常规 | Regular | Thường |
+| 白嫖 | Freebie | Miễn phí |
+| 随机 | Random | Ngẫu nhiên |
+| 强化 | Enhancement | Cường hóa |
+| 升星 | Star Up | Tăng sao |
+| 剧情A / B / C | Story A / B / C | Cốt truyện A / B / C |
+| 道路尽头 | Road's End | Cuối con đường |
+| 大师赛 | Master Tournament | Giải đấu bậc thầy |
+| 初始伙伴 | Starting Partner | Đồng hành khởi đầu |
+| 普通战斗 | Regular Battle | Trận chiến thường |
+| 精英战斗 | Elite Battle | Trận chiến tinh anh |
+| 首领战 / 首领战斗 | Boss Battle | Trận boss |
+| 巅峰对决 | Final Showdown | Cuộc đối đầu đỉnh cao |
+| 火系阵容 | Fire Team | Đội hình hệ Lửa |
+| 钢系阵容 | Steel Team | Đội hình hệ Thép |
+| 随机阵容 | Random Team | Đội hình ngẫu nhiên |
+| 商店 | Shop | Cửa hàng |
+| 免费领取 | Free Claim | Nhận miễn phí |
+| 大商场 | Supermart | Đại siêu thị |
+| 黑心商人 | Shady Merchant | Thương nhân gian xảo |
+| 装备专卖 | Equipment Boutique | Cửa hàng chuyên trang bị |
+| 特价促销 | Special Sale | Khuyến mãi đặc biệt |
+| 精灵之家 | Pokemon Home | Nhà của Pokemon |
+| 精灵精选 | Pokemon Selection | Tuyển chọn Pokemon |
+| 神秘人 | Mysterious Stranger | Kẻ bí ẩn |
+| 补给站 | Supply Station | Trạm tiếp tế |
+| 药水商贩 | Potion Vendor | Người bán thuốc |
+| 耐力特训 | Stamina Training | Đặc huấn sức bền |
+| 力量特训 | Power Training | Đặc huấn sức mạnh |
+| 体力特训 | Vitality Training | Đặc huấn sinh lực |
+| 魔鬼训练 | Devil Training | Huấn luyện địa ngục |
+| 整装待发 | Ready to Go | Sẵn sàng lên đường |
+| 漆黑洞穴 | Dark Cave | Hang động tối đen |
+| 鱼的吃法 | How to Eat Fish | Cách ăn cá |
+| 拦路的大树 | Roadblock Tree | Cây chắn đường |
+| 悬崖 | Cliff | Vách đá |
+| 萤火森林 | Firefly Forest | Rừng đom đóm |
+| 擂台 | Arena | Võ đài |
+| 疯狂的宝可梦 | Crazed Pokemon | Pokemon phát cuồng |
+| 迷路 | Lost | Lạc đường |
+| 失窃 | Theft | Bị trộm |
+| 怪蛋 | Odd Egg | Trứng lạ |
+| 博士研究所 | Professor's Lab | Phòng nghiên cứu của giáo sư |
+| 草丛怪声 | Rustling Grass | Tiếng động trong bụi cỏ |
+| 报恩 | Repaying the Favor | Báo đáp ân tình |
+| 猎人的报复 | Hunter's Revenge | Sự trả thù của thợ săn |
+| 快递箱 | Parcel Box | Thùng chuyển phát |
+| 博士的住所 | Professor's House | Nơi ở của giáo sư |
+| 银行 | Bank | Ngân hàng |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
