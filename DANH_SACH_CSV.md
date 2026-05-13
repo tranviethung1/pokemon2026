@@ -39,7 +39,7 @@
 - [ ] 📄 `game_config/auto_chess/damage_process.csv`
 - [ ] 📄 `game_config/auto_chess/encounter.csv`
 - [ ] 📄 `game_config/auto_chess/equip.csv`
-- [ ] 📄 `game_config/auto_chess/event.csv`
+- [x] 📄 `game_config/auto_chess/event.csv`
 - [ ] 📄 `game_config/auto_chess/formula_const.csv`
 - [ ] 📄 `game_config/auto_chess/game_rule.csv`
 - [x] 📄 `game_config/auto_chess/game_shop.csv`

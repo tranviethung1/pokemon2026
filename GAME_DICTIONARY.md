@@ -1504,5 +1504,20 @@
 | 药水商店 | Potion Shop | Cửa hàng thuốc |
 | 欢迎光临 | Welcome! | Chào mừng! |
 
+### 7.8. Bổ sung từ `auto_chess/event.csv` (tên / mô tả sự kiện — rút gọn)
+
+| Gốc (CN) | English | Ghi chú |
+| :--- | :--- | :--- |
+| 钢铁之盾 | Steel Shield | |
+| 坚钢之力 | Steadfast Steel | |
+| 改造之锤 / 强化·… | Remodeling Hammer / Augmented · … | |
+| 生长 | Growth | Nhiều biến thể |
+| 神奇糖果 / 强化糖果 | Rare Candy / Power Candy | |
+| 新??? / ??? / ??快? | Spring Gift / New Year's Delight / Blessing of Health | Tên gốc lỗi font |
+| 放大镜2–5 | Magnifier II–V | |
+| 解除伪装 | Lift Disguise | `[Disguise]` |
+
+Cột **`keyWords`** giữ `【…】` tiếng Trung để khớp engine/highlight.
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
