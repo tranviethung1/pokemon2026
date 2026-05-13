@@ -1,0 +1,729 @@
+{
+  "rows": [
+    {
+      "id": "1",
+      "name": "Test 1",
+      "desc": "Active: All Steel-type Pokémon on the field gain +20 Armor for one battle."
+    },
+    {
+      "id": "2",
+      "name": "Test 2",
+      "desc": "Active: 【Discover】 a random card. Cooldown: 3 battles."
+    },
+    {
+      "id": "3",
+      "name": "Test 3",
+      "desc": "Active: Trainer HP -1. Choose a unit on the field and give it +1 Attack permanently."
+    },
+    {
+      "id": "4",
+      "name": "Test 4",
+      "desc": "Passive: The leftmost card in the normal shop costs 1 less."
+    },
+    {
+      "id": "5",
+      "name": "Test 5",
+      "desc": "Passive: After you win a battle, Trainer HP +1 and Gold +1."
+    },
+    {
+      "id": "1001",
+      "name": "Protagonist Aura",
+      "desc": "Active: If you lose the next battle, you take no damage and gain 99 gold (once per match)."
+    },
+    {
+      "id": "1002",
+      "name": "No Skill",
+      "desc": "This trainer has no skill."
+    },
+    {
+      "id": "1003",
+      "name": "Starting Supplies",
+      "desc": "Active: Gain 1 random Equipment card. Cooldown: 99 battles."
+    },
+    {
+      "id": "10001",
+      "name": "Healing",
+      "desc": "Your units gain: After acting, heal all allies for 5 damage taken."
+    },
+    {
+      "id": "10002",
+      "name": "Rage",
+      "desc": "Your units gain: When they lose HP, they gain +3 Attack."
+    },
+    {
+      "id": "10003",
+      "name": "Fury",
+      "desc": "Your units gain: 【Critical Hit】."
+    },
+    {
+      "id": "10004",
+      "name": "Blessing I",
+      "desc": "At battle start, all your Pokémon gain +5 Attack and +10 HP."
+    },
+    {
+      "id": "10005",
+      "name": "Netherfire",
+      "desc": "Your units gain: 【Near Death】: Deal 10 skill damage to a random enemy."
+    },
+    {
+      "id": "10006",
+      "name": "Coalesce",
+      "desc": "Your units gain: Before acting, give a random ally +3 Armor."
+    },
+    {
+      "id": "10007",
+      "name": "Trickery",
+      "desc": "At battle start, all units on the field swap their Attack and HP."
+    },
+    {
+      "id": "10008",
+      "name": "Annihilation",
+      "desc": "At battle start, the leftmost unit on each side becomes a 【Phantom】."
+    },
+    {
+      "id": "10009",
+      "name": "Last Wish",
+      "desc": "Your units gain: 【Near Death】: All your Pokémon gain +5 Attack and +5 HP."
+    },
+    {
+      "id": "10010",
+      "name": "Iron Guard",
+      "desc": "Your rightmost unit has 【Guard】."
+    },
+    {
+      "id": "10011",
+      "name": "Craving",
+      "desc": "Your units gain: 【Near Death】: 【Charm】 1 random enemy."
+    },
+    {
+      "id": "10012",
+      "name": "Chill",
+      "desc": "Your units gain: After attacking, 【Freeze】 the target."
+    },
+    {
+      "id": "10013",
+      "name": "Flowing Water",
+      "desc": "Your units gain: 【Flow】."
+    },
+    {
+      "id": "20001",
+      "name": "Shield Wall",
+      "desc": "At battle start, all your Pokémon gain 【Shield】. Units that already have 【Shield】 double their Attack instead."
+    },
+    {
+      "id": "20002",
+      "name": "Mountain Breaker",
+      "desc": "Your units gain: 【Armor Pierce】."
+    },
+    {
+      "id": "20003",
+      "name": "Blessing II",
+      "desc": "At battle start, all your Pokémon gain +10 Attack and +20 HP."
+    },
+    {
+      "id": "20004",
+      "name": "Hold the Line",
+      "desc": "Your units gain: +1 Armor and 【Fortified Armor】."
+    },
+    {
+      "id": "20005",
+      "name": "Eternity",
+      "desc": "After your Pokémon have been hit 6 times in total, all allies gain +20 Armor."
+    },
+    {
+      "id": "20006",
+      "name": "Psycho Cut",
+      "desc": "Your units gain: After attacking, 【Stun】 the target."
+    },
+    {
+      "id": "20007",
+      "name": "Plunder",
+      "desc": "Your units gain: After attacking, steal 5 Attack from the target."
+    },
+    {
+      "id": "20008",
+      "name": "Dark Soul",
+      "desc": "Your units gain: Before being attacked, reduce the attacker's Attack by 5."
+    },
+    {
+      "id": "20009",
+      "name": "Sword Guard",
+      "desc": "Your units gain: 【Shield Counter】."
+    },
+    {
+      "id": "20010",
+      "name": "Shackles",
+      "desc": "At battle start, the three enemies with the highest Attack halve their Attack and are 【Stun】ned."
+    },
+    {
+      "id": "20011",
+      "name": "Pin I",
+      "desc": "At battle start, turn one random enemy into 1 Attack and 1 HP."
+    },
+    {
+      "id": "20012",
+      "name": "Untainted",
+      "desc": "Your units gain: When afflicted by a negative 【Status】, remove it and gain +1 Attack and +1 HP."
+    },
+    {
+      "id": "20013",
+      "name": "Deep Freeze",
+      "desc": "At battle start, 【Freeze】 all enemies."
+    },
+    {
+      "id": "30001",
+      "name": "Cleave",
+      "desc": "Your units gain: +10 Attack, +10 HP, and 【Cleave】."
+    },
+    {
+      "id": "30002",
+      "name": "Burst",
+      "desc": "Your units gain: +10 Attack, +10 HP, and 【Splash】."
+    },
+    {
+      "id": "30003",
+      "name": "Blessing III",
+      "desc": "At battle start, all your Pokémon gain +20 Attack and +40 HP."
+    },
+    {
+      "id": "30004",
+      "name": "Press the Advantage",
+      "desc": "Your units gain: +10 Attack, 【On Kill】: The ally to the right gains +5 Attack and acts immediately."
+    },
+    {
+      "id": "30005",
+      "name": "Swords Dance",
+      "desc": "Your units gain: +20 HP, 【On Kill】: All your Pokémon gain +10 Attack."
+    },
+    {
+      "id": "30006",
+      "name": "Teamwork",
+      "desc": "Your units gain: 【Rally】: Self gains +3 Attack and +3 HP."
+    },
+    {
+      "id": "30007",
+      "name": "Rot",
+      "desc": "Your units gain: After attacking, deal X 【Armor Shred】 to the target (X equals your Attack)."
+    },
+    {
+      "id": "30008",
+      "name": "Fragility",
+      "desc": "At battle start, all enemies halve their HP."
+    },
+    {
+      "id": "30009",
+      "name": "Bind",
+      "desc": "At battle start, all enemies gain 【Stun】."
+    },
+    {
+      "id": "30010",
+      "name": "Deflect",
+      "desc": "Your units gain: Before being attacked, deal X skill damage to a random enemy (X equals the attacker's Attack)."
+    },
+    {
+      "id": "30011",
+      "name": "Pin II",
+      "desc": "At battle start, the enemy with the highest Attack has its HP set to 1, and the enemy with the highest HP has its Attack set to 1."
+    },
+    {
+      "id": "30012",
+      "name": "New Garb",
+      "desc": "At battle start, all enemies gain +20 Armor and: When they lose Armor, 【Destroy】 themselves."
+    },
+    {
+      "id": "30013",
+      "name": "Deadly Poison",
+      "desc": "Your units gain: After attacking, give the target 【Toxic】."
+    },
+    {
+      "id": "40001",
+      "name": "Ambush Strike",
+      "desc": "Your units gain: 【Stealth】, and while in 【Stealth】, gain 【Ambush】."
+    },
+    {
+      "id": "40002",
+      "name": "Blessing IV",
+      "desc": "At battle start, all your Pokémon gain +30 Attack and +60 HP."
+    },
+    {
+      "id": "40003",
+      "name": "Silver Wind",
+      "desc": "At battle start / when an enemy unit is knocked out, deal 8 skill damage to all enemies."
+    },
+    {
+      "id": "40004",
+      "name": "Self-Destruct",
+      "desc": "Your units gain: After acting, +5 Attack, 【Near Death】: Deal X skill damage to all enemies (X equals your Attack)."
+    },
+    {
+      "id": "40005",
+      "name": "Shatter",
+      "desc": "Your units gain: Before acting, deal 3 【Armor Shred】 skill damage to all enemies."
+    },
+    {
+      "id": "40006",
+      "name": "Endless",
+      "desc": "Your non-summoned units gain: 【Near Death】: Summon 1 initial copy of self in place."
+    },
+    {
+      "id": "40007",
+      "name": "Bubble",
+      "desc": "Your units gain: 【Near Death】: Turn the unit that KO'd you into a 【Phantom】."
+    },
+    {
+      "id": "40008",
+      "name": "Savage",
+      "desc": "Your units gain: Before acting, double HP and Attack."
+    },
+    {
+      "id": "40009",
+      "name": "Madness",
+      "desc": "Your units gain: +1 action per turn; before each action, heal all damage taken and gain +5 Attack."
+    },
+    {
+      "id": "40010",
+      "name": "Equality",
+      "desc": "At battle start, 【Destroy】 the 3 highest-Attack units on the entire field."
+    },
+    {
+      "id": "40011",
+      "name": "Moon in the Water",
+      "desc": "At battle start, all enemies become 【Phantom】s; after any unit acts, they return to physical form."
+    },
+    {
+      "id": "40012",
+      "name": "Flower in the Mirror",
+      "desc": "Your units gain: Before acting, 【Summon】 1 【Phantom】 of self."
+    },
+    {
+      "id": "40013",
+      "name": "Dead of Winter",
+      "desc": "Your units gain: After acting, enemies with no Armor halve their HP."
+    },
+    {
+      "id": "40014",
+      "name": "Devour",
+      "desc": "Your units gain: 【On Kill】: Gain all of the target's stats."
+    },
+    {
+      "id": "90001",
+      "name": "Talent Scout",
+      "desc": "Choose a Pokémon and promote it to 4★ (once per match#HIDE#, used $selfTrainer:getBuffOverlayCount(9000102)$ time(s)#HIDE#)."
+    },
+    {
+      "id": "90002",
+      "name": "Awareness",
+      "desc": "When the shop levels up, randomly gain 1 Pokémon card that matches the current shop level."
+    },
+    {
+      "id": "90003",
+      "name": "Revenge",
+      "desc": "When you lose a battle, Pokémon on your field and in hand permanently gain +#HIDE#$(selfTrainer:hasBuff(9000301) and selfTrainer:getBuff(9000301):getValue() or 1)$M0REN$1$#HIDE# Attack and +#HIDE#$(selfTrainer:hasBuff(9000301) and selfTrainer:getBuff(9000301):getValue() or 1)$M0REN$1$#HIDE# HP (the effect doubles each time you lose)."
+    },
+    {
+      "id": "90004",
+      "name": "Entrance",
+      "desc": "Choose a Pokémon and return it to your hand. Cooldown: 1 turn."
+    },
+    {
+      "id": "90005",
+      "name": "Mercy",
+      "desc": "After you lose 3 times total, refreshing the shop costs only 1 gold for the rest of this match#HIDE#(losses so far: $selfTrainer:getBuffOverlayCount(9000501)$)#HIDE#."
+    },
+    {
+      "id": "90006",
+      "name": "Easy Money",
+      "desc": "At end of prep phase, if you have 0 gold, gain 2 gold."
+    },
+    {
+      "id": "90007",
+      "name": "Secret Art",
+      "desc": "Choose a Pokémon: temporary stat gains in the next battle become permanent (3 times per match#HIDE#, used $selfTrainer:getBuffOverlayCount(9000708)$ time(s)#HIDE#)."
+    },
+    {
+      "id": "90008",
+      "name": "Perfect Pair",
+      "desc": "When a Pokémon is promoted to 4★, gain 1 extra breakthrough reward card."
+    },
+    {
+      "id": "90009",
+      "name": "Investment",
+      "desc": "After using this skill 4 times total, all Pokémon on your field permanently gain +100 Attack and +100 HP (4 times per match#HIDE#, used $selfTrainer:getBuffOverlayCount(9000900)$ time(s)#HIDE#)."
+    },
+    {
+      "id": "90010",
+      "name": "Metamorph",
+      "desc": "Gain 1 random Ditto. Cooldown: 3 turns."
+    },
+    {
+      "id": "90011",
+      "name": "Swap",
+      "desc": "Trainer HP -1, gain 3 gold. Cooldown: 2 turns."
+    },
+    {
+      "id": "90012",
+      "name": "Disguise",
+      "desc": "Gain your next opponent's trainer skill; at the start of the next prep phase, gain 1 [Remove Disguise] card."
+    },
+    {
+      "id": "90013",
+      "name": "Loop",
+      "desc": "【Discover】 1 Pokémon card priced at #HIDE#$2+selfTrainer:getBuffOverlayCount(9001302)$M0REN$2$#HIDE# (upgrades each use; 5 times per match#HIDE#, used $selfTrainer:getBuffOverlayCount(9001303)$ time(s)#HIDE#)."
+    },
+    {
+      "id": "90014",
+      "name": "Smithing",
+      "desc": "【Discover】 1 Equipment card of current shop level +1. Cooldown: 1 turn."
+    },
+    {
+      "id": "90015",
+      "name": "Privilege",
+      "desc": "The first shop refresh each turn is free."
+    },
+    {
+      "id": "90016",
+      "name": "Supplies",
+      "desc": "After every 2 losses, from shop stock 【Discover】 one Pokémon, one Equipment, and one Event card each#HIDE#(losses so far: $selfTrainer:getBuffOverlayCount(9001601)$)#HIDE#."
+    },
+    {
+      "id": "90017",
+      "name": "Returns",
+      "desc": "Choose a Pokémon and sell it at full price. Cooldown: 1 turn."
+    },
+    {
+      "id": "90018",
+      "name": "Echo",
+      "desc": "Each time you play an Event card, gain 1 gold (max 5 gold per turn#HIDE#, earned $selfTrainer:getBuffOverlayCount(9001802)$/5#HIDE#)."
+    },
+    {
+      "id": "90019",
+      "name": "Nightfall",
+      "desc": "Randomly gain 1 Event card from shop stock no higher than current shop level. Cooldown: 1 turn."
+    },
+    {
+      "id": "90020",
+      "name": "Research",
+      "desc": "Choose a Pokémon, remove it, then from shop stock 【Discover】 1 Pokémon card (price +1). Cooldown: 1 turn."
+    },
+    {
+      "id": "90021",
+      "name": "Arena Edge",
+      "desc": "Damage you deal to the enemy Trainer is increased by 3."
+    },
+    {
+      "id": "90022",
+      "name": "Tenacity",
+      "desc": "Damage taken from the enemy Trainer cannot exceed N (N is twice the current turn number)."
+    },
+    {
+      "id": "90023",
+      "name": "Odd Species",
+      "desc": "Each time the shop levels up, gain 1 【怪蛋】 (Timer 1: randomly gain 1 Pokémon priced at no more than 3/4/6)."
+    },
+    {
+      "id": "90024",
+      "name": "Expansion",
+      "desc": "Choose a Pokémon: its equipment slots permanently become 2. Cooldown: 1 turn."
+    },
+    {
+      "id": "90025",
+      "name": "Balance",
+      "desc": "Choose a Pokémon: permanently raise its Attack or HP until the two are equal. Cooldown: 1 turn."
+    },
+    {
+      "id": "90026",
+      "name": "Copy",
+      "desc": "Gain a copy of 1 random Event card in hand. Cooldown: 2 turns."
+    },
+    {
+      "id": "90027",
+      "name": "Spy",
+      "desc": "From your next opponent's last-turn board, 【Discover】 one initial copy of a Pokémon. Cooldown: 1 turn."
+    },
+    {
+      "id": "90028",
+      "name": "Rebirth",
+      "desc": "Choose a Pokémon: next battle it gains: when KO'd, summon a copy of itself. Cooldown: 1 turn."
+    },
+    {
+      "id": "90029",
+      "name": "Soul Shift",
+      "desc": "The leftmost and rightmost Pokémon swap Attack and HP for 1 battle. Cooldown: 1 turn."
+    },
+    {
+      "id": "90030",
+      "name": "Hold Fast",
+      "desc": "Choose a Pokémon: it permanently gains 【Guard】 or permanently loses 【Guard】. Cooldown: 2 turns."
+    },
+    {
+      "id": "90031",
+      "name": "Regular",
+      "desc": "At end of prep phase, shop upgrade cost is reduced by 1 extra."
+    },
+    {
+      "id": "90032",
+      "name": "Battle Spirit",
+      "desc": "Your Pokémon gain: 【Break】: Permanently +1 Attack and +1 HP."
+    },
+    {
+      "id": "90033",
+      "name": "Depreciation",
+      "desc": "Each Pokémon you sell: at end of prep phase, gain 1 extra gold (max 5#HIDE#, can earn $selfTrainer:getBuffOverlayCount(9003301)$/5 gold#HIDE#)."
+    },
+    {
+      "id": "90034",
+      "name": "Splurge",
+      "desc": "Spend all remaining gold: your Pokémon permanently gain +N Attack and HP (N is twice the gold spent). Cooldown: 1 turn, 2 times per match#HIDE#(used $selfTrainer:getBuffOverlayCount(9003404)$ time(s))#HIDE#."
+    },
+    {
+      "id": "10000101",
+      "name": "Embers",
+      "desc": "Passive: When you lose a battle, if Trainer HP is 10 or less, 【Discover】 a Fire/Fighting Pokémon card."
+    },
+    {
+      "id": "10000102",
+      "name": "Spark",
+      "desc": "Passive: When you play a Pokémon card, it gains +5 Attack for 1 battle."
+    },
+    {
+      "id": "10000103",
+      "name": "Blaze",
+      "desc": "Active: Choose a Pokémon on the field and give it +1 action for 1 battle. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000104",
+      "name": "Burn",
+      "desc": "Active: Trainer HP -3. Choose a Pokémon on the field and give it +N Attack (N is Trainer HP lost) for 1 battle. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000105",
+      "name": "Wildfire",
+      "desc": "Active: At the start of the next battle phase, all your Pokémon gain +N Attack (N is your Fire/Fighting Pokémon count ×5) for 1 battle. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000106",
+      "name": "Press the Advantage",
+      "desc": "Passive: During battle, all your Pokémon gain 【On Kill】: The ally to the right gains +5 Attack and acts immediately."
+    },
+    {
+      "id": "10000107",
+      "name": "Undying",
+      "desc": "Active: Choose a Pokémon: the first time it is KO'd in the next battle, summon a same-star copy in place. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000108",
+      "name": "Crimson Lotus",
+      "desc": "Passive: When you win a battle, all Fire/Fighting Pokémon on your field permanently gain +3 Attack and +3 HP."
+    },
+    {
+      "id": "10000109",
+      "name": "Riddle",
+      "desc": "Passive: After 4 battle wins, Trainer HP +5, then the count resets."
+    },
+    {
+      "id": "10000110",
+      "name": "Hellfire",
+      "desc": "Active: Your Pokémon gain 【First Strike】: Deal N skill damage to the nearest enemy (N is your Attack) for 1 battle. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000201",
+      "name": "Parts",
+      "desc": "Active: 【Discover】 1 Equipment card. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000202",
+      "name": "Hard Shell",
+      "desc": "Passive: At end of prep phase, all Pokémon on your field permanently gain +2 Armor."
+    },
+    {
+      "id": "10000203",
+      "name": "Bounty",
+      "desc": "Passive: At end of prep phase, gain two random 【Growth】 cards."
+    },
+    {
+      "id": "10000204",
+      "name": "Eternity",
+      "desc": "Passive: During battle, after your Pokémon have been hit 6 times in total, all allies gain +20 Armor."
+    },
+    {
+      "id": "10000205",
+      "name": "Assembly",
+      "desc": "Active: Choose a Pokémon on the field to sell; the leftmost unit permanently gains the sold unit's three core stats. One use only."
+    },
+    {
+      "id": "10000206",
+      "name": "Melt",
+      "desc": "Active: Choose a Pokémon on the field and permanently swap its Attack and Armor. Cooldown: 3 battles."
+    },
+    {
+      "id": "10000207",
+      "name": "Good Luck",
+      "desc": "Active: 【Discover】 1 Event card. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000208",
+      "name": "Absolute Defense",
+      "desc": "Passive: At battle start, your Pokémon's HP becomes 1 and Armor doubles; when Armor is lost, deal N skill damage to a random enemy (N is its current Armor)."
+    },
+    {
+      "id": "10000209",
+      "name": "Keen Edge",
+      "desc": "Active: Choose a Pokémon on the field and give it +N Attack (N is its Armor) for 1 battle. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000210",
+      "name": "Coalesce",
+      "desc": "Passive: Before your Pokémon act, give a random ally +3 Armor."
+    },
+    {
+      "id": "10000301",
+      "name": "Shadow Kill",
+      "desc": "Passive: When your Pokémon lose 【Stealth】, they gain +5 Attack."
+    },
+    {
+      "id": "10000302",
+      "name": "Hidden Form",
+      "desc": "Passive: At battle start, your rightmost Pokémon gains 【Stealth】 and +5 Attack."
+    },
+    {
+      "id": "10000303",
+      "name": "Spirit Call",
+      "desc": "Active: 【Discover】 1 Dark- or Ghost-type Pokémon card. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000304",
+      "name": "Drowsy",
+      "desc": "Passive: At battle start, 【Stun】 the 3 highest-Attack Pokémon on each side."
+    },
+    {
+      "id": "10000305",
+      "name": "Calamity",
+      "desc": "Active: Next battle, after your Pokémon act, deal 1 skill damage to all enemies."
+    },
+    {
+      "id": "10000306",
+      "name": "Shadow Step",
+      "desc": "Active: Choose a Pokémon on the field; it gains 【Stealth】 and gains 【Stealth】 after taking damage, for 1 battle."
+    },
+    {
+      "id": "10000307",
+      "name": "Exhaustion",
+      "desc": "Passive: After your Pokémon are attacked, reduce the attacker's Attack by 5."
+    },
+    {
+      "id": "10000308",
+      "name": "Afterimage",
+      "desc": "Passive: After your Pokémon attack a 0-Attack target, gain 1 extra action."
+    },
+    {
+      "id": "10000309",
+      "name": "Corruption",
+      "desc": "Active: Choose a Pokémon on the field and permanently transform it into a random Ghost- or Dark-type Pokémon of the same star. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000310",
+      "name": "Pact",
+      "desc": "Active: Halve Trainer HP and gain 1 random Ghost- or Dark-type Pokémon priced at 6. One use only."
+    },
+    {
+      "id": "10000401",
+      "name": "Ethereal",
+      "desc": "Active: Choose a Pokémon: at the start of the next battle, it and the nearest enemy both become 【Phantom】s. Cooldown: 2 battles."
+    },
+    {
+      "id": "10000402",
+      "name": "Link",
+      "desc": "Passive: When a 【Phantom】 on either side is KO'd, all your Pokémon gain +5 Attack and +5 HP."
+    },
+    {
+      "id": "10000403",
+      "name": "Last Stand",
+      "desc": "Active: Choose a Pokémon: next battle, after attacking, permanently gain +N HP (N is Trainer HP lost), then 【Heal】 to full HP. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000404",
+      "name": "Mirror Bloom",
+      "desc": "Passive: Before your Pokémon act, if it is your only unit, summon 3 【Phantom】s of it."
+    },
+    {
+      "id": "10000405",
+      "name": "Phantom Lure",
+      "desc": "Active: Choose a Pokémon: next battle, after attacking, 【Charm】 the target. Cooldown: 2 battles."
+    },
+    {
+      "id": "10000406",
+      "name": "Agility",
+      "desc": "Passive: Before your Pokémon act, if it is at full HP, permanently gain +1 Attack and +1 HP."
+    },
+    {
+      "id": "10000407",
+      "name": "Symbiosis",
+      "desc": "Active: Choose a Pokémon; all other Pokémon's HP match that Pokémon's HP. One use only."
+    },
+    {
+      "id": "10000408",
+      "name": "Pawn",
+      "desc": "Passive: After a 【Charm】ed enemy Pokémon acts, it is immediately 【Destroy】ed and all your Pokémon gain +5 Attack and +5 HP."
+    },
+    {
+      "id": "10000409",
+      "name": "Moon on Water",
+      "desc": "Active: At the start of the next battle, all enemies become 【Phantom】s; after any unit acts, they return to physical form. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000410",
+      "name": "Healing",
+      "desc": "Passive: After your Pokémon act, 【Heal】 all allies for 5 HP."
+    },
+    {
+      "id": "10000501",
+      "name": "Frost Dance",
+      "desc": "Active: Choose a Pokémon: next battle, after attacking, 【Freeze】 the target. Cooldown: 1 battle."
+    },
+    {
+      "id": "10000502",
+      "name": "Ice Breaker",
+      "desc": "Passive: When your Pokémon attack a 【Freeze】d target, that attack gains 【Critical Hit】."
+    },
+    {
+      "id": "10000503",
+      "name": "Blizzard",
+      "desc": "Active: At the start of the next battle, 【Freeze】 all enemies. Cooldown: 3 battles."
+    },
+    {
+      "id": "10000504",
+      "name": "Thaw",
+      "desc": "Passive: Before either side's Pokémon act, halve Armor; if they have no Armor, halve HP."
+    },
+    {
+      "id": "10000505",
+      "name": "Trickling",
+      "desc": "Active: All your Pokémon gain 【Flow】 for 1 battle. Cooldown: 3 battles."
+    },
+    {
+      "id": "10000506",
+      "name": "Whirlpool",
+      "desc": "Passive: During battle, when your Pokémon's Attack is reduced to 0, set a random enemy's Attack to 0."
+    },
+    {
+      "id": "10000507",
+      "name": "Untainted",
+      "desc": "Active: Choose a Pokémon: it is immune to all negative 【Status】 effects for 1 battle. Cooldown: 3 battles."
+    },
+    {
+      "id": "10000508",
+      "name": "Avalanche",
+      "desc": "Passive: When an enemy Pokémon gains 【Freeze】, deal N 【Armor Shred】 skill damage to adjacent units (N is its Armor)."
+    },
+    {
+      "id": "10000509",
+      "name": "Confluence",
+      "desc": "Active: 【Discover】 a Water-type Pokémon card. Cooldown: 4 battles."
+    },
+    {
+      "id": "10000510",
+      "name": "Great Wave",
+      "desc": "Passive: During battle, when your Pokémon trigger or are affected by 【Flow】, they gain +1 Attack and +1 HP."
+    }
+  ]
+}

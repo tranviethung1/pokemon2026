@@ -4,6 +4,7 @@ description: Use this skill whenever the user asks to translate a Pokemon 2026 g
 paths:
   - GAME_DICTIONARY.md
   - DANH_SACH_CSV.md
+  - game_config/auto_chess/key_words.csv
   - game_config/**/*.csv
 ---
 
@@ -20,7 +21,7 @@ Use this skill when translating one requested CSV file from Chinese to English f
 
 ## Required Workflow
 
-1. Confirm the requested file path and read it together with `GAME_DICTIONARY.md` and `DANH_SACH_CSV.md`.
+1. Confirm the requested file path and read it together with `GAME_DICTIONARY.md` and `DANH_SACH_CSV.md`. For auto chess text with `【…】`, also open `game_config/auto_chess/key_words.csv` for token mapping.
 2. Inspect the CSV structure before editing:
    - Preserve row count, column count, delimiter, quotes, escapes, and line endings as much as practical.
    - Preserve escaped newline tokens exactly as data (for example `\n` must remain two characters `\` + `n` inside the cell). Never convert escaped `\n` into literal multi-line cell content.
@@ -32,6 +33,7 @@ Use this skill when translating one requested CSV file from Chinese to English f
    - Follow Pokemon franchise names and established game terms from `GAME_DICTIONARY.md`.
    - Keep terminology consistent with already translated files.
    - Keep placeholders in the same order and form, such as `%s`, `%d`, `{0}`, `{name}`, `$1`, `#C0x...#`, `<...>`, `[]`, `()`, `【...】`, and `\n`.
+   - **Bracket keywords `【…】`:** For auto chess (and similar), each `【Chinese】` token must become the matching English token **still in full-width brackets**, e.g. `【流水】` → `【Flow】`. Look up the Chinese form in `game_config/auto_chess/key_words.csv` (`key` → `name`). If it is missing there, use `GAME_DICTIONARY.md` or add an explicit fallback in the translator script—do not drop the brackets.
 4. After editing the CSV, review for untranslated Chinese characters. Any remaining Chinese must be intentional and explained to the user.
 5. Identify new reusable terms found during translation:
    - Add important new Pokemon names, feature names, item names, attributes, status names, UI terms, and recurring phrases to `GAME_DICTIONARY.md`.
