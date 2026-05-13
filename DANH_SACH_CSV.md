@@ -45,7 +45,7 @@
 - [ ] 📄 `game_config/auto_chess/game_shop.csv`
 - [ ] 📄 `game_config/auto_chess/handbook_award.csv`
 - [ ] 📄 `game_config/auto_chess/key_words.csv`
-- [ ] 📄 `game_config/auto_chess/monster.csv`
+- [x] 📄 `game_config/auto_chess/monster.csv`
 - [ ] 📄 `game_config/auto_chess/monster_fix.csv`
 - [ ] 📄 `game_config/auto_chess/pvp_shop_level.csv`
 - [ ] 📄 `game_config/auto_chess/rank_award.csv`

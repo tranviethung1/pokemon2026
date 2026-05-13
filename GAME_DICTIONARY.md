@@ -1423,5 +1423,31 @@
 | 收获颇丰 | Rich Haul | Thu hoạch dồi dào |
 | 满载而归 | Full Haul | Chất đầy kho trở về |
 
+### 7.4. Bổ sung từ `auto_chess/monster.csv` (descShow / desc)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 超简单 | Very Easy | Cực dễ |
+| 有点难 | Moderate | Hơi khó |
+| 超级难 | Very Hard | Cực khó |
+| 新手关 | Tutorial | Ải tân thủ |
+| 第一章1 | Chapter 1-1 | Chương 1-1 |
+| 第一章BOSS | Chapter 1 Boss | Boss chương 1 |
+| 第二章1 / 2 / BOSS | Chapter 2-1 / 2-2 / Boss | Chương 2 (tương ứng) |
+| 第三章1–3 / BOSS | Chapter 3-1 … / Boss | Chương 3 (tương ứng) |
+| 玩家挑战1–3 | Player Challenge 1–3 | Thách đấu người chơi 1–3 |
+| 博士的考验 | Professor's Trial | Thử thách của giáo sư |
+| 野生的宝可梦出现了! | A wild Pokemon appeared! | Pokemon hoang dã xuất hiện! |
+| 野生宝可梦 | Wild Pokemon | Pokemon hoang dã |
+| 路边的训练家向你发起挑战！ | A roadside trainer challenges you! | Huấn luyện viên ven đường thách đấu! |
+| 训练家挑战 | Trainer Challenge | Thách đấu huấn luyện viên |
+| 宝可梦试炼 | Pokemon Trial | Thử luyện Pokemon |
+| 危险！前方监测到强大的宝可梦气场 | Danger! Strong Pokemon signals detected ahead! | Nguy hiểm! Phía trước có tín hiệu Pokemon mạnh! |
+| 愤怒的森林住民 | Enraged forest dwellers | Cư dân rừng cuồng nộ |
+| 愤怒的猎人 | Furious Hunter | Thợ săn cuồng nộ |
+| 擂台挑战 | Arena Challenge | Thách đấu võ đài |
+| 幽灵在周围低语 | Ghosts whisper all around you | Ma quanh quẩn thì thầm |
+| 也许这不是它们的本意 | Perhaps this is not what they intended | Có lẽ đây không phải ý chúng |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
