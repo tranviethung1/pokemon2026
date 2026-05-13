@@ -1,15 +1,15 @@
 ﻿变量名,type,desc,cost,info,limited,typeValue
 默认值,1,“”,"""0""","""""",0,<>
 ID,类型(1升星/2强化),描述,花费(公式),信息说明,限制次数,类型数值<攻击;护甲;生命>
-1,,升星工坊,self:star()*10,可以直接花费金币提升星级哦！走过路过不要错过！请在列表中选择卡牌进行升星。,1,
-2,2,精灵培训（强化）,5,可以直接花费金币提升属性哦！走过路过不要错过！请在列表中选择卡牌进行强化。,2,<15;0;0>
-11,2,护甲强化,3,可以花费金币为精灵提升5点护甲！请在列表中选择卡牌进行强化。,2,<0;5;0>
-12,2,攻击强化,3,可以花费金币为精灵提升5点攻击！请在列表中选择卡牌进行强化。,2,<5;0;0>
-13,2,生命强化,3,可以花费金币为精灵提升5点生命！请在列表中选择卡牌进行强化。,2,<0;0;5>
-14,,升星,self:star()*(self:price()+1),可以花费金币将精灵的星级翻倍！请在列表中选择卡牌进行升星。,2,
-15,2,护甲强化,5,可以花费金币为精灵提升10点护甲！请在列表中选择卡牌进行强化。,2,<0;10;0>
-16,2,攻击强化,5,可以花费金币为精灵提升10点攻击！请在列表中选择卡牌进行强化。,2,<10;0;0>
-17,2,生命强化,5,可以花费金币为精灵提升10点生命！请在列表中选择卡牌进行强化。,2,<0;0;10>
-18,2,护甲强化,10,可以花费金币为精灵提升30点护甲！请在列表中选择卡牌进行强化。,2,<0;30;0>
-19,2,攻击强化,10,可以花费金币为精灵提升30点攻击！请在列表中选择卡牌进行强化。,2,<30;0;0>
-20,2,生命强化,10,可以花费金币为精灵提升30点生命！请在列表中选择卡牌进行强化。,2,<0;0;30>
+1,,Star-Up Workshop,self:star()*10,Spend gold to raise a Pokemon's star level directly. Don't miss it! Choose a card from the list to star up.,1,
+2,2,Pokemon Training (Enhance),5,Spend gold to increase a Pokemon's stats directly. Don't miss it! Choose a card from the list to enhance.,2,<15;0;0>
+11,2,Armor Upgrade,3,Spend gold to increase a Pokemon's Armor by 5. Choose a card from the list to enhance.,2,<0;5;0>
+12,2,Attack Upgrade,3,Spend gold to increase a Pokemon's Attack by 5. Choose a card from the list to enhance.,2,<5;0;0>
+13,2,HP Upgrade,3,Spend gold to increase a Pokemon's HP by 5. Choose a card from the list to enhance.,2,<0;0;5>
+14,,Star Up,self:star()*(self:price()+1),Spend gold to double a Pokemon's star level. Choose a card from the list to star up.,2,
+15,2,Armor Upgrade,5,Spend gold to increase a Pokemon's Armor by 10. Choose a card from the list to enhance.,2,<0;10;0>
+16,2,Attack Upgrade,5,Spend gold to increase a Pokemon's Attack by 10. Choose a card from the list to enhance.,2,<10;0;0>
+17,2,HP Upgrade,5,Spend gold to increase a Pokemon's HP by 10. Choose a card from the list to enhance.,2,<0;0;10>
+18,2,Armor Upgrade,10,Spend gold to increase a Pokemon's Armor by 30. Choose a card from the list to enhance.,2,<0;30;0>
+19,2,Attack Upgrade,10,Spend gold to increase a Pokemon's Attack by 30. Choose a card from the list to enhance.,2,<30;0;0>
+20,2,HP Upgrade,10,Spend gold to increase a Pokemon's HP by 30. Choose a card from the list to enhance.,2,<0;0;30>

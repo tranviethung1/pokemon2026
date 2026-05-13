@@ -30,12 +30,12 @@
 - [ ] 📄 `game_config/auto_chess/achievement_task.csv`
 - [x] 📄 `game_config/auto_chess/achievement_type.csv`
 - [ ] 📄 `game_config/auto_chess/base.csv`
-- [ ] 📄 `game_config/auto_chess/buff.csv`
+- [x] 📄 `game_config/auto_chess/buff.csv`
 - [ ] 📄 `game_config/auto_chess/buff_effect.csv`
 - [ ] 📄 `game_config/auto_chess/cards.csv`
 - [ ] 📄 `game_config/auto_chess/chapter.csv`
 - [ ] 📄 `game_config/auto_chess/chess_guide.csv`
-- [ ] 📄 `game_config/auto_chess/choose.csv`
+- [x] 📄 `game_config/auto_chess/choose.csv`
 - [ ] 📄 `game_config/auto_chess/damage_process.csv`
 - [ ] 📄 `game_config/auto_chess/encounter.csv`
 - [ ] 📄 `game_config/auto_chess/equip.csv`

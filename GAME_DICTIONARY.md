@@ -1433,11 +1433,22 @@
 | :--- | :--- | :--- |
 | 档次名称 | Tier name | Tên bậc |
 | 聊胜于无 | Slim Pickings | Chút đỉnh còn hơn không |
+
+### 7.4. Bổ sung từ `auto_chess/choose.csv`
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 升星工坊 | Star-Up Workshop | Xưởng tăng sao |
+| 精灵培训（强化） | Pokemon Training (Enhance) | Huấn luyện Pokemon (Cường hóa) |
+| 护甲强化 | Armor Upgrade | Cường hóa giáp |
+| 攻击强化 | Attack Upgrade | Cường hóa tấn công |
+| 生命强化 | HP Upgrade | Cường hóa sinh lực |
+| 升星 | Star Up | Tăng sao |
 | 小有所得 | Solid Gains | Có chút thu hoạch |
 | 收获颇丰 | Rich Haul | Thu hoạch dồi dào |
 | 满载而归 | Full Haul | Chất đầy kho trở về |
 
-### 7.4. Bổ sung từ `auto_chess/monster.csv` (descShow / desc)
+### 7.5. Bổ sung từ `auto_chess/monster.csv` (descShow / desc)
 
 | Gốc (CN) | English | Tiếng Việt |
 | :--- | :--- | :--- |
@@ -1463,7 +1474,7 @@
 | 幽灵在周围低语 | Ghosts whisper all around you | Ma quanh quẩn thì thầm |
 | 也许这不是它们的本意 | Perhaps this is not what they intended | Có lẽ đây không phải ý chúng |
 
-### 7.5. Bổ sung từ `auto_chess/key_words.csv` (tên hiển thị; cột `key` giữ CN để khớp config)
+### 7.6. Bổ sung từ `auto_chess/key_words.csv` (tên hiển thị; cột `key` giữ CN để khớp config)
 
 | Gốc (CN) tên | English (name) | Ghi chú |
 | :--- | :--- | :--- |
@@ -1484,7 +1495,7 @@
 | 【大葱】 | 【Leek】 | Event |
 | 【穿透】 | 【Penetrate】 | Khác 【贯穿】 / Cleave |
 
-### 7.6. Bổ sung từ `auto_chess/handbook_award.csv` (tên bậc chất lượng)
+### 7.7. Bổ sung từ `auto_chess/handbook_award.csv` (tên bậc chất lượng)
 
 | Gốc (CN) | English | Tiếng Việt |
 | :--- | :--- | :--- |
