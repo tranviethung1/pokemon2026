@@ -339,6 +339,9 @@ def update_column(
         value = row[index]
         translated = lookup_translation(value, mapping)
         if translated is not None:
+            # Preserve escaped newlines style used by this CSV.
+            if "\\n" in value and "\n" in translated:
+                translated = translated.replace("\n", "\\n")
             if translated != value:
                 row[index] = translated
                 updates += 1

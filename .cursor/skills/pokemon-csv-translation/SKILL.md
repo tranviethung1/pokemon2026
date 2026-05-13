@@ -23,6 +23,7 @@ Use this skill when translating one requested CSV file from Chinese to English f
 1. Confirm the requested file path and read it together with `GAME_DICTIONARY.md` and `DANH_SACH_CSV.md`.
 2. Inspect the CSV structure before editing:
    - Preserve row count, column count, delimiter, quotes, escapes, and line endings as much as practical.
+   - Preserve escaped newline tokens exactly as data (for example `\n` must remain two characters `\` + `n` inside the cell). Never convert escaped `\n` into literal multi-line cell content.
    - Do not translate CSV metadata/header rows. Keep rows such as `变量名`, `默认值`, and the `ID,...` description row exactly as they are unless the user explicitly asks to translate headers.
    - Preserve IDs, variable names, enum keys, file paths, icon paths, numbers, formulas, placeholders, markup, color tags, braces, brackets, percent signs, and control tokens.
    - Translate only human-facing Chinese text. Do not translate technical identifiers unless the surrounding CSV clearly treats them as display text.
@@ -42,6 +43,7 @@ Use this skill when translating one requested CSV file from Chinese to English f
 7. Run an appropriate validation when practical:
    - Prefer a small Python CSV parse/check for structural integrity.
    - Check the edited file for remaining CJK characters.
+   - For columns expected to stay single-line in source format, verify there are no literal newline characters inside translated cell values; escaped `\n` is allowed.
    - Use `ReadLints` only when linter diagnostics are relevant to edited source files.
 
 ## Translation Rules
