@@ -1481,5 +1481,28 @@
 | 黄色 | Gold | Vàng |
 | 红色 | Red | Đỏ |
 
+### 7.7. Bổ sung từ `auto_chess/game_shop.csv` (mô tả cửa hàng)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 这是常规店 | Regular Shop | Cửa hàng thường |
+| 这是白嫖的 | Free Shop | Cửa hàng miễn phí |
+| 这是黑市 | Black Market | Chợ đen |
+| 火系 / 钢系 | Fire-type / Steel-type | Hệ Lửa / Thép |
+| 杂货店 | General Store | Tạp hóa |
+| 测试专用商店 | Test Shop Only | Cửa hàng chỉ dùng test |
+| 走过路过不要错过 | Don't miss these deals! | Đi qua đừng bỏ lỡ! |
+| 你想要的这里都有 | Everything you need | Ở đây có đủ thứ bạn cần |
+| 贵自有贵的道理 | Quality comes at a price | Đắt có lý đắt |
+| 这里是装备专卖店 | Equipment Boutique | Cửa hàng chuyên trang bị |
+| 瞧一瞧，看一看 | Step right up! | Xem thử ngó nghiêng |
+| 跳楼价大促销 | Fire sale! | Xả kho giá sốc |
+| 为精灵提供温暖的家 | A cozy home for Pokémon | Mái ấm cho Pokémon |
+| …系精灵聚集于此 | …-type Pokémon gather here | Pokémon hệ … tụ họp |
+| 我可以帮你，只需要一点代价 | I can help—for a small price | Tôi giúp được—chỉ cần chút đánh đổi |
+| 发放冒险物资 | Adventure supplies | Cấp vật tư mạo hiểm |
+| 药水商店 | Potion Shop | Cửa hàng thuốc |
+| 欢迎光临 | Welcome! | Chào mừng! |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
