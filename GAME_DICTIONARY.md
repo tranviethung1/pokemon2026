@@ -1373,5 +1373,45 @@
 | 玛绣 | Valerie | Valerie |
 | 小菘 | Candice | Candice |
 
+### 7.2. Bổ sung từ `auto_chess/trainer_pvp.csv` (tên nhân vật / figure)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 小智 | Ash | Ash |
+| 小霞 | Misty | Misty |
+| 拉普 | Rapp | Rapp |
+| 布尔美丽 | Plumeria | Plumeria |
+| 露美旦 | Morgan | Morgan |
+| 梅雅利 | Meray | Meray |
+| 三色堇 | Alexa | Alexa |
+| 紫罗兰 | Viola | Viola |
+| 西子伊 | Marlon | Marlon |
+| 杜娟 | Roxanne | Roxanne |
+| 阿克罗玛 | Colress | Colress |
+| 亚莎 | Flannery | Flannery |
+| 修 | Hugh | Hugh |
+| 霍米加 | Roxie | Roxie |
+| 白露 | Bianca | Bianca |
+| 可尔妮 | Korrina | Korrina |
+| 兰昼妮 | Dana | Dana |
+| 露夕华 | Evelyn | Evelyn |
+| 兰妞夜 | Nita | Nita |
+| 芦荟 | Lenora | Lenora |
+| 斗子 | Hilda | Hilda |
+| 芽衣 | Rosa | Rosa |
+| 弥莉丝 | Millis | Millis |
+| 芙蓉 | Phoebe | Phoebe |
+| 水莲 | Lana | Lana |
+| 碧蓝 | Green | Green |
+| 小刚 | Brock | Brock |
+| 碧珂 | Wicke | Wicke |
+| 达帕 | Tupp | Tupp |
+| 库库伊 | Kukui | Kukui |
+| 艾岚 | Alain | Alain |
+| 朗日 | Elio | Elio |
+| 美月 | Selene | Selene |
+| 小次郎 | James | James |
+| 武藏 | Jessie | Jessie |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

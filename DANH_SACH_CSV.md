@@ -58,7 +58,7 @@
 - [ ] 📄 `game_config/auto_chess/trainer_attack.csv`
 - [ ] 📄 `game_config/auto_chess/trainer_attack_event.csv`
 - [ ] 📄 `game_config/auto_chess/trainer_level.csv`
-- [ ] 📄 `game_config/auto_chess/trainer_pvp.csv`
+- [x] 📄 `game_config/auto_chess/trainer_pvp.csv`
 - [ ] 📄 `game_config/auto_chess/trainer_skills.csv`
 - [ ] 📄 `game_config/auto_pve/busy_time.csv`
 - [ ] 📄 `game_config/auto_pve/cards.csv`
