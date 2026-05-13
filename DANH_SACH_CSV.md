@@ -49,7 +49,7 @@
 - [ ] 📄 `game_config/auto_chess/monster_fix.csv`
 - [ ] 📄 `game_config/auto_chess/pvp_shop_level.csv`
 - [ ] 📄 `game_config/auto_chess/rank_award.csv`
-- [ ] 📄 `game_config/auto_chess/saodang_award.csv`
+- [x] 📄 `game_config/auto_chess/saodang_award.csv`
 - [ ] 📄 `game_config/auto_chess/shop.csv`
 - [ ] 📄 `game_config/auto_chess/special_effect.csv`
 - [ ] 📄 `game_config/auto_chess/story.csv`

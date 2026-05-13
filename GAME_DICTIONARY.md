@@ -1413,5 +1413,15 @@
 | 小次郎 | James | James |
 | 武藏 | Jessie | Jessie |
 
+### 7.3. Bổ sung từ `auto_chess/saodang_award.csv` (tên mức thưởng sweep)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 档次名称 | Tier name | Tên bậc |
+| 聊胜于无 | Slim Pickings | Chút đỉnh còn hơn không |
+| 小有所得 | Solid Gains | Có chút thu hoạch |
+| 收获颇丰 | Rich Haul | Thu hoạch dồi dào |
+| 满载而归 | Full Haul | Chất đầy kho trở về |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
