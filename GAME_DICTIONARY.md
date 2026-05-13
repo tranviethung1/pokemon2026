@@ -1565,6 +1565,14 @@
 | 混元之石 | Primordial Stone |
 | 混沌魔方球 | Chaos Magicube |
 
+### 7.10.1. Bổ sung `auto_chess/cards.csv` (tên / mô tả / `keyWords`)
+
+| Hạng mục | Ghi chú |
+| :--- | :--- |
+| Keyword `【…】` | Đồng bộ cột `name` (tiếng Anh) trong `game_config/auto_chess/key_words.csv`; cột `key` vẫn tiếng Trung cho config. |
+| Tên Pokémon | Bảng §4 + `EXTRA_NAMES` trong `tools/translate_auto_chess_cards_en.py`. |
+| Mô tả / findDesc | `tools/translate_auto_chess_cards_mt.py` (Google + polish: elf→Pokémon, gold coins→gold, v.v.). |
+
 ### 7.11. Bổ sung từ `auto_chess/encounter.csv`
 
 | Gốc (CN) | English | Tiếng Việt |
@@ -1620,6 +1628,25 @@
 | 快递箱 | Parcel Box | Thùng chuyển phát |
 | 博士的住所 | Professor's House | Nơi ở của giáo sư |
 | 银行 | Bank | Ngân hàng |
+
+### 7.12. Bổ sung từ `auto_chess/chess_guide.csv` (guide / tutorial)
+
+| Gốc (CN) | English |
+| :--- | :--- |
+| 图鉴洛托姆 | Rotom Pokédex |
+| 点击进入商店 | Tap to enter the shop |
+| 点击战斗遭遇 | Tap the battle encounter |
+| 点击开始战斗 | Tap to start the battle |
+| 点击准备按钮 | Tap the Ready button |
+| 点击刷新按钮，刷新商品 | Tap the Refresh button to refresh the shop |
+| 购买指定商品 | Buy the designated item |
+| 精灵伤害规则1 / 2 / 3 | Pokemon damage rule 1 / 2 / 3 |
+| 训练家伤害规则1 / 2 | Trainer damage rule 1 / 2 |
+| 点击使用训练家技能 | Tap to use the Trainer skill |
+| 拖动指定商品至绿色区域完成购买 | Drag the designated shop item to the green area to buy it |
+| 拖动指定卡牌打出到场上 | Drag the designated card onto the field |
+| 美洛耶塔·歌声 | Meloetta - Aria |
+| 美洛耶塔·舞步 | Meloetta - Pirouette |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

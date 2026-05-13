@@ -32,9 +32,9 @@
 - [ ] 📄 `game_config/auto_chess/base.csv`
 - [x] 📄 `game_config/auto_chess/buff.csv`
 - [ ] 📄 `game_config/auto_chess/buff_effect.csv`
-- [ ] 📄 `game_config/auto_chess/cards.csv`
+- [x] 📄 `game_config/auto_chess/cards.csv`
 - [ ] 📄 `game_config/auto_chess/chapter.csv`
-- [ ] 📄 `game_config/auto_chess/chess_guide.csv`
+- [x] 📄 `game_config/auto_chess/chess_guide.csv`
 - [x] 📄 `game_config/auto_chess/choose.csv`
 - [ ] 📄 `game_config/auto_chess/damage_process.csv`
 - [x] 📄 `game_config/auto_chess/encounter.csv`
