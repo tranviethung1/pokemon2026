@@ -1648,5 +1648,16 @@
 | 美洛耶塔·歌声 | Meloetta - Aria |
 | 美洛耶塔·舞步 | Meloetta - Pirouette |
 
+### 7.13. Bổ sung từ `auto_chess/trainer_skills.csv`
+
+| Gốc (CN) | English |
+| :--- | :--- |
+| 当前已失败 | Current failures |
+| 已使用 | used |
+| 已获得 | Obtained |
+| 可获得 | Can obtain |
+| 【守卫】 | 【Guard】 |
+| 【幻影】 | 【Phantom】 |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
