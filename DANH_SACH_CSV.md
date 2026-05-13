@@ -28,7 +28,7 @@
 - [ ] 📄 `game_config/arms/stage.csv`
 - [ ] 📄 `game_config/auto_chess/achievement_level.csv`
 - [ ] 📄 `game_config/auto_chess/achievement_task.csv`
-- [ ] 📄 `game_config/auto_chess/achievement_type.csv`
+- [x] 📄 `game_config/auto_chess/achievement_type.csv`
 - [ ] 📄 `game_config/auto_chess/base.csv`
 - [ ] 📄 `game_config/auto_chess/buff.csv`
 - [ ] 📄 `game_config/auto_chess/buff_effect.csv`

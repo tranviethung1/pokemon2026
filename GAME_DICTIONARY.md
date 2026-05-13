@@ -128,6 +128,20 @@
 
 ---
 
+## 2.3. Nhãn Thành tựu (Achievement Labels)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 通用成就 | General Achievements | Thành tựu chung |
+| 夏伯成就 | Blaine Achievements | Thành tựu Blaine |
+| 阿蜜成就 | Jasmine Achievements | Thành tựu Jasmine |
+| 松叶成就 | Morty Achievements | Thành tựu Morty |
+| 玛绣成就 | Valerie Achievements | Thành tựu Valerie |
+| 小菘成就 | Candice Achievements | Thành tựu Candice |
+| 赛季成就 | Season Achievements | Thành tựu mùa giải |
+
+---
+
 ## 3. Từ khóa Kỹ năng & Trạng thái (Skill Keywords)
 *Thường nằm trong ngoặc `【 】` - Dùng để hiển thị màu và hiệu ứng đặc biệt*
 
