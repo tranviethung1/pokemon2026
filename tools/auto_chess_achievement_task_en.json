@@ -1,0 +1,882 @@
+{
+  "10010": {
+    "name": "New Adventure",
+    "desc": "Clear one full Adventure run using any Trainer."
+  },
+  "10020": {
+    "name": "Social Anxiety",
+    "desc": "Lose every round in three Apex Duel matches and still clear the run with your Trainer surviving."
+  },
+  "10030": {
+    "name": "Breakthrough Bid",
+    "desc": "Use Promote encounters to raise any Pokémon to 2★."
+  },
+  "10040": {
+    "name": "Breakthrough Mastery",
+    "desc": "Use Promote encounters to raise any Pokémon to 4★."
+  },
+  "10050": {
+    "name": "HP Acrobat",
+    "desc": "Clear the run with your Trainer’s HP at 20 or lower."
+  },
+  "10060": {
+    "name": "Practice Pays Off",
+    "desc": "Raise Pokémon to 4★ using Promote Strengthening encounters 20 times in total."
+  },
+  "10070": {
+    "name": "Focused Training",
+    "desc": "Promote Pokémon 40 times in total using Promote Strengthening encounters."
+  },
+  "10080": {
+    "name": "Leaderboard Glory I",
+    "desc": "When the season settles, rank in the global top 50."
+  },
+  "10090": {
+    "name": "Desperate Bite",
+    "desc": "In the Famished encounter, choose Eat it raw and clear the run."
+  },
+  "10100": {
+    "name": "Burn It All",
+    "desc": "In the Fallen Tree encounter, choose Burn it down and clear the run."
+  },
+  "10110": {
+    "name": "Probably a Bad Idea",
+    "desc": "In the Delivery Box encounter, choose Open it and clear the run."
+  },
+  "10120": {
+    "name": "Coin Pouch Path",
+    "desc": "In the Prepared to Depart encounter, choose the bag of coins and clear the run."
+  },
+  "10130": {
+    "name": "Lunchbox Boost",
+    "desc": "In the Prepared to Depart encounter, choose the Heart Lunchbox and clear the run."
+  },
+  "10140": {
+    "name": "Explorer’s Prep",
+    "desc": "In the Prepared to Depart encounter, choose the exploration kit and clear the run."
+  },
+  "10150": {
+    "name": "Fortune Keeper",
+    "desc": "Clear the run with 50 Coins or more."
+  },
+  "10160": {
+    "name": "Shake It Off",
+    "desc": "Clear the run after losing three or more battles."
+  },
+  "10170": {
+    "name": "Tightrope HP",
+    "desc": "Clear the run with your Trainer’s HP at 10 or lower."
+  },
+  "10180": {
+    "name": "Closed Shop",
+    "desc": "Clear the run without buying anything from the mystery merchant."
+  },
+  "10190": {
+    "name": "Blood Price",
+    "desc": "Spend 10 or more Trainer HP at the mystery merchant and clear the run."
+  },
+  "10200": {
+    "name": "Self-Made Strength",
+    "desc": "Clear the run without using any stat-enhancing encounters."
+  },
+  "10210": {
+    "name": "Close Shave",
+    "desc": "Your Trainer survives after taking more than 10 damage in a single hit."
+  },
+  "10220": {
+    "name": "Haymaker Apex",
+    "desc": "In an Apex Duel, deal more than 10 damage with one hit."
+  },
+  "10230": {
+    "name": "Light Spar",
+    "desc": "In an Apex Duel, deal less than 10 damage with one hit."
+  },
+  "10240": {
+    "name": "Leaderboard Glory II",
+    "desc": "When the season settles, rank in the global top 10."
+  },
+  "10250": {
+    "name": "Serious Saving",
+    "desc": "In the Bank encounter, choose Deposit 30 Coins and clear the run."
+  },
+  "10260": {
+    "name": "Flawless March",
+    "desc": "Clear an Adventure without losing any battles."
+  },
+  "10270": {
+    "name": "Ultra Mogul",
+    "desc": "Clear the run with 100 Coins or more."
+  },
+  "10280": {
+    "name": "Last Hitpoint",
+    "desc": "Clear the run with your Trainer at exactly 1 HP."
+  },
+  "10290": {
+    "name": "Training Apex",
+    "desc": "Clear the run with six 4★ Pokémon on the board."
+  },
+  "10300": {
+    "name": "Quality Optional",
+    "desc": "Clear the run with three or more 1★ Pokémon on the board."
+  },
+  "10310": {
+    "name": "No Promo Run",
+    "desc": "Clear the run without using any Promote encounters."
+  },
+  "10320": {
+    "name": "Cheated Fate",
+    "desc": "Your Trainer survives after taking more than 20 damage in a single hit."
+  },
+  "10330": {
+    "name": "Megaton Spike",
+    "desc": "In an Apex Duel, deal more than 20 damage with one hit."
+  },
+  "10340": {
+    "name": "Leaderboard Glory III",
+    "desc": "When the season settles, reach global rank #1."
+  },
+  "10350": {
+    "name": "Exact Coffers",
+    "desc": "Clear the run with exactly 0 Coins."
+  },
+  "10360": {
+    "name": "Dress Parade",
+    "desc": "Clear the run while every Pokémon on the board holds gear."
+  },
+  "10370": {
+    "name": "Double-Pack Run",
+    "desc": "Clear the run with at least one Pokémon holding two gear pieces."
+  },
+  "10380": {
+    "name": "Test Subject",
+    "desc": "In the Apothecary encounter, choose Test the new potion and clear the run."
+  },
+  "10390": {
+    "name": "Forest Picnic",
+    "desc": "In the Firefly Woods encounter, choose Picnic and clear the run."
+  },
+  "10400": {
+    "name": "Gracidea Helper",
+    "desc": "In the Woods-Dwellers encounter, help retrieve a Gracidea Flower and clear the run."
+  },
+  "10410": {
+    "name": "Right Turn Home",
+    "desc": "In the Lost encounter, pick the correct direction and clear the run."
+  },
+  "10420": {
+    "name": "Let It Slide",
+    "desc": "In the Stolen Goods encounter, choose Let it go and clear the run."
+  },
+  "20010": {
+    "name": "Chapter of Cinnabar",
+    "desc": "Clear 5 full runs while using Trainer Blaine."
+  },
+  "20020": {
+    "name": "Blaine • First Steps",
+    "desc": "Reach mastery level 5 with Blaine."
+  },
+  "20030": {
+    "name": "Blaine Legacy I",
+    "desc": "When the season settles, rank in the Blaine leaderboard top 50."
+  },
+  "20040": {
+    "name": "Embers Trial",
+    "desc": "Clear a run while using Blaine’s Embers skill."
+  },
+  "20050": {
+    "name": "Spark Trial",
+    "desc": "Clear a run while using Blaine’s Spark skill."
+  },
+  "20060": {
+    "name": "Blazing Bear",
+    "desc": "Clear a run while using Blaine’s Blaze Bear skill."
+  },
+  "20070": {
+    "name": "Blaine • True Grip",
+    "desc": "Reach mastery level 10 with Blaine."
+  },
+  "20080": {
+    "name": "Blaine • Cinnabar Overlord",
+    "desc": "Reach mastery level 15 with Blaine."
+  },
+  "20090": {
+    "name": "Kindled Burn",
+    "desc": "Clear a run while using Blaine’s Kindled Burn skill."
+  },
+  "20100": {
+    "name": "Prairie Fire",
+    "desc": "Clear a run while using Blaine’s Prairie Fire skill."
+  },
+  "20110": {
+    "name": "Press Ahead",
+    "desc": "Clear a run while using Blaine’s Press Ahead skill."
+  },
+  "20120": {
+    "name": "Unyielding Blaze",
+    "desc": "Clear a run while using Blaine’s Unyielding skill."
+  },
+  "20130": {
+    "name": "Cinnabar Tempest",
+    "desc": "Clear a run while using Blaine’s Cinnabar skill."
+  },
+  "20140": {
+    "name": "Riddle Duel",
+    "desc": "Clear a run while using Blaine’s Riddle skill."
+  },
+  "20150": {
+    "name": "Hellfire Finale",
+    "desc": "Clear a run while using Blaine’s Hellfire skill."
+  },
+  "20160": {
+    "name": "Ho-Oh Ally",
+    "desc": "Clear 5 runs with Blaine deploying Ho-Oh."
+  },
+  "20170": {
+    "name": "Victini Ally",
+    "desc": "Clear 5 runs with Blaine deploying Victini."
+  },
+  "20180": {
+    "name": "Marshadow Ally",
+    "desc": "Clear 5 runs with Blaine deploying Marshadow."
+  },
+  "20190": {
+    "name": "Zamazenta Ally",
+    "desc": "Clear 5 runs with Blaine deploying Zamazenta."
+  },
+  "20200": {
+    "name": "Endless Flames",
+    "desc": "Clear a run using Blaine with Ho-Oh and Charmander on the field."
+  },
+  "20210": {
+    "name": "Victory Blaze",
+    "desc": "Clear a run using Blaine with Victini and Torchic on the field."
+  },
+  "20220": {
+    "name": "Sky-High Spark",
+    "desc": "Clear a run using Blaine with Moltres and Magby on the field."
+  },
+  "20230": {
+    "name": "Shadow Chronicles",
+    "desc": "Clear a run using Blaine with Marshadow and Mankey on the field."
+  },
+  "20240": {
+    "name": "Shield and Fang",
+    "desc": "Clear a run using Blaine with Torchic and Zamazenta on the field."
+  },
+  "20250": {
+    "name": "Strike Unbroken",
+    "desc": "Clear a run using Blaine with Riolu and Sirfetch’d on the field."
+  },
+  "20260": {
+    "name": "Blaine Legacy II",
+    "desc": "When the season settles, rank in the Blaine leaderboard top 10."
+  },
+  "20270": {
+    "name": "Blaine • Cinnabar Overlord+",
+    "desc": "Reach mastery level 20 with Blaine."
+  },
+  "20280": {
+    "name": "Undying Pyre",
+    "desc": "Clear a run using Blaine with Cyndaquil, Chimchar, and Entei."
+  },
+  "20290": {
+    "name": "Blaine Legacy III",
+    "desc": "When the season settles, place #1 on the Blaine leaderboard."
+  },
+  "20300": {
+    "name": "Tri-Kicking Line",
+    "desc": "Clear a run using Blaine with Hitmonlee, Hitmonchan, and Hitmontop."
+  },
+  "30010": {
+    "name": "Olivine Chapter",
+    "desc": "Clear 5 full runs while using Trainer Jasmine."
+  },
+  "30020": {
+    "name": "Jasmine • First Steps",
+    "desc": "Reach mastery level 5 with Jasmine."
+  },
+  "30030": {
+    "name": "Component Kit",
+    "desc": "Clear a run while using Jasmine’s Component skill."
+  },
+  "30040": {
+    "name": "Iron Shelter",
+    "desc": "Clear a run while using Jasmine’s Iron Shelter skill."
+  },
+  "30050": {
+    "name": "Bounty Sprout",
+    "desc": "Clear a run while using Jasmine’s Bounty skill."
+  },
+  "30060": {
+    "name": "Jasmine Legacy I",
+    "desc": "When the season settles, rank in the Jasmine leaderboard top 50."
+  },
+  "30070": {
+    "name": "Jasmine Legacy II",
+    "desc": "When the season settles, rank in the Jasmine leaderboard top 10."
+  },
+  "30080": {
+    "name": "Jasmine Legacy III",
+    "desc": "When the season settles, place #1 on the Jasmine leaderboard."
+  },
+  "30090": {
+    "name": "Jasmine • True Grip",
+    "desc": "Reach mastery level 10 with Jasmine."
+  },
+  "30100": {
+    "name": "Jasmine • Olivine Overlord",
+    "desc": "Reach mastery level 15 with Jasmine."
+  },
+  "30110": {
+    "name": "Eternal Lattice",
+    "desc": "Clear a run while using Jasmine’s Eternal skill."
+  },
+  "30120": {
+    "name": "Assembly Line",
+    "desc": "Clear a run while using Jasmine’s Assembly skill."
+  },
+  "30130": {
+    "name": "Smelt Breaker",
+    "desc": "Clear a run while using Jasmine’s Smelt skill."
+  },
+  "30140": {
+    "name": "Luck Engine",
+    "desc": "Clear a run while using Jasmine’s Lucky skill."
+  },
+  "30150": {
+    "name": "Absolute Guard",
+    "desc": "Clear a run while using Jasmine’s Absolute Defense skill."
+  },
+  "30160": {
+    "name": "Razor’s Edge",
+    "desc": "Clear a run while using Jasmine’s Sharp skill."
+  },
+  "30170": {
+    "name": "Focus Surge",
+    "desc": "Clear a run while using Jasmine’s Focus skill."
+  },
+  "30180": {
+    "name": "Shaymin Land Ally",
+    "desc": "Clear 5 runs with Jasmine deploying Shaymin Land Forme."
+  },
+  "30190": {
+    "name": "Shaymin Sky Ally",
+    "desc": "Clear 5 runs with Jasmine deploying Shaymin Sky Forme."
+  },
+  "30200": {
+    "name": "Celebi Ally",
+    "desc": "Clear 5 runs with Jasmine deploying Celebi."
+  },
+  "30210": {
+    "name": "Meltan Ally",
+    "desc": "Clear 5 runs with Jasmine deploying Meltan."
+  },
+  "30220": {
+    "name": "Magearna Ally",
+    "desc": "Clear 5 runs with Jasmine deploying Magearna."
+  },
+  "30230": {
+    "name": "Solgaleo Ally",
+    "desc": "Clear 5 runs with Jasmine deploying Solgaleo."
+  },
+  "30240": {
+    "name": "Garden Surge",
+    "desc": "Clear a run using Jasmine with Shaymin Land Forme and Bounsweet on the field."
+  },
+  "30250": {
+    "name": "Wild Spiral",
+    "desc": "Clear a run using Jasmine with Shaymin Sky Forme and Bellsprout on the field."
+  },
+  "30260": {
+    "name": "Evergrowth Bond",
+    "desc": "Clear a run using Jasmine with Snivy and Celebi on the field."
+  },
+  "30270": {
+    "name": "Solar Flare Fang",
+    "desc": "Clear a run using Jasmine with Solgaleo and Aron on the field."
+  },
+  "30280": {
+    "name": "Edge Without Blade",
+    "desc": "Clear a run using Jasmine with Meltan and Excadrill on the field."
+  },
+  "30290": {
+    "name": "Steel Riposte Duo",
+    "desc": "Clear a run using Jasmine with Steelix and Registeel on the field."
+  },
+  "30300": {
+    "name": "Jasmine • Olivine Overlord+",
+    "desc": "Reach mastery level 20 with Jasmine."
+  },
+  "30310": {
+    "name": "Thorned Bloom Trio",
+    "desc": "Clear a run using Jasmine with Chespin, Chikorita, and Turtwig."
+  },
+  "30320": {
+    "name": "Gearheart Trinity",
+    "desc": "Clear a run using Jasmine with Klink, Aegislash Shield Forme, and Cobalion."
+  },
+  "40010": {
+    "name": "Ecruteak Chapter",
+    "desc": "Clear 5 full runs while using Trainer Morty."
+  },
+  "40020": {
+    "name": "Morty • First Steps",
+    "desc": "Reach mastery level 5 with Morty."
+  },
+  "40030": {
+    "name": "Shadow Slice",
+    "desc": "Clear a run while using Morty’s Shadow Strike skill."
+  },
+  "40040": {
+    "name": "Veiled Step",
+    "desc": "Clear a run while using Morty’s Veiled Shape skill."
+  },
+  "40050": {
+    "name": "Spirit Chorus",
+    "desc": "Clear a run while using Morty’s Spirit Call skill."
+  },
+  "40060": {
+    "name": "Morty Legacy I",
+    "desc": "When the season settles, rank in the Morty leaderboard top 50."
+  },
+  "40070": {
+    "name": "Morty Legacy II",
+    "desc": "When the season settles, rank in the Morty leaderboard top 10."
+  },
+  "40080": {
+    "name": "Morty Legacy III",
+    "desc": "When the season settles, place #1 on the Morty leaderboard."
+  },
+  "40090": {
+    "name": "Morty • True Grip",
+    "desc": "Reach mastery level 10 with Morty."
+  },
+  "40100": {
+    "name": "Morty • Ecruteak Overlord",
+    "desc": "Reach mastery level 15 with Morty."
+  },
+  "40110": {
+    "name": "Slumber Shade",
+    "desc": "Clear a run while using Morty’s Drowsiness skill."
+  },
+  "40120": {
+    "name": "Disaster Spiral",
+    "desc": "Clear a run while using Morty’s Calamity skill."
+  },
+  "40130": {
+    "name": "Phantom Fade",
+    "desc": "Clear a run while using Morty’s Vanishing Shadow skill."
+  },
+  "40140": {
+    "name": "Soul Drain",
+    "desc": "Clear a run while using Morty’s Exhaust skill."
+  },
+  "40150": {
+    "name": "Illusion Cloak",
+    "desc": "Clear a run while using Morty’s Phantom skill."
+  },
+  "40160": {
+    "name": "Wraith Bloom",
+    "desc": "Clear a run while using Morty’s Corruption skill."
+  },
+  "40170": {
+    "name": "Pactbound Mark",
+    "desc": "Clear a run while using Morty’s Contract skill."
+  },
+  "40180": {
+    "name": "Hoopa Confined Ally",
+    "desc": "Clear 5 runs with Morty deploying Hoopa Confined."
+  },
+  "40190": {
+    "name": "Lunala Ally",
+    "desc": "Clear 5 runs with Morty deploying Lunala."
+  },
+  "40200": {
+    "name": "Giratina Ally",
+    "desc": "Clear 5 runs with Morty deploying Giratina."
+  },
+  "40210": {
+    "name": "Yveltal Ally",
+    "desc": "Clear 5 runs with Morty deploying Yveltal."
+  },
+  "40220": {
+    "name": "Darkrai Ally",
+    "desc": "Clear 5 runs with Morty deploying Darkrai."
+  },
+  "40230": {
+    "name": "Mischief Engine",
+    "desc": "Clear a run using Morty with Hoopa Confined and Misdreavus."
+  },
+  "40240": {
+    "name": "Lunar Eclipse Haunt",
+    "desc": "Clear a run using Morty with Lunala and Mimikyu."
+  },
+  "40250": {
+    "name": "Spectral Procession",
+    "desc": "Clear a run using Morty with Giratina and Phantump."
+  },
+  "40260": {
+    "name": "Ruinous Whisper",
+    "desc": "Clear a run using Morty with Yveltal and Krokorok."
+  },
+  "40270": {
+    "name": "Rough Justice Duo",
+    "desc": "Clear a run using Morty with Greninja and Krookodile."
+  },
+  "40280": {
+    "name": "Insomnia Duel",
+    "desc": "Clear a run using Morty with Darkrai and Sneasel."
+  },
+  "40290": {
+    "name": "Morty • Ecruteak Overlord+",
+    "desc": "Reach mastery level 20 with Morty."
+  },
+  "40300": {
+    "name": "Dream Sovereign Trio",
+    "desc": "Clear a run using Morty with Misdreavus, Litwick, and Darkrai."
+  },
+  "40310": {
+    "name": "Rogue Spiral Trio",
+    "desc": "Clear a run using Morty with Krookodile, Krokorok, and Sneasel."
+  },
+  "50010": {
+    "name": "Laverre Chapter",
+    "desc": "Clear 5 full runs while using Trainer Valerie."
+  },
+  "50020": {
+    "name": "Valerie • First Steps",
+    "desc": "Reach mastery level 5 with Valerie."
+  },
+  "50030": {
+    "name": "Veil Whisper",
+    "desc": "Clear a run while using Valerie’s Ethereal skill."
+  },
+  "50040": {
+    "name": "Linked Fate",
+    "desc": "Clear a run while using Valerie’s Union skill."
+  },
+  "50050": {
+    "name": "Last Gambit",
+    "desc": "Clear a run while using Valerie’s Last Stand skill."
+  },
+  "50060": {
+    "name": "Valerie Legacy I",
+    "desc": "When the season settles, rank in the Valerie leaderboard top 50."
+  },
+  "50070": {
+    "name": "Valerie Legacy II",
+    "desc": "When the season settles, rank in the Valerie leaderboard top 10."
+  },
+  "50080": {
+    "name": "Valerie Legacy III",
+    "desc": "When the season settles, place #1 on the Valerie leaderboard."
+  },
+  "50090": {
+    "name": "Valerie • True Grip",
+    "desc": "Reach mastery level 10 with Valerie."
+  },
+  "50100": {
+    "name": "Valerie • Laverre Overlord",
+    "desc": "Reach mastery level 15 with Valerie."
+  },
+  "50110": {
+    "name": "Mirror Mirage",
+    "desc": "Clear a run while using Valerie’s Mirror Flower skill."
+  },
+  "50120": {
+    "name": "Enchanting Shade",
+    "desc": "Clear a run while using Valerie’s Glamour skill."
+  },
+  "50130": {
+    "name": "Nimble Flourish",
+    "desc": "Clear a run while using Valerie’s Agility skill."
+  },
+  "50140": {
+    "name": "Living Bond",
+    "desc": "Clear a run while using Valerie’s Symbiosis skill."
+  },
+  "50150": {
+    "name": "Captured Gambit",
+    "desc": "Clear a run while using Valerie’s Pawn skill."
+  },
+  "50160": {
+    "name": "Moonlit Ripple",
+    "desc": "Clear a run while using Valerie’s Lunar Pool skill."
+  },
+  "50170": {
+    "name": "Healing Chorus",
+    "desc": "Clear a run while using Valerie’s Cure skill."
+  },
+  "50180": {
+    "name": "Xerneas Ally",
+    "desc": "Clear 5 runs with Valerie deploying Xerneas."
+  },
+  "50190": {
+    "name": "Radiant Mega Gardevoir Ally",
+    "desc": "Clear 5 runs with Valerie deploying Shiny Mega Gardevoir."
+  },
+  "50200": {
+    "name": "Lugia Ally",
+    "desc": "Clear 5 runs with Valerie deploying Lugia."
+  },
+  "50210": {
+    "name": "Hoopa Unbound Ally",
+    "desc": "Clear 5 runs with Valerie deploying Hoopa Unbound."
+  },
+  "50220": {
+    "name": "Mewtwo Ally",
+    "desc": "Clear 5 runs with Valerie deploying Mewtwo."
+  },
+  "50230": {
+    "name": "Flower of Life",
+    "desc": "Clear a run using Valerie with Xerneas and Flabébé on the field."
+  },
+  "50240": {
+    "name": "Phantom Pas de Deux",
+    "desc": "Clear a run using Valerie with Shiny Mega Gardevoir and Primarina on the field."
+  },
+  "50250": {
+    "name": "Mindscape Spiral",
+    "desc": "Clear a run using Valerie with Hoopa Unbound and Mewtwo."
+  },
+  "50260": {
+    "name": "Prismatic Lens Duo",
+    "desc": "Clear a run using Valerie with Necrozma and Starmie."
+  },
+  "50270": {
+    "name": "Double Mindlink",
+    "desc": "Clear a run using Valerie with Mew and Abra on the field."
+  },
+  "50280": {
+    "name": "Guardian Duo",
+    "desc": "Clear a run using Valerie with Gardevoir and Gallade on the field."
+  },
+  "50290": {
+    "name": "Valerie • Laverre Overlord+",
+    "desc": "Reach mastery level 20 with Valerie."
+  },
+  "50300": {
+    "name": "Precious Peeps Trio",
+    "desc": "Clear a run using Valerie with Cleffa, Gothita, and Exeggcute."
+  },
+  "50310": {
+    "name": "Sugarheart Trio",
+    "desc": "Clear a run using Valerie with Swirlix, Slurpuff, and Wigglytuff."
+  },
+  "60010": {
+    "name": "Snowpoint Chapter",
+    "desc": "Clear 5 full runs while using Trainer Candice."
+  },
+  "60020": {
+    "name": "Candice • First Steps",
+    "desc": "Reach mastery level 5 with Candice."
+  },
+  "60030": {
+    "name": "Frost Waltz",
+    "desc": "Clear a run while using Candice’s Frost Waltz skill."
+  },
+  "60040": {
+    "name": "Breaker Shot",
+    "desc": "Clear a run while using Candice’s Ice Crash skill."
+  },
+  "60050": {
+    "name": "Blizzard Line",
+    "desc": "Clear a run while using Candice’s Snow Gust skill."
+  },
+  "60060": {
+    "name": "Candice Legacy I",
+    "desc": "When the season settles, rank in the Candice leaderboard top 50."
+  },
+  "60070": {
+    "name": "Candice Legacy II",
+    "desc": "When the season settles, rank in the Candice leaderboard top 10."
+  },
+  "60080": {
+    "name": "Candice Legacy III",
+    "desc": "When the season settles, place #1 on the Candice leaderboard."
+  },
+  "60090": {
+    "name": "Candice • True Grip",
+    "desc": "Reach mastery level 10 with Candice."
+  },
+  "60100": {
+    "name": "Candice • Snowpoint Overlord",
+    "desc": "Reach mastery level 15 with Candice."
+  },
+  "60110": {
+    "name": "Spring Thaw",
+    "desc": "Clear a run while using Candice’s Snowmelt skill."
+  },
+  "60120": {
+    "name": "Rivulet Flow",
+    "desc": "Clear a run while using Candice’s Babbling Brooks skill."
+  },
+  "60130": {
+    "name": "Whirlpool Grip",
+    "desc": "Clear a run while using Candice’s Vortex skill."
+  },
+  "60140": {
+    "name": "Crystal Purity",
+    "desc": "Clear a run while using Candice’s Unblemished skill."
+  },
+  "60150": {
+    "name": "Avalanche Break",
+    "desc": "Clear a run while using Candice’s Crash Snow skill."
+  },
+  "60160": {
+    "name": "Converging Tide",
+    "desc": "Clear a run while using Candice’s Converging Tide skill."
+  },
+  "60170": {
+    "name": "Tidal Surge",
+    "desc": "Clear a run while using Candice’s Tidal Surge skill."
+  },
+  "60180": {
+    "name": "Kyogre Ally",
+    "desc": "Clear 5 runs with Candice deploying Kyogre."
+  },
+  "60190": {
+    "name": "Manaphy Ally",
+    "desc": "Clear 5 runs with Candice deploying Manaphy."
+  },
+  "60200": {
+    "name": "Palkia Ally",
+    "desc": "Clear 5 runs with Candice deploying Palkia."
+  },
+  "60210": {
+    "name": "Polar Mega Abomasnow Ally",
+    "desc": "Clear 5 runs with Candice deploying Shiny Mega Abomasnow."
+  },
+  "60220": {
+    "name": "Ice Rider Ally",
+    "desc": "Clear 5 runs with Candice deploying Ice Rider Calyrex."
+  },
+  "60230": {
+    "name": "Kyurem Ally",
+    "desc": "Clear 5 runs with Candice deploying Kyurem."
+  },
+  "60240": {
+    "name": "Frost Family Duel",
+    "desc": "Clear a run using Candice with Shiny Mega Abomasnow and Snover."
+  },
+  "60250": {
+    "name": "Absolute Freeze Faceoff",
+    "desc": "Clear a run using Candice with Kyurem and Articuno."
+  },
+  "60260": {
+    "name": "Icicle Steeds Duel",
+    "desc": "Clear a run using Candice with Ice Rider Calyrex and Glastrier."
+  },
+  "60270": {
+    "name": "Azure Harmony",
+    "desc": "Clear a run using Candice with Kyogre and Piplup."
+  },
+  "60280": {
+    "name": "Ocean Heir Duel",
+    "desc": "Clear a run using Candice with Manaphy and Froakie."
+  },
+  "60290": {
+    "name": "Hydro Lancer Burst",
+    "desc": "Clear a run using Candice with Palkia and Clauncher."
+  },
+  "60300": {
+    "name": "Candice • Snowpoint Overlord+",
+    "desc": "Reach mastery level 20 with Candice."
+  },
+  "60310": {
+    "name": "Aquatic Nobility Trio",
+    "desc": "Clear a run using Candice with Suicune, male Frillish, and female Frillish."
+  },
+  "60320": {
+    "name": "Biting Blizzard Trio",
+    "desc": "Clear a run using Candice with Shiny Mega Abomasnow, Cloyster, and Amaura."
+  },
+  "90010": {
+    "name": "Adventure Road I",
+    "desc": "During this season, start 3 Adventures."
+  },
+  "90020": {
+    "name": "Adventure Road II",
+    "desc": "During this season, start 5 Adventures."
+  },
+  "90030": {
+    "name": "Adventure Road III",
+    "desc": "During this season, start 10 Adventures."
+  },
+  "90040": {
+    "name": "Adventure Road IV",
+    "desc": "During this season, start 20 Adventures."
+  },
+  "90050": {
+    "name": "Adventure Road V",
+    "desc": "During this season, start 30 Adventures."
+  },
+  "90060": {
+    "name": "Adventure Road VI",
+    "desc": "During this season, start 40 Adventures."
+  },
+  "90070": {
+    "name": "Adventure Master I",
+    "desc": "During this season, clear an Adventure once."
+  },
+  "90080": {
+    "name": "Adventure Master II",
+    "desc": "During this season, clear Adventures 3 times."
+  },
+  "90090": {
+    "name": "Adventure Master III",
+    "desc": "During this season, clear Adventures 5 times."
+  },
+  "90100": {
+    "name": "Adventure Master IV",
+    "desc": "During this season, clear Adventures 10 times."
+  },
+  "90110": {
+    "name": "Adventure Master V",
+    "desc": "During this season, clear Adventures 15 times."
+  },
+  "90120": {
+    "name": "Fire Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Fire-type."
+  },
+  "90130": {
+    "name": "Fighting Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Fighting-type."
+  },
+  "90140": {
+    "name": "Grass Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Grass-type."
+  },
+  "90150": {
+    "name": "Normal Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Normal-type."
+  },
+  "90160": {
+    "name": "Steel Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Steel-type."
+  },
+  "90170": {
+    "name": "Ghost Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Ghost-type."
+  },
+  "90180": {
+    "name": "Dark Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Dark-type."
+  },
+  "90190": {
+    "name": "Psychic Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Psychic-type."
+  },
+  "90200": {
+    "name": "Training Expertise",
+    "desc": "Clear an Adventure while two or more Pokémon on the board are 4★."
+  },
+  "90210": {
+    "name": "Powered Promotions",
+    "desc": "During this season, raise Pokémon to 4★ ten times via Promote Strengthening."
+  },
+  "90220": {
+    "name": "Fairy Specialty",
+    "desc": "Clear an Adventure while four or more Pokémon on the board are Fairy-type."
+  }
+}

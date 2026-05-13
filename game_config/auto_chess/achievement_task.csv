@@ -1,223 +1,223 @@
 ﻿变量名,name,type,desc,isHidden,clientTaskType,targetType,point,targetArg,languages,targetArg2,clientTaskArg
 默认值,"""""",1,"""""",FALSE,1,0,0,9999,<cn;tw;en;en_us;en_eu;vn;th;kr>,<>,{}
 ID,成就名称,成就类型ID,描述,是否隐藏,客户端任务类型,目标类型,奖励积分,目标参数,语言区域<lang>,目标参数2<args>,客户端任务参数{配置}
-10010,新的冒险,,使用任意训练家通关一次,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-10020,社交恐惧,,三场巅峰对决均失败且训练家最终存活,TRUE,2,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{pvpLoseR=<3;3>}
-10030,突破尝试,,使用升星遭遇将任意精灵升至2星,,2,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<2>>;sum=TRUE}
-10040,突破掌握,,使用升星遭遇将任意精灵升至4星,,2,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<4>>;sum=TRUE}
-10050,控血达人,,通关时训练家生命为20或更低,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{hpR=<1;20>}
-10060,熟能生巧,,累计使用升星强化遭遇将精灵升至4星20次,,2,,10,20,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<4>>;sum=TRUE}
-10070,专项特训,,累计使用升星强化遭遇将精灵升星40次,,2,,10,40,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<2;4>>;sum=TRUE}
-10080,金榜题名Ⅰ,,赛季结算时，位于总榜前50名,TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;-1>,
-10090,饥不择食,,在“饥肠辘辘”遭遇中选择生吃并通关,TRUE,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;22;2>}
-10100,牢底坐穿,,在“拦路的大树”遭遇中选择烧毁它并通关,TRUE,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;23;2>}
-10110,这样不好,,在“快递箱”遭遇中选择打开看看并通关,TRUE,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;201;2>}
-10120,一袋金币,,在“整装待发”遭遇中选择一袋金币并通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;15;1>}
-10130,爱心便当,,在“整装待发”遭遇中选择爱心便当并通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;15;2>}
-10140,探险用具,,在“整装待发”遭遇中选择探险用具并通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;15;3>}
-10150,理财专家,,通关时拥有50或更多金币,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{coinR=<50;99999>}
-10160,愈挫愈勇,,战斗失败三次或更多次后通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{loseR=<3;99999>}
-10170,控血专家,,通关时训练家生命为10或更低,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{hpR=<1;10>}
-10180,终止交易,,没有在神秘人处购买任何东西并通关,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{shopUseHPR=<0;0>}
-10190,灵魂交易,,在神秘人处花费10或以上血量并通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{shopUseHPR=<10;99999>}
-10200,拒绝帮助,,不使用任何属性强化遭遇并通关,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{shopEnhanceR=<0;0>}
-10210,大难不死,,训练家单次受到大于10点伤害并存活,,2,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{takeDmgAliveR=<11;99999>}
-10220,重拳出击,,训练家在巅峰对决中单次造成大于10点伤害,,2,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{causeDmgR=<11;99999;<2>>}
-10230,手下留情,,训练家在巅峰对决中单次造成小于10点伤害,,2,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{causeDmgR=<1;9;<2>>}
-10240,金榜题名Ⅱ,,赛季结算时，位于总榜前10名,TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;-1>,
-10250,巨额存款,,在“银行”遭遇中选择存入30金币并通关,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;301;3>}
-10260,游刃有余,,没有战斗失败并通关冒险,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{allWin=1}
-10270,超级富豪,,通关时拥有100或更多金币,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{coinR=<100;99999>}
-10280,控血大师,,通关时训练家生命为1,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{hpR=<1;1>}
-10290,训练大师,,通关时场上有6个4星精灵,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{starR=<6;99999;<4>>}
-10300,星不在高,,通关时场上有3个或以上1星精灵,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{starR=<3;99999;<1>>}
-10310,自食其力,,不使用任何升星强化遭遇并通关,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseR=<0;0>}
-10320,命不该绝,,训练家单次受到大于20点伤害并存活,TRUE,2,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{takeDmgAliveR=<21;99999>}
-10330,一击必杀,,训练家在巅峰对决中单次造成大于20点伤害,TRUE,2,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{causeDmgR=<21;99999;<2>>}
-10340,金榜题名Ⅲ,,赛季结算时，位于总榜第1名,TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;-1>,
-10350,精打细算,,通关时金币数量正好为0,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{coinR=<0;0>}
-10360,穿戴整齐,,通关时场上精灵均穿戴装备,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{equipR=<6;99999;<1;2>>}
-10370,超级口袋,,通关时场上有1个或以上穿戴2件装备的精灵,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{equipR=<1;99999;<2>>}
-10380,小白鼠,,在“药水商贩”遭遇中选择试验新药并通关,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;31;2>}
-10390,野餐,,在“萤火森林”遭遇中选择野餐并通关,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;26;2>}
-10400,助人为乐,,在“森林的住民”遭遇中帮助它们找回葛拉西蒂亚花并通关,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;25;3>}
-10410,野外生存,,在“迷路”遭遇中选择正确的方向并通关,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;32;1>}
-10420,冤大头,,在“失窃”遭遇中选择算了并通关,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;33;2>}
-20010,红莲之章,2,使用训练家夏伯累计通关5次,,,,10,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001}
-20020,红莲·初来乍到,2,夏伯精通等级达到5级,,,1,10,1,<cn;tw;en;en_us;en_eu;kr>,<5;200001>,
-20030,红莲传承Ⅰ,2,赛季结算时，位于夏伯榜前50名,TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;200001>,
-20040,余烬,2,夏伯使用技能“余烬”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000101;trainerID=200001}
-20050,星火,2,夏伯使用技能“星火”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000102;trainerID=200001}
-20060,熊熊,2,夏伯使用技能“熊熊”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000103;trainerID=200001}
-20070,红莲·融会贯通,2,夏伯精通等级达到10级,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200001>,
-20080,红莲·红莲之主,2,夏伯精通等级达到15级,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<15;200001>,
-20090,燃烧,2,夏伯使用技能“燃烧”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000104;trainerID=200001}
-20100,燎原,2,夏伯使用技能“燎原”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000105;trainerID=200001}
-20110,乘胜,2,夏伯使用技能“乘胜”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000106;trainerID=200001}
-20120,不灭,2,夏伯使用技能“不灭”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000107;trainerID=200001}
-20130,红莲,2,夏伯使用技能“红莲”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000108;trainerID=200001}
-20140,谜题,2,夏伯使用技能“谜题”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000109;trainerID=200001}
-20150,业火,2,夏伯使用技能“业火”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000110;trainerID=200001}
-20160,凤王,2,夏伯使用凤王累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2001>>}
-20170,比克提尼,2,夏伯使用比克提尼累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2013>>}
-20180,玛夏多,2,夏伯使用玛夏多累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7001>>}
-20190,藏玛然特,2,夏伯使用藏玛然特累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7011>>}
-20200,无尽烈焰,2,夏伯使用凤王和小火龙通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2001>>;unitIDR_1=<1;99999;<2008>>}
-20210,胜利之火,2,夏伯使用比克提尼和火稚鸡通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2013>>;unitIDR_1=<1;99999;<2006>>}
-20220,星火燎原,2,夏伯使用火焰鸟和鸭嘴宝宝通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2004>>;unitIDR_1=<1;99999;<2003>>}
-20230,暗影传说,2,夏伯使用玛夏多和猴怪通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7001>>;unitIDR_1=<1;99999;<7009>>}
-20240,攻守兼备,2,夏伯使用火稚鸡和藏玛然特通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2006>>;unitIDR_1=<1;99999;<7011>>}
-20250,攻无不克,2,夏伯使用利欧路和葱游兵通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7002>>;unitIDR_1=<1;99999;<7010>>}
-20260,红莲传承Ⅱ,2,赛季结算时，位于夏伯榜前10名,TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200001>,
-20270,红莲·红莲之主,2,夏伯精通等级达到20级,,,1,30,1,<cn;tw;en;en_us;en_eu;kr>,<20;200001>,
-20280,不灭之火,2,夏伯使用火球鼠、小火焰猴和炎帝通关1次,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2009>>;unitIDR_1=<1;99999;<2015>>;unitIDR_2=<1;99999;<2005>>}
-20290,红莲传承Ⅲ,2,赛季结算时，位于夏伯榜第1名,TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;200001>,
-20300,样样精通,2,夏伯使用飞腿郎、快拳郎和战舞郎通关1次,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7004>>;unitIDR_1=<1;99999;<7006>>;unitIDR_2=<1;99999;<7005>>}
-30010,浅葱之章,3,使用训练家阿蜜累计通关5次,,,,10,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002}
-30020,浅葱·初来乍到,3,阿蜜精通等级达到5级,,,1,10,1,<cn;tw;en;en_us;en_eu;kr>,<5;200002>,
-30030,配件,3,阿蜜使用技能“配件”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000201;trainerID=200002}
-30040,坚硬,3,阿蜜使用技能“坚硬”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000202;trainerID=200002}
-30050,丰饶,3,阿蜜使用技能“丰饶”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000203;trainerID=200002}
-30060,浅葱传承Ⅰ,3,赛季结算时，位于阿蜜榜前50名,TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;200002>,
-30070,浅葱传承Ⅱ,3,赛季结算时，位于阿蜜榜前10名,TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200002>,
-30080,浅葱传承Ⅲ,3,赛季结算时，位于阿蜜榜第1名,TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;200002>,
-30090,浅葱·融会贯通,3,阿蜜精通等级达到10级,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200002>,
-30100,浅葱·浅葱之主,3,阿蜜精通等级达到15级,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<15;200002>,
-30110,永恒,3,阿蜜使用技能“永恒”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000204;trainerID=200002}
-30120,组装,3,阿蜜使用技能“组装”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000205;trainerID=200002}
-30130,熔化,3,阿蜜使用技能“熔化”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000206;trainerID=200002}
-30140,好运,3,阿蜜使用技能“好运”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000207;trainerID=200002}
-30150,绝对防御,3,阿蜜使用技能“绝对防御”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000208;trainerID=200002}
-30160,锋利,3,阿蜜使用技能“锋利”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000209;trainerID=200002}
-30170,凝聚,3,阿蜜使用技能“凝聚”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000210;trainerID=200002}
-30180,谢米·陆地,3,阿蜜使用谢米·陆地累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4001>>}
-30190,谢米·天空,3,阿蜜使用谢米·天空累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4002>>}
-30200,时拉比,3,阿蜜使用时拉比累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4013>>}
-30210,美录坦,3,阿蜜使用美录坦累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17001>>}
-30220,玛机雅娜,3,阿蜜使用玛机雅娜累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17002>>}
-30230,索尔迦雷欧,3,阿蜜使用索尔迦雷欧累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17011>>}
-30240,枝繁叶茂,3,阿蜜使用谢米·陆地和甜竹竹通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4001>>;unitIDR_1=<1;99999;<4006>>}
-30250,野蛮生长,3,阿蜜使用谢米·天空和喇叭芽通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4002>>;unitIDR_1=<1;99999;<4012>>}
-30260,生生不息,3,阿蜜使用藤藤蛇和时拉比通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4004>>;unitIDR_1=<1;99999;<4013>>}
-30270,阳炎之怒,3,阿蜜使用索尔迦雷欧和可可多拉通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17004>>;unitIDR_1=<1;99999;<17011>>}
-30280,无刃之锋,3,阿蜜使用美录坦和龙头地鼠通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17001>>;unitIDR_1=<1;99999;<17009>>}
-30290,钢铁反击,3,阿蜜使用大钢蛇和雷吉斯奇鲁通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17003>>;unitIDR_1=<1;99999;<17010>>}
-30300,浅葱·浅葱之主,3,阿蜜精通等级达到20级,,,1,30,1,<cn;tw;en;en_us;en_eu;kr>,<20;200002>,
-30310,荆棘之兴,3,阿蜜使用哈力栗、菊草叶和草苗龟通关1次,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4011>>;unitIDR_1=<1;99999;<4009>>;unitIDR_2=<1;99999;<4010>>}
-30320,机械传动,3,阿蜜使用齿轮儿、坚盾剑怪·盾牌和勾帕路翁通关1次,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17008>>;unitIDR_1=<1;99999;<17007>>;unitIDR_2=<1;99999;<17006>>}
-40010,缘朱之章,4,使用训练家松叶累计通关5次,,,,10,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003}
-40020,缘朱·初来乍到,4,松叶精通等级达到5级,,,1,10,1,<cn;tw;en;en_us;en_eu;kr>,<5;200003>,
-40030,影杀,4,松叶使用技能“影杀”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000301;trainerID=200003}
-40040,藏形,4,松叶使用技能“藏形”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000302;trainerID=200003}
-40050,唤灵,4,松叶使用技能“唤灵”通关,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000303;trainerID=200003}
-40060,缘朱传承Ⅰ,4,赛季结算时，位于松叶榜前50名,TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;200003>,
-40070,缘朱传承Ⅱ,4,赛季结算时，位于松叶榜前10名,TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200003>,
-40080,缘朱传承Ⅲ,4,赛季结算时，位于松叶榜第1名,TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;200003>,
-40090,缘朱·融会贯通,4,松叶精通等级达到10级,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200003>,
-40100,缘朱·缘朱之主,4,松叶精通等级达到15级,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<15;200003>,
-40110,困倦,4,松叶使用技能“困倦”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000304;trainerID=200003}
-40120,灾祸,4,松叶使用技能“灾祸”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000305;trainerID=200003}
-40130,遁影,4,松叶使用技能“遁影”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000306;trainerID=200003}
-40140,衰竭,4,松叶使用技能“衰竭”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000307;trainerID=200003}
-40150,虚影,4,松叶使用技能“虚影”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000308;trainerID=200003}
-40160,腐化,4,松叶使用技能“腐化”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000309;trainerID=200003}
-40170,契约,4,松叶使用技能“契约”通关,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000310;trainerID=200003}
-40180,惩戒胡帕,4,松叶使用惩戒胡帕累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14001>>}
-40190,露奈雅拉,4,松叶使用露奈雅拉累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14003>>}
-40200,骑拉帝纳,4,松叶使用骑拉帝纳累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14012>>}
-40210,伊裴尔塔尔,4,松叶使用伊裴尔塔尔累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16001>>}
-40220,达克莱伊,4,松叶使用达克莱伊累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16003>>}
-40230,恶作剧之心,4,松叶使用惩戒胡帕和梦妖通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14001>>;unitIDR_1=<1;99999;<14004>>}
-40240,月影迷踪,4,松叶使用露奈雅拉和谜拟Q通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14003>>;unitIDR_1=<1;99999;<14008>>}
-40250,鬼影重重,4,松叶使用骑拉帝纳和小木灵通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14012>>;unitIDR_1=<1;99999;<14011>>}
-40260,死亡低语,4,松叶使用伊裴尔塔尔和混混鳄通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16001>>;unitIDR_1=<1;99999;<16011>>}
-40270,无恶不作,4,松叶使用甲贺忍蛙和流氓鳄通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16006>>;unitIDR_1=<1;99999;<16009>>}
-40280,永不失眠,4,松叶使用达克莱伊和狃拉通关1次,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16003>>;unitIDR_1=<1;99999;<16010>>}
-40290,缘朱·缘朱之主,4,松叶精通等级达到20级,,,1,30,1,<cn;tw;en;en_us;en_eu;kr>,<20;200003>,
-40300,梦境主宰,4,松叶使用梦妖、烛光灵和达克莱伊通关1次,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14004>>;unitIDR_1=<1;99999;<14006>>;unitIDR_2=<1;99999;<16003>>}
-40310,恶贯满盈,4,松叶使用流氓鳄、混混鳄和狃拉通关1次,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16009>>;unitIDR_1=<1;99999;<16010>>;unitIDR_2=<1;99999;<16011>>}
-50010,香薰之章,5,使用训练家玛绣累计通关5次,,,,10,5,<cn>,,{trainerID=200004}
-50020,香薰·初来乍到,5,玛绣精通等级达到5级,,,1,10,1,<cn>,<5;200004>,
-50030,缥缈,5,玛绣使用技能“缥缈”通关,,,,10,1,<cn>,,{skillID=10000401;trainerID=200004}
-50040,联结,5,玛绣使用技能“联结”通关,,,,10,1,<cn>,,{skillID=10000402;trainerID=200004}
-50050,背水,5,玛绣使用技能“背水”通关,,,,10,1,<cn>,,{skillID=10000403;trainerID=200004}
-50060,香薰传承Ⅰ,5,赛季结算时，位于玛绣榜前50名,TRUE,,3,10,1,<cn>,<50;200004>,
-50070,香薰传承Ⅱ,5,赛季结算时，位于玛绣榜前10名,TRUE,,3,20,1,<cn>,<10;200004>,
-50080,香薰传承Ⅲ,5,赛季结算时，位于玛绣榜第1名,TRUE,,3,30,1,<cn>,<1;200004>,
-50090,香薰·融会贯通,5,玛绣精通等级达到10级,,,1,20,1,<cn>,<10;200004>,
-50100,香薰·香薰之主,5,玛绣精通等级达到15级,,,1,20,1,<cn>,<15;200004>,
-50110,镜花,5,玛绣使用技能“镜花”通关,,,,20,1,<cn>,,{skillID=10000404;trainerID=200004}
-50120,魅影,5,玛绣使用技能“魅影”通关,,,,20,1,<cn>,,{skillID=10000405;trainerID=200004}
-50130,灵动,5,玛绣使用技能“灵动”通关,,,,20,1,<cn>,,{skillID=10000406;trainerID=200004}
-50140,共生,5,玛绣使用技能“共生”通关,,,,20,1,<cn>,,{skillID=10000407;trainerID=200004}
-50150,棋子,5,玛绣使用技能“棋子”通关,,,,20,1,<cn>,,{skillID=10000408;trainerID=200004}
-50160,水月,5,玛绣使用技能“水月”通关,,,,20,1,<cn>,,{skillID=10000409;trainerID=200004}
-50170,治愈,5,玛绣使用技能“治愈”通关,,,,20,1,<cn>,,{skillID=10000410;trainerID=200004}
-50180,哲尔尼亚斯,5,玛绣使用哲尔尼亚斯累计通关5次,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18001>>}
-50190,闪光超级沙奈朵,5,玛绣使用闪光超级沙奈朵累计通关5次,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18002>>}
-50200,洛奇亚,5,玛绣使用洛奇亚累计通关5次,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11001>>}
-50210,解放胡帕,5,玛绣使用解放胡帕累计通关5次,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11002>>}
-50220,超梦,5,玛绣使用超梦累计通关5次,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11004>>}
-50230,生命之花,5,玛绣使用哲尔尼亚斯和花蓓蓓通关1次,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18001>>;unitIDR_1=<1;99999;<18007>>}
-50240,魅影迷魂,5,玛绣使用闪光超级沙奈朵和西狮海壬通关1次,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18002>>;unitIDR_1=<1;99999;<18009>>}
-50250,精神幻境,5,玛绣使用解放胡帕和超梦通关1次,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11002>>;unitIDR_1=<1;99999;<11004>>}
-50260,棱镜折射,5,玛绣使用奈克洛兹玛和宝石海星通关1次,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11014>>;unitIDR_1=<1;99999;<11011>>}
-50270,双人成军,5,玛绣使用梦幻和凯西通关1次,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11005>>;unitIDR_1=<1;99999;<11006>>}
-50280,合体技,5,玛绣使用沙奈朵和艾路雷朵通关1次,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18004>>;unitIDR_1=<1;99999;<11013>>}
-50290,香薰·香薰之主,5,玛绣精通等级达到20级,,,1,30,1,<cn>,<20;200004>,
-50300,宝宝军团,5,玛绣使用皮宝宝、哥德宝宝和蛋蛋通关1次,TRUE,,,30,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18013>>;unitIDR_1=<1;99999;<11009>>;unitIDR_2=<1;99999;<11015>>}
-50310,甜蜜之心,5,玛绣使用绵绵泡芙、胖甜妮和胖可丁通关1次,TRUE,,,30,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18012>>;unitIDR_1=<1;99999;<18011>>;unitIDR_2=<1;99999;<18008>>}
-60010,切锋之章,6,使用训练家小菘累计通关5次,,,,10,5,<cn>,,{trainerID=200005}
-60020,切锋·初来乍到,6,小菘精通等级达到5级,,,1,10,1,<cn>,<5;200005>,
-60030,霜舞,6,"小菘使用技能""霜舞”通关",,,,10,1,<cn>,,{skillID=10000501;trainerID=200005}
-60040,破冰,6,"小菘使用技能""破冰”通关",,,,10,1,<cn>,,{skillID=10000502;trainerID=200005}
-60050,吹雪,6,"小菘使用技能""吹雪”通关",,,,10,1,<cn>,,{skillID=10000503;trainerID=200005}
-60060,切锋传承Ⅰ,6,赛季结算时，位于小菘榜前50名,TRUE,,3,10,1,<cn>,<50;200005>,
-60070,切锋传承Ⅱ,6,赛季结算时，位于小菘榜前10名,TRUE,,3,20,1,<cn>,<10;200005>,
-60080,切锋传承Ⅲ,6,赛季结算时，位于小菘榜第1名,TRUE,,3,30,1,<cn>,<1;200005>,
-60090,切锋·融会贯通,6,小菘精通等级达到10级,,,1,20,1,<cn>,<10;200005>,
-60100,切锋·切锋之主,6,小菘精通等级达到15级,,,1,20,1,<cn>,<15;200005>,
-60110,融雪,6,"小菘使用技能""融雪”通关",,,,20,1,<cn>,,{skillID=10000504;trainerID=200005}
-60120,潺潺,6,"小菘使用技能""潺潺”通关",,,,20,1,<cn>,,{skillID=10000505;trainerID=200005}
-60130,漩涡,6,"小菘使用技能""漩涡”通关",,,,20,1,<cn>,,{skillID=10000506;trainerID=200005}
-60140,不染,6,"小菘使用技能""不染”通关",,,,20,1,<cn>,,{skillID=10000507;trainerID=200005}
-60150,崩雪,6,"小菘使用技能""崩雪”通关",,,,20,1,<cn>,,{skillID=10000508;trainerID=200005}
-60160,聚流,6,"小菘使用技能""聚流”通关",,,,20,1,<cn>,,{skillID=10000509;trainerID=200005}
-60170,巨浪,6,"小菘使用技能""巨浪”通关",,,,20,1,<cn>,,{skillID=10000510;trainerID=200005}
-60180,盖欧卡,6,小菘使用盖欧卡累计通关5次,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3002>>}
-60190,玛纳霏,6,小菘使用玛纳霏累计通关5次,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3003>>}
-60200,帕路奇亚,6,小菘使用帕路奇亚累计通关5次,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3008>>}
-60210,闪光超级暴雪王,6,小菘使用闪光超级暴雪王累计通关5次,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6001>>}
-60220,蕾冠王·白马,6,小菘使用蕾冠王·白马累计通关5次,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6002>>}
-60230,酋雷姆,6,小菘使用酋雷姆累计通关5次,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6003>>}
-60240,雪怪家族,6,小菘使用闪光超级暴雪王和雪笠怪通关1次,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6001>>;unitIDR_1=<1;99999;<6010>>}
-60250,绝对零度,6,小菘使用酋雷姆和急冻鸟通关1次,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6003>>;unitIDR_1=<1;99999;<6005>>}
-60260,骏马领域,6,小菘使用蕾冠王·白马和雪暴马通关1次,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6002>>;unitIDR_1=<1;99999;<6009>>}
-60270,一尘不染,6,小菘使用盖欧卡和波加曼通关1次,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3002>>;unitIDR_1=<1;99999;<3016>>}
-60280,海洋王子,6,小菘使用玛纳霏和呱呱泡蛙通关1次,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3003>>;unitIDR_1=<1;99999;<3012>>}
-60290,水流裂破,6,小菘使用帕路奇亚和铁臂枪虾通关1次,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3008>>;unitIDR_1=<1;99999;<3019>>}
-60300,切锋·切锋之主,6,小菘精通等级达到20级,,,1,30,1,<cn>,<20;200005>,
-60310,水中贵族,6,小菘使用水君、轻飘飘·雄和轻飘飘·雌通关1次,TRUE,,,30,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3011>>;unitIDR_1=<1;99999;<3017>>;unitIDR_2=<1;99999;<3018>>}
-60320,寒风凌冽,6,小菘使用闪光超级暴雪王、刺甲贝和冰雪龙通关1次,TRUE,,,30,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6001>>;unitIDR_1=<1;99999;<6008>>;unitIDR_2=<1;99999;<6015>>}
-90010,冒险之路Ⅰ,999,本赛季累计挑战3次,,2,4,10,3,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90020,冒险之路Ⅱ,999,本赛季累计挑战5次,,2,4,10,5,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90030,冒险之路Ⅲ,999,本赛季累计挑战10次,,2,4,20,10,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90040,冒险之路Ⅳ,999,本赛季累计挑战20次,,2,4,20,20,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90050,冒险之路Ⅴ,999,本赛季累计挑战30次,,2,4,20,30,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90060,冒险之路Ⅵ,999,本赛季累计挑战40次,,2,4,30,40,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90070,冒险大师Ⅰ,999,本赛季累计通关1次,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90080,冒险大师Ⅱ,999,本赛季累计通关3次,,,,10,3,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90090,冒险大师Ⅲ,999,本赛季累计通关5次,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90100,冒险大师Ⅳ,999,本赛季累计通关10次,,,,20,10,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90110,冒险大师Ⅴ,999,本赛季累计通关15次,,,,30,15,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
-90120,火系精通,999,通关时场上有4个或以上火系精灵,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<2>>}
-90130,斗系精通,999,通关时场上有4个或以上斗系精灵,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<7>>}
-90140,草系精通,999,通关时场上有4个或以上草系精灵,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<4>>}
-90150,普系精通,999,通关时场上有4个或以上普系精灵,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<1>>}
-90160,钢系精通,999,通关时场上有4个或以上钢系精灵,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<17>>}
-90170,鬼系精通,999,通关时场上有4个或以上鬼系精灵,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<14>>}
-90180,恶系精通,999,通关时场上有4个或以上恶系精灵,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<16>>}
-90190,超系精通,999,通关时场上有4个或以上超系精灵,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<11>>}
-90200,训练专家,999,通关时场上有2个或以上4星精灵,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{starR=<2;99999;<4>>}
-90210,突破强化,999,本赛季累计使用升星强化遭遇将精灵升至4星10次,,2,,10,10,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<4>>;sum=TRUE}
-90220,妖系精通,999,通关时场上有4个或以上妖系精灵,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<18>>}
+10010,New Adventure,,Clear one full Adventure run using any Trainer.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+10020,Social Anxiety,,Lose every round in three Apex Duel matches and still clear the run with your Trainer surviving.,TRUE,2,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{pvpLoseR=<3;3>}
+10030,Breakthrough Bid,,Use Promote encounters to raise any Pokémon to 2★.,,2,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<2>>;sum=TRUE}
+10040,Breakthrough Mastery,,Use Promote encounters to raise any Pokémon to 4★.,,2,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<4>>;sum=TRUE}
+10050,HP Acrobat,,Clear the run with your Trainer’s HP at 20 or lower.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{hpR=<1;20>}
+10060,Practice Pays Off,,Raise Pokémon to 4★ using Promote Strengthening encounters 20 times in total.,,2,,10,20,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<4>>;sum=TRUE}
+10070,Focused Training,,Promote Pokémon 40 times in total using Promote Strengthening encounters.,,2,,10,40,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<2;4>>;sum=TRUE}
+10080,Leaderboard Glory I,,"When the season settles, rank in the global top 50.",TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;-1>,
+10090,Desperate Bite,,"In the Famished encounter, choose Eat it raw and clear the run.",TRUE,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;22;2>}
+10100,Burn It All,,"In the Fallen Tree encounter, choose Burn it down and clear the run.",TRUE,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;23;2>}
+10110,Probably a Bad Idea,,"In the Delivery Box encounter, choose Open it and clear the run.",TRUE,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;201;2>}
+10120,Coin Pouch Path,,"In the Prepared to Depart encounter, choose the bag of coins and clear the run.",,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;15;1>}
+10130,Lunchbox Boost,,"In the Prepared to Depart encounter, choose the Heart Lunchbox and clear the run.",,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;15;2>}
+10140,Explorer’s Prep,,"In the Prepared to Depart encounter, choose the exploration kit and clear the run.",,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;15;3>}
+10150,Fortune Keeper,,Clear the run with 50 Coins or more.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{coinR=<50;99999>}
+10160,Shake It Off,,Clear the run after losing three or more battles.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{loseR=<3;99999>}
+10170,Tightrope HP,,Clear the run with your Trainer’s HP at 10 or lower.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{hpR=<1;10>}
+10180,Closed Shop,,Clear the run without buying anything from the mystery merchant.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{shopUseHPR=<0;0>}
+10190,Blood Price,,Spend 10 or more Trainer HP at the mystery merchant and clear the run.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{shopUseHPR=<10;99999>}
+10200,Self-Made Strength,,Clear the run without using any stat-enhancing encounters.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{shopEnhanceR=<0;0>}
+10210,Close Shave,,Your Trainer survives after taking more than 10 damage in a single hit.,,2,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{takeDmgAliveR=<11;99999>}
+10220,Haymaker Apex,,"In an Apex Duel, deal more than 10 damage with one hit.",,2,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{causeDmgR=<11;99999;<2>>}
+10230,Light Spar,,"In an Apex Duel, deal less than 10 damage with one hit.",,2,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{causeDmgR=<1;9;<2>>}
+10240,Leaderboard Glory II,,"When the season settles, rank in the global top 10.",TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;-1>,
+10250,Serious Saving,,"In the Bank encounter, choose Deposit 30 Coins and clear the run.",TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;301;3>}
+10260,Flawless March,,Clear an Adventure without losing any battles.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{allWin=1}
+10270,Ultra Mogul,,Clear the run with 100 Coins or more.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{coinR=<100;99999>}
+10280,Last Hitpoint,,Clear the run with your Trainer at exactly 1 HP.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{hpR=<1;1>}
+10290,Training Apex,,Clear the run with six 4★ Pokémon on the board.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{starR=<6;99999;<4>>}
+10300,Quality Optional,,Clear the run with three or more 1★ Pokémon on the board.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{starR=<3;99999;<1>>}
+10310,No Promo Run,,Clear the run without using any Promote encounters.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseR=<0;0>}
+10320,Cheated Fate,,Your Trainer survives after taking more than 20 damage in a single hit.,TRUE,2,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{takeDmgAliveR=<21;99999>}
+10330,Megaton Spike,,"In an Apex Duel, deal more than 20 damage with one hit.",TRUE,2,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{causeDmgR=<21;99999;<2>>}
+10340,Leaderboard Glory III,,"When the season settles, reach global rank #1.",TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;-1>,
+10350,Exact Coffers,,Clear the run with exactly 0 Coins.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{coinR=<0;0>}
+10360,Dress Parade,,Clear the run while every Pokémon on the board holds gear.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{equipR=<6;99999;<1;2>>}
+10370,Double-Pack Run,,Clear the run with at least one Pokémon holding two gear pieces.,TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{equipR=<1;99999;<2>>}
+10380,Test Subject,,"In the Apothecary encounter, choose Test the new potion and clear the run.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;31;2>}
+10390,Forest Picnic,,"In the Firefly Woods encounter, choose Picnic and clear the run.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;26;2>}
+10400,Gracidea Helper,,"In the Woods-Dwellers encounter, help retrieve a Gracidea Flower and clear the run.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;25;3>}
+10410,Right Turn Home,,"In the Lost encounter, pick the correct direction and clear the run.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;32;1>}
+10420,Let It Slide,,"In the Stolen Goods encounter, choose Let it go and clear the run.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{storyChooseR=<1;99999;33;2>}
+20010,Chapter of Cinnabar,2,Clear 5 full runs while using Trainer Blaine.,,,,10,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001}
+20020,Blaine • First Steps,2,Reach mastery level 5 with Blaine.,,,1,10,1,<cn;tw;en;en_us;en_eu;kr>,<5;200001>,
+20030,Blaine Legacy I,2,"When the season settles, rank in the Blaine leaderboard top 50.",TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;200001>,
+20040,Embers Trial,2,Clear a run while using Blaine’s Embers skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000101;trainerID=200001}
+20050,Spark Trial,2,Clear a run while using Blaine’s Spark skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000102;trainerID=200001}
+20060,Blazing Bear,2,Clear a run while using Blaine’s Blaze Bear skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000103;trainerID=200001}
+20070,Blaine • True Grip,2,Reach mastery level 10 with Blaine.,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200001>,
+20080,Blaine • Cinnabar Overlord,2,Reach mastery level 15 with Blaine.,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<15;200001>,
+20090,Kindled Burn,2,Clear a run while using Blaine’s Kindled Burn skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000104;trainerID=200001}
+20100,Prairie Fire,2,Clear a run while using Blaine’s Prairie Fire skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000105;trainerID=200001}
+20110,Press Ahead,2,Clear a run while using Blaine’s Press Ahead skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000106;trainerID=200001}
+20120,Unyielding Blaze,2,Clear a run while using Blaine’s Unyielding skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000107;trainerID=200001}
+20130,Cinnabar Tempest,2,Clear a run while using Blaine’s Cinnabar skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000108;trainerID=200001}
+20140,Riddle Duel,2,Clear a run while using Blaine’s Riddle skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000109;trainerID=200001}
+20150,Hellfire Finale,2,Clear a run while using Blaine’s Hellfire skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000110;trainerID=200001}
+20160,Ho-Oh Ally,2,Clear 5 runs with Blaine deploying Ho-Oh.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2001>>}
+20170,Victini Ally,2,Clear 5 runs with Blaine deploying Victini.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2013>>}
+20180,Marshadow Ally,2,Clear 5 runs with Blaine deploying Marshadow.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7001>>}
+20190,Zamazenta Ally,2,Clear 5 runs with Blaine deploying Zamazenta.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7011>>}
+20200,Endless Flames,2,Clear a run using Blaine with Ho-Oh and Charmander on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2001>>;unitIDR_1=<1;99999;<2008>>}
+20210,Victory Blaze,2,Clear a run using Blaine with Victini and Torchic on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2013>>;unitIDR_1=<1;99999;<2006>>}
+20220,Sky-High Spark,2,Clear a run using Blaine with Moltres and Magby on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2004>>;unitIDR_1=<1;99999;<2003>>}
+20230,Shadow Chronicles,2,Clear a run using Blaine with Marshadow and Mankey on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7001>>;unitIDR_1=<1;99999;<7009>>}
+20240,Shield and Fang,2,Clear a run using Blaine with Torchic and Zamazenta on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2006>>;unitIDR_1=<1;99999;<7011>>}
+20250,Strike Unbroken,2,Clear a run using Blaine with Riolu and Sirfetch’d on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7002>>;unitIDR_1=<1;99999;<7010>>}
+20260,Blaine Legacy II,2,"When the season settles, rank in the Blaine leaderboard top 10.",TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200001>,
+20270,Blaine • Cinnabar Overlord+,2,Reach mastery level 20 with Blaine.,,,1,30,1,<cn;tw;en;en_us;en_eu;kr>,<20;200001>,
+20280,Undying Pyre,2,"Clear a run using Blaine with Cyndaquil, Chimchar, and Entei.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<2009>>;unitIDR_1=<1;99999;<2015>>;unitIDR_2=<1;99999;<2005>>}
+20290,Blaine Legacy III,2,"When the season settles, place #1 on the Blaine leaderboard.",TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;200001>,
+20300,Tri-Kicking Line,2,"Clear a run using Blaine with Hitmonlee, Hitmonchan, and Hitmontop.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200001;unitIDR=<1;99999;<7004>>;unitIDR_1=<1;99999;<7006>>;unitIDR_2=<1;99999;<7005>>}
+30010,Olivine Chapter,3,Clear 5 full runs while using Trainer Jasmine.,,,,10,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002}
+30020,Jasmine • First Steps,3,Reach mastery level 5 with Jasmine.,,,1,10,1,<cn;tw;en;en_us;en_eu;kr>,<5;200002>,
+30030,Component Kit,3,Clear a run while using Jasmine’s Component skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000201;trainerID=200002}
+30040,Iron Shelter,3,Clear a run while using Jasmine’s Iron Shelter skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000202;trainerID=200002}
+30050,Bounty Sprout,3,Clear a run while using Jasmine’s Bounty skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000203;trainerID=200002}
+30060,Jasmine Legacy I,3,"When the season settles, rank in the Jasmine leaderboard top 50.",TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;200002>,
+30070,Jasmine Legacy II,3,"When the season settles, rank in the Jasmine leaderboard top 10.",TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200002>,
+30080,Jasmine Legacy III,3,"When the season settles, place #1 on the Jasmine leaderboard.",TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;200002>,
+30090,Jasmine • True Grip,3,Reach mastery level 10 with Jasmine.,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200002>,
+30100,Jasmine • Olivine Overlord,3,Reach mastery level 15 with Jasmine.,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<15;200002>,
+30110,Eternal Lattice,3,Clear a run while using Jasmine’s Eternal skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000204;trainerID=200002}
+30120,Assembly Line,3,Clear a run while using Jasmine’s Assembly skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000205;trainerID=200002}
+30130,Smelt Breaker,3,Clear a run while using Jasmine’s Smelt skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000206;trainerID=200002}
+30140,Luck Engine,3,Clear a run while using Jasmine’s Lucky skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000207;trainerID=200002}
+30150,Absolute Guard,3,Clear a run while using Jasmine’s Absolute Defense skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000208;trainerID=200002}
+30160,Razor’s Edge,3,Clear a run while using Jasmine’s Sharp skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000209;trainerID=200002}
+30170,Focus Surge,3,Clear a run while using Jasmine’s Focus skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000210;trainerID=200002}
+30180,Shaymin Land Ally,3,Clear 5 runs with Jasmine deploying Shaymin Land Forme.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4001>>}
+30190,Shaymin Sky Ally,3,Clear 5 runs with Jasmine deploying Shaymin Sky Forme.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4002>>}
+30200,Celebi Ally,3,Clear 5 runs with Jasmine deploying Celebi.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4013>>}
+30210,Meltan Ally,3,Clear 5 runs with Jasmine deploying Meltan.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17001>>}
+30220,Magearna Ally,3,Clear 5 runs with Jasmine deploying Magearna.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17002>>}
+30230,Solgaleo Ally,3,Clear 5 runs with Jasmine deploying Solgaleo.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17011>>}
+30240,Garden Surge,3,Clear a run using Jasmine with Shaymin Land Forme and Bounsweet on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4001>>;unitIDR_1=<1;99999;<4006>>}
+30250,Wild Spiral,3,Clear a run using Jasmine with Shaymin Sky Forme and Bellsprout on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4002>>;unitIDR_1=<1;99999;<4012>>}
+30260,Evergrowth Bond,3,Clear a run using Jasmine with Snivy and Celebi on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4004>>;unitIDR_1=<1;99999;<4013>>}
+30270,Solar Flare Fang,3,Clear a run using Jasmine with Solgaleo and Aron on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17004>>;unitIDR_1=<1;99999;<17011>>}
+30280,Edge Without Blade,3,Clear a run using Jasmine with Meltan and Excadrill on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17001>>;unitIDR_1=<1;99999;<17009>>}
+30290,Steel Riposte Duo,3,Clear a run using Jasmine with Steelix and Registeel on the field.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17003>>;unitIDR_1=<1;99999;<17010>>}
+30300,Jasmine • Olivine Overlord+,3,Reach mastery level 20 with Jasmine.,,,1,30,1,<cn;tw;en;en_us;en_eu;kr>,<20;200002>,
+30310,Thorned Bloom Trio,3,"Clear a run using Jasmine with Chespin, Chikorita, and Turtwig.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<4011>>;unitIDR_1=<1;99999;<4009>>;unitIDR_2=<1;99999;<4010>>}
+30320,Gearheart Trinity,3,"Clear a run using Jasmine with Klink, Aegislash Shield Forme, and Cobalion.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200002;unitIDR=<1;99999;<17008>>;unitIDR_1=<1;99999;<17007>>;unitIDR_2=<1;99999;<17006>>}
+40010,Ecruteak Chapter,4,Clear 5 full runs while using Trainer Morty.,,,,10,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003}
+40020,Morty • First Steps,4,Reach mastery level 5 with Morty.,,,1,10,1,<cn;tw;en;en_us;en_eu;kr>,<5;200003>,
+40030,Shadow Slice,4,Clear a run while using Morty’s Shadow Strike skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000301;trainerID=200003}
+40040,Veiled Step,4,Clear a run while using Morty’s Veiled Shape skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000302;trainerID=200003}
+40050,Spirit Chorus,4,Clear a run while using Morty’s Spirit Call skill.,,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000303;trainerID=200003}
+40060,Morty Legacy I,4,"When the season settles, rank in the Morty leaderboard top 50.",TRUE,,3,10,1,<cn;tw;en;en_us;en_eu;kr>,<50;200003>,
+40070,Morty Legacy II,4,"When the season settles, rank in the Morty leaderboard top 10.",TRUE,,3,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200003>,
+40080,Morty Legacy III,4,"When the season settles, place #1 on the Morty leaderboard.",TRUE,,3,30,1,<cn;tw;en;en_us;en_eu;kr>,<1;200003>,
+40090,Morty • True Grip,4,Reach mastery level 10 with Morty.,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<10;200003>,
+40100,Morty • Ecruteak Overlord,4,Reach mastery level 15 with Morty.,,,1,20,1,<cn;tw;en;en_us;en_eu;kr>,<15;200003>,
+40110,Slumber Shade,4,Clear a run while using Morty’s Drowsiness skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000304;trainerID=200003}
+40120,Disaster Spiral,4,Clear a run while using Morty’s Calamity skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000305;trainerID=200003}
+40130,Phantom Fade,4,Clear a run while using Morty’s Vanishing Shadow skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000306;trainerID=200003}
+40140,Soul Drain,4,Clear a run while using Morty’s Exhaust skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000307;trainerID=200003}
+40150,Illusion Cloak,4,Clear a run while using Morty’s Phantom skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000308;trainerID=200003}
+40160,Wraith Bloom,4,Clear a run while using Morty’s Corruption skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000309;trainerID=200003}
+40170,Pactbound Mark,4,Clear a run while using Morty’s Contract skill.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{skillID=10000310;trainerID=200003}
+40180,Hoopa Confined Ally,4,Clear 5 runs with Morty deploying Hoopa Confined.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14001>>}
+40190,Lunala Ally,4,Clear 5 runs with Morty deploying Lunala.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14003>>}
+40200,Giratina Ally,4,Clear 5 runs with Morty deploying Giratina.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14012>>}
+40210,Yveltal Ally,4,Clear 5 runs with Morty deploying Yveltal.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16001>>}
+40220,Darkrai Ally,4,Clear 5 runs with Morty deploying Darkrai.,,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16003>>}
+40230,Mischief Engine,4,Clear a run using Morty with Hoopa Confined and Misdreavus.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14001>>;unitIDR_1=<1;99999;<14004>>}
+40240,Lunar Eclipse Haunt,4,Clear a run using Morty with Lunala and Mimikyu.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14003>>;unitIDR_1=<1;99999;<14008>>}
+40250,Spectral Procession,4,Clear a run using Morty with Giratina and Phantump.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14012>>;unitIDR_1=<1;99999;<14011>>}
+40260,Ruinous Whisper,4,Clear a run using Morty with Yveltal and Krokorok.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16001>>;unitIDR_1=<1;99999;<16011>>}
+40270,Rough Justice Duo,4,Clear a run using Morty with Greninja and Krookodile.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16006>>;unitIDR_1=<1;99999;<16009>>}
+40280,Insomnia Duel,4,Clear a run using Morty with Darkrai and Sneasel.,TRUE,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16003>>;unitIDR_1=<1;99999;<16010>>}
+40290,Morty • Ecruteak Overlord+,4,Reach mastery level 20 with Morty.,,,1,30,1,<cn;tw;en;en_us;en_eu;kr>,<20;200003>,
+40300,Dream Sovereign Trio,4,"Clear a run using Morty with Misdreavus, Litwick, and Darkrai.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<14004>>;unitIDR_1=<1;99999;<14006>>;unitIDR_2=<1;99999;<16003>>}
+40310,Rogue Spiral Trio,4,"Clear a run using Morty with Krookodile, Krokorok, and Sneasel.",TRUE,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{trainerID=200003;unitIDR=<1;99999;<16009>>;unitIDR_1=<1;99999;<16010>>;unitIDR_2=<1;99999;<16011>>}
+50010,Laverre Chapter,5,Clear 5 full runs while using Trainer Valerie.,,,,10,5,<cn>,,{trainerID=200004}
+50020,Valerie • First Steps,5,Reach mastery level 5 with Valerie.,,,1,10,1,<cn>,<5;200004>,
+50030,Veil Whisper,5,Clear a run while using Valerie’s Ethereal skill.,,,,10,1,<cn>,,{skillID=10000401;trainerID=200004}
+50040,Linked Fate,5,Clear a run while using Valerie’s Union skill.,,,,10,1,<cn>,,{skillID=10000402;trainerID=200004}
+50050,Last Gambit,5,Clear a run while using Valerie’s Last Stand skill.,,,,10,1,<cn>,,{skillID=10000403;trainerID=200004}
+50060,Valerie Legacy I,5,"When the season settles, rank in the Valerie leaderboard top 50.",TRUE,,3,10,1,<cn>,<50;200004>,
+50070,Valerie Legacy II,5,"When the season settles, rank in the Valerie leaderboard top 10.",TRUE,,3,20,1,<cn>,<10;200004>,
+50080,Valerie Legacy III,5,"When the season settles, place #1 on the Valerie leaderboard.",TRUE,,3,30,1,<cn>,<1;200004>,
+50090,Valerie • True Grip,5,Reach mastery level 10 with Valerie.,,,1,20,1,<cn>,<10;200004>,
+50100,Valerie • Laverre Overlord,5,Reach mastery level 15 with Valerie.,,,1,20,1,<cn>,<15;200004>,
+50110,Mirror Mirage,5,Clear a run while using Valerie’s Mirror Flower skill.,,,,20,1,<cn>,,{skillID=10000404;trainerID=200004}
+50120,Enchanting Shade,5,Clear a run while using Valerie’s Glamour skill.,,,,20,1,<cn>,,{skillID=10000405;trainerID=200004}
+50130,Nimble Flourish,5,Clear a run while using Valerie’s Agility skill.,,,,20,1,<cn>,,{skillID=10000406;trainerID=200004}
+50140,Living Bond,5,Clear a run while using Valerie’s Symbiosis skill.,,,,20,1,<cn>,,{skillID=10000407;trainerID=200004}
+50150,Captured Gambit,5,Clear a run while using Valerie’s Pawn skill.,,,,20,1,<cn>,,{skillID=10000408;trainerID=200004}
+50160,Moonlit Ripple,5,Clear a run while using Valerie’s Lunar Pool skill.,,,,20,1,<cn>,,{skillID=10000409;trainerID=200004}
+50170,Healing Chorus,5,Clear a run while using Valerie’s Cure skill.,,,,20,1,<cn>,,{skillID=10000410;trainerID=200004}
+50180,Xerneas Ally,5,Clear 5 runs with Valerie deploying Xerneas.,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18001>>}
+50190,Radiant Mega Gardevoir Ally,5,Clear 5 runs with Valerie deploying Shiny Mega Gardevoir.,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18002>>}
+50200,Lugia Ally,5,Clear 5 runs with Valerie deploying Lugia.,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11001>>}
+50210,Hoopa Unbound Ally,5,Clear 5 runs with Valerie deploying Hoopa Unbound.,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11002>>}
+50220,Mewtwo Ally,5,Clear 5 runs with Valerie deploying Mewtwo.,,,,20,5,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11004>>}
+50230,Flower of Life,5,Clear a run using Valerie with Xerneas and Flabébé on the field.,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18001>>;unitIDR_1=<1;99999;<18007>>}
+50240,Phantom Pas de Deux,5,Clear a run using Valerie with Shiny Mega Gardevoir and Primarina on the field.,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18002>>;unitIDR_1=<1;99999;<18009>>}
+50250,Mindscape Spiral,5,Clear a run using Valerie with Hoopa Unbound and Mewtwo.,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11002>>;unitIDR_1=<1;99999;<11004>>}
+50260,Prismatic Lens Duo,5,Clear a run using Valerie with Necrozma and Starmie.,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11014>>;unitIDR_1=<1;99999;<11011>>}
+50270,Double Mindlink,5,Clear a run using Valerie with Mew and Abra on the field.,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<11005>>;unitIDR_1=<1;99999;<11006>>}
+50280,Guardian Duo,5,Clear a run using Valerie with Gardevoir and Gallade on the field.,TRUE,,,20,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18004>>;unitIDR_1=<1;99999;<11013>>}
+50290,Valerie • Laverre Overlord+,5,Reach mastery level 20 with Valerie.,,,1,30,1,<cn>,<20;200004>,
+50300,Precious Peeps Trio,5,"Clear a run using Valerie with Cleffa, Gothita, and Exeggcute.",TRUE,,,30,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18013>>;unitIDR_1=<1;99999;<11009>>;unitIDR_2=<1;99999;<11015>>}
+50310,Sugarheart Trio,5,"Clear a run using Valerie with Swirlix, Slurpuff, and Wigglytuff.",TRUE,,,30,1,<cn>,,{trainerID=200004;unitIDR=<1;99999;<18012>>;unitIDR_1=<1;99999;<18011>>;unitIDR_2=<1;99999;<18008>>}
+60010,Snowpoint Chapter,6,Clear 5 full runs while using Trainer Candice.,,,,10,5,<cn>,,{trainerID=200005}
+60020,Candice • First Steps,6,Reach mastery level 5 with Candice.,,,1,10,1,<cn>,<5;200005>,
+60030,Frost Waltz,6,Clear a run while using Candice’s Frost Waltz skill.,,,,10,1,<cn>,,{skillID=10000501;trainerID=200005}
+60040,Breaker Shot,6,Clear a run while using Candice’s Ice Crash skill.,,,,10,1,<cn>,,{skillID=10000502;trainerID=200005}
+60050,Blizzard Line,6,Clear a run while using Candice’s Snow Gust skill.,,,,10,1,<cn>,,{skillID=10000503;trainerID=200005}
+60060,Candice Legacy I,6,"When the season settles, rank in the Candice leaderboard top 50.",TRUE,,3,10,1,<cn>,<50;200005>,
+60070,Candice Legacy II,6,"When the season settles, rank in the Candice leaderboard top 10.",TRUE,,3,20,1,<cn>,<10;200005>,
+60080,Candice Legacy III,6,"When the season settles, place #1 on the Candice leaderboard.",TRUE,,3,30,1,<cn>,<1;200005>,
+60090,Candice • True Grip,6,Reach mastery level 10 with Candice.,,,1,20,1,<cn>,<10;200005>,
+60100,Candice • Snowpoint Overlord,6,Reach mastery level 15 with Candice.,,,1,20,1,<cn>,<15;200005>,
+60110,Spring Thaw,6,Clear a run while using Candice’s Snowmelt skill.,,,,20,1,<cn>,,{skillID=10000504;trainerID=200005}
+60120,Rivulet Flow,6,Clear a run while using Candice’s Babbling Brooks skill.,,,,20,1,<cn>,,{skillID=10000505;trainerID=200005}
+60130,Whirlpool Grip,6,Clear a run while using Candice’s Vortex skill.,,,,20,1,<cn>,,{skillID=10000506;trainerID=200005}
+60140,Crystal Purity,6,Clear a run while using Candice’s Unblemished skill.,,,,20,1,<cn>,,{skillID=10000507;trainerID=200005}
+60150,Avalanche Break,6,Clear a run while using Candice’s Crash Snow skill.,,,,20,1,<cn>,,{skillID=10000508;trainerID=200005}
+60160,Converging Tide,6,Clear a run while using Candice’s Converging Tide skill.,,,,20,1,<cn>,,{skillID=10000509;trainerID=200005}
+60170,Tidal Surge,6,Clear a run while using Candice’s Tidal Surge skill.,,,,20,1,<cn>,,{skillID=10000510;trainerID=200005}
+60180,Kyogre Ally,6,Clear 5 runs with Candice deploying Kyogre.,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3002>>}
+60190,Manaphy Ally,6,Clear 5 runs with Candice deploying Manaphy.,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3003>>}
+60200,Palkia Ally,6,Clear 5 runs with Candice deploying Palkia.,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3008>>}
+60210,Polar Mega Abomasnow Ally,6,Clear 5 runs with Candice deploying Shiny Mega Abomasnow.,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6001>>}
+60220,Ice Rider Ally,6,Clear 5 runs with Candice deploying Ice Rider Calyrex.,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6002>>}
+60230,Kyurem Ally,6,Clear 5 runs with Candice deploying Kyurem.,,,,20,5,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6003>>}
+60240,Frost Family Duel,6,Clear a run using Candice with Shiny Mega Abomasnow and Snover.,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6001>>;unitIDR_1=<1;99999;<6010>>}
+60250,Absolute Freeze Faceoff,6,Clear a run using Candice with Kyurem and Articuno.,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6003>>;unitIDR_1=<1;99999;<6005>>}
+60260,Icicle Steeds Duel,6,Clear a run using Candice with Ice Rider Calyrex and Glastrier.,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6002>>;unitIDR_1=<1;99999;<6009>>}
+60270,Azure Harmony,6,Clear a run using Candice with Kyogre and Piplup.,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3002>>;unitIDR_1=<1;99999;<3016>>}
+60280,Ocean Heir Duel,6,Clear a run using Candice with Manaphy and Froakie.,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3003>>;unitIDR_1=<1;99999;<3012>>}
+60290,Hydro Lancer Burst,6,Clear a run using Candice with Palkia and Clauncher.,TRUE,,,20,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3008>>;unitIDR_1=<1;99999;<3019>>}
+60300,Candice • Snowpoint Overlord+,6,Reach mastery level 20 with Candice.,,,1,30,1,<cn>,<20;200005>,
+60310,Aquatic Nobility Trio,6,"Clear a run using Candice with Suicune, male Frillish, and female Frillish.",TRUE,,,30,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<3011>>;unitIDR_1=<1;99999;<3017>>;unitIDR_2=<1;99999;<3018>>}
+60320,Biting Blizzard Trio,6,"Clear a run using Candice with Shiny Mega Abomasnow, Cloyster, and Amaura.",TRUE,,,30,1,<cn>,,{trainerID=200005;unitIDR=<1;99999;<6001>>;unitIDR_1=<1;99999;<6008>>;unitIDR_2=<1;99999;<6015>>}
+90010,Adventure Road I,999,"During this season, start 3 Adventures.",,2,4,10,3,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90020,Adventure Road II,999,"During this season, start 5 Adventures.",,2,4,10,5,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90030,Adventure Road III,999,"During this season, start 10 Adventures.",,2,4,20,10,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90040,Adventure Road IV,999,"During this season, start 20 Adventures.",,2,4,20,20,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90050,Adventure Road V,999,"During this season, start 30 Adventures.",,2,4,20,30,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90060,Adventure Road VI,999,"During this season, start 40 Adventures.",,2,4,30,40,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90070,Adventure Master I,999,"During this season, clear an Adventure once.",,,,10,1,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90080,Adventure Master II,999,"During this season, clear Adventures 3 times.",,,,10,3,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90090,Adventure Master III,999,"During this season, clear Adventures 5 times.",,,,20,5,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90100,Adventure Master IV,999,"During this season, clear Adventures 10 times.",,,,20,10,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90110,Adventure Master V,999,"During this season, clear Adventures 15 times.",,,,30,15,<cn;tw;en;en_us;en_eu;kr>,,{default=1}
+90120,Fire Specialty,999,Clear an Adventure while four or more Pokémon on the board are Fire-type.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<2>>}
+90130,Fighting Specialty,999,Clear an Adventure while four or more Pokémon on the board are Fighting-type.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<7>>}
+90140,Grass Specialty,999,Clear an Adventure while four or more Pokémon on the board are Grass-type.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<4>>}
+90150,Normal Specialty,999,Clear an Adventure while four or more Pokémon on the board are Normal-type.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<1>>}
+90160,Steel Specialty,999,Clear an Adventure while four or more Pokémon on the board are Steel-type.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<17>>}
+90170,Ghost Specialty,999,Clear an Adventure while four or more Pokémon on the board are Ghost-type.,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<14>>}
+90180,Dark Specialty,999,Clear an Adventure while four or more Pokémon on the board are Dark-type.,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<16>>}
+90190,Psychic Specialty,999,Clear an Adventure while four or more Pokémon on the board are Psychic-type.,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<11>>}
+90200,Training Expertise,999,Clear an Adventure while two or more Pokémon on the board are 4★.,,,,20,1,<cn;tw;en;en_us;en_eu;kr>,,{starR=<2;99999;<4>>}
+90210,Powered Promotions,999,"During this season, raise Pokémon to 4★ ten times via Promote Strengthening.",,2,,10,10,<cn;tw;en;en_us;en_eu;kr>,,{shopRiseN=<<4>>;sum=TRUE}
+90220,Fairy Specialty,999,Clear an Adventure while four or more Pokémon on the board are Fairy-type.,,,,30,1,<cn;tw;en;en_us;en_eu;kr>,,{natureR=<4;99999;<18>>}

@@ -1542,6 +1542,14 @@
 | 放大镜2–5 | Magnifier II–V | |
 | 解除伪装 | Lift Disguise | `[Disguise]` |
 
+### 7.9.1. Bổ sung từ `auto_chess/achievement_task.csv` (thuật ngữ lặp)
+
+| Gốc (CN) | English |
+| :--- | :--- |
+| 升星遭遇 | Promote encounter |
+| 升星强化遭遇 | Promote Strengthening encounter |
+| 巅峰对决 | Apex Duel |
+
 ### 7.10. Bổ sung từ `auto_chess/equip.csv` (tên / mô tả / `keyWords`)
 
 | Gốc (CN) | English |
