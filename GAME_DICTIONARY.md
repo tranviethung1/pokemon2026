@@ -1449,5 +1449,26 @@
 | 幽灵在周围低语 | Ghosts whisper all around you | Ma quanh quẩn thì thầm |
 | 也许这不是它们的本意 | Perhaps this is not what they intended | Có lẽ đây không phải ý chúng |
 
+### 7.5. Bổ sung từ `auto_chess/key_words.csv` (tên hiển thị; cột `key` giữ CN để khớp config)
+
+| Gốc (CN) tên | English (name) | Ghi chú |
+| :--- | :--- | :--- |
+| 【新春限定】 | 【New Year Limited】 | |
+| 【复活】 | 【Revive】 | |
+| 【召唤】 | 【Summon】 | |
+| 【先机】 | 【First Strike】 | |
+| 【濒死】 | 【Near Death】 | |
+| 【暴击】 | 【Critical Hit】 | |
+| 【光环】 | 【Aura】 | |
+| 【贯穿】 | 【Cleave】 | |
+| 【登场】 | 【On Play】 | |
+| 【晕眩】 | 【Stun】 | |
+| 【破敌】 | 【On Kill】 | |
+| 【破甲】 | 【Armor Shred】 | Khác 【穿甲】 / Armor Pierce |
+| 【穿甲】 | 【Armor Pierce】 | |
+| 【流水】 | 【Flow】 | |
+| 【大葱】 | 【Leek】 | Event |
+| 【穿透】 | 【Penetrate】 | Khác 【贯穿】 / Cleave |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
