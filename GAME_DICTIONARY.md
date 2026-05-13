@@ -1542,7 +1542,20 @@
 | 放大镜2–5 | Magnifier II–V | |
 | 解除伪装 | Lift Disguise | `[Disguise]` |
 
-Cột **`keyWords`** giữ `【…】` tiếng Trung để khớp engine/highlight.
+### 7.9. Bổ sung từ `auto_chess/equip.csv` (tên / mô tả / `keyWords`)
+
+| Gốc (CN) | English |
+| :--- | :--- |
+| 吃剩的苹果 | Leftovers |
+| 弹簧拳套 | Punching Glove |
+| 白金宝珠 | Adamant Orb |
+| 可疑补丁 | Dubious Disc |
+| 美丽鳞片 | Prism Scale |
+| 高能护腕 | Power Band |
+| 探宝器 | Treasure Sensor |
+| 咸鱼龙刺 | Salty Fish Spine |
+| 混元之石 | Primordial Stone |
+| 混沌魔方球 | Chaos Magicube |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
