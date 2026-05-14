@@ -1140,6 +1140,7 @@
 | 迈向最强之路 | Road to the Strongest | Con đường tới đỉnh mạnh nhất |
 | 友谊象征：最初的精灵 | Symbol of Friendship: The First Pokemon | Biểu tượng tình bạn: Pokemon đầu tiên |
 | 最后的战斗 | The Final Battle | Trận chiến cuối cùng |
+| 第[N]关 | Stage [N] | Ải [N] |
 | 幻之宝可梦集结 | Mythical Pokemon Gathering | Tập hợp Pokemon huyền bí |
 | 龙族集结 | Dragon Gathering | Tập hợp long tộc |
 | 斗战集结 | Battle Gathering | Tập hợp chiến đấu |
@@ -1187,6 +1188,38 @@
 | 该效果必然触发 | this effect is guaranteed | Hiệu ứng này chắc chắn kích hoạt |
 | 连击效果 | combo effect | hiệu ứng liên kích |
 | 控制免疫 | control immunity | miễn nhiễm khống chế |
+| 战斗中随机一个己方精灵获得携带道具【[道具]】效果 | During battle, a random allied Pokémon gains the effect of holding 【[Item]】. | Trong trận, một Pokémon đồng minh ngẫu nhiên nhận hiệu ứng cầm 【[Vật phẩm]】. |
+| 战斗中己方随机一个精灵的小技能冷却为1回合 | During battle, a random allied Pokémon's Basic Skill cooldown becomes 1 turn. | Trong trận, hồi chiêu Kỹ năng cơ bản của một Pokémon đồng minh ngẫu nhiên trở thành 1 lượt. |
+| 战斗中己方随机一个精灵满怒气 | During battle, a random allied Pokémon starts with full Rage. | Trong trận, một Pokémon đồng minh ngẫu nhiên bắt đầu với đầy Nộ khí. |
+| 战斗中己方随机一个精灵开局即可获得凤王的祝福效果 | During battle, a random allied Pokémon starts with Ho-Oh's Blessing. | Trong trận, một Pokémon đồng minh ngẫu nhiên bắt đầu với Phúc lành của Ho-Oh. |
+| 战斗中己方随机一个精灵获得免控 | During battle, a random allied Pokémon gains control immunity. | Trong trận, một Pokémon đồng minh ngẫu nhiên nhận miễn nhiễm khống chế. |
+| 首回合全体恢复50%血量 | On the first mega-turn, all units restore 50% HP. | Ở đại lượt đầu tiên, toàn bộ đơn vị hồi 50% HP. |
+| 每个大回合结束全体恢复10%血量 | At the end of each mega-turn, all units restore 10% HP. | Cuối mỗi đại lượt, toàn bộ đơn vị hồi 10% HP. |
+| 首回合全体恢复30%血量和300点怒气 | On the first mega-turn, all units restore 30% HP and 300 Rage. | Ở đại lượt đầu tiên, toàn bộ đơn vị hồi 30% HP và 300 Nộ khí. |
+| 己方所有单位在死亡后有30%概率立刻复活 | All allied units have a 30% chance to revive immediately after fainting. | Tất cả đơn vị đồng minh có 30% xác suất hồi sinh ngay sau khi gục ngã. |
+| 激活开局上锁精灵：[宝可梦] | Activate starting locked Pokémon: [Pokemon] | Kích hoạt Pokémon bị khóa ở đầu trận: [Pokemon] |
+
+### 5.5. Capture Levels
+*Các danh xưng cấp bắt giữ trong `game_config/capture/level.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 见习捕捉者 | Amateur Catcher | Người bắt tập sự |
+| 入门捕捉者 | Rookie Catcher | Người bắt nhập môn |
+| 初级捕捉者 | Beginner Catcher | Người bắt sơ cấp |
+| 新锐捕捉者 | Rising Catcher | Người bắt tân tú |
+| 中级捕捉者 | Intermediate Catcher | Người bắt trung cấp |
+| 熟练捕捉者 | Skillful Catcher | Người bắt lành nghề |
+| 高级捕捉者 | Advanced Catcher | Người bắt cao cấp |
+| 全能捕捉者 | All-round Catcher | Người bắt toàn năng |
+| 特级捕捉者 | Super Catcher | Siêu người bắt |
+| 捕捉达人 | Expert Catcher | Cao thủ bắt giữ |
+| 捕捉专家 | Expert Catcher | Chuyên gia bắt giữ |
+| 捕捉宗师 | Grandmaster Catcher | Tông sư bắt giữ |
+| 捕捉大师 | Master Catcher | Đại sư bắt giữ |
+| 传奇捕捉者Ⅰ | Legendary Catcher Ⅰ | Người bắt huyền thoại Ⅰ |
+| 传奇捕捉者Ⅱ | Legendary Catcher Ⅱ | Người bắt huyền thoại Ⅱ |
+| 传奇捕捉者Ⅲ | Legendary Catcher Ⅲ | Người bắt huyền thoại Ⅲ |
 
 ---
 

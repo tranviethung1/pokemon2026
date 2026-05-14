@@ -62,46 +62,46 @@
 - [x] 📄 `game_config/auto_chess/trainer_skills.csv`
 - [ ] 📄 `game_config/auto_pve/busy_time.csv`
 - [ ] 📄 `game_config/auto_pve/cards.csv`
-- [ ] 📄 `game_config/base_attribute/advance_level.csv`
-- [ ] 📄 `game_config/base_attribute/card_level.csv`
+- [x] 📄 `game_config/base_attribute/advance_level.csv`
+- [x] 📄 `game_config/base_attribute/card_level.csv`
 - [x] 📄 `game_config/base_attribute/controllbufftype.csv`
-- [ ] 📄 `game_config/base_attribute/develop_level.csv`
-- [ ] 📄 `game_config/base_attribute/equip_ability.csv`
-- [ ] 📄 `game_config/base_attribute/equip_advance.csv`
-- [ ] 📄 `game_config/base_attribute/equip_awake.csv`
-- [ ] 📄 `game_config/base_attribute/equip_awake_ability.csv`
-- [ ] 📄 `game_config/base_attribute/equip_signet.csv`
+- [x] 📄 `game_config/base_attribute/develop_level.csv`
+- [x] 📄 `game_config/base_attribute/equip_ability.csv`
+- [x] 📄 `game_config/base_attribute/equip_advance.csv`
+- [x] 📄 `game_config/base_attribute/equip_awake.csv`
+- [x] 📄 `game_config/base_attribute/equip_awake_ability.csv`
+- [x] 📄 `game_config/base_attribute/equip_signet.csv`
 - [x] 📄 `game_config/base_attribute/equip_signet_advance.csv`
-- [ ] 📄 `game_config/base_attribute/equip_signet_advance_cost.csv`
-- [ ] 📄 `game_config/base_attribute/equip_signet_advance_cost_outmoded.csv`
-- [ ] 📄 `game_config/base_attribute/equip_signet_outmoded.csv`
-- [ ] 📄 `game_config/base_attribute/equip_star.csv`
-- [ ] 📄 `game_config/base_attribute/equip_strength.csv`
-- [ ] 📄 `game_config/base_attribute/fight_soul_level.csv`
-- [ ] 📄 `game_config/base_attribute/formula_const.csv`
-- [ ] 📄 `game_config/base_attribute/hero_level.csv`
+- [x] 📄 `game_config/base_attribute/equip_signet_advance_cost.csv`
+- [x] 📄 `game_config/base_attribute/equip_signet_advance_cost_outmoded.csv`
+- [x] 📄 `game_config/base_attribute/equip_signet_outmoded.csv`
+- [x] 📄 `game_config/base_attribute/equip_star.csv`
+- [x] 📄 `game_config/base_attribute/equip_strength.csv`
+- [x] 📄 `game_config/base_attribute/fight_soul_level.csv`
+- [x] 📄 `game_config/base_attribute/formula_const.csv`
+- [x] 📄 `game_config/base_attribute/hero_level.csv`
 - [x] 📄 `game_config/base_attribute/nature_matrix.csv`
-- [ ] 📄 `game_config/base_attribute/role_level.csv`
-- [ ] 📄 `game_config/base_attribute/scene_attr_correct.csv`
-- [ ] 📄 `game_config/base_attribute/skill_level.csv`
-- [ ] 📄 `game_config/battle_card_halo.csv`
-- [ ] 📄 `game_config/bossaward.csv`
+- [x] 📄 `game_config/base_attribute/role_level.csv`
+- [x] 📄 `game_config/base_attribute/scene_attr_correct.csv`
+- [x] 📄 `game_config/base_attribute/skill_level.csv`
+- [x] 📄 `game_config/battle_card_halo.csv`
+- [x] 📄 `game_config/bossaward.csv`
 - [x] 📄 `game_config/brave_challenge/achievement.csv`
 - [x] 📄 `game_config/brave_challenge/badge.csv`
-- [ ] 📄 `game_config/brave_challenge/badge_gen.csv`
-- [ ] 📄 `game_config/brave_challenge/base.csv`
+- [x] 📄 `game_config/brave_challenge/badge_gen.csv`
+- [x] 📄 `game_config/brave_challenge/base.csv`
 - [x] 📄 `game_config/brave_challenge/cards.csv`
 - [x] 📄 `game_config/brave_challenge/floor.csv`
-- [ ] 📄 `game_config/brave_challenge/monster.csv`
-- [ ] 📄 `game_config/brave_challenge/open.csv`
-- [ ] 📄 `game_config/brave_challenge/team.csv`
+- [x] 📄 `game_config/brave_challenge/monster.csv`
+- [x] 📄 `game_config/brave_challenge/open.csv`
+- [x] 📄 `game_config/brave_challenge/team.csv`
 - [ ] 📄 `game_config/buff.csv`
 - [ ] 📄 `game_config/buff_effect.csv`
 - [ ] 📄 `game_config/buff_group_power.csv`
 - [ ] 📄 `game_config/buff_group_relation.csv`
 - [ ] 📄 `game_config/buff_level_correct.csv`
 - [ ] 📄 `game_config/capture/base.csv`
-- [ ] 📄 `game_config/capture/level.csv`
+- [x] 📄 `game_config/capture/level.csv`
 - [ ] 📄 `game_config/capture/probability.csv`
 - [ ] 📄 `game_config/capture/random.csv`
 - [ ] 📄 `game_config/capture/sprite.csv`
