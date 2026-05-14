@@ -2,13 +2,13 @@
 默认值,0,"""""","""""","""""","""""",""""""
 ID,最大等级,文本描述,文本描述,文本描述,文本描述,文本描述_韩
 ,,,,,,
-1,100,肯定成功,肯定成功,Guarantee success,??m b?o thành c?ng,100% ??
-2,90,基本上是稳了,基本上是穩了,It's basically stable,V? c? b?n nó ?n ??nh,?? ???
-3,80,成功率极高,成功率極高,Extremely high success rate,T? l? thành c?ng c?c cao,??? ??? ??
-4,70,成功率很高,成功率很高,High success rate,T? l? thành c?ng cao,??? ?? ??
-5,50,成功率高,成功率高,Success rate,T? l? thành c?ng,??? ??
-6,40,成功率中上,成功率中上,Above average success rate,T? l? thành c?ng trên trung bình,??? ??
-7,20,成功率中等,成功率中等,Average success rate,T? l? thành c?ng trung bình,??? ??
-8,10,成功率低,成功率低,Low success rate,T? l? thành c?ng th?p,??? ??
-9,5,成功率很低,成功率很低,Low success rate,T? l? thành c?ng th?p,??? ?? ??
-10,0,成功率极低,成功率極低,Extremely low success rate,T? l? thành c?ng c?c k? th?p,??? ??? ??
+1,100,Guarantee success,Guarantee success,Guarantee success,Guarantee success,Guarantee success
+2,90,It's basically stable,It's basically stable,It's basically stable,It's basically stable,It's basically stable
+3,80,Extremely high success rate,Extremely high success rate,Extremely high success rate,Extremely high success rate,Extremely high success rate
+4,70,High success rate,High success rate,High success rate,High success rate,High success rate
+5,50,Success rate,Success rate,Success rate,Success rate,Success rate
+6,40,Above average success rate,Above average success rate,Above average success rate,Above average success rate,Above average success rate
+7,20,Average success rate,Average success rate,Average success rate,Average success rate,Average success rate
+8,10,Low success rate,Low success rate,Low success rate,Low success rate,Low success rate
+9,5,Low success rate,Low success rate,Low success rate,Low success rate,Low success rate
+10,0,Extremely low success rate,Extremely low success rate,Extremely low success rate,Extremely low success rate,Extremely low success rate

@@ -102,8 +102,8 @@
 - [ ] 📄 `game_config/buff_level_correct.csv`
 - [ ] 📄 `game_config/capture/base.csv`
 - [x] 📄 `game_config/capture/level.csv`
-- [ ] 📄 `game_config/capture/probability.csv`
-- [ ] 📄 `game_config/capture/random.csv`
+- [x] 📄 `game_config/capture/probability.csv`
+- [x] 📄 `game_config/capture/random.csv`
 - [ ] 📄 `game_config/capture/sprite.csv`
 - [ ] 📄 `game_config/card_ability.csv`
 - [ ] 📄 `game_config/card_ability_cost.csv`

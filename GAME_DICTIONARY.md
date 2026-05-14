@@ -1221,6 +1221,35 @@
 | 传奇捕捉者Ⅱ | Legendary Catcher Ⅱ | Người bắt huyền thoại Ⅱ |
 | 传奇捕捉者Ⅲ | Legendary Catcher Ⅲ | Người bắt huyền thoại Ⅲ |
 
+### 5.6. Capture Probability
+*Các mô tả xác suất bắt giữ trong `game_config/capture/probability.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 肯定成功 | Guarantee success | Chắc chắn thành công |
+| 基本上是稳了 | It's basically stable | Gần như đã chắc ăn |
+| 成功率极高 | Extremely high success rate | Tỷ lệ thành công cực cao |
+| 成功率很高 | High success rate | Tỷ lệ thành công rất cao |
+| 成功率高 | Success rate | Tỷ lệ thành công cao |
+| 成功率中上 | Above average success rate | Tỷ lệ thành công trên trung bình |
+| 成功率中等 | Average success rate | Tỷ lệ thành công trung bình |
+| 成功率低 | Low success rate | Tỷ lệ thành công thấp |
+| 成功率很低 | Low success rate | Tỷ lệ thành công rất thấp |
+| 成功率极低 | Extremely low success rate | Tỷ lệ thành công cực thấp |
+
+### 5.7. Capture Random
+*Các ghi chú quy tắc ngẫu nhiên trong `game_config/capture/random.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 前150每次 | Every draw in the first 150 attempts | Mỗi lượt rút trong 150 lần đầu |
+| 第151~301次 | Draws 151-301 | Lượt rút 151-301 |
+| 300次以后每次 | Every draw after 300 | Mỗi lượt rút sau mốc 300 |
+| 第12次-首个s | 12th draw - first S | Lượt rút thứ 12 - S đầu tiên |
+| 每10次b/a(5废弃-后续新增ID不能使用5) | Every 10 draws: B/A (ID 5 deprecated; do not use for future entries) | Mỗi 10 lượt rút: B/A (ID 5 đã bỏ; không dùng cho mục thêm mới sau này) |
+| 每20次必a(6废弃-后续新增ID不能使用6) | Guaranteed A every 20 draws (ID 6 deprecated; do not use for future entries) | Cứ 20 lượt rút chắc chắn ra A (ID 6 đã bỏ; không dùng cho mục thêm mới sau này) |
+| 每50次必s | Guaranteed S every 50 draws | Cứ 50 lượt rút chắc chắn ra S |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
