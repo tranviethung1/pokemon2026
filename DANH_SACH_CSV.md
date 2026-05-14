@@ -144,12 +144,12 @@
 - [ ] 📄 `game_config/cityscene.csv`
 - [ ] 📄 `game_config/citysound.csv`
 - [ ] 📄 `game_config/client_skill_event.csv`
-- [ ] 📄 `game_config/clone/award.csv`
-- [ ] 📄 `game_config/clone/battle.csv`
-- [ ] 📄 `game_config/clone/draw_box_cost.csv`
-- [ ] 📄 `game_config/clone/monster.csv`
-- [ ] 📄 `game_config/clone/nature.csv`
-- [ ] 📄 `game_config/clone/rarity.csv`
+- [x] 📄 `game_config/clone/award.csv`
+- [x] 📄 `game_config/clone/battle.csv`
+- [x] 📄 `game_config/clone/draw_box_cost.csv`
+- [x] 📄 `game_config/clone/monster.csv`
+- [x] 📄 `game_config/clone/nature.csv`
+- [x] 📄 `game_config/clone/rarity.csv`
 - [ ] 📄 `game_config/color.csv`
 - [ ] 📄 `game_config/combat_manual.csv`
 - [ ] 📄 `game_config/combat_power_correction.csv`

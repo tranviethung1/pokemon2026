@@ -1296,6 +1296,15 @@
 | 吸血 | Life steal | Hút máu |
 | 百分比双防忽视 | Percentage P. & Sp. DEF Ignorance | Phần trăm bỏ qua thủ vật lý & đặc biệt |
 
+### 5.10. Clone Monsters
+*Các tên bổ sung dùng trong `game_config/clone/monster.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 班吉拉斯 | Tyranitar | Tyranitar |
+| 骑拉帝纳·别种形态 | Giratina (Altered Forme) | Giratina (Dạng Altered) |
+| 坚盾剑怪·盾牌形态 | Aegislash (Shield Forme) | Aegislash (Dạng Khiên) |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)

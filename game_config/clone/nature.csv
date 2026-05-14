@@ -1,22 +1,22 @@
-±äÁ¿Ãû,name,name_tw,name_en,name_vn,name_kr,weight,weight_kr,spine,CDTime,fix,robot1,robot2,robot3,robot4,recommendAttr
-Ä¬ÈÏÖµ,"""""","""""","""""","""""","""""",0,0,"""""",0,0,0,1,2,3,<>
-ÊôĞÔID,ÔªËØÃû,ÔªËØÃû,ÔªËØÃû,ÔªËØÃû_Ô½ÄÏ,ÔªËØÃû_º«,È¨Öµ,È¨Öµ,spineÅäÖÃ,ÀäÈ´Ê±¼ä£¨µ¥Î»£ºÌìÊı£©,»úÆ÷ÈËĞŞÕıÖµ£¨Ö»¶Ô6¸ö»ù´¡ÊôĞÔ¼°¾«ÁéµÈ¼¶ºÍ¼¼ÄÜµÈ¼¶½øĞĞĞŞÕı£©,»úÆ÷ÈË1¿¨ÅÆID,»úÆ÷ÈË2¿¨ÅÆID,»úÆ÷ÈË3¿¨ÅÆID,»úÆ÷ÈË4¿¨ÅÆID,ÍÆ¼öÊôĞÔÁĞ±í(ÌîÊı×Ö£¬ÊıÁ¿ÈÎÒâ)
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,name,name_tw,name_en,name_vn,name_kr,weight,weight_kr,spine,CDTime,fix,robot1,robot2,robot3,robot4,recommendAttr
+Ä¬ï¿½ï¿½Öµ,"""""","""""","""""","""""","""""",0,0,"""""",0,0,0,1,2,3,<>
+ï¿½ï¿½ï¿½ï¿½ID,Ôªï¿½ï¿½ï¿½ï¿½,Ôªï¿½ï¿½ï¿½ï¿½,Ôªï¿½ï¿½ï¿½ï¿½,Ôªï¿½ï¿½ï¿½ï¿½_Ô½ï¿½ï¿½,Ôªï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½,È¨Öµ,È¨Öµ,spineï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½È´Ê±ï¿½ä£¨ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ö»ï¿½ï¿½6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½ï¿½Í¼ï¿½ï¿½ÜµÈ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ID,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ID,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ID,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½ID,ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ±ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 ,,,,,,,,,,,,,,,
-1,Ò»°ã,Ò»°ã,Normal,Th??ng,??,100,100,18ys/huizhang1.skel,2,0.75,603,13,3303,2302,<7>
-2,»ğ,»ğ,Fire,L?a,??,100,100,18ys/huizhang1.skel,2,0.75,93,263,572,1172,<3;9;13>
-3,Ë®,Ë®,Water,N??c,?,100,100,18ys/huizhang1.skel,2,0.75,303,1392,1253,3143,<4;5>
-4,²İ,²İ,Grass,C?,?,100,100,18ys/huizhang1.skel,2,0.75,2963,303,3413,1393,<2;6;8;10;12>
-5,µç,ëŠ,Electic,?i?n,??,100,100,18ys/huizhang1.skel,2,0.75,3,793,372,631,<9>
-6,±ù,±ù,Ice,B?ng,??,100,100,18ys/huizhang3.skel,2,0.75,482,593,803,1293,<2;7;13;17>
-7,¸ñ¶·,¸ñôY,Fighting,C¨¢ch ??u,??,100,100,18ys/huizhang3.skel,2,0.75,1353,332,1853,3293,<10;11;18>
-8,¶¾,¶¾,Poison,??c,?,100,100,18ys/huizhang2.skel,2,0.75,23,1841,133,3502,<9;11>
-9,µØÃæ,µØÃæ,Ground,M?t ??t,?,100,100,18ys/huizhang1.skel,2,0.75,692,2593,1443,753,<3;4;6>
-10,·ÉĞĞ,ïwĞĞ,Fly,Phi h¨¤nh,??,100,100,18ys/huizhang3.skel,2,0.75,462,1394,551,3003,<5;6;13>
-11,³¬ÄÜ,³¬ÄÜ,Psychic,Si¨ºu n?ng,???,100,100,18ys/huizhang3.skel,2,0.75,122,542,283,731,<12;14;16>
-12,³æ,Ïx,Bug,Tr¨´ng,??,100,100,18ys/huizhang3.skel,2,0.75,1863,1071,3021,2073,<2;10;13>
-13,ÑÒÊ¯,ÑÒÊ¯,Rock,Nham th?ch,??,100,100,18ys/huizhang2.skel,2,0.75,333,1252,2683,2873,<3;4;7;9;17>
-14,ÓÄÁé,ÓÄì`,Ghost,U linh,??,100,100,18ys/huizhang3.skel,2,0.75,102,771,1302,1503,<14;16>
-15,Áú,ıˆ,Dragon,R?ng,???,50,30,18ys/huizhang2.skel,2,0.75,1423,1082,113,893,<6;15;18>
-16,¶ñ,º,Dark,¨¢c,?,100,100,18ys/huizhang2.skel,2,0.75,1612,1231,53,741,<7;12;18>
-17,¸Ö,ä“,Steel,Th¨¦p,??,100,100,18ys/huizhang2.skel,2,0.75,3472,1221,2923,883,<2;7;9>
-18,Ñı¾«,Ñı¾«,Fairy,Y¨ºu tinh,???,100,100,18ys/huizhang2.skel,2,0.75,2633,721,464,3353,<8;17>
+1,Normal,Normal,Normal,Normal,Normal,100,100,18ys/huizhang1.skel,2,0.75,603,13,3303,2302,<7>
+2,Fire,Fire,Fire,Fire,Fire,100,100,18ys/huizhang1.skel,2,0.75,93,263,572,1172,<3;9;13>
+3,Water,Water,Water,Water,Water,100,100,18ys/huizhang1.skel,2,0.75,303,1392,1253,3143,<4;5>
+4,Grass,Grass,Grass,Grass,Grass,100,100,18ys/huizhang1.skel,2,0.75,2963,303,3413,1393,<2;6;8;10;12>
+5,Electricity,Electricity,Electricity,Electricity,Electricity,100,100,18ys/huizhang1.skel,2,0.75,3,793,372,631,<9>
+6,Ice,Ice,Ice,Ice,Ice,100,100,18ys/huizhang3.skel,2,0.75,482,593,803,1293,<2;7;13;17>
+7,Fighting,Fighting,Fighting,Fighting,Fighting,100,100,18ys/huizhang3.skel,2,0.75,1353,332,1853,3293,<10;11;18>
+8,Poison,Poison,Poison,Poison,Poison,100,100,18ys/huizhang2.skel,2,0.75,23,1841,133,3502,<9;11>
+9,Ground,Ground,Ground,Ground,Ground,100,100,18ys/huizhang1.skel,2,0.75,692,2593,1443,753,<3;4;6>
+10,Flying,Flying,Flying,Flying,Flying,100,100,18ys/huizhang3.skel,2,0.75,462,1394,551,3003,<5;6;13>
+11,Psychic,Psychic,Psychic,Psychic,Psychic,100,100,18ys/huizhang3.skel,2,0.75,122,542,283,731,<12;14;16>
+12,Bug,Bug,Bug,Bug,Bug,100,100,18ys/huizhang3.skel,2,0.75,1863,1071,3021,2073,<2;10;13>
+13,Rock,Rock,Rock,Rock,Rock,100,100,18ys/huizhang2.skel,2,0.75,333,1252,2683,2873,<3;4;7;9;17>
+14,Ghost,Ghost,Ghost,Ghost,Ghost,100,100,18ys/huizhang3.skel,2,0.75,102,771,1302,1503,<14;16>
+15,Dragon,Dragon,Dragon,Dragon,Dragon,50,30,18ys/huizhang2.skel,2,0.75,1423,1082,113,893,<6;15;18>
+16,Dark,Dark,Dark,Dark,Dark,100,100,18ys/huizhang2.skel,2,0.75,1612,1231,53,741,<7;12;18>
+17,Steel,Steel,Steel,Steel,Steel,100,100,18ys/huizhang2.skel,2,0.75,3472,1221,2923,883,<2;7;9>
+18,Fairy,Fairy,Fairy,Fairy,Fairy,100,100,18ys/huizhang2.skel,2,0.75,2633,721,464,3353,<8;17>
