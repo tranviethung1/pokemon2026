@@ -1124,6 +1124,30 @@
 | 羁绊进化&水之忍者 | Bond Evolution & Water Ninja | Tiến hóa liên kết & Ninja nước |
 | 近我喵喵者，即可暴富！ | Trainers Near Meowth Can Get Rich! | Ở gần Meowth là có thể phát tài! |
 
+### 5.2. Cụm Brave Challenge
+*Các cụm tiêu đề/lời dẫn dùng trong `game_config/brave_challenge`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 就决定是你了 | I choose you! | Tôi chọn cậu! |
+| 欢迎来到研究基地 | Welcome to the Research Base | Chào mừng đến căn cứ nghiên cứu |
+| 暴风雪中会遇到什么呢 | What will you encounter in the blizzard? | Trong bão tuyết sẽ gặp gì? |
+| 彩虹的彼端 | Beyond the Rainbow | Bên kia cầu vồng |
+| 变身对战 | Transformation Battle | Đối chiến biến hình |
+| 皮卡丘之歌 | Pikachu's Song | Bài ca của Pikachu |
+| 超梦，我就在这里 | Mewtwo, I'm Right Here | Mewtwo, tôi ở ngay đây |
+| 来自异世界的勇者 | Hero from Another World | Anh hùng đến từ thế giới khác |
+| 迈向最强之路 | Road to the Strongest | Con đường tới đỉnh mạnh nhất |
+| 友谊象征：最初的精灵 | Symbol of Friendship: The First Pokemon | Biểu tượng tình bạn: Pokemon đầu tiên |
+| 最后的战斗 | The Final Battle | Trận chiến cuối cùng |
+| 幻之宝可梦集结 | Mythical Pokemon Gathering | Tập hợp Pokemon huyền bí |
+| 龙族集结 | Dragon Gathering | Tập hợp long tộc |
+| 斗战集结 | Battle Gathering | Tập hợp chiến đấu |
+| 勇者篇 | Hero Chapter | Chương Anh Hùng |
+| 传说篇 | Legendary Chapter | Chương Truyền Thuyết |
+| 龙族篇 | Dragon Chapter | Chương Long Tộc |
+| 斗战篇 | Battle Chapter | Chương Chiến Đấu |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)

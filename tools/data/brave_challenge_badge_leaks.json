@@ -1,0 +1,3547 @@
+[
+  {
+    "line": 44,
+    "name": "Attack (General)",
+    "desc": "Before each attack,有30%chance使selfCrit Rate加倍1turn(s)"
+  },
+  {
+    "line": 45,
+    "name": "Attack (General)",
+    "desc": "全队第一个行动的targetadditionally gains20%P.ATK & S.ATK"
+  },
+  {
+    "line": 47,
+    "name": "Attack (General)",
+    "desc": "At the end of each mega-turn,对enemiesRandomunitdealsthe ally with highest combined ATK30%combined ATK的true damage"
+  },
+  {
+    "line": 48,
+    "name": "Attack (Strong)",
+    "desc": "selfthe lower its HP ratio,伤害越高，最高increases20%"
+  },
+  {
+    "line": 49,
+    "name": "Attack (Strong)",
+    "desc": "selfthe higher its HP ratio,伤害越高，最高increases20%"
+  },
+  {
+    "line": 50,
+    "name": "Attack (Strong)",
+    "desc": "dealscrit damage时使target10%Vulnerability2turn(s)（stacks3次）"
+  },
+  {
+    "line": 52,
+    "name": "Defense (General)",
+    "desc": "受伤后increasesself50%的P.DEF & S.DEF1turn(s)"
+  },
+  {
+    "line": 53,
+    "name": "Defense (General)",
+    "desc": "受伤后increasesself20%damage reduction1turn(s)"
+  },
+  {
+    "line": 54,
+    "name": "Defense (General)",
+    "desc": "the lower its HP,Ultimate Resistance越高，最高increases40%"
+  },
+  {
+    "line": 55,
+    "name": "Defense (General)",
+    "desc": "allied front rowincreases20%的Crit Resistance"
+  },
+  {
+    "line": 56,
+    "name": "Defense (Strong)",
+    "desc": "gainsselfP.DEF & S.DEF100%的P.ATK & S.ATKincreases"
+  },
+  {
+    "line": 57,
+    "name": "Defense (Strong)",
+    "desc": "mega-turn ends时使selfdamage bonus或damage reduction持平，以高者为准"
+  },
+  {
+    "line": 58,
+    "name": "Defense (Strong)",
+    "desc": "受到Ultimate damage后additionallyrestoresself500点Rage"
+  },
+  {
+    "line": 59,
+    "name": "Defense (Strong)",
+    "desc": "triggersBlock时restoresself20%的HP"
+  },
+  {
+    "line": 60,
+    "name": "Control (General)",
+    "desc": "selfthe lower its HP,Control rate越高，最高increases30%"
+  },
+  {
+    "line": 61,
+    "name": "Control (General)",
+    "desc": "The first skill used in battle的Control rateincreases30%"
+  },
+  {
+    "line": 62,
+    "name": "Control (General)",
+    "desc": "On entry,ParalysisenemiesRandom一个back rowunit2turn(s)"
+  },
+  {
+    "line": 64,
+    "name": "Control (Strong)",
+    "desc": "对controlled的targetdeals additional20%的伤害"
+  },
+  {
+    "line": 65,
+    "name": "Control (Strong)",
+    "desc": "Active Skill可吸收controlledtarget200点Rage"
+  },
+  {
+    "line": 66,
+    "name": "Control (Strong)",
+    "desc": "攻击controlledtarget时ignores其20%damage reduction"
+  },
+  {
+    "line": 67,
+    "name": "Control (Strong)",
+    "desc": "selfthe higher its HP,Control rate越高，最高increases30%"
+  },
+  {
+    "line": 70,
+    "name": "Support (General)",
+    "desc": "攻击时50%chanceappliesBurn效果3turn(s)（stacks5层）（每层deals20%P.ATK & S.ATK和的伤害）"
+  },
+  {
+    "line": 71,
+    "name": "Support (General)",
+    "desc": "对HP低于50%的targetdeals additional20%的伤害"
+  },
+  {
+    "line": 72,
+    "name": "Support (Strong)",
+    "desc": "Pokémonself每1%吸血increases5%的damage bonus"
+  },
+  {
+    "line": 73,
+    "name": "Support (Strong)",
+    "desc": "若攻击后selfHP高于70%，则给自己appliesShield1turn(s)，Shield量为本次伤害的50%"
+  },
+  {
+    "line": 74,
+    "name": "Support (Strong)",
+    "desc": "攻击带有持续伤害效果的敌人时，每层效果会使其受到的伤害increases5%"
+  },
+  {
+    "line": 75,
+    "name": "Support (Strong)",
+    "desc": "Pokémonself每1%反弹increases5%的HP上限"
+  },
+  {
+    "line": 76,
+    "name": "Recovery (General)",
+    "desc": "受伤时restores5%的HP"
+  },
+  {
+    "line": 77,
+    "name": "Recovery (General)",
+    "desc": "After each action,restores5%的HP"
+  },
+  {
+    "line": 78,
+    "name": "Recovery (General)",
+    "desc": "偶数turn(s)increasesall units50%的healing"
+  },
+  {
+    "line": 79,
+    "name": "Recovery (General)",
+    "desc": "At the end of each mega-turn,restoresthe lowest-HP ally10%的HP"
+  },
+  {
+    "line": 80,
+    "name": "Recovery (Strong)",
+    "desc": "heal时permanently gains15%P.ATK & S.ATK，最高叠加5次"
+  },
+  {
+    "line": 81,
+    "name": "Recovery (Strong)",
+    "desc": "heal时permanently gains15%Rage recovery speedincreases，最高叠加5次"
+  },
+  {
+    "line": 82,
+    "name": "Recovery (Strong)",
+    "desc": "heal时permanently gains15%Crit Rate，最高叠加5次"
+  },
+  {
+    "line": 83,
+    "name": "Recovery (Strong)",
+    "desc": "heal时永久15%Speed，最高叠加5次"
+  },
+  {
+    "line": 84,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,Random一个alliedPokémongains携带道具【Reveal Glass】效果"
+  },
+  {
+    "line": 85,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,Random一个alliedPokémongains携带道具【Apple】效果"
+  },
+  {
+    "line": 86,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,Random一个alliedPokémongains携带道具【Professor's Mask】效果"
+  },
+  {
+    "line": 87,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,Random一个alliedPokémongains携带道具【Power Band】效果"
+  },
+  {
+    "line": 88,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,alliedRandom一个Pokémon的Basic Skill cooldown为1turn(s)"
+  },
+  {
+    "line": 89,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,alliedRandom一个Pokémonfull Rage"
+  },
+  {
+    "line": 90,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,alliedRandom一个Pokémon开局即可gainsHo-Oh的Blessing效果"
+  },
+  {
+    "line": 91,
+    "name": "Permanent Badge",
+    "desc": "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#During battle,alliedRandom一个Pokémongains免控"
+  },
+  {
+    "line": 94,
+    "name": "Mighty Recovery",
+    "desc": "On the first mega-turn,all unitsrestores30%HP和300点Rage"
+  },
+  {
+    "line": 95,
+    "name": "Mighty Recovery",
+    "desc": "allied所有unit在faint后有30%chance立刻revive"
+  },
+  {
+    "line": 98,
+    "name": "Mighty Recovery",
+    "desc": "On the first mega-turn,all unitsrestores30%HP和300点Rage"
+  },
+  {
+    "line": 99,
+    "name": "Mighty Recovery",
+    "desc": "allied所有unit在faint后有30%chance立刻revive"
+  },
+  {
+    "line": 102,
+    "name": "Mighty Recovery",
+    "desc": "On the first mega-turn,all unitsrestores30%HP和300点Rage"
+  },
+  {
+    "line": 103,
+    "name": "Mighty Recovery",
+    "desc": "allied所有unit在faint后有30%chance立刻revive"
+  },
+  {
+    "line": 104,
+    "name": "Fusion Riddle I",
+    "desc": "激活开局上锁Pokémon：Latias"
+  },
+  {
+    "line": 105,
+    "name": "Fusion Riddle II",
+    "desc": "激活开局上锁Pokémon：Latios"
+  },
+  {
+    "line": 106,
+    "name": "Land's Wrath",
+    "desc": "激活开局上锁Pokémon：Groudon"
+  },
+  {
+    "line": 107,
+    "name": "Super Luck",
+    "desc": "激活开局上锁Pokémon：Jirachi"
+  },
+  {
+    "line": 108,
+    "name": "Gratitude",
+    "desc": "激活开局上锁Pokémon：Shaymin"
+  },
+  {
+    "line": 109,
+    "name": "Spatial Twist",
+    "desc": "激活开局上锁Pokémon：Hoppa Confined"
+  },
+  {
+    "line": 110,
+    "name": "Time Spiral",
+    "desc": "激活开局上锁Pokémon：Dialga"
+  },
+  {
+    "line": 111,
+    "name": "Hidden Realm",
+    "desc": "激活开局上锁Pokémon：Palkia"
+  },
+  {
+    "line": 112,
+    "name": "Overclock",
+    "desc": "激活开局上锁Pokémon：Reshiram"
+  },
+  {
+    "line": 113,
+    "name": "Miracle Eye",
+    "desc": "激活开局上锁Pokémon：Mewtwo"
+  },
+  {
+    "line": 114,
+    "name": "Primordial Lineage",
+    "desc": "激活开局上锁Pokémon：Groudon"
+  },
+  {
+    "line": 115,
+    "name": "Frozen Domain",
+    "desc": "激活开局上锁Pokémon：Kyurem"
+  },
+  {
+    "line": 116,
+    "name": "Psychic",
+    "desc": "Alakazam, while present, may proc: On entryalways石化对面Random一个target持续2turn(s)"
+  },
+  {
+    "line": 117,
+    "name": "Striker's Gambit",
+    "desc": "Scizor, while present, may proc: Basic Skill未KO a unit也能gains一次additionally行动"
+  },
+  {
+    "line": 118,
+    "name": "High Voltage",
+    "desc": "Electivire, while present, may proc: front row队友（除self以外）受击或者攻击给Electivire蓄电"
+  },
+  {
+    "line": 119,
+    "name": "Steel Aegis",
+    "desc": "Aggron, while present, may proc: Before each mega-turn,为会为另外一个Randomunitapplies钢铁Shield"
+  },
+  {
+    "line": 120,
+    "name": "Frost Seal",
+    "desc": "Cryogonal, while present, may proc: On entryalwaysFreeze对面Random一个target持续2turn(s)"
+  },
+  {
+    "line": 121,
+    "name": "Petal Dancer",
+    "desc": "Florges, while present, may proc: Florges在场时，allies行动时restores来自Florges35%特攻的HP"
+  },
+  {
+    "line": 122,
+    "name": "Sword & Shield",
+    "desc": "Aegislash (Shield Forme), while present, may proc: 盾形态时：all unitsgains20%damage reduction；剑形态时，all alliesincreases20%damage bonus"
+  },
+  {
+    "line": 123,
+    "name": "Justified",
+    "desc": "Lucario, while present, may proc: allies使用Basic Skill时40%有chancetriggersBasic Skill；allies使用Ultimate时有20%chancetriggersUltimate"
+  },
+  {
+    "line": 124,
+    "name": "Dragon's Pressure",
+    "desc": "Salamence, while present, may proc: 攻击时撕裂效果变为3层"
+  },
+  {
+    "line": 125,
+    "name": "Sturdy",
+    "desc": "Metagross, while present, may proc: 攻击时50%Random嘲讽1个unit，持续1turn(s)"
+  },
+  {
+    "line": 126,
+    "name": "Bug Resonance",
+    "desc": "Volcarona, while present, may proc: alliesfront row永久拥有【Solar Cloak】"
+  },
+  {
+    "line": 127,
+    "name": "Poison Barb Bastion",
+    "desc": "Toxapex, while present, may proc: 攻击时50%Random嘲讽1个unit，持续1turn(s)"
+  },
+  {
+    "line": 128,
+    "name": "Leaf Blade",
+    "desc": "Sceptile, while present, may proc: self行动后有35%的chance进入Stealth状态，若已处于Stealth状态，则applies冷血1turn(s)"
+  },
+  {
+    "line": 129,
+    "name": "Contrary",
+    "desc": "Serperior, while present, may proc: On entryalwaysBind对面Random1个target持续2turn(s)"
+  },
+  {
+    "line": 131,
+    "name": "Blaze",
+    "desc": "Blaziken, while present, may proc: For the first 3 mega-turns after entry,additionallygains35%的Crit Rate"
+  },
+  {
+    "line": 132,
+    "name": "Muddy Water",
+    "desc": "Swampert, while present, may proc: 攻击时appliesBlind效果"
+  },
+  {
+    "line": 133,
+    "name": "Aqua Clone Jutsu",
+    "desc": "Greninja, while present, may proc: Basic Skill cooldown reduction-1，且必定Stun攻击target"
+  },
+  {
+    "line": 134,
+    "name": "Earthquake",
+    "desc": "Tyranitar, while present, may proc: 使用Ultimate后的后两个mega-turn ends后restoresself15%最大of max HP as HP和200点Rage"
+  },
+  {
+    "line": 135,
+    "name": "Electrodynamic Field",
+    "desc": "Magnezone, while present, may proc: 每次Ultimateadditionally再gains1到2层自爆伤害层数"
+  },
+  {
+    "line": 136,
+    "name": "Dragon Slayer",
+    "desc": "Azumarill, while present, may proc: enemies存在Dragon-type Pokémon时，selfeach mega-turn都additionally一次additionally行动"
+  },
+  {
+    "line": 137,
+    "name": "Run Away",
+    "desc": "Caterpie, while present, may proc: On entry,all enemies束缚1turn(s)，且Each action,时有50%chance束缚Random1个unit"
+  },
+  {
+    "line": 138,
+    "name": "Sprouting",
+    "desc": "Venusaur, while present, may proc: selfEach action,为alliesRandom2个unitapplies【Leech Seed】，持续3turn(s)"
+  },
+  {
+    "line": 139,
+    "name": "Healing Aroma",
+    "desc": "Meganium, while present, may proc: Before each mega-turn,，Crit Resistance与Block率increases50%"
+  },
+  {
+    "line": 140,
+    "name": "Vine Mantle",
+    "desc": "Torterra, while present, may proc: Before each mega-turn,，Crit Resistance与Block率increases50%"
+  },
+  {
+    "line": 141,
+    "name": "Barbed Armor",
+    "desc": "Chesnaught, while present, may proc: Before each mega-turn,，Crit Resistance与Block率increases50%"
+  },
+  {
+    "line": 142,
+    "name": "Flash Fire",
+    "desc": "Charizard, while present, may proc: action turn(s)开始前，对enemiesRandomunitappliesBurn效果，mega-turn ends时对Burnunitdeals来自self80%特攻的特殊伤害"
+  },
+  {
+    "line": 143,
+    "name": "Blazing Rush",
+    "desc": "Typhlosion, while present, may proc: self100%triggers连击效果"
+  },
+  {
+    "line": 144,
+    "name": "Flame Pierce",
+    "desc": "Emboar, while present, may proc: When KOing a unit,additionallygainsaction turn(s)，且gains10%damage bonus（stacks5层）"
+  },
+  {
+    "line": 145,
+    "name": "Arcane Heart",
+    "desc": "Delphox, while present, may proc: After each action,将enemies特攻最高的两个unit的20%特攻转移给我方两个特攻最高的unit"
+  },
+  {
+    "line": 146,
+    "name": "Torrent",
+    "desc": "Blastoise, while present, may proc: 封锁targetRage1turn(s)"
+  },
+  {
+    "line": 147,
+    "name": "Rend",
+    "desc": "Feraligatr, while present, may proc: At the end of each mega-turn,给enemiesappliesRandomdebuff"
+  },
+  {
+    "line": 148,
+    "name": "Endure",
+    "desc": "Empoleon, while present, may proc: 回怒飞速加快"
+  },
+  {
+    "line": 149,
+    "name": "Frost Body",
+    "desc": "Aurorus, while present, may proc: 每turn(s)reducestarget10%HP"
+  },
+  {
+    "line": 150,
+    "name": "Uproar",
+    "desc": "Exploud, while present, may proc: Ultimate伤害巨高"
+  },
+  {
+    "line": 151,
+    "name": "Gem Heart",
+    "desc": "Starmie, while present, may proc: 治疗量increases"
+  },
+  {
+    "line": 152,
+    "name": "Light Conceal",
+    "desc": "Latias, while present, may proc: HP最低伤害越高"
+  },
+  {
+    "line": 155,
+    "name": "Ho-Oh Rebirth",
+    "desc": "Ho-Oh, while present, may proc: 第二turn(s)all unitsShield"
+  },
+  {
+    "line": 156,
+    "name": "Primordial Lineage",
+    "desc": "Groudon, while present, may proc: 全队30%反弹"
+  },
+  {
+    "line": 157,
+    "name": "Temporal Rift",
+    "desc": "Dialga, while present, may proc: faintapplies自爆伤害"
+  },
+  {
+    "line": 158,
+    "name": "Dimensional Hide",
+    "desc": "Palkia, while present, may proc: 有极大chance变身"
+  },
+  {
+    "line": 159,
+    "name": "Flower Seed",
+    "desc": "Shaymin, while present, may proc: Stealth1turn(s)（每个unit单独判定chance）"
+  },
+  {
+    "line": 160,
+    "name": "Sky Tyrant",
+    "desc": "Rayquaza, while present, may proc: 闪避1turn(s)（每个unit单独判定chance）"
+  },
+  {
+    "line": 161,
+    "name": "Sprouting",
+    "desc": "Mega Venusaur, while present, may proc: At the end of each mega-turn,时restoresself10%的HP"
+  },
+  {
+    "line": 162,
+    "name": "Dragonfire Wrath",
+    "desc": "Mega Charizard X, while present, may proc: Before each mega-turn,给enemiesfront rowappliesBurn效果，持续2turn(s)"
+  },
+  {
+    "line": 163,
+    "name": "Blast Combust",
+    "desc": "Mega Charizard Y, while present, may proc: reducestarget10%的damage reduction2turn(s)"
+  },
+  {
+    "line": 164,
+    "name": "Torrent",
+    "desc": "Mega Blastoise, while present, may proc: On entryallied front rowgains水遁效果，increases10%final damage mitigation2turn(s)"
+  },
+  {
+    "line": 165,
+    "name": "Nimble",
+    "desc": "Pidgeot, while present, may proc: permanently gainsallied back row15%Speed和15%crit，持续2turn(s)"
+  },
+  {
+    "line": 166,
+    "name": "Charm",
+    "desc": "Raichu, while present, may proc: On entry,ParalysisenemiesRandom1个Pokémon持续3turn(s)"
+  },
+  {
+    "line": 167,
+    "name": "Magic Guard",
+    "desc": "Clefable, while present, may proc: increasesallied front row20%的负面抗性"
+  },
+  {
+    "line": 168,
+    "name": "Hypnotic Riposte",
+    "desc": "Wigglytuff, while present, may proc: On entry,SleepenemiesRandom1个Pokémon持续3turn(s)"
+  },
+  {
+    "line": 169,
+    "name": "Corrosive Venom",
+    "desc": "Crobat, while present, may proc: allied back row攻击targetapplies中毒效果3turn(s)"
+  },
+  {
+    "line": 170,
+    "name": "Mind Lock",
+    "desc": "Mega Alakazam, while present, may proc: allied back row所有unitControl rate和Speed都increases20%"
+  },
+  {
+    "line": 171,
+    "name": "Steadfast",
+    "desc": "Machamp, while present, may proc: 将selfP.DEF & S.DEF按照200%的比例转为P.ATK & S.ATK"
+  },
+  {
+    "line": 172,
+    "name": "Gluttony",
+    "desc": "Victreebel, while present, may proc: allied back row攻击applies吸收target20%的HP"
+  },
+  {
+    "line": 173,
+    "name": "Rock Slide",
+    "desc": "Golem, while present, may proc: allied front rowunitfaint时对all enemiesdeals200%combined ATK的伤害"
+  },
+  {
+    "line": 174,
+    "name": "Dread",
+    "desc": "Gengar, while present, may proc: On entry直接Fearenemies所有unit1turn(s)"
+  },
+  {
+    "line": 175,
+    "name": "Dream Thief",
+    "desc": "Mega Gengar, while present, may proc: On entry直接诅咒enemies所有unit1turn(s)"
+  },
+  {
+    "line": 176,
+    "name": "Solid Rock",
+    "desc": "Rhyperior, while present, may proc: front row队友每次攻击increasesself20%的物防，上限3层"
+  },
+  {
+    "line": 177,
+    "name": "Burst Flame",
+    "desc": "Magmortar, while present, may proc: 前三 mega-turn(s)前给enemiesfront rowapplies3层Burn"
+  },
+  {
+    "line": 178,
+    "name": "Dragonite",
+    "desc": "Dragonite, while present, may proc: applies连击效果"
+  },
+  {
+    "line": 179,
+    "name": "Blessing",
+    "desc": "Togekiss, while present, may proc: increasesall units10%的负面抗性和control immunity"
+  },
+  {
+    "line": 180,
+    "name": "Voltage Surge",
+    "desc": "Ampharos, while present, may proc: self攻击后appliesincreases周围unit200点Rage"
+  },
+  {
+    "line": 181,
+    "name": "Voltage Surge",
+    "desc": "Mega Ampharos, while present, may proc: 每个队友攻击后都可restores其周围unit100点Rage"
+  },
+  {
+    "line": 182,
+    "name": "Telekinesis",
+    "desc": "Gardevoir, while present, may proc: On entry前2turn(s)开始，alwaysadditionally魅惑一个enemiesunit1turn(s)"
+  },
+  {
+    "line": 183,
+    "name": "Bewildering Edge",
+    "desc": "Gallade, while present, may proc: 有20%chance直接秒杀被控unit"
+  },
+  {
+    "line": 184,
+    "name": "Superpower",
+    "desc": "Slaking, while present, may proc: selfSleep状态下不可被选中作为攻击target"
+  },
+  {
+    "line": 185,
+    "name": "Abyssal Void",
+    "desc": "Dusknoir, while present, may proc: On entry直接吸收一个target进入黑洞，持续1turn(s)"
+  },
+  {
+    "line": 186,
+    "name": "Frost Rebuke",
+    "desc": "Walrein, while present, may proc: additionally再反弹20%受到的伤害给all enemies"
+  },
+  {
+    "line": 187,
+    "name": "Guts",
+    "desc": "Luxray, while present, may proc: 受到Active Skill攻击increasesall allies物攻"
+  },
+  {
+    "line": 188,
+    "name": "Dragon Wrath",
+    "desc": "Garchomp, while present, may proc: self可免疫一次致死伤害"
+  },
+  {
+    "line": 189,
+    "name": "Frost Awakening",
+    "desc": "Mega Abomasnow, while present, may proc: 使得enemies的Freeze不会被打破"
+  },
+  {
+    "line": 190,
+    "name": "Stone Bastion",
+    "desc": "Gigalith, while present, may proc: alliedunit释放首次释放Ultimate后increases30%Ultimate damage"
+  },
+  {
+    "line": 191,
+    "name": "Iron Bone Spirit",
+    "desc": "Conkeldurr, while present, may proc: 每次appliesself10%最大HP加成的true damage"
+  },
+  {
+    "line": 192,
+    "name": "Swarm",
+    "desc": "Scolipede, while present, may proc: 有10%的chance直接秒杀applies中毒的unit"
+  },
+  {
+    "line": 193,
+    "name": "Dark Fang",
+    "desc": "Krookodile, while present, may proc: self所有技能additionallyapplies50%的Blind效果2turn(s)"
+  },
+  {
+    "line": 194,
+    "name": "Spatial Warp",
+    "desc": "Gothitelle, while present, may proc: 令下次攻击allied front row的enemiesPokémon，进入到扭曲空间"
+  },
+  {
+    "line": 195,
+    "name": "Double Shaved Ice",
+    "desc": "Vanilluxe, while present, may proc: 使得allied front row具有一定的反射负面能力"
+  },
+  {
+    "line": 196,
+    "name": "Power Forge",
+    "desc": "Klinklang, while present, may proc: On entryincreasesallied back rowPokémon200点Rage"
+  },
+  {
+    "line": 197,
+    "name": "Lingering Spite",
+    "desc": "Chandelure, while present, may proc: On entry给enemiesRandom2个targetapplies鬼火效果"
+  },
+  {
+    "line": 198,
+    "name": "Pursuit",
+    "desc": "Haxorus, while present, may proc: 使得alliedRandom一个back rowunit也applies连击效果"
+  },
+  {
+    "line": 199,
+    "name": "Coalition Tactics",
+    "desc": "Hydreigon, while present, may proc: self每次攻击后gainsadditionallyaction turn(s)"
+  },
+  {
+    "line": 200,
+    "name": "Gooey Bubbles",
+    "desc": "Goodra, while present, may proc: 封锁targetRage3turn(s)"
+  },
+  {
+    "line": 201,
+    "name": "Queenly Majesty",
+    "desc": "Tsareena, while present, may proc: At the end of each mega-turn,给enemiesappliesRandomdebuff"
+  },
+  {
+    "line": 202,
+    "name": "Echo Sight",
+    "desc": "Noivern, while present, may proc: 回怒飞速加快"
+  },
+  {
+    "line": 203,
+    "name": "UB: Barbed Needle",
+    "desc": "Naganadel, while present, may proc: 每turn(s)reducestarget10%HP"
+  },
+  {
+    "line": 204,
+    "name": "Frost Wrath",
+    "desc": "Articuno, while present, may proc: Ultimate伤害巨高"
+  },
+  {
+    "line": 205,
+    "name": "Lightning Strike",
+    "desc": "Zapdos, while present, may proc: 治疗量increases"
+  },
+  {
+    "line": 206,
+    "name": "Sacred Avian Guard",
+    "desc": "Moltres, while present, may proc: HP最低伤害越高"
+  },
+  {
+    "line": 209,
+    "name": "Thunderforce",
+    "desc": "Raikou, while present, may proc: 第二turn(s)all unitsShield"
+  },
+  {
+    "line": 210,
+    "name": "Volcanic Shelter",
+    "desc": "Entei, while present, may proc: 全队30%反弹"
+  },
+  {
+    "line": 211,
+    "name": "Tidal Force",
+    "desc": "Suicune, while present, may proc: faintapplies自爆伤害"
+  },
+  {
+    "line": 212,
+    "name": "Rock Bulwark",
+    "desc": "Regirock, while present, may proc: 有极大chance变身"
+  },
+  {
+    "line": 214,
+    "name": "Steel Sink",
+    "desc": "Registeel, while present, may proc: all unitsalways闪避1turn(s)"
+  },
+  {
+    "line": 215,
+    "name": "Moonphase Halo",
+    "desc": "Cresselia, while present, may proc: all enemies防御reduces40%"
+  },
+  {
+    "line": 216,
+    "name": "Justified",
+    "desc": "Keldeo, while present, may proc: 封锁targetRage3turn(s)"
+  },
+  {
+    "line": 217,
+    "name": "Recover",
+    "desc": "Lugia, while present, may proc: At the end of each mega-turn,给enemiesappliesRandomdebuff"
+  },
+  {
+    "line": 218,
+    "name": "Ocean Aegis",
+    "desc": "Kyogre, while present, may proc: 回怒飞速加快"
+  },
+  {
+    "line": 219,
+    "name": "Slow Start",
+    "desc": "Regigigas, while present, may proc: 每turn(s)reducestarget10%HP"
+  },
+  {
+    "line": 220,
+    "name": "Phantasmal Mass",
+    "desc": "Giratina, while present, may proc: Ultimate伤害巨高"
+  },
+  {
+    "line": 221,
+    "name": "Sweet Dreams",
+    "desc": "Darkrai, while present, may proc: On the first mega-turn,all units有chance闪避"
+  },
+  {
+    "line": 222,
+    "name": "Sky Bloom",
+    "desc": "Shaymin (Sky Forme), while present, may proc: HP最低伤害越高"
+  },
+  {
+    "line": 225,
+    "name": "Deep Freeze",
+    "desc": "Kyurem, while present, may proc: 第二turn(s)all unitsShield"
+  },
+  {
+    "line": 226,
+    "name": "Mysterious Barrier",
+    "desc": "Diancie, while present, may proc: 全队30%反弹"
+  },
+  {
+    "line": 227,
+    "name": "Judgment Wheel",
+    "desc": "Hoppa Confined, while present, may proc: faintapplies自爆伤害"
+  },
+  {
+    "line": 228,
+    "name": "Temporal Rift",
+    "desc": "Dialga, while present, may proc: 有极大chance变身"
+  },
+  {
+    "line": 230,
+    "name": "MAX · Psychic",
+    "desc": "On entryalways石化对面Random一个target持续2turn(s)，Alakazam, while present, this effect is guaranteed."
+  },
+  {
+    "line": 231,
+    "name": "MAX · Striker's Gambit",
+    "desc": "Basic Skill未KO a unit也能gains一次additionally行动，Scizor, while present, this effect is guaranteed."
+  },
+  {
+    "line": 232,
+    "name": "MAX · High Voltage",
+    "desc": "front row队友（除self以外）受击或者攻击给Electivire蓄电，Electivire, while present, this effect is guaranteed."
+  },
+  {
+    "line": 233,
+    "name": "MAX · Steel Aegis",
+    "desc": "Before each mega-turn,为会为另外一个Randomunitapplies钢铁Shield，Aggron, while present, this effect is guaranteed."
+  },
+  {
+    "line": 234,
+    "name": "MAX · Frost Seal",
+    "desc": "On entryalwaysFreeze对面Random一个target持续2turn(s)，Cryogonal, while present, this effect is guaranteed."
+  },
+  {
+    "line": 235,
+    "name": "MAX · Petal Dancer",
+    "desc": "Florges在场时，allies行动时restores来自Florges35%特攻的HP，Florges, while present, this effect is guaranteed."
+  },
+  {
+    "line": 236,
+    "name": "MAX · Sword & Shield",
+    "desc": "盾形态时：all unitsgains20%damage reduction；剑形态时，all alliesincreases20%damage bonus，Aegislash (Shield Forme), while present, this effect is guaranteed."
+  },
+  {
+    "line": 237,
+    "name": "MAX · Justified",
+    "desc": "allies使用Basic Skill时40%有chancetriggersBasic Skill；allies使用Ultimate时有20%chancetriggersUltimate，Lucario, while present, this effect is guaranteed."
+  },
+  {
+    "line": 238,
+    "name": "MAX · Dragon's Pressure",
+    "desc": "攻击时撕裂效果变为3层，Salamence, while present, this effect is guaranteed."
+  },
+  {
+    "line": 239,
+    "name": "MAX · Sturdy",
+    "desc": "攻击时50%Random嘲讽1个unit，持续1turn(s)，Metagross, while present, this effect is guaranteed."
+  },
+  {
+    "line": 240,
+    "name": "MAX · Bug Resonance",
+    "desc": "alliesfront row永久拥有【Solar Cloak】，Volcarona, while present, this effect is guaranteed."
+  },
+  {
+    "line": 241,
+    "name": "MAX · Poison Barb Bastion",
+    "desc": "攻击时50%Random嘲讽1个unit，持续1turn(s)，Toxapex, while present, this effect is guaranteed."
+  },
+  {
+    "line": 242,
+    "name": "MAX · Leaf Blade",
+    "desc": "self行动后有35%的chance进入Stealth状态，若已处于Stealth状态，则applies冷血1turn(s)，Sceptile, while present, this effect is guaranteed."
+  },
+  {
+    "line": 243,
+    "name": "MAX · Contrary",
+    "desc": "On entryalwaysBind对面Random1个target持续2turn(s)，Serperior, while present, this effect is guaranteed."
+  },
+  {
+    "line": 245,
+    "name": "MAX · Blaze",
+    "desc": "For the first 3 mega-turns after entry,additionallygains35%的Crit Rate，Blaziken, while present, this effect is guaranteed."
+  },
+  {
+    "line": 246,
+    "name": "MAX · Muddy Water",
+    "desc": "攻击时appliesBlind效果，Swampert, while present, this effect is guaranteed."
+  },
+  {
+    "line": 247,
+    "name": "MAX · Aqua Clone Jutsu",
+    "desc": "Basic Skill cooldown reduction-1，且必定Stun攻击target，Greninja, while present, this effect is guaranteed."
+  },
+  {
+    "line": 248,
+    "name": "MAX · Earthquake",
+    "desc": "使用Ultimate后的后两个mega-turn ends后restoresself15%最大of max HP as HP和200点Rage，Tyranitar, while present, this effect is guaranteed."
+  },
+  {
+    "line": 249,
+    "name": "MAX · Electrodynamic Field",
+    "desc": "每次Ultimateadditionally再gains1到2层自爆伤害层数，Magnezone, while present, this effect is guaranteed."
+  },
+  {
+    "line": 250,
+    "name": "MAX · Dragon Slayer",
+    "desc": "enemies存在Dragon-type Pokémon时，selfeach mega-turn都additionally一次additionally行动，Azumarill, while present, this effect is guaranteed."
+  },
+  {
+    "line": 251,
+    "name": "MAX · Run Away",
+    "desc": "On entry,all enemies束缚1turn(s)，且Each action,时有50%chance束缚Random1个unit，Caterpie, while present, this effect is guaranteed."
+  },
+  {
+    "line": 252,
+    "name": "MAX · Sprouting",
+    "desc": "selfEach action,为alliesRandom2个unitapplies【Leech Seed】，持续3turn(s)，Venusaur, while present, this effect is guaranteed."
+  },
+  {
+    "line": 253,
+    "name": "MAX · Healing Aroma",
+    "desc": "Before each mega-turn,，Crit Resistance与Block率increases50%，Meganium, while present, this effect is guaranteed."
+  },
+  {
+    "line": 254,
+    "name": "MAX · Vine Mantle",
+    "desc": "Before each mega-turn,，Crit Resistance与Block率increases50%，Torterra, while present, this effect is guaranteed."
+  },
+  {
+    "line": 255,
+    "name": "MAX · Barbed Armor",
+    "desc": "Before each mega-turn,，Crit Resistance与Block率increases50%，Chesnaught, while present, this effect is guaranteed."
+  },
+  {
+    "line": 256,
+    "name": "MAX · Flash Fire",
+    "desc": "action turn(s)开始前，对enemiesRandomunitappliesBurn效果，mega-turn ends时对Burnunitdeals来自self80%特攻的特殊伤害，Charizard, while present, this effect is guaranteed."
+  },
+  {
+    "line": 257,
+    "name": "MAX · Blazing Rush",
+    "desc": "self100%triggers连击效果，Typhlosion, while present, this effect is guaranteed."
+  },
+  {
+    "line": 258,
+    "name": "MAX · Flame Pierce",
+    "desc": "When KOing a unit,additionallygainsaction turn(s)，且gains10%damage bonus（stacks5层），Emboar, while present, this effect is guaranteed."
+  },
+  {
+    "line": 259,
+    "name": "MAX · Arcane Heart",
+    "desc": "After each action,将enemies特攻最高的两个unit的20%特攻转移给我方两个特攻最高的unit，Delphox, while present, this effect is guaranteed."
+  },
+  {
+    "line": 260,
+    "name": "MAX · Torrent",
+    "desc": "封锁targetRage，Blastoise, while present, this effect is guaranteed."
+  },
+  {
+    "line": 261,
+    "name": "MAX · Rend",
+    "desc": "At the end of each mega-turn,给enemiesappliesRandomdebuff，Feraligatr, while present, this effect is guaranteed."
+  },
+  {
+    "line": 262,
+    "name": "MAX · Endure",
+    "desc": "回怒飞速加快，Empoleon, while present, this effect is guaranteed."
+  },
+  {
+    "line": 263,
+    "name": "MAX · Frost Body",
+    "desc": "每turn(s)reducestarget10%HP，Aurorus, while present, this effect is guaranteed."
+  },
+  {
+    "line": 264,
+    "name": "MAX · Uproar",
+    "desc": "Ultimate伤害巨高，Exploud, while present, this effect is guaranteed."
+  },
+  {
+    "line": 265,
+    "name": "MAX · Gem Heart",
+    "desc": "治疗量increases，Starmie, while present, this effect is guaranteed."
+  },
+  {
+    "line": 266,
+    "name": "MAX · Light Conceal",
+    "desc": "HP最低伤害越高，Latias, while present, this effect is guaranteed."
+  },
+  {
+    "line": 269,
+    "name": "MAX · Ho-Oh Rebirth",
+    "desc": "第二turn(s)all unitsShield，Ho-Oh, while present, this effect is guaranteed."
+  },
+  {
+    "line": 270,
+    "name": "MAX · Primordial Lineage",
+    "desc": "全队30%反弹，Groudon, while present, this effect is guaranteed."
+  },
+  {
+    "line": 271,
+    "name": "MAX · Temporal Rift",
+    "desc": "faintapplies自爆伤害，Dialga, while present, this effect is guaranteed."
+  },
+  {
+    "line": 272,
+    "name": "MAX · Dimensional Hide",
+    "desc": "有极大chance变身，Palkia, while present, this effect is guaranteed."
+  },
+  {
+    "line": 273,
+    "name": "MAX · Flower Seed",
+    "desc": "Stealth1turn(s)（每个unit单独判定chance），Shaymin, while present, this effect is guaranteed."
+  },
+  {
+    "line": 274,
+    "name": "MAX · Sky Tyrant",
+    "desc": "闪避1turn(s)（每个unit单独判定chance），Rayquaza, while present, this effect is guaranteed."
+  },
+  {
+    "line": 275,
+    "name": "MAX · Sprouting",
+    "desc": "At the end of each mega-turn,时restoresself10%的HP，Mega Venusaur, while present, this effect is guaranteed."
+  },
+  {
+    "line": 276,
+    "name": "MAX · Dragonfire Wrath",
+    "desc": "Before each mega-turn,给enemiesfront rowappliesBurn效果，持续2turn(s)，Mega Charizard X, while present, this effect is guaranteed."
+  },
+  {
+    "line": 277,
+    "name": "MAX · Blast Combust",
+    "desc": "reducestarget10%的damage reduction2turn(s)，Mega Charizard Y, while present, this effect is guaranteed."
+  },
+  {
+    "line": 278,
+    "name": "MAX · Torrent",
+    "desc": "On entryallied front rowgains水遁效果，increases10%final damage mitigation2turn(s)，Mega Blastoise, while present, this effect is guaranteed."
+  },
+  {
+    "line": 279,
+    "name": "MAX · Nimble",
+    "desc": "permanently gainsallied back row15%Speed和15%crit，持续2turn(s)，Pidgeot, while present, this effect is guaranteed."
+  },
+  {
+    "line": 280,
+    "name": "MAX · Charm",
+    "desc": "On entry,ParalysisenemiesRandom1个Pokémon持续3turn(s)，Raichu, while present, this effect is guaranteed."
+  },
+  {
+    "line": 281,
+    "name": "MAX · Magic Guard",
+    "desc": "increasesallied front row20%的负面抗性，Clefable, while present, this effect is guaranteed."
+  },
+  {
+    "line": 282,
+    "name": "MAX · Hypnotic Riposte",
+    "desc": "On entry,SleepenemiesRandom1个Pokémon持续3turn(s)，Wigglytuff, while present, this effect is guaranteed."
+  },
+  {
+    "line": 283,
+    "name": "MAX · Corrosive Venom",
+    "desc": "allied back row攻击targetapplies中毒效果3turn(s)，Crobat, while present, this effect is guaranteed."
+  },
+  {
+    "line": 284,
+    "name": "MAX · Mind Lock",
+    "desc": "allied back row所有unitControl rate和Speed都increases20%，Mega Alakazam, while present, this effect is guaranteed."
+  },
+  {
+    "line": 285,
+    "name": "MAX · Steadfast",
+    "desc": "将selfP.DEF & S.DEF按照200%的比例转为P.ATK & S.ATK，Machamp, while present, this effect is guaranteed."
+  },
+  {
+    "line": 286,
+    "name": "MAX · Gluttony",
+    "desc": "allied back row攻击applies吸收target20%的HP，Victreebel, while present, this effect is guaranteed."
+  },
+  {
+    "line": 287,
+    "name": "MAX · Rock Slide",
+    "desc": "allied front rowunitfaint时对all enemiesdeals200%combined ATK的伤害，Golem, while present, this effect is guaranteed."
+  },
+  {
+    "line": 288,
+    "name": "MAX · Dread",
+    "desc": "On entry直接Fearenemies所有unit1turn(s)，Gengar, while present, this effect is guaranteed."
+  },
+  {
+    "line": 289,
+    "name": "MAX · Dream Thief",
+    "desc": "On entry直接诅咒enemies所有unit1turn(s)，Mega Gengar, while present, this effect is guaranteed."
+  },
+  {
+    "line": 290,
+    "name": "MAX · Solid Rock",
+    "desc": "front row队友每次攻击increasesself20%的物防，上限3层，Rhyperior, while present, this effect is guaranteed."
+  },
+  {
+    "line": 291,
+    "name": "MAX · Burst Flame",
+    "desc": "前三 mega-turn(s)前给enemiesfront rowapplies3层Burn，Magmortar, while present, this effect is guaranteed."
+  },
+  {
+    "line": 292,
+    "name": "MAX · Dragonite",
+    "desc": "applies连击效果，Dragonite, while present, this effect is guaranteed."
+  },
+  {
+    "line": 293,
+    "name": "MAX · Blessing",
+    "desc": "increasesall units10%的负面抗性和control immunity，Togekiss, while present, this effect is guaranteed."
+  },
+  {
+    "line": 294,
+    "name": "MAX · Voltage Surge",
+    "desc": "self攻击后appliesincreases周围unit200点Rage，Ampharos, while present, this effect is guaranteed."
+  },
+  {
+    "line": 295,
+    "name": "MAX · Voltage Surge",
+    "desc": "每个队友攻击后都可restores其周围unit100点Rage，Mega Ampharos, while present, this effect is guaranteed."
+  },
+  {
+    "line": 296,
+    "name": "MAX · Telekinesis",
+    "desc": "On entry前2turn(s)开始，alwaysadditionally魅惑一个enemiesunit1turn(s)，Gardevoir, while present, this effect is guaranteed."
+  },
+  {
+    "line": 297,
+    "name": "MAX · Bewildering Edge",
+    "desc": "有20%chance直接秒杀被控unit，Gallade, while present, this effect is guaranteed."
+  },
+  {
+    "line": 298,
+    "name": "MAX · Superpower",
+    "desc": "selfSleep状态下不可被选中作为攻击target，Slaking, while present, this effect is guaranteed."
+  },
+  {
+    "line": 299,
+    "name": "MAX · Abyssal Void",
+    "desc": "On entry直接吸收一个target进入黑洞，持续1turn(s)，Dusknoir, while present, this effect is guaranteed."
+  },
+  {
+    "line": 300,
+    "name": "MAX · Frost Rebuke",
+    "desc": "additionally再反弹20%受到的伤害给all enemies，Walrein, while present, this effect is guaranteed."
+  },
+  {
+    "line": 301,
+    "name": "MAX · Guts",
+    "desc": "受到负面效果时，受到Active Skill攻击increasesall allies物攻"
+  },
+  {
+    "line": 302,
+    "name": "MAX · Dragon Wrath",
+    "desc": "self可免疫一次致死伤害，Garchomp, while present, this effect is guaranteed."
+  },
+  {
+    "line": 303,
+    "name": "MAX · Frost Awakening",
+    "desc": "使得enemies的Freeze不会被打破，Mega Abomasnow, while present, this effect is guaranteed."
+  },
+  {
+    "line": 304,
+    "name": "MAX · Stone Bastion",
+    "desc": "alliedunit释放首次释放Ultimate后increases30%Ultimate damage，Gigalith, while present, this effect is guaranteed."
+  },
+  {
+    "line": 305,
+    "name": "MAX · Iron Bone Spirit",
+    "desc": "每次appliesself10%最大HP加成的true damage，Conkeldurr, while present, this effect is guaranteed."
+  },
+  {
+    "line": 306,
+    "name": "MAX · Swarm",
+    "desc": "有10%的chance直接秒杀applies中毒的unit，Scolipede, while present, this effect is guaranteed."
+  },
+  {
+    "line": 307,
+    "name": "MAX · Dark Fang",
+    "desc": "self所有技能additionallyapplies50%的Blind效果2turn(s)，Krookodile, while present, this effect is guaranteed."
+  },
+  {
+    "line": 308,
+    "name": "MAX · Spatial Warp",
+    "desc": "令下次攻击allied front row的enemiesPokémon，进入到扭曲空间，Gothitelle, while present, this effect is guaranteed."
+  },
+  {
+    "line": 309,
+    "name": "MAX · Double Shaved Ice",
+    "desc": "使得allied front row具有一定的反射负面能力，Vanilluxe, while present, this effect is guaranteed."
+  },
+  {
+    "line": 310,
+    "name": "MAX · Power Forge",
+    "desc": "On entryincreasesallied back rowPokémon200点Rage，Klinklang, while present, this effect is guaranteed."
+  },
+  {
+    "line": 311,
+    "name": "MAX · Lingering Spite",
+    "desc": "On entry给enemiesRandom2个targetapplies鬼火效果，Chandelure, while present, this effect is guaranteed."
+  },
+  {
+    "line": 312,
+    "name": "MAX · Pursuit",
+    "desc": "使得alliedRandom一个back rowunit也applies连击效果，Haxorus, while present, this effect is guaranteed."
+  },
+  {
+    "line": 313,
+    "name": "MAX · Coalition Tactics",
+    "desc": "self每次攻击后gainsadditionallyaction turn(s)，Hydreigon, while present, this effect is guaranteed."
+  },
+  {
+    "line": 314,
+    "name": "MAX · Gooey Bubbles",
+    "desc": "封锁targetRage3turn(s)，Goodra, while present, this effect is guaranteed."
+  },
+  {
+    "line": 315,
+    "name": "MAX · Queenly Majesty",
+    "desc": "At the end of each mega-turn,给enemiesappliesRandomdebuff，Tsareena, while present, this effect is guaranteed."
+  },
+  {
+    "line": 316,
+    "name": "MAX · Echo Sight",
+    "desc": "回怒飞速加快，Noivern, while present, this effect is guaranteed."
+  },
+  {
+    "line": 317,
+    "name": "MAX · UB: Barbed Needle",
+    "desc": "每turn(s)reducestarget10%HP，Naganadel, while present, this effect is guaranteed."
+  },
+  {
+    "line": 318,
+    "name": "MAX · Frost Wrath",
+    "desc": "Ultimate伤害巨高，Articuno, while present, this effect is guaranteed."
+  },
+  {
+    "line": 319,
+    "name": "MAX · Lightning Strike",
+    "desc": "治疗量increases，Zapdos, while present, this effect is guaranteed."
+  },
+  {
+    "line": 320,
+    "name": "MAX · Sacred Avian Guard",
+    "desc": "HP最低伤害越高，Moltres, while present, this effect is guaranteed."
+  },
+  {
+    "line": 323,
+    "name": "MAX · Thunderforce",
+    "desc": "第二turn(s)all unitsShield，Raikou, while present, this effect is guaranteed."
+  },
+  {
+    "line": 324,
+    "name": "MAX · Volcanic Shelter",
+    "desc": "全队30%反弹，Entei, while present, this effect is guaranteed."
+  },
+  {
+    "line": 325,
+    "name": "MAX · Tidal Force",
+    "desc": "faintapplies自爆伤害，Suicune, while present, this effect is guaranteed."
+  },
+  {
+    "line": 326,
+    "name": "MAX · Rock Bulwark",
+    "desc": "有极大chance变身，Regirock, while present, this effect is guaranteed."
+  },
+  {
+    "line": 328,
+    "name": "MAX · Steel Sink",
+    "desc": "all unitsalways闪避1turn(s)，Registeel, while present, this effect is guaranteed."
+  },
+  {
+    "line": 329,
+    "name": "MAX · Moonphase Halo",
+    "desc": "all enemies防御reduces40%，Cresselia, while present, this effect is guaranteed."
+  },
+  {
+    "line": 330,
+    "name": "MAX · Justified",
+    "desc": "封锁targetRage3turn(s)，Keldeo, while present, this effect is guaranteed."
+  },
+  {
+    "line": 331,
+    "name": "MAX · Recover",
+    "desc": "At the end of each mega-turn,给enemiesappliesRandomdebuff，Lugia, while present, this effect is guaranteed."
+  },
+  {
+    "line": 332,
+    "name": "MAX · Ocean Aegis",
+    "desc": "回怒飞速加快，Kyogre, while present, this effect is guaranteed."
+  },
+  {
+    "line": 333,
+    "name": "MAX · Slow Start",
+    "desc": "每turn(s)reducestarget10%HP，Regigigas, while present, this effect is guaranteed."
+  },
+  {
+    "line": 334,
+    "name": "MAX · Phantasmal Mass",
+    "desc": "Ultimate伤害巨高，Giratina, while present, this effect is guaranteed."
+  },
+  {
+    "line": 335,
+    "name": "MAX · Sweet Dreams",
+    "desc": "On the first mega-turn,always闪避"
+  },
+  {
+    "line": 336,
+    "name": "MAX · Sky Bloom",
+    "desc": "HP最低伤害越高，Shaymin (Sky Forme), while present, this effect is guaranteed."
+  },
+  {
+    "line": 339,
+    "name": "MAX · Deep Freeze",
+    "desc": "第二turn(s)all unitsShield，Kyurem, while present, this effect is guaranteed."
+  },
+  {
+    "line": 340,
+    "name": "MAX · Mysterious Barrier",
+    "desc": "全队30%反弹，Diancie, while present, this effect is guaranteed."
+  },
+  {
+    "line": 341,
+    "name": "MAX · Judgment Wheel",
+    "desc": "faintapplies自爆伤害，Hoppa Confined, while present, this effect is guaranteed."
+  },
+  {
+    "line": 342,
+    "name": "MAX · Temporal Rift",
+    "desc": "有极大chance变身，Dialga, while present, this effect is guaranteed."
+  },
+  {
+    "line": 344,
+    "name": "Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains10%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 345,
+    "name": "Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row）"
+  },
+  {
+    "line": 346,
+    "name": "Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有30%chanceBind1turn(s)"
+  },
+  {
+    "line": 348,
+    "name": "Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 349,
+    "name": "Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random2个unittriggersBlind效果"
+  },
+  {
+    "line": 350,
+    "name": "Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 351,
+    "name": "Psychic",
+    "desc": "【Alakazam Exclusive】On entry有100%chance石化对面Random1个target持续2turn(s)"
+  },
+  {
+    "line": 352,
+    "name": "Striker's Gambit",
+    "desc": "【Scizor Exclusive】When KOing a unit,gains1000点Rage值"
+  },
+  {
+    "line": 353,
+    "name": "High Voltage",
+    "desc": "【Electivire Exclusive】front row队友（除self以外）受击或者攻击为Electivireapplies1层蓄电"
+  },
+  {
+    "line": 354,
+    "name": "Steel Aegis",
+    "desc": "【Aggron Exclusive】Before each mega-turn,为会为Random一个unitapplies钢铁Shield"
+  },
+  {
+    "line": 355,
+    "name": "Frost Seal",
+    "desc": "【Cryogonal Exclusive】On entry有100%chanceFreeze对面Random2个target持续2turn(s)"
+  },
+  {
+    "line": 356,
+    "name": "Petal Dancer",
+    "desc": "【Florges Exclusive】allies行动时restores来自Florges35%特攻的HP"
+  },
+  {
+    "line": 357,
+    "name": "Sword & Shield",
+    "desc": "【Aegislash (Shield Forme) Exclusive】盾形态时：all unitsgains30%damage reduction；剑形态时，all alliesincreases30%damage bonus"
+  },
+  {
+    "line": 358,
+    "name": "Justified",
+    "desc": "【Lucario Exclusive】allies使用Basic Skill时50%有chancetriggersBasic Skill"
+  },
+  {
+    "line": 359,
+    "name": "Dragon's Pressure",
+    "desc": "【Salamence Exclusive】攻击时additionally能applies1个撕裂效果；最高stacks10层"
+  },
+  {
+    "line": 360,
+    "name": "Sturdy",
+    "desc": "【Metagross Exclusive】攻击时对Random2个unit嘲讽1turn(s)"
+  },
+  {
+    "line": 361,
+    "name": "Bug Resonance",
+    "desc": "【Volcarona Exclusive】alliesfront row永久拥有【Solar Cloak】"
+  },
+  {
+    "line": 362,
+    "name": "Poison Barb Bastion",
+    "desc": "【Toxapex Exclusive】攻击时对Random2个unit嘲讽1turn(s)；且self受到主动攻击时50%chance嘲讽target1turn(s)"
+  },
+  {
+    "line": 363,
+    "name": "Earthquake",
+    "desc": "【Tyranitar Exclusive】使用Ultimate后的后两个mega-turn endsrestoresself15%最大of max HP as HP和200点Rage"
+  },
+  {
+    "line": 364,
+    "name": "Electrodynamic Field",
+    "desc": "【Magnezone Exclusive】使用Ultimate时，损失当前HP的10%的HP，additionally对enemiesdeals1次自爆伤害"
+  },
+  {
+    "line": 365,
+    "name": "Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为Latiosrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 366,
+    "name": "Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为Latiosrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 367,
+    "name": "Mewtwo",
+    "desc": "【Mewtwo Exclusive】行动时100%chancetriggers连击效果"
+  },
+  {
+    "line": 368,
+    "name": "Ho-Oh Rebirth",
+    "desc": "【Ho-Oh Exclusive】Before each mega-turn,50%chance为all enemiesappliesBurn1turn(s)"
+  },
+  {
+    "line": 369,
+    "name": "Primordial Lineage",
+    "desc": "【Groudon Exclusive】allies行动时有20%chancetriggers一次地震效果"
+  },
+  {
+    "line": 370,
+    "name": "Temporal Rift",
+    "desc": "【Dialga Exclusive】When using a skill,，alliesRandom3个unitBasic Skill cooldown reduction1turn(s)"
+  },
+  {
+    "line": 371,
+    "name": "Dimensional Hide",
+    "desc": "【Palkia Exclusive】After using a skill,有30%chance进入隐匿"
+  },
+  {
+    "line": 373,
+    "name": "Sky Tyrant",
+    "desc": "【Rayquaza Exclusive】Rayquaza在场时，all unitsincreases30%Dodge"
+  },
+  {
+    "line": 374,
+    "name": "MAX · Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains20%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 375,
+    "name": "MAX · Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row），则Stealth状态下，additionallygains冷血效果"
+  },
+  {
+    "line": 376,
+    "name": "MAX · Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有60%chanceBind1turn(s)"
+  },
+  {
+    "line": 377,
+    "name": "MAX · Sharpshooting",
+    "desc": "【Decidueye Exclusive】杀target后selfalwaysfull Rage并gains1turn(s)Stealth效果"
+  },
+  {
+    "line": 378,
+    "name": "MAX · Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动且Crit Rateadditionally gains30%"
+  },
+  {
+    "line": 379,
+    "name": "MAX · Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random4个unittriggersBlind效果"
+  },
+  {
+    "line": 380,
+    "name": "MAX · Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动并permanently gains30%Speed"
+  },
+  {
+    "line": 381,
+    "name": "MAX · Psychic",
+    "desc": "【Alakazam Exclusive】On entry有100%chance石化对面Random3个target持续2turn(s)"
+  },
+  {
+    "line": 382,
+    "name": "MAX · Striker's Gambit",
+    "desc": "【Scizor Exclusive】When KOing a unit,gains1000点Rage值并additionally gains20%Life Steal1turn(s)"
+  },
+  {
+    "line": 383,
+    "name": "MAX · High Voltage",
+    "desc": "【Electivire Exclusive】front row队友（除self以外）受击或者攻击为Electivireapplies1层蓄电；当达到7层时，直接释放additionallyUltimate真·高压电"
+  },
+  {
+    "line": 384,
+    "name": "MAX · Steel Aegis",
+    "desc": "【Aggron Exclusive】Aggron, while present, may proc: Before each mega-turn,为会为Random3个unitapplies钢铁Shield"
+  },
+  {
+    "line": 385,
+    "name": "MAX · Frost Seal",
+    "desc": "【Cryogonal Exclusive】On entry有100%chanceFreeze对面Random4个target持续2turn(s)"
+  },
+  {
+    "line": 386,
+    "name": "MAX · Petal Dancer",
+    "desc": "【Florges Exclusive】allies行动时restores来自Florges35%特攻的HP；all alliesadditionallyrestores来自Florges80%特攻的HP"
+  },
+  {
+    "line": 387,
+    "name": "MAX · Sword & Shield",
+    "desc": "【Aegislash (Shield Forme) Exclusive】盾形态时：all unitsgains30%final damage mitigation；剑形态时，all alliesincreases30%final damage bonus"
+  },
+  {
+    "line": 388,
+    "name": "MAX · Justified",
+    "desc": "【Lucario Exclusive】allies使用Basic Skill时40%有chancetriggersBasic Skill；allies使用Ultimate时有40%chancetriggersUltimate"
+  },
+  {
+    "line": 389,
+    "name": "MAX · Dragon's Pressure",
+    "desc": "【Salamence Exclusive】攻击时additionally能applies1个撕裂效果，每次叠加3层；最高stacks10层"
+  },
+  {
+    "line": 390,
+    "name": "MAX · Sturdy",
+    "desc": "【Metagross Exclusive】攻击时对Random2个unit嘲讽1turn(s)；且self受到主动攻击时50%chance嘲讽target1turn(s)"
+  },
+  {
+    "line": 391,
+    "name": "MAX · Bug Resonance",
+    "desc": "【Volcarona Exclusive】all allies永久拥有【Solar Cloak】；【Solar Cloak】applies30%反伤效果"
+  },
+  {
+    "line": 392,
+    "name": "MAX · Poison Barb Bastion",
+    "desc": "【Toxapex Exclusive】攻击时对Random3个unit嘲讽1turn(s)；且self受到主动攻击时50%chance嘲讽target1turn(s)"
+  },
+  {
+    "line": 393,
+    "name": "MAX · Earthquake",
+    "desc": "【Tyranitar Exclusive】使用Ultimate后的后两个mega-turn endsrestoresself30%最大of max HP as HP和500点Rage"
+  },
+  {
+    "line": 394,
+    "name": "MAX · Electrodynamic Field",
+    "desc": "【Magnezone Exclusive】每次使用Ultimateadditionally再increases20%自爆伤害；使用Ultimate时，损失当前HP的10%的HP，additionally对enemiesdeals1次自爆伤害"
+  },
+  {
+    "line": 395,
+    "name": "MAX · Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为all unitsunitrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 396,
+    "name": "MAX · Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为all unitsunitrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 397,
+    "name": "MAX · Mewtwo",
+    "desc": "【Mewtwo Exclusive】Mewtwo行动时100%chancetriggers连击效果且MewtwoSpeedincreases50%"
+  },
+  {
+    "line": 398,
+    "name": "MAX · Ho-Oh Rebirth",
+    "desc": "【Ho-Oh Exclusive】Ho-Oh在场时，Before each mega-turn,100%chance为all enemiesappliesBurn1turn(s)"
+  },
+  {
+    "line": 399,
+    "name": "MAX · Primordial Lineage",
+    "desc": "【Groudon Exclusive】allies行动时有50%chancetriggers一次地震效果"
+  },
+  {
+    "line": 400,
+    "name": "MAX · Temporal Rift",
+    "desc": "【Dialga Exclusive】When using a skill,，alliesRandom3个unitBasic Skill cooldown reduction2turn(s)"
+  },
+  {
+    "line": 401,
+    "name": "MAX · Dimensional Hide",
+    "desc": "【Palkia Exclusive】After using a skill,有50%chance进入隐匿"
+  },
+  {
+    "line": 402,
+    "name": "MAX · Flower Seed",
+    "desc": "【Shaymin Exclusive】On entry,，all alliesStealth1 mega-turn(s)并increases20%damage bonus"
+  },
+  {
+    "line": 403,
+    "name": "MAX · Sky Tyrant",
+    "desc": "【Rayquaza Exclusive】Rayquaza在场时，all unitsincreases30%Dodge与30%Crit Rate"
+  },
+  {
+    "line": 404,
+    "name": "Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains10%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 405,
+    "name": "Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row）"
+  },
+  {
+    "line": 406,
+    "name": "Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有30%chanceBind1turn(s)"
+  },
+  {
+    "line": 408,
+    "name": "Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 409,
+    "name": "Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random2个unittriggersBlind效果"
+  },
+  {
+    "line": 410,
+    "name": "Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 420,
+    "name": "Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为Latiosrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 421,
+    "name": "Light Conceal",
+    "desc": "【Latios Exclusive】Latios在场时，为Latios提供30%的final damage mitigation"
+  },
+  {
+    "line": 432,
+    "name": "Twin Mirage",
+    "desc": "【美洛耶塔 Exclusive】Passive skill level +30."
+  },
+  {
+    "line": 437,
+    "name": "Ho-Oh Rebirth",
+    "desc": "【Ho-Oh Exclusive】Before each mega-turn,50%chance为all enemiesappliesBurn1turn(s)"
+  },
+  {
+    "line": 439,
+    "name": "MAX · Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains20%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 440,
+    "name": "MAX · Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row），则Stealth状态下，additionallygains冷血效果"
+  },
+  {
+    "line": 441,
+    "name": "MAX · Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有60%chanceBind1turn(s)"
+  },
+  {
+    "line": 442,
+    "name": "MAX · Sharpshooting",
+    "desc": "【Decidueye Exclusive】杀target后selfalwaysfull Rage并gains1turn(s)Stealth效果"
+  },
+  {
+    "line": 443,
+    "name": "MAX · Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动且Crit Rateadditionally gains30%"
+  },
+  {
+    "line": 444,
+    "name": "MAX · Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random4个unittriggersBlind效果"
+  },
+  {
+    "line": 445,
+    "name": "MAX · Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动并permanently gains30%Speed"
+  },
+  {
+    "line": 455,
+    "name": "MAX · Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为all unitsunitrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 456,
+    "name": "MAX · Light Conceal",
+    "desc": "【Latios Exclusive】Latios在场时，为front rowunit提供30%的final damage mitigation；为back rowunit提供30%的final damage bonus"
+  },
+  {
+    "line": 466,
+    "name": "MAX · Flower Seed",
+    "desc": "【Shaymin Exclusive】On entry,，all alliesStealth1 mega-turn(s)并increases20%damage bonus"
+  },
+  {
+    "line": 467,
+    "name": "MAX · Twin Mirage",
+    "desc": "【美洛耶塔 Exclusive】All skill levels +60."
+  },
+  {
+    "line": 472,
+    "name": "MAX · Ho-Oh Rebirth",
+    "desc": "【Ho-Oh Exclusive】Ho-Oh在场时，Before each mega-turn,100%chance为all enemiesappliesBurn1turn(s)"
+  },
+  {
+    "line": 474,
+    "name": "Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains10%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 475,
+    "name": "Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row）"
+  },
+  {
+    "line": 476,
+    "name": "Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有30%chanceBind1turn(s)"
+  },
+  {
+    "line": 478,
+    "name": "Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 479,
+    "name": "Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random2个unittriggersBlind效果"
+  },
+  {
+    "line": 480,
+    "name": "Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 481,
+    "name": "Dragonite",
+    "desc": "【Dragonite Exclusive】前两turn(s)applies连击效果"
+  },
+  {
+    "line": 482,
+    "name": "Voltage Surge",
+    "desc": "【Mega Ampharos Exclusive】前两turn(s)每个队友攻击后都可restores其周围unit100点Rage"
+  },
+  {
+    "line": 483,
+    "name": "Dragon's Pressure",
+    "desc": "【Salamence Exclusive】前两turn(s)攻击时撕裂效果变为3层"
+  },
+  {
+    "line": 484,
+    "name": "Dragon Wrath",
+    "desc": "【Garchomp Exclusive】self前2turn(s)可免疫一次致死伤害"
+  },
+  {
+    "line": 486,
+    "name": "Gooey Bubbles",
+    "desc": "【Goodra Exclusive】首 mega-turn(s)封锁all enemiesRage"
+  },
+  {
+    "line": 490,
+    "name": "Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为Latiosrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 491,
+    "name": "Light Conceal",
+    "desc": "【Latios Exclusive】Latios在场时，为Latios提供30%的final damage mitigation"
+  },
+  {
+    "line": 506,
+    "name": "Sky Tyrant",
+    "desc": "【Rayquaza Exclusive】On the first mega-turn,all unitsalways闪避"
+  },
+  {
+    "line": 509,
+    "name": "MAX · Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains20%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 510,
+    "name": "MAX · Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row），则Stealth状态下，additionallygains冷血效果"
+  },
+  {
+    "line": 511,
+    "name": "MAX · Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有60%chanceBind1turn(s)"
+  },
+  {
+    "line": 512,
+    "name": "MAX · Sharpshooting",
+    "desc": "【Decidueye Exclusive】杀target后selfalwaysfull Rage并gains1turn(s)Stealth效果"
+  },
+  {
+    "line": 513,
+    "name": "MAX · Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动且Crit Rateadditionally gains30%"
+  },
+  {
+    "line": 514,
+    "name": "MAX · Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random4个unittriggersBlind效果"
+  },
+  {
+    "line": 515,
+    "name": "MAX · Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动并permanently gains30%Speed"
+  },
+  {
+    "line": 516,
+    "name": "MAX · Dragonite",
+    "desc": "【Dragonite Exclusive】applies连击效果"
+  },
+  {
+    "line": 517,
+    "name": "MAX · Voltage Surge",
+    "desc": "【Mega Ampharos Exclusive】每个队友攻击后都可restores其周围unit100点Rage"
+  },
+  {
+    "line": 518,
+    "name": "MAX · Dragon's Pressure",
+    "desc": "【Salamence Exclusive】攻击时撕裂效果变为3层"
+  },
+  {
+    "line": 519,
+    "name": "MAX · Dragon Wrath",
+    "desc": "【Garchomp Exclusive】可免疫一次致死伤害"
+  },
+  {
+    "line": 521,
+    "name": "MAX · Gooey Bubbles",
+    "desc": "【Goodra Exclusive】前2 mega-turn(s)封锁all enemiesRage"
+  },
+  {
+    "line": 525,
+    "name": "MAX · Light Conceal",
+    "desc": "【Latias Exclusive】Latias在场时，每个turn(s)开始前为all unitsunitrestorestarget20%of max HP as HP"
+  },
+  {
+    "line": 526,
+    "name": "MAX · Light Conceal",
+    "desc": "【Latios Exclusive】Latios在场时，为front rowunit提供30%的final damage mitigation；为back rowunit提供30%的final damage bonus"
+  },
+  {
+    "line": 540,
+    "name": "MAX · Deep Freeze",
+    "desc": "【Kyurem Exclusive】On the first mega-turn,all unitsShield且每turn(s)刷新Shield"
+  },
+  {
+    "line": 541,
+    "name": "MAX · Sky Tyrant",
+    "desc": "【Rayquaza Exclusive】首两turn(s)all unitsalways闪避"
+  },
+  {
+    "line": 544,
+    "name": "Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains10%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 545,
+    "name": "Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row）"
+  },
+  {
+    "line": 546,
+    "name": "Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有30%chanceBind1turn(s)"
+  },
+  {
+    "line": 548,
+    "name": "Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 549,
+    "name": "Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random2个unittriggersBlind效果"
+  },
+  {
+    "line": 550,
+    "name": "Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动"
+  },
+  {
+    "line": 565,
+    "name": "Justified",
+    "desc": "【Lucario Exclusive】allies使用Basic Skill时50%有chancetriggersBasic Skill"
+  },
+  {
+    "line": 568,
+    "name": "Earthquake",
+    "desc": "【Tyranitar Exclusive】使用Ultimate后的后两个mega-turn endsrestoresself15%最大of max HP as HP和200点Rage"
+  },
+  {
+    "line": 569,
+    "name": "Twin Mirage",
+    "desc": "【美洛耶塔 Exclusive】Passive skill level +30."
+  },
+  {
+    "line": 570,
+    "name": "Mewtwo",
+    "desc": "【Mewtwo Exclusive】行动时100%chancetriggers连击效果"
+  },
+  {
+    "line": 571,
+    "name": "Primordial Lineage",
+    "desc": "【Groudon Exclusive】allies行动时有20%chancetriggers一次地震效果"
+  },
+  {
+    "line": 572,
+    "name": "Sky Tyrant",
+    "desc": "【Rayquaza Exclusive】Rayquaza在场时，all unitsincreases30%Dodge"
+  },
+  {
+    "line": 577,
+    "name": "Temporal Rift",
+    "desc": "【Dialga Exclusive】When using a skill,，alliesRandom3个unitBasic Skill cooldown reduction1turn(s)"
+  },
+  {
+    "line": 578,
+    "name": "Dimensional Hide",
+    "desc": "【Palkia Exclusive】After using a skill,有30%chance进入隐匿"
+  },
+  {
+    "line": 579,
+    "name": "MAX · Endure",
+    "desc": "【Empoleon Exclusive】Each action,，permanently gains20%crit抗性（stacks至10层）"
+  },
+  {
+    "line": 580,
+    "name": "MAX · Leaf Blade",
+    "desc": "【Sceptile Exclusive】self行动后有100%的chance进入Stealth1turn(s)（cannot trigger twice in a row），则Stealth状态下，additionallygains冷血效果"
+  },
+  {
+    "line": 581,
+    "name": "MAX · Contrary",
+    "desc": "【Serperior Exclusive】Serperior在场时，each enemy行动后有60%chanceBind1turn(s)"
+  },
+  {
+    "line": 582,
+    "name": "MAX · Sharpshooting",
+    "desc": "【Decidueye Exclusive】杀target后selfalwaysfull Rage并gains1turn(s)Stealth效果"
+  },
+  {
+    "line": 583,
+    "name": "MAX · Blaze",
+    "desc": "【Blaziken Exclusive】When KOing a unit,，立刻gains1个additionally行动且Crit Rateadditionally gains30%"
+  },
+  {
+    "line": 584,
+    "name": "MAX · Muddy Water",
+    "desc": "【Swampert Exclusive】攻击时appliesBlind效果对Random4个unittriggersBlind效果"
+  },
+  {
+    "line": 585,
+    "name": "MAX · Aqua Clone Jutsu",
+    "desc": "【Greninja Exclusive】When KOing a unit,，立刻gains1个additionally行动并permanently gains30%Speed"
+  },
+  {
+    "line": 600,
+    "name": "MAX · Justified",
+    "desc": "【Lucario Exclusive】allies使用Basic Skill时40%有chancetriggersBasic Skill；allies使用Ultimate时有40%chancetriggersUltimate"
+  },
+  {
+    "line": 603,
+    "name": "MAX · Earthquake",
+    "desc": "【Tyranitar Exclusive】使用Ultimate后的后两个mega-turn endsrestoresself30%最大of max HP as HP和500点Rage"
+  },
+  {
+    "line": 604,
+    "name": "MAX · Twin Mirage",
+    "desc": "【美洛耶塔 Exclusive】All skill levels +60."
+  },
+  {
+    "line": 605,
+    "name": "MAX · Mewtwo",
+    "desc": "【Mewtwo Exclusive】Mewtwo行动时100%chancetriggers连击效果且MewtwoSpeedincreases50%"
+  },
+  {
+    "line": 606,
+    "name": "MAX · Primordial Lineage",
+    "desc": "【Groudon Exclusive】allies行动时有50%chancetriggers一次地震效果"
+  },
+  {
+    "line": 607,
+    "name": "MAX · Sky Tyrant",
+    "desc": "【Rayquaza Exclusive】Rayquaza在场时，all unitsincreases30%Dodge与30%Crit Rate"
+  },
+  {
+    "line": 609,
+    "name": "MAX · Deep Freeze",
+    "desc": "【Kyurem Exclusive】On the first mega-turn,all unitsShield且每turn(s)刷新Shield"
+  },
+  {
+    "line": 612,
+    "name": "MAX · Temporal Rift",
+    "desc": "【Dialga Exclusive】When using a skill,，alliesRandom3个unitBasic Skill cooldown reduction2turn(s)"
+  },
+  {
+    "line": 613,
+    "name": "MAX · Dimensional Hide",
+    "desc": "【Palkia Exclusive】After using a skill,有50%chance进入隐匿"
+  },
+  {
+    "line": 614,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Venusaur(12★), Chandelure(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 615,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard X(12★), Haxorus(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 616,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard Y(12★), Tsareena(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 617,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Blastoise(12★), Naganadel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 618,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Alakazam(12★), Zapdos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 619,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Gengar(12★), Moltres(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 620,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Dragonite(12★), Raikou(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 621,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Togekiss(12★), Entei(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 622,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Ampharos(12★), Suicune(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 623,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gardevoir(12★), Registeel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 624,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Dusknoir(12★), Cresselia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 625,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Garchomp(12★), Keldeo(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 626,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lugia#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 627,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyogre#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 628,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Regigigas#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 629,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Giratina#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 630,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Darkrai#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 631,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Shaymin (Sky Forme)#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 632,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Reshiram#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 633,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zekrom#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 634,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyurem#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 635,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Diancie#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 636,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hoppa Confined#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 637,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Dialga#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 638,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Palkia#L0##C0x5B545B#(12星)"
+  },
+  {
+    "line": 655,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Pidgeot(12★), Lickilicky(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 656,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Raichu(12★), Weezing(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 657,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Clefable(12★), Blissey(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 658,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Wigglytuff(12★), Kabutops(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 659,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golduck(12★), Camerupt(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 660,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Machamp(12★), Banette(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 661,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Victreebel(12★), Froslass(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 662,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golem(12★), Walrein(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 663,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Farfetch'd(12★), Luxray(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 664,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Muk(12★), Toxicroak(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 665,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Cloyster(12★), Abomasnow(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 666,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmonlee(12★), Mega Abomasnow(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 667,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmonchan(12★), Gigalith(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 668,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmontop(12★), Excadrill(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 669,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Conkeldurr(12★), Crobat(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 670,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Scolipede(12★), Arcanine(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 671,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gothitelle(12★), Gengar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 672,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Vanilluxe(12★), Steelix(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 673,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Emolga(12★), Rhyperior(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 674,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Jellicent (F)(12★), Magmortar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 675,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Jellicent (M)(12★), Gyarados(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 676,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Klinklang(12★), Aerodactyl(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 677,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Beartic(12★), Snorlax(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 678,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Pyroar(12★), Dragonite(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 679,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Slurpuff(12★), Mew(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 680,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Clawitzer(12★), Togekiss(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 681,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hawlucha(12★), Ampharos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 682,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Venusaur(12★), Gliscor(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 683,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard X(12★), Heracross(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 684,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard Y(12★), Weavile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 685,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Blastoise(12★), Houndoom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 686,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Alakazam(12★), Gardevoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 687,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Gengar(12★), Gallade(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 688,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Scizor(12★), Slaking(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 689,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lapras(12★), Dusknoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 690,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Articuno(12★), Absol(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 691,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zapdos(12★), Krookodile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 692,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Moltres(12★), Zoroark(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 693,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Ampharos(12★), Chandelure(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 694,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Raikou(12★), Haxorus(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 695,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Entei(12★), Hydreigon(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 696,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Suicune(12★), Goodra(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 697,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Swampert(12★), Noivern(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 698,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Regirock(12★), Tsareena(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 699,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Regice(12★), Naganadel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 700,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Registeel(12★), Ash's Pikachu(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 701,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Garchomp(12★), Cresselia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 702,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Cobalion(12★), Virizion(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 703,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Terrakion(12★), Keldeo(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 704,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lugia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 705,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyogre(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 706,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Rayquaza(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 707,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Jirachi(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 708,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Regigigas(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 709,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Giratina(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 710,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Darkrai(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 711,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Reshiram(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 712,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zekrom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 713,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyurem(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 714,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Meloetta (Aria Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 715,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Yveltal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 716,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Diancie(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 717,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hoppa Unbound(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 718,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Dialga(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 719,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Palkia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 720,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Pidgeot(12★), Mega Abomasnow(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 721,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Raichu(12★), Gigalith(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 722,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Clefable(12★), Excadrill(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 723,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Wigglytuff(12★), Conkeldurr(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 724,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golduck(12★), Scolipede(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 725,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Machamp(12★), Gothitelle(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 726,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Victreebel(12★), Vanilluxe(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 727,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golem(12★), Emolga(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 728,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Farfetch'd(12★), Jellicent (F)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 729,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Muk(12★), Jellicent (M)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 730,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Cloyster(12★), Klinklang(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 731,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmonlee(12★), Beartic(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 732,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmonchan(12★), Pyroar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 733,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmontop(12★), Slurpuff(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 734,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lickilicky(12★), Clawitzer(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 735,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Weezing(12★), Aurorus(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 736,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Blissey(12★), Hawlucha(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 737,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Starmie(12★), Ampharos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 738,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kabutops(12★), Mega Ampharos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 739,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Exploud(12★), Gliscor(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 740,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Camerupt(12★), Heracross(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 741,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Banette(12★), Weavile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 742,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Froslass(12★), Houndoom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 743,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Walrein(12★), Tyranitar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 744,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Luxray(12★), Mega Swampert(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 745,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Toxicroak(12★), Gardevoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 746,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Abomasnow(12★), Gallade(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 747,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Venusaur(12★), Slaking(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 748,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard X(12★), Aggron(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 749,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard Y(12★), Dusknoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 750,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Blastoise(12★), Absol(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 751,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Crobat(12★), Salamence(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 752,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Alakazam(12★), Metagross(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 753,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Alakazam(12★), Garchomp(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 754,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Magnezone(12★), Lucario(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 755,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gengar(12★), Krookodile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 756,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Gengar(12★), Zoroark(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 757,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Steelix(12★), Chandelure(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 758,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Rhyperior(12★), Haxorus(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 759,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Scizor(12★), Cryogonal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 760,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Scizor(12★), Hydreigon(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 761,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Electivire(12★), Volcarona(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 762,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Magmortar(12★), Florges(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 763,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gyarados(12★), Aegislash (Shield Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 764,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lapras(12★), Goodra(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 765,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Aerodactyl(12★), Noivern(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 766,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Snorlax(12★), Toxapex(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 767,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Dragonite(12★), Tsareena(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 768,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Togekiss(12★), Naganadel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 769,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mewtwo(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 770,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyogre(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 771,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Groudon(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 772,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Rayquaza(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 773,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Rayquaza(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 774,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Dialga(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 775,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Palkia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 776,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Giratina(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 777,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Reshiram(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 778,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zekrom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 779,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyurem(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 780,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Meloetta (Aria Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 781,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Yveltal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 782,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hoppa Unbound(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 783,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Melmetal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 784,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Darkrai(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 785,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Pidgeot(12★), Mega Abomasnow(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 786,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Raichu(12★), Gigalith(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 787,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Clefable(12★), Conkeldurr(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 788,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Wigglytuff(12★), Scolipede(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 789,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golduck(12★), Gothitelle(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 790,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Machamp(12★), Vanilluxe(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 791,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Victreebel(12★), Emolga(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 792,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golem(12★), Jellicent (F)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 793,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Farfetch'd(12★), Jellicent (M)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 794,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Muk(12★), Klinklang(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 795,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Cloyster(12★), Beartic(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 796,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmonlee(12★), Pyroar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 797,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmonchan(12★), Slurpuff(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 798,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hitmontop(12★), Clawitzer(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 799,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lickilicky(12★), Aurorus(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 800,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Weezing(12★), Hawlucha(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 801,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Blissey(12★), Ampharos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 802,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Starmie(12★), Gliscor(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 803,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kabutops(12★), Heracross(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 804,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Exploud(12★), Weavile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 805,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Camerupt(12★), Houndoom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 806,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Banette(12★), Raikou(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 807,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Froslass(12★), Entei(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 808,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Walrein(12★), Suicune(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 809,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Luxray(12★), Tyranitar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 810,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Toxicroak(12★), Mega Swampert(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 811,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Abomasnow(12★), Gardevoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 812,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Venusaur(12★), Gallade(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 813,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard X(12★), Slaking(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 814,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard Y(12★), Aggron(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 815,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Blastoise(12★), Dusknoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 816,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Crobat(12★), Absol(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 817,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Arcanine(12★), Metagross(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 818,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Alakazam(12★), Regirock(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 819,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Alakazam(12★), Regice(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 820,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Magnezone(12★), Registeel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 821,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gengar(12★), Lucario(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 822,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Gengar(12★), Cresselia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 823,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Rhyperior(12★), Krookodile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 824,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Scizor(12★), Zoroark(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 825,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Scizor(12★), Chandelure(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 826,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Electivire(12★), Cryogonal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 827,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Magmortar(12★), Volcarona(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 828,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Snorlax(12★), Cobalion(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 829,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Articuno(12★), Terrakion(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 830,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zapdos(12★), Virizion(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 831,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Moltres(12★), Keldeo(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 832,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mew(12★), Florges(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 833,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Togekiss(12★), Aegislash (Shield Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 834,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Tsareena(12★), Toxapex(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 835,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Ash's Pikachu(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 836,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mewtwo(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 837,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lugia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 838,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Ho-Oh(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 839,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyogre(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 840,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Groudon(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 841,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Jirachi(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 842,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Darkrai(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 843,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Shaymin(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 844,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Meloetta (Aria Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 845,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Yveltal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 846,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Diancie(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 847,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Hoppa Unbound(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 848,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Melmetal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 849,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyurem(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 850,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Rayquaza(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 851,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Pidgeot(12★), Vanilluxe(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 852,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Raichu(12★), Emolga(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 853,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Clefable(12★), Jellicent (F)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 854,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Wigglytuff(12★), Jellicent (M)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 855,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golduck(12★), Klinklang(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 856,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Victreebel(12★), Beartic(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 857,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Golem(12★), Pyroar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 858,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Farfetch'd(12★), Slurpuff(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 859,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Muk(12★), Clawitzer(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 860,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Cloyster(12★), Aurorus(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 861,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lickilicky(12★), Moltres(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 862,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Weezing(12★), Dragonite(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 863,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Blissey(12★), Mew(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 864,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Starmie(12★), Togekiss(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 865,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kabutops(12★), Ampharos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 866,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Exploud(12★), Mega Ampharos(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 867,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Camerupt(12★), Gliscor(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 868,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Banette(12★), Weavile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 869,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Froslass(12★), Houndoom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 870,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Walrein(12★), Raikou(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 871,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Luxray(12★), Entei(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 872,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Abomasnow(12★), Suicune(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 873,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Abomasnow(12★), Tyranitar(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 874,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gigalith(12★), Mega Swampert(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 875,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Excadrill(12★), Gardevoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 876,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Scolipede(12★), Slaking(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 877,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gothitelle(12★), Aggron(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 878,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Venusaur(12★), Dusknoir(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 879,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard X(12★), Absol(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 880,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Charizard Y(12★), Salamence(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 881,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Blastoise(12★), Metagross(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 882,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Crobat(12★), Regirock(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 883,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Arcanine(12★), Regice(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 884,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Alakazam(12★), Registeel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 885,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Alakazam(12★), Latias(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 886,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Magnezone(12★), Latios(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 887,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gengar(12★), Garchomp(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 888,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Gengar(12★), Cresselia(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 889,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Steelix(12★), Krookodile(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 890,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Rhyperior(12★), Zoroark(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 891,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Scizor(12★), Chandelure(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 892,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Scizor(12★), Cryogonal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 893,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Electivire(12★), Hydreigon(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 894,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Magmortar(12★), Volcarona(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 895,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Gyarados(12★), Florges(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 896,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lapras(12★), Aegislash (Shield Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 897,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Aerodactyl(12★), Goodra(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 898,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Snorlax(12★), Noivern(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 899,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Articuno(12★), Toxapex(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 900,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zapdos(12★), Tsareena(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 901,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Lugia(12★), Naganadel(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 902,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Ho-Oh(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 903,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Kyogre(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 904,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Mega Rayquaza(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 905,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Jirachi(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 906,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Regigigas(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 907,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Giratina(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 908,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Darkrai(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 909,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Shaymin(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 910,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Reshiram(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 911,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Meloetta (Aria Forme)(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 912,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Yveltal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 913,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Diancie(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 914,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Zekrom(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 915,
+    "name": "Recruit Ally",
+    "desc": "招募#C0xF76B45##L10#Melmetal(12★)#L0##C0x5B545B#"
+  },
+  {
+    "line": 1086,
+    "name": "Passive Trigger",
+    "desc": "each mega-turn使用Random控制效果针对enemiesRandom一个target1turn(s)"
+  },
+  {
+    "line": 1152,
+    "name": "Passive Trigger",
+    "desc": "On entry所有unit处于Sleep状态，苏醒后会有意外的惊喜"
+  },
+  {
+    "line": 1218,
+    "name": "Passive Trigger",
+    "desc": "Each action,reducesall enemies100点Rage"
+  },
+  {
+    "line": 1219,
+    "name": "Passive Trigger",
+    "desc": "濒死状态下有chance免死且变身"
+  },
+  {
+    "line": 1284,
+    "name": "Passive Trigger",
+    "desc": "On entryallied所有unitfull Rage"
+  },
+  {
+    "line": 1351,
+    "name": "Passive Trigger",
+    "desc": "所有Pokémon有50%chanceapplies连击，协战，邀战效果"
+  },
+  {
+    "line": 1417,
+    "name": "Passive Trigger",
+    "desc": "单次受到的伤害量超过30%时restores10%的HP"
+  },
+  {
+    "line": 1482,
+    "name": "Passive Trigger",
+    "desc": "On entry,all unitsStealth1turn(s)且清空enemies所有targetRage"
+  },
+  {
+    "line": 1548,
+    "name": "Passive Trigger",
+    "desc": "每个turn(s)用self10%HP转为self20%的damage bonus"
+  },
+  {
+    "line": 1549,
+    "name": "Passive Trigger",
+    "desc": "HP小于10%时对all enemiesdeals10%HP上限的伤害且50%的chance晕眩1turn(s)"
+  },
+  {
+    "line": 1614,
+    "name": "Passive Trigger",
+    "desc": "受到伤害additionally吸收target150点Rage和10%的HP"
+  },
+  {
+    "line": 1615,
+    "name": "Passive Trigger",
+    "desc": "欢迎来到最后一关"
+  }
+]

@@ -91,7 +91,7 @@
 - [ ] 📄 `game_config/brave_challenge/badge_gen.csv`
 - [ ] 📄 `game_config/brave_challenge/base.csv`
 - [ ] 📄 `game_config/brave_challenge/cards.csv`
-- [ ] 📄 `game_config/brave_challenge/floor.csv`
+- [x] 📄 `game_config/brave_challenge/floor.csv`
 - [ ] 📄 `game_config/brave_challenge/monster.csv`
 - [ ] 📄 `game_config/brave_challenge/open.csv`
 - [ ] 📄 `game_config/brave_challenge/team.csv`
