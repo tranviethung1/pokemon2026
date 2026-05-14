@@ -158,7 +158,7 @@
 - [ ] 📄 `game_config/contract/advance_attr.csv`
 - [ ] 📄 `game_config/contract/advance_cost.csv`
 - [ ] 📄 `game_config/contract/base_attr.csv`
-- [ ] 📄 `game_config/contract/contract.csv`
+- [x] 📄 `game_config/contract/contract.csv`
 - [ ] 📄 `game_config/contract/group.csv`
 - [ ] 📄 `game_config/contract/level.csv`
 - [ ] 📄 `game_config/contract/level_attr.csv`

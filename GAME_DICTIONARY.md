@@ -1340,6 +1340,21 @@
 | [宝可梦]系列达到12星 | Unlock after the [Pokemon] series reaches 12 stars. | Mở khóa sau khi dòng [Pokemon] đạt 12 sao. |
 | 拥有[宝可梦]解锁 | Unlock after obtaining [Pokemon]. | Mở khóa sau khi sở hữu [Pokemon]. |
 
+### 5.12. Contract Item Terms
+*Các thuật ngữ lặp trong `game_config/contract/contract.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 印记之章 | Sigil | Ấn ký |
+| 简信 | Note | Ghi chú ngắn |
+| 便邮 | Mail | Bưu tín |
+| 信函 | Letter | Thư tín |
+| 明信片 | Postcard | Bưu thiếp |
+| 手札 | Notebook | Sổ tay |
+| 宝芬 | Poffin | Bánh Poffin |
+| 吞噬太阳之兽 | sun-devouring beast | hung thú nuốt mặt trời |
+| 邀引月亮之兽 | moon-calling beast | hung thú gọi trăng |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
