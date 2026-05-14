@@ -133,13 +133,13 @@
 - [ ] 📄 `game_config/character_random.csv`
 - [ ] 📄 `game_config/chat_emoji.csv`
 - [ ] 📄 `game_config/chat_limit.csv`
-- [ ] 📄 `game_config/chip/chips.csv`
-- [ ] 📄 `game_config/chip/libs.csv`
-- [ ] 📄 `game_config/chip/main_attr.csv`
-- [ ] 📄 `game_config/chip/recast_cost.csv`
-- [ ] 📄 `game_config/chip/resonance.csv`
-- [ ] 📄 `game_config/chip/strength_cost.csv`
-- [ ] 📄 `game_config/chip/suits.csv`
+- [x] 📄 `game_config/chip/chips.csv`
+- [x] 📄 `game_config/chip/libs.csv`
+- [x] 📄 `game_config/chip/main_attr.csv`
+- [x] 📄 `game_config/chip/recast_cost.csv`
+- [x] 📄 `game_config/chip/resonance.csv`
+- [x] 📄 `game_config/chip/strength_cost.csv`
+- [x] 📄 `game_config/chip/suits.csv`
 - [ ] 📄 `game_config/city_sprites.csv`
 - [ ] 📄 `game_config/cityscene.csv`
 - [ ] 📄 `game_config/citysound.csv`

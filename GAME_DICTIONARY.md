@@ -1257,6 +1257,45 @@
 | :--- | :--- | :--- |
 | 章节[N] | Chapter [N] | Chương [N] |
 
+### 5.9. Chip
+*Các term lặp lại trong `game_config/chip/*.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 火舞 | Fire Dance | Vũ điệu lửa |
+| 蛙刺? | Frog Thorn | Gai ếch |
+| 狼行者 | Lone Wolf | Sói đơn độc |
+| 龟甲 | Tortoise Shell | Mai rùa |
+| 拳盾 | Fist shield | Khiên quyền |
+| 蛇灵 | Snake Soul | Linh xà |
+| 超能 | Psychic | Siêu năng |
+| 恐惧 | Fear | Sợ hãi |
+| 献祭 | Sacrifice | Hiến tế |
+| 固定生命 | Fixed HP | HP cố định |
+| 百分比生命 | Percentage of HP | Phần trăm HP |
+| 固定双防 | Fixed P. & Sp. DEF | Thủ vật lý & đặc biệt cố định |
+| 百分比双防 | Percentage P. & Sp. DEF | Phần trăm thủ vật lý & đặc biệt |
+| 暴击抗性 | CRI RES | Kháng bạo kích |
+| 治疗效果 | Heal effect | Hiệu quả hồi máu |
+| 抵御 | Block | Đỡ đòn |
+| 免疫控制率 | Control resist rate | Tỷ lệ kháng khống chế |
+| 伤害减免 | DMG reduction | Giảm sát thương |
+| 必杀抗性 | Ultimate Skill resistance | Kháng tuyệt kỹ |
+| 固定速度 | Fixed speed | Tốc độ cố định |
+| 固定双攻 | Fixed P. & Sp. ATK | Công vật lý & đặc biệt cố định |
+| 百分比双攻 | Percentage P. & Sp. ATK | Phần trăm công vật lý & đặc biệt |
+| 双防忽视 | P. & Sp. DEF Ignorance | Bỏ qua thủ vật lý & đặc biệt |
+| 暴击 | Crit | Bạo kích |
+| 暴击伤害 | CRI DMG | Sát thương bạo kích |
+| 破抵御 | Block Break rate | Tỷ lệ phá đỡ đòn |
+| 控制率 | Control rate | Tỷ lệ khống chế |
+| 伤害加成 | ATK bonus | Tăng sát thương |
+| 必杀加成 | Ultimate Skill bonus | Tăng tuyệt kỹ |
+| 反弹 | Reflect | Phản đòn |
+| 怒气回复速度 | Anger recovery speed | Tốc độ hồi nộ |
+| 吸血 | Life steal | Hút máu |
+| 百分比双防忽视 | Percentage P. & Sp. DEF Ignorance | Phần trăm bỏ qua thủ vật lý & đặc biệt |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
