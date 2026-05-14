@@ -155,14 +155,14 @@
 - [ ] 📄 `game_config/combat_power_correction.csv`
 - [ ] 📄 `game_config/common_config.csv`
 - [x] 📄 `game_config/contract/activate_book.csv`
-- [ ] 📄 `game_config/contract/advance_attr.csv`
-- [ ] 📄 `game_config/contract/advance_cost.csv`
-- [ ] 📄 `game_config/contract/base_attr.csv`
+- [x] 📄 `game_config/contract/advance_attr.csv`
+- [x] 📄 `game_config/contract/advance_cost.csv`
+- [x] 📄 `game_config/contract/base_attr.csv`
 - [x] 📄 `game_config/contract/contract.csv`
-- [ ] 📄 `game_config/contract/group.csv`
-- [ ] 📄 `game_config/contract/level.csv`
-- [ ] 📄 `game_config/contract/level_attr.csv`
-- [ ] 📄 `game_config/contract/plan.csv`
+- [x] 📄 `game_config/contract/group.csv`
+- [x] 📄 `game_config/contract/level.csv`
+- [x] 📄 `game_config/contract/level_attr.csv`
+- [x] 📄 `game_config/contract/plan.csv`
 - [ ] 📄 `game_config/cost.csv`
 - [ ] 📄 `game_config/craft/base.csv`
 - [ ] 📄 `game_config/craft/buffs.csv`
@@ -171,7 +171,7 @@
 - [ ] 📄 `game_config/craft/robot_card.csv`
 - [ ] 📄 `game_config/craft/robot_level.csv`
 - [ ] 📄 `game_config/craft/robot_num.csv`
-- [ ] 📄 `game_config/craft/shop.csv`
+- [x] 📄 `game_config/craft/shop.csv`
 - [ ] 📄 `game_config/craft/skill.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`

@@ -1760,6 +1760,26 @@
 | 药水商店 | Potion Shop | Cửa hàng thuốc |
 | 欢迎光临 | Welcome! | Chào mừng! |
 
+### 7.8.1. Bổ sung từ `craft/shop.csv` (tên hàng ghi chú)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 甘甜冰水 | Sweet Ice Water | Nước đá ngọt |
+| 劲爽汽水 | Soda Pop | Nước ngọt có ga |
+| 美味之水 | Fresh Water | Nước suối |
+| 哞哞鲜奶 | MooMoo Milk | Sữa MooMoo |
+| 果汁牛奶 | Fruit Milk | Sữa trái cây |
+| 树果汁 | Berry Juice | Nước ép quả mọng |
+| 神奇胶囊 | Wonder Capsule | Viên nhộng kỳ diệu |
+| 潜力装置 | Potential Device | Thiết bị tiềm năng |
+| 初级好感度礼盒 | Basic Friendship Gift Box | Hộp quà tình bạn cơ bản |
+| 经验药水 | EXP Potion | Thuốc EXP |
+| 金币 | Gold | Vàng |
+| 能量药剂 | Energy Potion | Dược tề năng lượng |
+| 饰品觉醒随机箱子 | Accessory Awakening Random Box | Hộp ngẫu nhiên thức tỉnh phụ kiện |
+| 碎片 | Shard | Mảnh |
+| 的信物 | Token | Tín vật |
+
 ### 7.9. Bổ sung từ `auto_chess/event.csv` (tên / mô tả sự kiện — rút gọn)
 
 | Gốc (CN) | English | Ghi chú |
