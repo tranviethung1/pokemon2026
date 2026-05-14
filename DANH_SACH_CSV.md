@@ -87,7 +87,7 @@
 - [ ] 📄 `game_config/battle_card_halo.csv`
 - [ ] 📄 `game_config/bossaward.csv`
 - [x] 📄 `game_config/brave_challenge/achievement.csv`
-- [ ] 📄 `game_config/brave_challenge/badge.csv`
+- [x] 📄 `game_config/brave_challenge/badge.csv`
 - [ ] 📄 `game_config/brave_challenge/badge_gen.csv`
 - [ ] 📄 `game_config/brave_challenge/base.csv`
 - [x] 📄 `game_config/brave_challenge/cards.csv`

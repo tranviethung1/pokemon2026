@@ -18,6 +18,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 BADGE_CSV = ROOT / "game_config/brave_challenge/badge.csv"
 DICT_MD = ROOT / "GAME_DICTIONARY.md"
+MT_DESC_JSON = ROOT / "tools/data/brave_challenge_badge_desc_mt_en.json"
 
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
 
@@ -233,6 +234,39 @@ EXACT_DESC_EN: dict[str, str] = {
     "己方全体精灵免控率和伤害加成提升10%~30%": "All allies gain +10%–30% control immunity and damage bonus.",
     "己方全体精灵免控率和伤害加成提升10％~30％": "All allies gain +10%–30% control immunity and damage bonus.",
     "每个大回合结束，己方随机一个精灵的血量和怒气获得恢复": "At the end of each mega-turn, a random ally restores HP and Rage.",
+    "造成暴击伤害时使目标10%易伤2回合（可叠加3次）": "When dealing crit damage, inflicts 10% Vulnerability on the target for 2 turns (stacks up to 3 times).",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中随机一个己方精灵获得携带道具【现形镜】效果": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon gains the effect of holding 【Reveal Glass】.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中随机一个己方精灵获得携带道具【苹果】效果": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon gains the effect of holding 【Apple】.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中随机一个己方精灵获得携带道具【博士面具】效果": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon gains the effect of holding 【Professor's Mask】.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中随机一个己方精灵获得携带道具【强力手环】效果": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon gains the effect of holding 【Power Band】.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中己方随机一个精灵的小技能冷却为1回合": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon's Basic Skill cooldown becomes 1 turn.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中己方随机一个精灵满怒气": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon starts with full Rage.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中己方随机一个精灵开局即可获得凤王的祝福效果": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon starts with Ho-Oh's Blessing.",
+    "#C0xF76B45##L10#【永久徽章】#L0##C0x5B545B#战斗中己方随机一个精灵获得免控": "#C0xF76B45##L10#【Permanent Badge】#L0##C0x5B545B#During battle, a random allied Pokémon gains control immunity.",
+    "首回合全体恢复50%血量": "On the first mega-turn, all units restore 50% HP.",
+    "首回合全体恢复30%血量和300点怒气": "On the first mega-turn, all units restore 30% HP and 300 Rage.",
+    "每个大回合结束全体恢复10%血量": "At the end of each mega-turn, all units restore 10% HP.",
+    "己方所有单位在死亡后有30%概率立刻复活": "All allied units have a 30% chance to revive immediately after fainting.",
+    "雷丘在场时有一定概率触发：入场时麻痹敌方随机1个精灵持续3回合": "Raichu, while present, may proc: On entry, paralyzes 1 random enemy Pokémon for 3 turns.",
+    "隆隆岩在场时有一定概率触发：己方前排单位阵亡时对敌方全体造成200%双攻之和的伤害": "Golem, while present, may proc: When an allied front-row unit faints, deals damage equal to 200% of combined ATK to all enemies.",
+    "鸭嘴炎兽在场时有一定概率触发：前三个大回合前给敌方前排添加3层灼烧": "Magmortar, while present, may proc: Before the first 3 mega-turns, applies 3 stacks of Burn to the enemy front row.",
+    "黑夜魔灵在场时有一定概率触发：入场直接吸收一个目标进入黑洞，持续1回合": "Dusknoir, while present, may proc: On entry, directly absorbs 1 target into a black hole for 1 turn.",
+    "齿轮怪在场时有一定概率触发：入场提升己方后排精灵200点怒气": "Klinklang, while present, may proc: On entry, grants 200 Rage to allied back-row Pokémon.",
+    "黏美龙在场时有一定概率触发：封锁目标怒气3回合": "Goodra, while present, may proc: Seals the target's Rage for 3 turns.",
+    "音波龙在场时有一定概率触发：回怒飞速加快": "Noivern, while present, may proc: Rage recovery speed is greatly increased.",
+    "闪电鸟在场时有一定概率触发：治疗量提升": "Zapdos, while present, may proc: Healing done is increased.",
+    "雷公在场时有一定概率触发：第二回合全体护盾": "Raikou, while present, may proc: On turn 2, the entire team gains a shield.",
+    "雷吉洛克在场时有一定概率触发：有极大概率变身": "Regirock, while present, may proc: Has a very high chance to transform.",
+    "雷吉斯奇鲁在场时有一定概率触发：全体必然闪避1回合": "Registeel, while present, may proc: All units are guaranteed to Dodge for 1 turn.",
+    "雷吉奇卡斯在场时有一定概率触发：每回合降低目标10%血量": "Regigigas, while present, may proc: Each turn, reduces the target's HP by 10%.",
+    "骑拉帝纳在场时有一定概率触发：必杀技伤害巨高": "Giratina, while present, may proc: Ultimate damage is greatly increased.",
+    "酋雷姆在场时有一定概率触发：第二回合全体护盾": "Kyurem, while present, may proc: On turn 2, the entire team gains a shield.",
+    "隐身1回合（每个单位单独判定概率），谢米在场时该效果必然触发": "Gain Stealth for 1 turn (chance rolled separately for each unit); while Shaymin is present, this effect is guaranteed.",
+    "闪避1回合（每个单位单独判定概率），裂空座在场时该效果必然触发": "Gain Dodge for 1 turn (chance rolled separately for each unit); while Rayquaza is present, this effect is guaranteed.",
+    "降低目标10%的伤害减免2回合，超级喷火龙Y在场时该效果必然触发": "Reduces the target's damage reduction by 10% for 2 turns; while Mega Charizard Y is present, this effect is guaranteed.",
+    "附带连击效果，快龙在场时该效果必然触发": "Applies a combo effect; while Dragonite is present, this effect is guaranteed.",
+    "额外再反弹20%受到的伤害给敌方全体，帝牙海狮在场时该效果必然触发": "Additionally reflects 20% of damage taken to all enemies; while Walrein is present, this effect is guaranteed.",
+    "首回合必然闪避": "Guaranteed Dodge on the first mega-turn.",
 }
 
 EXTRA_SPECIES: dict[str, str] = {
@@ -247,6 +281,9 @@ EXTRA_SPECIES: dict[str, str] = {
 MARK_PERMANENT_ZH = "【永久徽章】"
 MARK_PERMANENT_EN = "【Permanent Badge】"
 TAIL_MARKER = "#C0x5B545B#"
+MT_DESC_EN: dict[str, str] = (
+    json.loads(MT_DESC_JSON.read_text(encoding="utf-8")) if MT_DESC_JSON.exists() else {}
+)
 
 
 def load_pokemon_cn_en(md: Path) -> dict[str, str]:
@@ -307,12 +344,62 @@ def _translate_recruit_line(s: str, cn2en: dict[str, str]) -> str:
         inner_en = _replace_species_fragment(inner, cn2en)
         inner_en = re.sub(r"\((\d+)星\)", r"(\1★)", inner_en)
         inner_en = inner_en.replace("，", ", ")
-        return s[: inner_m.start(1)] + inner_en + s[inner_m.end(1) :]
+        out = "Recruit " + s[2 : inner_m.start(1)] + inner_en + s[inner_m.end(1) :]
+        out = re.sub(r"\((\d+)星\)", r"(\1★)", out)
+        out = out.replace("，", ", ")
+        return out
     rest = s[2:]
     rest = _replace_species_fragment(rest, cn2en)
     rest = re.sub(r"\((\d+)星\)", r"(\1★)", rest)
     rest = rest.replace("，", ", ")
     return "Recruit " + rest
+
+
+def _sanitize_mt_text(s: str) -> str:
+    s2 = s
+    s2 = re.sub(r"\[Exclusive to ([^\]]+)\]", r"【\1 Exclusive】", s2)
+    s2 = re.sub(r"\[([^\]]+? Exclusive)\]", r"【\1】", s2)
+    replacements = {
+        "Companion": "Pokémon",
+        "Minor Skill": "Basic Skill",
+        "big turn": "mega-turn",
+        "big turns": "mega-turns",
+        "friendly operates": "an ally acts",
+        "friendly operate": "an ally acts",
+        "AP": "Rage",
+        "[Dr. Mask]": "【Professor's Mask】",
+        "[Strong Bracelet]": "【Power Band】",
+        "[Presentation Mirror]": "【Reveal Glass】",
+        "[Apple]": "【Apple】",
+        "Tear effect": "Rend effect",
+    }
+    for src, dst in replacements.items():
+        s2 = s2.replace(src, dst)
+    return s2
+
+
+def _gloss_text(s: str, cn2en: dict[str, str]) -> str:
+    s2 = _translate_exclusive_tags(s, cn2en)
+    for zh in POKEMON_ORDER:
+        if zh in s2:
+            s2 = s2.replace(zh, cn2en[zh])
+    for zh, en in _PHRASES:
+        if zh in s2:
+            s2 = s2.replace(zh, en)
+    s2 = re.sub(r"\s+", " ", s2).strip()
+    return s2
+
+
+def _gloss_badge_text(s: str, cn2en: dict[str, str]) -> str:
+    if s.startswith("#C") and TAIL_MARKER in s:
+        head, sep, tail = s.partition(TAIL_MARKER)
+        tail = tail.strip()
+        tail = MARK_PERMANENT_ZH.join(
+            _gloss_text(part, cn2en) if CJK_RE.search(part) else part
+            for part in tail.split(MARK_PERMANENT_ZH)
+        )
+        return head + sep + tail
+    return _gloss_text(s, cn2en)
 
 
 _PHRASES_RAW: dict[str, str] = {
@@ -498,34 +585,19 @@ def translate_desc(raw: str, cn2en: dict[str, str]) -> str:
         return EXACT_DESC_EN[s]
     if s.startswith("招募"):
         return _translate_recruit_line(s, cn2en)
+    if s.startswith("激活开局上锁精灵："):
+        species = s.split("：", 1)[1].strip()
+        return f"Activate starting locked Pokémon: {cn2en.get(species, species)}"
     if s.startswith("该玩法内"):
         return MODE_DESC_EN.get(s, s)
-
-    if s.startswith("#C") and TAIL_MARKER in s:
-        head, sep, tail = s.partition(TAIL_MARKER)
-        tail = tail.strip()
-        tail = MARK_PERMANENT_ZH.join(
-            translate_desc(part, cn2en) if CJK_RE.search(part) else part
-            for part in tail.split(MARK_PERMANENT_ZH)
-        )
-        tail = _translate_exclusive_tags(tail, cn2en)
-        for zh in POKEMON_ORDER:
-            if zh in tail:
-                tail = tail.replace(zh, cn2en[zh])
-        for zh, en in _PHRASES:
-            if zh in tail:
-                tail = tail.replace(zh, en)
-        tail = re.sub(r"\s+", " ", tail).strip()
-        return head + sep + tail
-
-    s2 = _translate_exclusive_tags(s, cn2en)
-    for zh in POKEMON_ORDER:
-        if zh in s2:
-            s2 = s2.replace(zh, cn2en[zh])
-    for zh, en in _PHRASES:
-        if zh in s2:
-            s2 = s2.replace(zh, en)
-    s2 = re.sub(r"\s+", " ", s2).strip()
+    s2 = _gloss_badge_text(s, cn2en)
+    if not CJK_RE.search(s2):
+        return s2
+    mt = MT_DESC_EN.get(raw)
+    if mt:
+        mt2 = _gloss_badge_text(_sanitize_mt_text(mt), cn2en)
+        if not CJK_RE.search(mt2):
+            return mt2
     return s2
 
 

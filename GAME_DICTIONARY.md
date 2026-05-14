@@ -1172,6 +1172,22 @@
 | 获得徽章【[徽章名]】后解锁 | Unlock after obtaining the badge "[Badge Name]". | Mở khóa sau khi nhận huy hiệu "[Tên huy hiệu]". |
 | 恭喜解锁[宝可梦]，你已经超过[P]%的玩家 | Congratulations on unlocking [Pokemon]. You have surpassed [P]% of players. | Chúc mừng mở khóa [Pokemon]. Bạn đã vượt qua [P]% người chơi. |
 
+### 5.4. Brave Challenge Badges
+*Các term/template lặp lại trong `game_config/brave_challenge/badge.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 永久徽章 | Permanent Badge | Huy hiệu vĩnh viễn |
+| 现形镜 | Reveal Glass | Gương hiện hình |
+| 苹果 | Apple | Táo |
+| 博士面具 | Professor's Mask | Mặt nạ giáo sư |
+| 强力手环 | Power Band | Vòng tay sức mạnh |
+| 凤王的祝福 | Ho-Oh's Blessing | Phúc lành của Ho-Oh |
+| 在场时有一定概率触发 | While present, may proc | Khi có mặt trên sân, có xác suất kích hoạt |
+| 该效果必然触发 | this effect is guaranteed | Hiệu ứng này chắc chắn kích hoạt |
+| 连击效果 | combo effect | hiệu ứng liên kích |
+| 控制免疫 | control immunity | miễn nhiễm khống chế |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
