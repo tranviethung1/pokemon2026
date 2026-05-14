@@ -154,7 +154,7 @@
 - [ ] 📄 `game_config/combat_manual.csv`
 - [ ] 📄 `game_config/combat_power_correction.csv`
 - [ ] 📄 `game_config/common_config.csv`
-- [ ] 📄 `game_config/contract/activate_book.csv`
+- [x] 📄 `game_config/contract/activate_book.csv`
 - [ ] 📄 `game_config/contract/advance_attr.csv`
 - [ ] 📄 `game_config/contract/advance_cost.csv`
 - [ ] 📄 `game_config/contract/base_attr.csv`

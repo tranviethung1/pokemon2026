@@ -50,7 +50,7 @@
 | 火系 | Fire | Hệ Lửa |
 | 水系 | Water | Hệ Nước |
 | 草系 | Grass | Hệ Cỏ |
-| 电系 | Electricity | Hệ Điện |
+| 电系 | Electric | Hệ Điện |
 | 冰系 | Ice | Hệ Băng |
 | 格斗系 | Fighting | Hệ Giác Đấu |
 | 毒系 | Poison | Hệ Độc |
@@ -64,6 +64,29 @@
 | 恶系 | Dark | Hệ Bóng Tối |
 | 钢系 | Steel | Hệ Thép |
 | 妖精系 | Fairy | Hệ Tiên |
+
+### Dạng ngắn trong config
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 一般 | Normal | Thường |
+| 火 | Fire | Lửa |
+| 水 | Water | Nước |
+| 草 | Grass | Cỏ |
+| 电 | Electric | Điện |
+| 冰 | Ice | Băng |
+| 格斗 | Fighting | Giác Đấu |
+| 毒 | Poison | Độc |
+| 地面 | Ground | Đất |
+| 飞行 | Flying | Bay |
+| 超能 | Psychic | Siêu Năng |
+| 虫 | Bug | Côn Trùng |
+| 岩石 | Rock | Đá |
+| 幽灵 | Ghost | Ma |
+| 龙 | Dragon | Rồng |
+| 恶 | Dark | Bóng Tối |
+| 钢 | Steel | Thép |
+| 妖精 | Fairy | Tiên |
 
 ---
 
@@ -1304,6 +1327,18 @@
 | 班吉拉斯 | Tyranitar | Tyranitar |
 | 骑拉帝纳·别种形态 | Giratina (Altered Forme) | Giratina (Dạng Altered) |
 | 坚盾剑怪·盾牌形态 | Aegislash (Shield Forme) | Aegislash (Dạng Khiên) |
+
+### 5.11. Contract Activate Book
+*Các template mở khóa trong `game_config/contract/activate_book.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 养成开启后，竞技场累计胜利100次 | After growth is unlocked, achieve 100 total Arena victories. | Sau khi mở tăng trưởng, đạt tổng cộng 100 trận thắng Đấu Trường. |
+| 养成开启后，以太乐园累计通关10次 | After growth is unlocked, clear Aether Paradise 10 times in total. | Sau khi mở tăng trưởng, vượt Ải Aether Paradise tổng cộng 10 lần. |
+| 养成开启后，公会捐献50次 | After growth is unlocked, make 50 Guild donations. | Sau khi mở tăng trưởng, quyên góp bang hội 50 lần. |
+| [宝可梦]达到12星解锁 | Unlock after [Pokemon] reaches 12 stars. | Mở khóa sau khi [Pokemon] đạt 12 sao. |
+| [宝可梦]系列达到12星 | Unlock after the [Pokemon] series reaches 12 stars. | Mở khóa sau khi dòng [Pokemon] đạt 12 sao. |
+| 拥有[宝可梦]解锁 | Unlock after obtaining [Pokemon]. | Mở khóa sau khi sở hữu [Pokemon]. |
 
 ---
 
