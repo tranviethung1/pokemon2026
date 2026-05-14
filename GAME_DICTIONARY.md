@@ -1680,5 +1680,19 @@
 | 类型4不同4个部位 | Type 4: four distinct parts | Loại 4: bốn vị trí riêng |
 | 类型5不同4个部位 | Type 5: four distinct parts | Loại 5: bốn vị trí riêng |
 
+### 7.15. Bổ sung từ `base_attribute/controllbufftype.csv` (control buff labels)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 眩晕 | Stun | Choáng |
+| 睡眠 | Sleep | Ngủ |
+| 混乱 | Confusion | Rối loạn |
+| 沉默 | Silence | Câm lặng |
+| 挑衅 | Taunt | Khiêu khích |
+| 冰冻 | Freeze | Đóng băng |
+| 离场 | Switch out | Rút lui |
+| 变形象 | Form change | Đổi hình |
+| 恐惧 | Fear | Sợ hãi |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

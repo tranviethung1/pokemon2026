@@ -1,12 +1,12 @@
-±äÁ¿Ãû,controllBuffType,_beizhu,_buffGroup,unlock
-Ä¬ÈÏÖµ,,,,TRUE
-ID,buffÀàĞÍ,±¸×¢,buff×é,ÊÇ·ñ¿ªÆô
-1,stun,Ñ£ÔÎ,21,
-2,sleepy,Ë¯Ãß,22,
-3,confusion,»ìÂÒ,23,
-4,silence,³ÁÄ¬,24,
-5,sneer,ÌôĞÆ,25,
-6,freeze,±ù¶³,26,
-7,leave,Àë³¡,,FALSE
-8,changeImage,±äĞÎÏó,,FALSE
-9,kongju,¿Ö¾å,29,
+ï»¿å˜é‡å,controllBuffType,_beizhu,_buffGroup,unlock
+é»˜è®¤å€¼,,,,TRUE
+ID,buffç±»å‹,å¤‡æ³¨,buffç»„,æ˜¯å¦å¼€å¯
+1,stun,Stun,21,
+2,sleepy,Sleep,22,
+3,confusion,Confusion,23,
+4,silence,Silence,24,
+5,sneer,Taunt,25,
+6,freeze,Freeze,26,
+7,leave,Switch out,,FALSE
+8,changeImage,Form change,,FALSE
+9,kongju,Fear,29,

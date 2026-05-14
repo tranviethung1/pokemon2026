@@ -64,7 +64,7 @@
 - [ ] 📄 `game_config/auto_pve/cards.csv`
 - [ ] 📄 `game_config/base_attribute/advance_level.csv`
 - [ ] 📄 `game_config/base_attribute/card_level.csv`
-- [ ] 📄 `game_config/base_attribute/controllbufftype.csv`
+- [x] 📄 `game_config/base_attribute/controllbufftype.csv`
 - [ ] 📄 `game_config/base_attribute/develop_level.csv`
 - [ ] 📄 `game_config/base_attribute/equip_ability.csv`
 - [ ] 📄 `game_config/base_attribute/equip_advance.csv`
