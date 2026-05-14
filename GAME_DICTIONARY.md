@@ -105,6 +105,13 @@
 | 红+2 | Red+2 | Đỏ+2 |
 | 红+3 | Red+3 | Đỏ+3 |
 | 红+4 | Red+4 | Đỏ+4 |
+| 青铜 | Bronze | Đồng |
+| 白银 | Silver | Bạc |
+| 黄金 | Gold | Vàng |
+| 铂金 | Platinum | Bạch kim |
+| 钻石 | Diamond | Kim cương |
+| 无畏大师 | Master | Đại sư |
+| 巅峰王者 | King | Vương giả |
 
 ---
 
@@ -1776,6 +1783,13 @@
 | 经验药水 | EXP Potion | Thuốc EXP |
 | 金币 | Gold | Vàng |
 | 能量药剂 | Energy Potion | Dược tề năng lượng |
+| 符石精华 | Runestone Essence | Tinh hoa phù thạch |
+| 紫色符石自选宝箱 | Purple Runestone Choice Box | Hộp chọn phù thạch tím |
+| 橙色符石自选宝箱 | Orange Runestone Choice Box | Hộp chọn phù thạch cam |
+| 随机橙色符石宝箱 | Random Orange Runestone Box | Hộp phù thạch cam ngẫu nhiên |
+| 指定紫色印记箱子 | Purple Sigil Choice Box | Hộp sigil tím tuỳ chọn |
+| 指定橙色印记箱子 | Orange Sigil Choice Box | Hộp sigil cam tuỳ chọn |
+| 指定红色印记箱子 | Red Sigil Choice Box | Hộp sigil đỏ tuỳ chọn |
 | 饰品觉醒随机箱子 | Accessory Awakening Random Box | Hộp ngẫu nhiên thức tỉnh phụ kiện |
 | 碎片 | Shard | Mảnh |
 | 的信物 | Token | Tín vật |
@@ -1944,6 +1958,32 @@
 | 离场 | Switch out | Rút lui |
 | 变形象 | Form change | Đổi hình |
 | 恐惧 | Fear | Sợ hãi |
+
+### 7.16. Bổ sung từ `cross/arena_peak/danmu.csv` (thi đấu / bình luận)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 极巨巅峰 | Gigantamax Peak | Đỉnh cao Cực Cự |
+| 跨服竞技场 | Cross-Server Arena | Đấu trường liên server |
+| 积分赛 | Points Match | Trận tích điểm |
+| 竞猜币 | Prediction Coin | Xu dự đoán |
+| 牵绊 | Bond | Gắn kết |
+| 大吾 | Steven | Steven |
+| 竹兰 | Cynthia | Cynthia |
+| 米可利杯大赛 | Wallace Cup | Cúp Wallace |
+
+### 7.17. Bổ sung từ `cross/arena_peak/rank.csv` (nhãn xếp hạng)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 冠军 | Champion | Quán quân |
+| 亚军 | Runner-up | Á quân |
+| 4强 | Top 4 | Top 4 |
+| 8强 | Top 8 | Top 8 |
+| 16强 | Top 16 | Top 16 |
+| 32强 | Top 32 | Top 32 |
+| 64强 | Top 64 | Top 64 |
+| 积分强者 | Points Elite | Cao thủ tích điểm |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

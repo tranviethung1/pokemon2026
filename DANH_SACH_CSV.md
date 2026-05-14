@@ -172,7 +172,8 @@
 - [ ] 📄 `game_config/craft/robot_level.csv`
 - [ ] 📄 `game_config/craft/robot_num.csv`
 - [x] 📄 `game_config/craft/shop.csv`
-- [ ] 📄 `game_config/craft/skill.csv`
+- [ ] 📄 `game_config/craft/skill.csv` #pending
+- [x] 📄 `game_config/cross/arena/stage.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [ ] 📄 `game_config/cross/service.csv`
