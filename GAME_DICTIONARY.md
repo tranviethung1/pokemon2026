@@ -1659,5 +1659,26 @@
 | 【守卫】 | 【Guard】 |
 | 【幻影】 | 【Phantom】 |
 
+### 7.14. Bổ sung từ `base_attribute/equip_signet_advance.csv` (signet advance tiers)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 平凡 | Common | Thường |
+| 优良 | Fine | Tốt |
+| 精致I | Refined I | Tinh chế I |
+| 精致II | Refined II | Tinh chế II |
+| 卓越I | Superior I | Xuất sắc I |
+| 卓越II | Superior II | Xuất sắc II |
+| 奢华 | Luxury | Xa hoa |
+| 至尊 | Supreme | Tối cao |
+| 荣耀 | Glory | Vinh quang |
+| 无极 | Boundless | Vô cực |
+| 无极II | Boundless II | Vô cực II |
+| 类型1不同4个部位 | Type 1: four distinct parts | Loại 1: bốn vị trí riêng |
+| 类型2不同4个部位 | Type 2: four distinct parts | Loại 2: bốn vị trí riêng |
+| 类型3不同4个部位 | Type 3: four distinct parts | Loại 3: bốn vị trí riêng |
+| 类型4不同4个部位 | Type 4: four distinct parts | Loại 4: bốn vị trí riêng |
+| 类型5不同4个部位 | Type 5: four distinct parts | Loại 5: bốn vị trí riêng |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

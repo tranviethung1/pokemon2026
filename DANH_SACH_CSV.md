@@ -71,7 +71,7 @@
 - [ ] 📄 `game_config/base_attribute/equip_awake.csv`
 - [ ] 📄 `game_config/base_attribute/equip_awake_ability.csv`
 - [ ] 📄 `game_config/base_attribute/equip_signet.csv`
-- [ ] 📄 `game_config/base_attribute/equip_signet_advance.csv`
+- [x] 📄 `game_config/base_attribute/equip_signet_advance.csv`
 - [ ] 📄 `game_config/base_attribute/equip_signet_advance_cost.csv`
 - [ ] 📄 `game_config/base_attribute/equip_signet_advance_cost_outmoded.csv`
 - [ ] 📄 `game_config/base_attribute/equip_signet_outmoded.csv`
@@ -80,7 +80,7 @@
 - [ ] 📄 `game_config/base_attribute/fight_soul_level.csv`
 - [ ] 📄 `game_config/base_attribute/formula_const.csv`
 - [ ] 📄 `game_config/base_attribute/hero_level.csv`
-- [ ] 📄 `game_config/base_attribute/nature_matrix.csv`
+- [x] 📄 `game_config/base_attribute/nature_matrix.csv`
 - [ ] 📄 `game_config/base_attribute/role_level.csv`
 - [ ] 📄 `game_config/base_attribute/scene_attr_correct.csv`
 - [ ] 📄 `game_config/base_attribute/skill_level.csv`
