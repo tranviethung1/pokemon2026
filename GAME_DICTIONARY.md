@@ -1148,6 +1148,30 @@
 | 龙族篇 | Dragon Chapter | Chương Long Tộc |
 | 斗战篇 | Battle Chapter | Chương Chiến Đấu |
 
+### 5.3. Brave Challenge Cards
+*Các cụm mở khóa lặp lại trong `game_config/brave_challenge/cards.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 合体之谜I | Fusion Riddle I | Bí ẩn hợp thể I |
+| 合体之谜II | Fusion Riddle II | Bí ẩn hợp thể II |
+| 大地之怒 | Land's Wrath | Cơn thịnh nộ của đại địa |
+| 超级幸运 | Super Luck | Siêu may mắn |
+| 感恩之心 | Gratitude | Lòng biết ơn |
+| 扭转空间 | Spatial Twist | Bẻ cong không gian |
+| 时间轮回 | Time Spiral | Vòng xoáy thời gian |
+| 隐匿空间 | Hidden Realm | Không gian ẩn mật |
+| 超频模式 | Overclock | Chế độ siêu xung |
+| 奇迹之眼 | Miracle Eye | Mắt kỳ tích |
+| 远古血脉 | Primordial Lineage | Huyết mạch nguyên thủy |
+| 冰封世界 | Frozen Domain | Thế giới băng phong |
+| 挑战完成【[关卡标题]】副本后极大概率解锁 | High chance to unlock after clearing the stage "[Stage Title]". | Có xác suất rất cao mở khóa sau khi vượt ải "[Tiêu đề ải]". |
+| 挑战完成本期第[N]层副本后极大概率解锁 | High chance to unlock after clearing Stage [N] of the current cycle. | Có xác suất rất cao mở khóa sau khi vượt Stage [N] của chu kỳ hiện tại. |
+| 玩法周期内累计招募1次[宝可梦]后解锁 | Unlock after recruiting [Pokemon] once during the current cycle. | Mở khóa sau khi chiêu mộ [Pokemon] 1 lần trong chu kỳ hiện tại. |
+| 玩法周期内累计认输[N]次后解锁 | Unlock after conceding [N] times during the current cycle. | Mở khóa sau khi đầu hàng [N] lần trong chu kỳ hiện tại. |
+| 获得徽章【[徽章名]】后解锁 | Unlock after obtaining the badge "[Badge Name]". | Mở khóa sau khi nhận huy hiệu "[Tên huy hiệu]". |
+| 恭喜解锁[宝可梦]，你已经超过[P]%的玩家 | Congratulations on unlocking [Pokemon]. You have surpassed [P]% of players. | Chúc mừng mở khóa [Pokemon]. Bạn đã vượt qua [P]% người chơi. |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
