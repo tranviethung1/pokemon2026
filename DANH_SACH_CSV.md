@@ -100,7 +100,7 @@
 - [ ] 📄 `game_config/buff_group_power.csv`
 - [ ] 📄 `game_config/buff_group_relation.csv`
 - [ ] 📄 `game_config/buff_level_correct.csv`
-- [ ] 📄 `game_config/capture/base.csv`
+- [x] 📄 `game_config/capture/base.csv`
 - [x] 📄 `game_config/capture/level.csv`
 - [x] 📄 `game_config/capture/probability.csv`
 - [x] 📄 `game_config/capture/random.csv`
