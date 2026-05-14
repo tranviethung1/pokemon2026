@@ -177,6 +177,7 @@
 - [x] 📄 `game_config/cross/battlebet/cards.csv`
 - [x] 📄 `game_config/cross/battlebet/contest.csv`
 - [x] 📄 `game_config/cross/battlebet/teams.csv`
+- [x] 📄 `game_config/cross/circus/theme.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [ ] 📄 `game_config/cross/service.csv`
