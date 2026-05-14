@@ -1250,6 +1250,13 @@
 | 每20次必a(6废弃-后续新增ID不能使用6) | Guaranteed A every 20 draws (ID 6 deprecated; do not use for future entries) | Cứ 20 lượt rút chắc chắn ra A (ID 6 đã bỏ; không dùng cho mục thêm mới sau này) |
 | 每50次必s | Guaranteed S every 50 draws | Cứ 50 lượt rút chắc chắn ra S |
 
+### 5.8. Capture Sprites
+*Các cụm lặp lại trong `game_config/capture/sprite.csv`.*
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 章节[N] | Chapter [N] | Chương [N] |
+
 ---
 
 ## 6. Hỗ Trợ Chiến Đấu (Aid Skills)
