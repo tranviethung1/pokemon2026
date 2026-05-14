@@ -26,38 +26,38 @@
 - [ ] 📄 `game_config/aid/strength_meterial.csv`
 - [ ] 📄 `game_config/arms/arms.csv`
 - [ ] 📄 `game_config/arms/stage.csv`
-- [ ] 📄 `game_config/auto_chess/achievement_level.csv`
+- [x] 📄 `game_config/auto_chess/achievement_level.csv`
 - [x] 📄 `game_config/auto_chess/achievement_task.csv`
 - [x] 📄 `game_config/auto_chess/achievement_type.csv`
-- [ ] 📄 `game_config/auto_chess/base.csv`
+- [x] 📄 `game_config/auto_chess/base.csv`
 - [x] 📄 `game_config/auto_chess/buff.csv`
-- [ ] 📄 `game_config/auto_chess/buff_effect.csv`
+- [x] 📄 `game_config/auto_chess/buff_effect.csv`
 - [x] 📄 `game_config/auto_chess/cards.csv`
-- [ ] 📄 `game_config/auto_chess/chapter.csv`
+- [x] 📄 `game_config/auto_chess/chapter.csv`
 - [x] 📄 `game_config/auto_chess/chess_guide.csv`
 - [x] 📄 `game_config/auto_chess/choose.csv`
-- [ ] 📄 `game_config/auto_chess/damage_process.csv`
+- [x] 📄 `game_config/auto_chess/damage_process.csv`
 - [x] 📄 `game_config/auto_chess/encounter.csv`
 - [x] 📄 `game_config/auto_chess/equip.csv`
 - [x] 📄 `game_config/auto_chess/event.csv`
-- [ ] 📄 `game_config/auto_chess/formula_const.csv`
-- [ ] 📄 `game_config/auto_chess/game_rule.csv`
+- [x] 📄 `game_config/auto_chess/formula_const.csv`
+- [x] 📄 `game_config/auto_chess/game_rule.csv`
 - [x] 📄 `game_config/auto_chess/game_shop.csv`
 - [x] 📄 `game_config/auto_chess/handbook_award.csv`
 - [x] 📄 `game_config/auto_chess/key_words.csv`
 - [x] 📄 `game_config/auto_chess/monster.csv`
-- [ ] 📄 `game_config/auto_chess/monster_fix.csv`
-- [ ] 📄 `game_config/auto_chess/pvp_shop_level.csv`
-- [ ] 📄 `game_config/auto_chess/rank_award.csv`
+- [x] 📄 `game_config/auto_chess/monster_fix.csv`
+- [x] 📄 `game_config/auto_chess/pvp_shop_level.csv`
+- [x] 📄 `game_config/auto_chess/rank_award.csv`
 - [x] 📄 `game_config/auto_chess/saodang_award.csv`
-- [ ] 📄 `game_config/auto_chess/shop.csv`
-- [ ] 📄 `game_config/auto_chess/special_effect.csv`
-- [ ] 📄 `game_config/auto_chess/story.csv`
-- [ ] 📄 `game_config/auto_chess/test_auto_chess.csv`
+- [x] 📄 `game_config/auto_chess/shop.csv`
+- [x] 📄 `game_config/auto_chess/special_effect.csv`
+- [x] 📄 `game_config/auto_chess/story.csv`
+- [x] 📄 `game_config/auto_chess/test_auto_chess.csv`
 - [x] 📄 `game_config/auto_chess/trainer.csv`
-- [ ] 📄 `game_config/auto_chess/trainer_attack.csv`
-- [ ] 📄 `game_config/auto_chess/trainer_attack_event.csv`
-- [ ] 📄 `game_config/auto_chess/trainer_level.csv`
+- [x] 📄 `game_config/auto_chess/trainer_attack.csv`
+- [x] 📄 `game_config/auto_chess/trainer_attack_event.csv`
+- [x] 📄 `game_config/auto_chess/trainer_level.csv`
 - [x] 📄 `game_config/auto_chess/trainer_pvp.csv`
 - [x] 📄 `game_config/auto_chess/trainer_skills.csv`
 - [ ] 📄 `game_config/auto_pve/busy_time.csv`

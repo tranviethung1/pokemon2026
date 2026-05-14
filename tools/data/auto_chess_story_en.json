@@ -1,0 +1,213 @@
+{
+  "by_id": {
+    "1": {
+      "name": "Rustling Grass",
+      "choiceDesc3": "Keep moving",
+      "choice2After": "The Pokémon joins your team.",
+      "choiceDesc2": "Take it with you",
+      "choice1After": "The Pokémon runs away.",
+      "choiceDesc1": "Rescue the Pokémon",
+      "desc": "A Pokémon is trapped in the tall grass.",
+      "choice3After": "You have no time to get involved."
+    },
+    "2": {
+      "name": "Pokémon's Thanks",
+      "choiceDesc3": "Healing herbs",
+      "choiceDesc2": "A new item",
+      "choiceDesc1": "A new Pokémon",
+      "desc": "To thank you, the Pokémon brings you a reward.",
+      "choiceDesc4": "Nothing"
+    },
+    "3": {
+      "name": "The Hunter's Revenge",
+      "choice2After": "You trip while fleeing and scrape your head, but he doesn't catch up.",
+      "choiceDesc2": "Try to flee",
+      "choiceDesc1": "Accept the challenge",
+      "desc": "You stole the hunter's dinner; now he demands a duel."
+    },
+    "11": {
+      "name": "End of the Road",
+      "desc": "Ready to head to the next region?"
+    },
+    "12": {
+      "name": "Masters Division",
+      "desc": "You've reached the Masters arena entrance. Trainer, are you ready? (Entering the Masters counts as clearing the run and settles related clear achievements.)"
+    },
+    "15": {
+      "name": "Ready to Go",
+      "choiceDesc3": "Expedition gear",
+      "choiceDesc2": "Lunch Box",
+      "choiceDesc1": "A bag of gold",
+      "desc": "What should you bring on the adventure?"
+    },
+    "21": {
+      "name": "Pitch-Black Cave",
+      "choiceDesc2": "Leave",
+      "choice1After": "You find something useful in the cave.",
+      "choiceDesc1": "Go inside (requires a Fire-type Pokémon on your team)",
+      "desc": "Something seems to be in the cave, but it's pitch black inside."
+    },
+    "22": {
+      "name": "Empty Belly",
+      "choice2After": "Eating it raw, your stomach hurts the whole way.",
+      "choiceDesc2": "Eat it raw",
+      "choice1After": "The grilled fish smells amazing.",
+      "choiceDesc1": "Cook it (requires a Fire-type Pokémon on your team)",
+      "desc": "Your stomach won't stop growling, so you catch a few fish in the river."
+    },
+    "23": {
+      "name": "Fallen Tree",
+      "choice2After": "You accidentally start a forest fire and get a harsh fine from the rangers.",
+      "choiceDesc2": "Burn it (requires a Fire-type Pokémon on your team)",
+      "choice1After": "The path is clear!",
+      "choiceDesc1": "Move it (requires a Fighting-type Pokémon on your team)",
+      "desc": "A huge tree trunk blocks the road."
+    },
+    "24": {
+      "name": "The Cliff",
+      "choiceDesc2": "Fly to the far side (requires a Flying-type Pokémon on your team)",
+      "choice1After": "Below the cliff is a narrow path that seems to lead somewhere.",
+      "choiceDesc1": "Climb down with vines (requires a Grass-type Pokémon on your team)",
+      "desc": "A steep cliff lies ahead; there's no way forward."
+    },
+    "25": {
+      "name": "Forest Dwellers",
+      "choiceDesc3": "Offer a Gracidea Flower",
+      "choiceDesc2": "Looks like a battle can't be avoided",
+      "choice1After": "\"Villains stole our precious Gracidea Flowers!\"",
+      "choiceDesc1": "Send Pokémon to talk (requires a Grass-type Pokémon on your team)",
+      "desc": "The forest Pokémon seem hostile to outsiders.",
+      "choice3After": "The residents thank you, heal you, and give you plenty of gold."
+    },
+    "26": {
+      "name": "Firefly Woods",
+      "choice2After": "You attract a few Pokémon.",
+      "choiceDesc2": "Picnic (requires a Lunch Box in hand)",
+      "choiceDesc1": "Rest",
+      "desc": "A quiet, beautiful forest."
+    },
+    "27": {
+      "name": "Rogue Hideout",
+      "choiceDesc2": "Fight",
+      "choice1After": "While they sleep, you grab a few things.",
+      "choiceDesc1": "Blend in (requires a Dark-type Pokémon on your team)",
+      "desc": "You've wandered into rogue territory…"
+    },
+    "28": {
+      "name": "The Arena",
+      "choiceDesc3": "Leave",
+      "choice2After": "The brawl is so rough you get caught in the crossfire.",
+      "choiceDesc2": "Watch the match",
+      "choiceDesc1": "Join the challenge (requires a Fighting-type Pokémon on your team)",
+      "desc": "Shouts echo nearby—a fierce fighting tournament seems to be underway."
+    },
+    "29": {
+      "name": "Ancient Tomb",
+      "choiceDesc3": "Flee",
+      "choiceDesc2": "Force your way in",
+      "choice1After": "You obtain an ancient key.",
+      "choiceDesc1": "Speak with the spirits (requires a Ghost-type Pokémon on your team)",
+      "desc": "An old tomb full of drifting spirits—they don't seem to like being disturbed."
+    },
+    "30": {
+      "name": "Rampaging Pokémon",
+      "choiceDesc2": "Break the mind control (requires a Psychic-type Pokémon on your team)",
+      "choiceDesc1": "Battle",
+      "desc": "They look mind-controlled."
+    },
+    "31": {
+      "name": "Potion Seller",
+      "choiceDesc3": "Leave",
+      "choiceDesc2": "Try the new formula",
+      "choiceDesc1": "Buy a potion",
+      "desc": "I've got some curious potions for sale—try my new brew and I won't charge you."
+    },
+    "32": {
+      "name": "Lost",
+      "choice2After": "This path doesn't seem right.",
+      "choiceDesc2": "Go where the growth rings are tight",
+      "choice1After": "You find your way out of the forest.",
+      "choiceDesc1": "Go where the growth rings are sparse",
+      "desc": "You're lost in the woods. The map says the exit is south—which way do you go?"
+    },
+    "33": {
+      "name": "Theft",
+      "choice2After": "All your money is stolen.",
+      "choiceDesc2": "Let it go",
+      "choice1After": "You trip chasing them, but you recover all your money.",
+      "choiceDesc1": "Chase them",
+      "desc": "A shadowy figure stole your money."
+    },
+    "34": {
+      "name": "Strange Egg",
+      "choiceDesc2": "Leave",
+      "choiceDesc1": "Pick it up",
+      "desc": "A strange egg sits in the grass."
+    },
+    "35": {
+      "name": "Professor's Lab",
+      "choiceDesc2": "Leave",
+      "choice1After": "The Professor thanks you and funds your journey.",
+      "choiceDesc1": "Ask the Professor to study it (requires a Strange Egg in hand)",
+      "desc": "You arrive at the Professor's research lab."
+    },
+    "101": {
+      "name": "Rustling Grass",
+      "choiceDesc3": "Keep moving",
+      "choiceDesc2": "Capture the Pokémon",
+      "choice1After": "The Pokémon runs away.",
+      "choiceDesc1": "Release the Pokémon",
+      "desc": "A Pokémon is trapped in the tall grass.",
+      "choice3After": "You'd rather not get involved."
+    },
+    "102": {
+      "name": "Gratitude",
+      "choiceDesc3": "It wants to adventure with you",
+      "choiceDesc2": "It gives you a bundle of herbs",
+      "choiceDesc1": "It gives you a strange item",
+      "desc": "You meet the Pokémon you rescued before."
+    },
+    "103": {
+      "name": "The Hunter's Revenge",
+      "choice2After": "You hurt yourself scrambling to escape.",
+      "choiceDesc2": "Try to flee",
+      "choiceDesc1": "Accept the challenge",
+      "desc": "You stole the hunter's dinner; now he demands a duel."
+    },
+    "201": {
+      "name": "Delivery Box",
+      "choiceDesc3": "Leave it there",
+      "choiceDesc2": "Open it and see what's inside",
+      "choiceDesc1": "Pick it up for Professor Oak",
+      "desc": "A black parcel lies by the road. The label reads: \"To Professor Oak.\""
+    },
+    "202": {
+      "name": "Professor's House",
+      "choice1After": "The Professor thanks you and funds your journey.",
+      "choiceDesc1": "Hand over the delivery",
+      "desc": "You arrive at the Professor's research lab."
+    },
+    "301": {
+      "name": "Bank",
+      "choiceDesc3": "Deposit 30 gold",
+      "choiceDesc2": "Deposit 20 gold",
+      "choiceDesc1": "Deposit 10 gold",
+      "desc": "Depositing money can earn you more later."
+    },
+    "302": {
+      "name": "Bank",
+      "choiceDesc1": "Withdraw savings (13 gold)",
+      "desc": "You can withdraw deposited money."
+    },
+    "303": {
+      "name": "Bank",
+      "choiceDesc1": "Withdraw savings (26 gold)",
+      "desc": "You can withdraw deposited money."
+    },
+    "304": {
+      "name": "Bank",
+      "choiceDesc1": "Withdraw savings (40 gold)",
+      "desc": "You can withdraw deposited money."
+    }
+  }
+}
