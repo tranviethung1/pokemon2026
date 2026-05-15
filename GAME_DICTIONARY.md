@@ -2401,5 +2401,127 @@
 | 准神号飞船 | Pseudo-legendary Aircraft | Phi thuyền Chuẩn Thần |
 | 波尔凯尼恩飞船 | Volcanion Airship | Phi thuyền Volcanion |
 
+### 7.40. Bổ sung từ `fishing/bait.csv` (bait names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 红色蚯蚓 | Red earthworm | Giun đất đỏ |
+| 美味泥鳅 | Delicious loach | Cá chạch thơm ngon |
+| 角金鱼鱼饵 | Goldeen bait | Mồi câu Goldeen |
+| 墨海马鱼饵 | Horsea bait | Mồi câu Horsea |
+| 迷你龙鱼饵 | Dratini bait | Mồi câu Dratini |
+| 发光的鱼饵 | Luminous fishing lure | Mồi câu phát sáng |
+| 大赛专用初级鱼饵 | Competition primary bait | Mồi câu sơ cấp chuyên dụng cho giải đấu |
+| 大赛专用高级鱼饵 | Competition advance bait | Mồi câu cao cấp chuyên dụng cho giải đấu |
+
+### 7.41. Bổ sung từ `fishing/fish.csv` (manual fish-name fills / repeated loot text)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 刺梭鱼 | Arrokuda | Cá chông lao |
+| 鳃鱼海兽 | Arctovish | Hải thú mang cá |
+| 很遗憾他只有碎片 | Sorry but he only have shards | Rất tiếc, hắn chỉ có mảnh thôi |
+| 里面似乎有些奇奇怪怪的东西 | There is something strange in it | Bên trong dường như có vài thứ kỳ kỳ quái quái |
+
+### 7.42. Bổ sung từ `fishing/level.csv` (fishing rank names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 菜鸟垂钓者 | Newbie Fisherman | Cần thủ gà mờ |
+| 萌新垂钓者 | Rookie Fisherman | Cần thủ tân binh |
+| 入门垂钓者 | Beginner Fisherman | Cần thủ nhập môn |
+| 进阶垂钓者 | Advanced Fisherman | Cần thủ tiến阶 |
+| 中级垂钓者III | Veteran Fisherman III | Cần thủ trung cấp III |
+| 中级垂钓者II | Veteran Fisherman II | Cần thủ trung cấp II |
+| 中级垂钓者I | Veteran Fisherman I | Cần thủ trung cấp I |
+| 熟练垂钓者III | Skilled Fisherman III | Cần thủ thuần thục III |
+| 熟练垂钓者II | Skilled Fisherman II | Cần thủ thuần thục II |
+| 熟练垂钓者I | Skilled Fisherman I | Cần thủ thuần thục I |
+| 强力垂钓者III | Senior Fisherman III | Cần thủ cao thủ III |
+| 强力垂钓者II | Senior Fisherman II | Cần thủ cao thủ II |
+| 强力垂钓者I | Senior Fisherman I | Cần thủ cao thủ I |
+| 高级垂钓者III | Advanced Fisherman III | Cần thủ cao cấp III |
+| 高级垂钓者II | Advanced Fisherman II | Cần thủ cao cấp II |
+| 高级垂钓者 | Advanced Fisherman | Cần thủ cao cấp |
+| 大师级垂钓者III | Master Fisherman III | Cần thủ đại sư III |
+| 大师级垂钓者II | Master Fisherman II | Cần thủ đại sư II |
+| 大师级垂钓者I | Master Fisherman I | Cần thủ đại sư I |
+| 垂钓宗师III | Fishing LordIII | Tông sư câu cá III |
+| 垂钓宗师II | Fishing LordII | Tông sư câu cá II |
+| 垂钓宗师I | Fishing LordI | Tông sư câu cá I |
+| 垂钓至尊III | Fishing Supreme III | Chí tôn câu cá III |
+| 垂钓至尊II | Fishing SupremeII | Chí tôn câu cá II |
+| 垂钓至尊I | Fishing SupremeI | Chí tôn câu cá I |
+
+### 7.43. Bổ sung từ `fishing/shop.csv` (shop labels)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 培养代币 | Cultivation Token | Token bồi dưỡng |
+| 强化药剂 | Energy Potion | Dược tề năng lượng |
+| 5W金币 | 50K Gold | 50K vàng |
+| 盖欧卡碎片 | Kyogre Shard | Mảnh Kyogre |
+| 晶石盒子 | Crystal Box | Hộp tinh thạch |
+| 形象兑换 | Appearance Exchange | Đổi ngoại hình |
+| 普通努力币 | Basic Effort Coin | Đồng nỗ lực cơ bản |
+| 高级努力币 | Advanced Effort Coin | Đồng nỗ lực cao cấp |
+| 携带道具蓝材料 | Blue Held Item Material | Nguyên liệu xanh đạo cụ mang theo |
+| 蓝色潜能升级材料 | Blue Potential Upgrade Material | Nguyên liệu nâng cấp tiềm năng xanh |
+| 紫色潜能升级材料 | Purple Potential Upgrade Material | Nguyên liệu nâng cấp tiềm năng tím |
+
+### 7.44. Bổ sung từ `fishing/partner.csv` (partner dialogue)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 呆头呆脑惹人爱 | Dorky little cutie | Ngốc nghếch nhưng đáng yêu |
+| 请不要向水里放电 | Do not discharge electricity into water | Xin đừng xả điện xuống nước |
+| 或许能帮忙撒点种子当鱼饵？ | Maybe could help spread some seeds as bait? | Có lẽ có thể giúp rải ít hạt giống làm mồi câu? |
+| 叫它下去帮忙抓鱼更快吧？ | Would it be faster to let it catch fish? | Bảo nó xuống bắt cá giúp có phải sẽ nhanh hơn không? |
+
+### 7.45. Bổ sung từ `fishing/rod.csv` (rod names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 入门鱼竿 | Starter fishing rod | Cần câu nhập môn |
+| 初级鱼竿 | Junior fishing rod | Cần câu sơ cấp |
+| 中级鱼竿 | Veteran fishing rod | Cần câu trung cấp |
+| 高级鱼竿 | Advanced fishing rod | Cần câu cao cấp |
+| 特级鱼竿 | Premium fishing rod | Cần câu đặc cấp |
+| 迅捷鱼竿 | Swift Fishing Rod | Cần câu nhanh nhẹn |
+| 精炼鱼竿 | Refined fishing rod | Cần câu tinh luyện |
+| 魅力鱼竿 | Charm fishing rod | Cần câu quyến rũ |
+| 轻松鱼竿 | Easy fishing rod | Cần câu dễ dàng |
+
+### 7.46. Bổ sung từ `fishing/scene.csv` (scene names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 潮汐海岸 | Tidal Coast | Bờ biển thủy triều |
+| 寂夜沼泽 | Silent Swamp | Đầm lầy tĩnh lặng |
+| 逆徊山谷 | Nile Valley | Thung lũng Nile |
+
+### 7.47. Bổ sung từ `gem/suit.csv` (gem suit names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 强击 | Punch | Cường kích |
+| 致命 | Deadly | Chí mạng |
+| 好战 | Warlike | Hiếu chiến |
+| 守御 | Defend | Thủ ngự |
+| 盾甲 | Shield | Khiên giáp |
+| 金刚 | King Kong | Kim cang |
+| 庇护 | Shelter | Che chở |
+| 闪耀 | Shine | Lấp lánh |
+| 反制 | Counter | Phản chế |
+
+### 7.48. Bổ sung từ `gym/gate.csv` (gym gate effect text)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 【沙暴】（岩石系精灵物防提升，所有非地面和岩石精灵每个大回合结束时有几率被【致盲】） | [Sandstorm] (Increase P.DEF of Rock type Pokémon. All non-ground and rock Pokémon have chance to be [Blinded] at the end of each round) | 【Bão cát】(Tăng P.DEF cho Pokémon hệ Đá. Tất cả Pokémon không thuộc hệ Đất và Đá có xác suất bị 【Mù】 vào cuối mỗi hiệp.) |
+| 所有非冰系精灵每个大回合结束时受到一定冰元素伤害，并有10%概率【冰冻】2回合 | All non-Ice type Pokémon suffer a certain amount of Ice damage at the end of each round, and have 10% chance to be in [Frozen] for 2 rounds | Tất cả Pokémon không thuộc hệ Băng sẽ chịu một lượng sát thương Băng nhất định vào cuối mỗi hiệp, và có 10% xác suất bị 【Đóng băng】 trong 2 hiệp |
+| Diglett are scared of too many people and don’t dare to come out | Diglett are scared of too many people and don’t dare to come out | Diglett sợ quá đông người nên không dám chui ra |
+| Bullish! | Bullish! | Khí thế ngút trời! |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

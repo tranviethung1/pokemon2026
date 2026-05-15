@@ -269,13 +269,13 @@
 - [ ] 📄 `game_config/fetter.csv`
 - [ ] 📄 `game_config/field_buff_relation.csv`
 - [ ] 📄 `game_config/fighting_weight.csv`
-- [ ] 📄 `game_config/fishing/bait.csv`
-- [ ] 📄 `game_config/fishing/fish.csv`
-- [ ] 📄 `game_config/fishing/level.csv`
-- [ ] 📄 `game_config/fishing/partner.csv`
-- [ ] 📄 `game_config/fishing/rod.csv`
-- [ ] 📄 `game_config/fishing/scene.csv`
-- [ ] 📄 `game_config/fishing/shop.csv`
+- [x] 📄 `game_config/fishing/bait.csv`
+- [x] 📄 `game_config/fishing/fish.csv`
+- [x] 📄 `game_config/fishing/level.csv`
+- [x] 📄 `game_config/fishing/partner.csv`
+- [x] 📄 `game_config/fishing/rod.csv`
+- [x] 📄 `game_config/fishing/scene.csv`
+- [x] 📄 `game_config/fishing/shop.csv`
 - [ ] 📄 `game_config/fix_shop.csv`
 - [ ] 📄 `game_config/frag_shop.csv`
 - [ ] 📄 `game_config/fragments.csv`
@@ -285,12 +285,12 @@
 - [ ] 📄 `game_config/gem/pos.csv`
 - [ ] 📄 `game_config/gem/quality.csv`
 - [ ] 📄 `game_config/gem/quality_attrs.csv`
-- [ ] 📄 `game_config/gem/suit.csv`
+- [x] 📄 `game_config/gem/suit.csv`
 - [ ] 📄 `game_config/gift.csv`
 - [ ] 📄 `game_config/good_feel.csv`
 - [ ] 📄 `game_config/good_feel_effect.csv`
 - [ ] 📄 `game_config/grow_guide.csv`
-- [ ] 📄 `game_config/gym/gate.csv`
+- [x] 📄 `game_config/gym/gate.csv`
 - [ ] 📄 `game_config/gym/gym.csv`
 - [ ] 📄 `game_config/gym/npc.csv`
 - [ ] 📄 `game_config/gym/talent_buff.csv`
