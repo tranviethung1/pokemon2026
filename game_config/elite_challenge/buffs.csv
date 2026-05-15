@@ -1,75 +1,75 @@
 ﻿变量名,name,quality,group,weight,skillID,icon,desc,theme,selfExtraWeight
 默认值,"""""",1,1,100,1,"""""","""""",0,{}
 ID,Buff名称,品质(1普通/2稀有/3传说),分组ID(同组互斥),权重(抽取概率),技能ID,图标路径,Buff效果描述,主题ID(0通用),自身额外权重{groupID=权重}
-111,火暴猴,,11,,86001,config/big_hero/normal/img_57_hbh@.png,精灵造成的普攻伤害提升15%,,{21=20;31=5}
-112,修建老匠,,11,,86002,config/big_hero/normal/img_534_xjlj@.png,精灵释放普攻时暴击率提升10%2回合,,{21=20;31=5}
-113,飞腿郎,,11,,86003,config/big_hero/normal/img_106_ftl@.png,精灵释放普攻后暴击伤害提升15%2回合,,{21=20;31=5}
-114,快拳郎,,11,,86004,config/big_hero/normal/img_107_kql@.png,精灵释放普攻双攻提升10%2回合,,{21=20;31=5}
-115,战舞郎,,11,,86005,config/big_hero/normal/img_237_zwl@.png,精灵释放普攻双防提升20%2回合,,{21=20;31=5}
-116,武道熊师,2,21,30,86006,config/big_hero/normal/img_892_wdxs@.png,单个大回合内每次普攻伤害递增10%（可叠加3层）,,{31=5;100=1}
-117,葱游兵,2,21,30,86007,config/big_hero/normal/img_865_cyb@.png,精灵本回合内未释放主动普攻技能，则下次普攻伤害提升16%（最多可叠加2层）,,{31=5;100=1}
-118,师父鼬,2,21,30,86008,config/big_hero/normal/img_620_sfy@.png,普攻造成的伤害对随机相邻单体，造成等同于原伤害40%的伤害,,{31=5;100=1}
-119,路卡利欧,2,21,30,86009,config/big_hero/normal/img_448_lklo@.png,每次使用普攻获得10%最大生命的护盾（每个精灵一个大回合内最多触发3次）,,{31=5;100=1}
-120,凯路迪欧,2,21,30,86010,config/big_hero/normal/img_647_kldo@.png,释放普攻时，有50%概率回复本次普攻30%的生命值的血量,,{31=5;100=1}
-121,艾路雷朵,2,21,30,86011,config/big_hero/normal/img_475_alld@.png,精灵释放必杀技后额外触发【追击Ⅰ】,,{31=5;100=1}
-122,故勒顿,3,31,10,86012,config/big_hero/normal/img_1007_gld@.png,精灵每次主动攻击后可触发一次【连击Ⅰ】，并有50%几率额外再触发1次【追击Ⅰ】，若击杀单位时可额外对随机目标触发【追击Ⅰ】,,
-211,皮卡丘,,12,,86021,config/big_hero/normal/img_25_pkq@.png,精灵必杀伤害提升20%,,{22=20;32=5}
-212,雷丘,,12,,86022,config/big_hero/normal/img_26_lq@.png,精灵怒气回复速度提升40%,,{22=20;32=5}
-213,伦琴猫,,12,,86023,config/big_hero/normal/img_405_lqm@.png,精灵释放必杀技的暴击率提升25%,,{22=20;32=5}
-214,帕奇利兹,,12,,86024,config/big_hero/normal/img_417_pqlz@.png,精灵释放必杀技后自身下次攻击造成伤害提升100%,,{22=20;32=5}
-215,电飞鼠,,12,,86025,config/big_hero/normal/img_587_dfs@.png,精灵释放必杀技后回复自身10%生命上限的血量,,{22=20;32=5}
-216,电击魔兽,2,22,30,86026,config/big_hero/normal/img_466_djms@.png,每使用一次必杀技，提升必杀伤害加成12%（可叠加3层）,,{32=5;100=1}
-217,闪电鸟,2,22,30,86027,config/big_hero/normal/img_145_sdn@.png,必杀技后，接下去2回合内怒气回复速度提升50%,,{32=5;100=1}
-218,电龙,2,22,30,86028,config/big_hero/normal/img_181_dl@.png,击败敌人时，额外获得100点怒气，并永久获得必杀伤害加成10%，最多可叠加3层,,{32=5;100=1}
-219,雷电云,2,22,30,86029,config/big_hero/normal/img_642_ldy@.png,每使用一次普攻或者小技能，提升必杀伤害20%，最多可叠加3层，释放后重置,,{32=5;100=1}
-220,雷吉艾勒奇,2,22,30,86030,config/big_hero/normal/img_894_ljalq@.png,战斗内怒气上限降低200点,,{32=5;100=1}
-221,电束木,2,22,30,86031,config/big_hero/normal/img_796_dsm@.png,战斗结束前，恢复精灵自身必杀技释放次数*5%的气血（最多不超过20%）,,{32=5;100=1}
-222,密勒顿,3,32,10,86032,config/big_hero/normal/img_1008_mld@.png,入场获得满怒气，精灵每2次主动必杀技额外释放释放一次免消耗的必杀技，该免消耗的必杀技击杀单位时额外获得200点怒气,,
-311,隆隆岩,,13,,86041,config/big_hero/normal/img_323_pht@.png,精灵双攻提升15%,,{23=20;33=5}
-312,喷火驼,,13,,86042,config/big_hero/normal/img_76_lly@.png,精灵生命上限提高10%,,{23=20;33=5}
-313,穿山王,,13,,86043,config/big_hero/normal/img_28_csw@.png,精灵损失血量时，提升双攻5%（最多可叠加4层）,,{23=20;33=5}
-314,庞岩怪,,13,,86044,config/big_hero/normal/img_526_pyg@.png,精灵每损失1%生命值，伤害加成提升3%,,{23=20;33=5}
-315,炎武王,,13,,86045,config/big_hero/normal/img_500_yww@.png,精灵每损失1%生命值，双攻提升3%,,{23=20;33=5}
-316,齿轮怪,,13,,86046,config/big_hero/normal/img_601_clg@.png,精灵每损失1%生命值，双防提升6%,,{23=20;33=5}
-317,快龙,2,23,30,86047,config/big_hero/normal/img_149_kl@.png,当精灵当前生命值百分比首次小于50%时，获得自身20%生命上限的护盾，持续2回合,,{33=5;100=1}
-318,蜥蜴王,2,23,30,86048,config/big_hero/normal/img_254_xyw@.png,进入战斗时，获得等同于已损失生命值36%伤害的护盾，持续2回合,,{33=5;100=1}
-319,烈咬陆鲨,2,23,30,86049,config/big_hero/normal/img_445_lyls@.png,精灵损失血量后，恢复50点怒气（每个大回合最多触发1次）,,{33=5;100=1}
-320,雷吉洛克,2,23,30,86050,config/big_hero/normal/img_377_ljlk@.png,友方首个受到致命攻击的单位将保留1滴血存活,,{33=5;100=1}
-321,班基拉斯,2,23,30,86051,config/big_hero/normal/img_248_bjls@.png,自身每累计损失1%生命值，双攻提升1%（最高不超过200%）,,{33=5;100=1}
-322,捷克罗姆,3,33,10,86052,config/big_hero/normal/img_644_jklm@.png,自身血量首次低于20%、50%，免消耗额外触发1次必杀技，并附带25%吸血，然后额外造成自身已损失血量的50%的真实伤害,,
-411,雪妖女,,14,,86061,config/big_hero/normal/img_478_xyn@.png,控制率提升20%,,{24=20;34=5}
-412,双倍多多冰,,14,,86062,config/big_hero/normal/img_584_sbddb@.png,敌方免控率降低20%,,{24=20;34=5}
-413,喷嚏熊,,14,,86063,config/big_hero/normal/img_613_ptx@.png,陷入控制状态的敌方目标受到伤害提高10%,,{24=20;34=5}
-414,土台龟,,14,,86064,config/big_hero/normal/img_389_ttg@.png,敌方目标陷入控制状态后，下1次收到的攻击暴击率提高100%,,{24=20;34=5}
-415,吼爆弹,,14,,86065,config/big_hero/normal/img_294_hbd@.png,精灵对陷入控制状态的敌方目标释放必杀技或者小技能时，造成伤害提高30%,,{24=20;34=5}
-416,卡璞·鸣鸣,2,24,30,86066,config/big_hero/normal/img_785_kpmm@.png,攻击时有30%概率永久提升控制率5%（最多可叠加5层）,,{34=5;100=1}
-417,雷公,2,24,30,86067,config/big_hero/normal/img_243_lg@.png,精灵对释放终结技有30%概率眩晕1回合,,{34=5;100=1}
-418,阿罗拉九尾,2,24,30,86068,config/big_hero/normal/img_38_alljw@.png,攻击时对随机目标有10%概率眩晕、睡眠、冰冻、沉默、混乱1回合,,{34=5;100=1}
-419,急冻鸟,2,24,30,86069,config/big_hero/normal/img_144_jdn@.png,敌方首次低于当前生命值百分比低于70%、30%时，有60%冰冻1回合,,{34=5;100=1}
-420,超级暴雪王,2,24,30,86070,config/big_hero/normal/img_460_cjbxw@.png,自身每次控制一名敌人时，恢复自身3%的气血，每个行动回合内回复量最多不超过12%,,{34=5;100=1}
-421,君主蛇,2,24,30,86071,config/big_hero/normal/img_497_jzs@.png,敌方控制效果被添加时造成等同于目标当前生命10%的真实伤害（每个大回合最多触发一次）,,{34=5;100=1}
-422,达克莱伊,3,34,10,86072,config/big_hero/normal/img_491_dkly@.png,每个大回合开始，30%概率使目标进入眩晕、睡眠、冰冻、沉默、混乱中的一种（根据友方控制率最高的单位来享受），并额外造成一次友方攻击较大值120%加成的真实伤害（敌方每一个控制效果提升伤害10%），触发时敌方免控率降低30%,,
-511,水箭龟,,15,,86081,config/big_hero/normal/img_9_sjg@.png,持有护盾的精灵暴击率提升16%,,{25=20;35=5}
-512,龙头地鼠,,15,,86082,config/big_hero/normal/img_530_ltds@.png,持有护盾的精灵暴击伤害提升30%,,{25=20;35=5}
-513,巨锻匠,,15,,86083,config/big_hero/normal/img_959_jdj@.png,持有护盾的精灵双防提升20%,,{25=20;35=5}
-514,独剑鞘,,15,,86084,config/big_hero/normal/img_679_djq@.png,持有护盾的精灵伤害减免提升15%,,{25=20;35=5}
-515,可可多拉,,15,,86085,config/big_hero/normal/img_304_kkdl@.png,精灵受到攻击后，获得等同于本次攻击内损失的生命值18%的护盾,,{25=20;35=5}
-516,大钢蛇,2,25,30,86086,config/big_hero/normal/img_208_dgs@.png,进入战斗时，精灵获得自身生命上限15%的护盾,,{35=5;100=1}
-517,波士可多拉,2,25,30,86087,config/big_hero/normal/img_306_bskdl@.png,自身攻击后，60%概率获得自身12%生命上限的护盾,,{35=5;100=1}
-518,巨金怪,2,25,30,86088,config/big_hero/normal/img_376_jjg@.png,自身受到主动攻击时，对攻击者造成自身护盾量30%的反震伤害(可暴击）,,{35=5;100=1}
-519,勾帕路翁,2,25,30,86089,config/big_hero/normal/img_638_gplw@.png,持有护盾的精灵提高等同于自身护盾量40%的双攻，但不会超过自身初始双攻的120%,,{35=5;100=1}
-520,垒磊石,2,25,30,86090,config/big_hero/normal/img_805_lls@.png,战斗结束前，自身身上的护盾会以20%的比例转化为生命值恢复自身,,{35=5;100=1}
-521,雷吉斯奇鲁,2,25,30,86091,config/big_hero/normal/img_379_ljsql@.png,攻击时附带30%护盾量的真实伤害（该伤害不超过自身双攻的较大值200%，该伤害可暴击）,,{35=5;100=1}
-522,索尔迦雷欧,3,35,10,86092,config/big_hero/normal/img_791_sejlo@.png,每个大回合结束后对敌方全体单位造成【反震】，伤害等同于我方全体护盾的总量的真实伤害，该反震伤害可暴击，继承友方暴击率最高的单位,,
-611,乐天河童,,16,,86101,config/big_hero/normal/img_272_ltht@.png,精灵接受治疗后，双防提升20%2回合,,{26=20;36=5}
-612,菊草叶,,16,,86102,config/big_hero/normal/img_152_jcy@.png,精灵接受治疗后，双攻提升20%2回合,,{26=20;36=5}
-613,宝石海星,,16,,86103,config/big_hero/normal/img_121_bshx@.png,精灵提供治疗后，回复等同于自身生命上限10%的生命值（每个大回合触发1次）,,{26=20;36=5}
-614,胖甜妮,,16,,86104,config/big_hero/normal/img_685_ptn@.png,每个大回合开始，精灵回复等同于自身生命上限12%的生命值,,{26=20;36=5}
-615,皮可西,,16,,86105,config/big_hero/normal/img_36_pkx@.png,精灵的受治疗率提升20%,,{26=20;36=5}
-616,奥利瓦,2,26,30,86106,config/big_hero/normal/img_930_alw@.png,满血时，受到的伤害降低30%,,{36=5;100=1}
-617,椰蛋树,2,26,30,86107,config/big_hero/normal/img_103_yds@.png,精灵释放攻击后，对主目标造成自身当前面生命值的20%的真实伤害,,{36=5;100=1}
-618,苹裹龙,2,26,30,86108,config/big_hero/normal/img_841_pgl@.png,精灵血量低于30%时生命上限提升50%2回合（冷却3回合）,,{36=5;100=1}
-619,美纳斯,2,26,30,86109,config/big_hero/normal/img_350_mns@.png,精灵释放普攻或者小技能回复自身本次攻击20%的气血,,{36=5;100=1}
-620,西狮海壬,2,26,30,86110,config/big_hero/normal/img_730_xshr@.png,每个大回合我方对我方目标治疗时，记录治疗量，当任意我方目标释放攻击后，根据记录治疗量的30%对主目标造成真实附加伤害,,{36=5;100=1}
-621,花洁夫人,2,26,30,86111,config/big_hero/normal/img_671_hjfr@.png,释放必杀时回复自身20%生命上限的气血，且获得免控率50%1回合,,{36=5;100=1}
-622,谢米,3,36,10,86112,config/big_hero/normal/img_492_xm@.png,每个大回合结束后回复友方20%的生命值，已损失血量越多治疗量越大，并对敌方全体单位造成友方本回合总治疗量50%的真实伤害，额外回复自身200点怒气值，并触发【驱散I】,,
+111,Primeape,,11,,86001,config/big_hero/normal/img_57_hbh@.png,Basic Attack damage dealt by the Pokemon increases by 15%.,,{21=20;31=5}
+112,Conkeldurr,,11,,86002,config/big_hero/normal/img_534_xjlj@.png,"When the Pokemon uses a Basic Attack, Crit Rate increases by 10% for 2 rounds.",,{21=20;31=5}
+113,Hitmonlee,,11,,86003,config/big_hero/normal/img_106_ftl@.png,"After the Pokemon uses a Basic Attack, Crit Damage increases by 15% for 2 rounds.",,{21=20;31=5}
+114,Hitmonchan,,11,,86004,config/big_hero/normal/img_107_kql@.png,"After the Pokemon uses a Basic Attack, dual ATK increases by 10% for 2 rounds.",,{21=20;31=5}
+115,Hitmontop,,11,,86005,config/big_hero/normal/img_237_zwl@.png,"After the Pokemon uses a Basic Attack, dual DEF increases by 20% for 2 rounds.",,{21=20;31=5}
+116,Urshifu,2,21,30,86006,config/big_hero/normal/img_892_wdxs@.png,"During a single major round, each Basic Attack increases damage by 10% (stacks up to 3 times).",,{31=5;100=1}
+117,Sirfetch'd,2,21,30,86007,config/big_hero/normal/img_865_cyb@.png,"If the Pokemon did not use an active Basic Attack skill this round, its next Basic Attack deals 16% more damage (stacks up to 2 times).",,{31=5;100=1}
+118,Mienshao,2,21,30,86008,config/big_hero/normal/img_620_sfy@.png,Basic Attack damage splashes to a random adjacent target for damage equal to 40% of the original damage.,,{31=5;100=1}
+119,Lucario,2,21,30,86009,config/big_hero/normal/img_448_lklo@.png,Each Basic Attack grants a shield equal to 10% of Max HP (up to 3 triggers per Pokemon per major round).,,{31=5;100=1}
+120,Keldeo,2,21,30,86010,config/big_hero/normal/img_647_kldo@.png,"When using a Basic Attack, there is a 50% chance to restore HP equal to 30% of the damage dealt by that Basic Attack.",,{31=5;100=1}
+121,Gallade,2,21,30,86011,config/big_hero/normal/img_475_alld@.png,"After the Pokemon uses an Ultimate, it additionally triggers 【Pursuit I】.",,{31=5;100=1}
+122,Koraidon,3,31,10,86012,config/big_hero/normal/img_1007_gld@.png,"After each active attack, the Pokemon can trigger 【Combo I】 once, with a 50% chance to additionally trigger 【Pursuit I】 1 extra time; if it defeats a unit, it can additionally trigger 【Pursuit I】 on a random target.",,
+211,Pikachu,,12,,86021,config/big_hero/normal/img_25_pkq@.png,Ultimate damage increases by 20%.,,{22=20;32=5}
+212,Raichu,,12,,86022,config/big_hero/normal/img_26_lq@.png,Rage Recovery Speed increases by 40%.,,{22=20;32=5}
+213,Luxray,,12,,86023,config/big_hero/normal/img_405_lqm@.png,"When the Pokemon uses an Ultimate, Crit Rate increases by 25%.",,{22=20;32=5}
+214,Pachirisu,,12,,86024,config/big_hero/normal/img_417_pqlz@.png,"After the Pokemon uses an Ultimate, its next attack deals 100% more damage.",,{22=20;32=5}
+215,Emolga,,12,,86025,config/big_hero/normal/img_587_dfs@.png,"After the Pokemon uses an Ultimate, restore HP equal to 10% of Max HP.",,{22=20;32=5}
+216,Electivire,2,22,30,86026,config/big_hero/normal/img_466_djms@.png,"Each time the Pokemon uses an Ultimate, Ultimate Damage Bonus increases by 12% (stacks up to 3 times).",,{32=5;100=1}
+217,Zapdos,2,22,30,86027,config/big_hero/normal/img_145_sdn@.png,"After using an Ultimate, Rage Recovery Speed increases by 50% for the next 2 rounds.",,{32=5;100=1}
+218,Ampharos,2,22,30,86028,config/big_hero/normal/img_181_dl@.png,"On defeating an enemy, gain 100 extra Rage and permanently gain 10% Ultimate Damage Bonus (stacks up to 3 times).",,{32=5;100=1}
+219,Thundurus,2,22,30,86029,config/big_hero/normal/img_642_ldy@.png,"Each time the Pokemon uses a Basic Attack or Basic Skill, Ultimate damage increases by 20%, stacking up to 3 times and resetting after the Ultimate is cast.",,{32=5;100=1}
+220,Regieleki,2,22,30,86030,config/big_hero/normal/img_894_ljalq@.png,"In battle, the Rage cap is reduced by 200.",,{32=5;100=1}
+221,Xurkitree,2,22,30,86031,config/big_hero/normal/img_796_dsm@.png,"Before battle ends, restore HP equal to 5% of Max HP for each Ultimate the Pokemon has used (up to 20%).",,{32=5;100=1}
+222,Miraidon,3,32,10,86032,config/big_hero/normal/img_1008_mld@.png,"Gain full Rage on entry. After every 2 active Ultimates, the Pokemon additionally casts 1 cost-free Ultimate; if that cost-free Ultimate defeats a unit, it gains 200 extra Rage.",,
+311,Golem,,13,,86041,config/big_hero/normal/img_323_pht@.png,dual ATK increases by 15%.,,{23=20;33=5}
+312,Camerupt,,13,,86042,config/big_hero/normal/img_76_lly@.png,Max HP increases by 10%.,,{23=20;33=5}
+313,Sandslash,,13,,86043,config/big_hero/normal/img_28_csw@.png,"Whenever the Pokemon loses HP, dual ATK increases by 5% (stacks up to 4 times).",,{23=20;33=5}
+314,Gigalith,,13,,86044,config/big_hero/normal/img_526_pyg@.png,"For every 1% Max HP the Pokemon loses, Damage Bonus increases by 3%.",,{23=20;33=5}
+315,Emboar,,13,,86045,config/big_hero/normal/img_500_yww@.png,"For every 1% Max HP the Pokemon loses, dual ATK increases by 3%.",,{23=20;33=5}
+316,Klinklang,,13,,86046,config/big_hero/normal/img_601_clg@.png,"For every 1% Max HP the Pokemon loses, dual DEF increases by 6%.",,{23=20;33=5}
+317,Dragonite,2,23,30,86047,config/big_hero/normal/img_149_kl@.png,"The first time the Pokemon's current HP percentage falls below 50%, it gains a shield equal to 20% of Max HP for 2 rounds.",,{33=5;100=1}
+318,Sceptile,2,23,30,86048,config/big_hero/normal/img_254_xyw@.png,"On entering battle, gain a shield equal to 36% of missing HP for 2 rounds.",,{33=5;100=1}
+319,Garchomp,2,23,30,86049,config/big_hero/normal/img_445_lyls@.png,"After the Pokemon loses HP, restore 50 Rage (up to once per major round).",,{33=5;100=1}
+320,Regirock,2,23,30,86050,config/big_hero/normal/img_377_ljlk@.png,The first allied unit to take lethal damage survives with 1 HP.,,{33=5;100=1}
+321,Tyranitar,2,23,30,86051,config/big_hero/normal/img_248_bjls@.png,"For every cumulative 1% Max HP the Pokemon loses, dual ATK increases by 1% (up to 200%).",,{33=5;100=1}
+322,Zekrom,3,33,10,86052,config/big_hero/normal/img_644_jklm@.png,"The first time the Pokemon's HP falls below 50% and again below 20%, it additionally casts 1 cost-free Ultimate and gains 25% Life Steal, then deals extra true damage equal to 50% of its lost HP.",,
+411,Froslass,,14,,86061,config/big_hero/normal/img_478_xyn@.png,Control Rate increases by 20%.,,{24=20;34=5}
+412,Vanilluxe,,14,,86062,config/big_hero/normal/img_584_sbddb@.png,Enemy Control Immunity decreases by 20%.,,{24=20;34=5}
+413,Cubchoo,,14,,86063,config/big_hero/normal/img_613_ptx@.png,Enemy targets under control effects take 10% more damage.,,{24=20;34=5}
+414,Torterra,,14,,86064,config/big_hero/normal/img_389_ttg@.png,"After an enemy target becomes controlled, the next attack it receives gains 100% Crit Rate.",,{24=20;34=5}
+415,Loudred,,14,,86065,config/big_hero/normal/img_294_hbd@.png,"When the Pokemon uses an Ultimate or Basic Skill on an enemy target under control effects, damage dealt increases by 30%.",,{24=20;34=5}
+416,Tapu Koko,2,24,30,86066,config/big_hero/normal/img_785_kpmm@.png,"When attacking, there is a 30% chance to permanently increase Control Rate by 5% (stacks up to 5 times).",,{34=5;100=1}
+417,Raikou,2,24,30,86067,config/big_hero/normal/img_243_lg@.png,"When the Pokemon uses a finishing move, there is a 30% chance to Stun the target for 1 round.",,{34=5;100=1}
+418,Alolan Ninetales,2,24,30,86068,config/big_hero/normal/img_38_alljw@.png,"When attacking, there is a 10% chance to inflict a random target with Stun, Sleep, Freeze, Silence, or Confusion for 1 round.",,{34=5;100=1}
+419,Articuno,2,24,30,86069,config/big_hero/normal/img_144_jdn@.png,"The first time an enemy target's current HP percentage falls below 70% or 30%, there is a 60% chance to inflict Freeze for 1 round.",,{34=5;100=1}
+420,Mega Abomasnow,2,24,30,86070,config/big_hero/normal/img_460_cjbxw@.png,"Each time the Pokemon controls an enemy, it restores 3% HP, up to 12% restored per action round.",,{34=5;100=1}
+421,Serperior,2,24,30,86071,config/big_hero/normal/img_497_jzs@.png,"When a control effect is applied to an enemy, deal true damage equal to 10% of the target's current HP (up to once per major round).",,{34=5;100=1}
+422,Darkrai,3,34,10,86072,config/big_hero/normal/img_491_dkly@.png,"At the start of each major round, there is a 30% chance to inflict the target with one of Stun, Sleep, Freeze, Silence, or Confusion (using the allied unit with the highest Control Rate for the calculation), and additionally deal true damage equal to 120% of the higher allied ATK value; damage increases by 10% for each control effect on the enemy, and on trigger the enemy's Control Immunity is reduced by 30%.",,
+511,Blastoise,,15,,86081,config/big_hero/normal/img_9_sjg@.png,Pokemon with a shield gain 16% Crit Rate.,,{25=20;35=5}
+512,Excadrill,,15,,86082,config/big_hero/normal/img_530_ltds@.png,Pokemon with a shield gain 30% Crit Damage.,,{25=20;35=5}
+513,Tinkaton,,15,,86083,config/big_hero/normal/img_959_jdj@.png,Pokemon with a shield gain 20% dual DEF.,,{25=20;35=5}
+514,Honedge,,15,,86084,config/big_hero/normal/img_679_djq@.png,Pokemon with a shield gain 15% Damage Reduction.,,{25=20;35=5}
+515,Aron,,15,,86085,config/big_hero/normal/img_304_kkdl@.png,"After the Pokemon is attacked, it gains a shield equal to 18% of the HP lost from that attack.",,{25=20;35=5}
+516,Steelix,2,25,30,86086,config/big_hero/normal/img_208_dgs@.png,"On entering battle, the Pokemon gains a shield equal to 15% of Max HP.",,{35=5;100=1}
+517,Aggron,2,25,30,86087,config/big_hero/normal/img_306_bskdl@.png,"After self attacks, there is a 60% chance to gain a shield equal to 12% of Max HP.",,{35=5;100=1}
+518,Metagross,2,25,30,86088,config/big_hero/normal/img_376_jjg@.png,"When self takes an active attack, deal rebound damage to the attacker equal to 30% of self's shield value (can Crit).",,{35=5;100=1}
+519,Cobalion,2,25,30,86089,config/big_hero/normal/img_638_gplw@.png,"Pokemon with a shield gain dual ATK equal to 40% of their shield value, capped at 120% of their initial dual ATK.",,{35=5;100=1}
+520,Stakataka,2,25,30,86090,config/big_hero/normal/img_805_lls@.png,"Before battle ends, 20% of self's shield value is converted into HP recovery.",,{35=5;100=1}
+521,Registeel,2,25,30,86091,config/big_hero/normal/img_379_ljsql@.png,"Attacks deal additional true damage equal to 30% of shield value (capped at 200% of the higher of self's dual ATK, and this damage can Crit).",,{35=5;100=1}
+522,Solgaleo,3,35,10,86092,config/big_hero/normal/img_791_sejlo@.png,"At the end of each major round, inflict 【Rebound】 on all enemy units. The damage is true damage equal to the total amount of allied shields; this Rebound damage can Crit and inherits the highest allied Crit Rate.",,
+611,Ludicolo,,16,,86101,config/big_hero/normal/img_272_ltht@.png,"After receiving healing, dual DEF increases by 20% for 2 rounds.",,{26=20;36=5}
+612,Chikorita,,16,,86102,config/big_hero/normal/img_152_jcy@.png,"After receiving healing, dual ATK increases by 20% for 2 rounds.",,{26=20;36=5}
+613,Starmie,,16,,86103,config/big_hero/normal/img_121_bshx@.png,"After the Pokemon provides healing, it restores HP equal to 10% of Max HP (triggers once per major round).",,{26=20;36=5}
+614,Slurpuff,,16,,86104,config/big_hero/normal/img_685_ptn@.png,"At the start of each major round, the Pokemon restores HP equal to 12% of Max HP.",,{26=20;36=5}
+615,Clefable,,16,,86105,config/big_hero/normal/img_36_pkx@.png,Healing Received increases by 20%.,,{26=20;36=5}
+616,Arboliva,2,26,30,86106,config/big_hero/normal/img_930_alw@.png,"While at full HP, damage taken is reduced by 30%.",,{36=5;100=1}
+617,Exeggutor,2,26,30,86107,config/big_hero/normal/img_103_yds@.png,"After the Pokemon attacks, it deals true damage to the main target equal to 20% of its current HP.",,{36=5;100=1}
+618,Flapple,2,26,30,86108,config/big_hero/normal/img_841_pgl@.png,"When the Pokemon's HP falls below 30%, Max HP increases by 50% for 2 rounds (cooldown: 3 rounds).",,{36=5;100=1}
+619,Milotic,2,26,30,86109,config/big_hero/normal/img_350_mns@.png,"When the Pokemon uses a Basic Attack or Basic Skill, it restores HP equal to 20% of the damage dealt by that attack.",,{36=5;100=1}
+620,Primarina,2,26,30,86110,config/big_hero/normal/img_730_xshr@.png,"Each major round, whenever an allied unit heals an allied target, the healing amount is recorded. After any allied target attacks, deal bonus true damage to the main target equal to 30% of the recorded healing.",,{36=5;100=1}
+621,Florges,2,26,30,86111,config/big_hero/normal/img_671_hjfr@.png,"When casting an Ultimate, restore HP equal to 20% of Max HP and gain 50% Control Immunity for 1 round.",,{36=5;100=1}
+622,Shaymin,3,36,10,86112,config/big_hero/normal/img_492_xm@.png,"At the end of each major round, restore 20% HP to allies; the more HP they have lost, the greater the healing. Also deal true damage to all enemy units equal to 50% of total allied healing this round, restore 200 Rage to self, and trigger 【Dispel I】.",,

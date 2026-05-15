@@ -2236,5 +2236,80 @@
 | 战斗胜利后，我方精灵总血量百分比低于50%时，恢复我方全队12%的生命值，最多触发1次（因主题效果将至50%以下时，不触发恢复） | After a victorious battle, when our team's total Pokémon HP percentage falls below 50%, restore 12% of the team's HP, with a maximum of 1 activation (as the theme effect will not trigger if HP is already below 50%). | Sau khi thắng trận, nếu tổng tỷ lệ HP của Pokémon phe ta thấp hơn 50%, hồi 12% HP cho toàn đội, tối đa kích hoạt 1 lần (nếu do hiệu ứng chủ đề khiến HP giảm xuống dưới 50% thì không kích hoạt hồi phục). |
 | 驾驶者因复活重新出现在基地时，可以使用准神传送，直接传送到任意我方据点，一局仅有5次机会（注：离开基地后视为不使用传送） | When the driver reappears at the base due to revival, they can use Pseudo-legendary teleportation to directly teleport to any of our team's stronghold, with only 5 chances per match (note: leaving the base after teleportation is considered as not using teleportation). | Khi người lái hồi sinh và xuất hiện lại tại căn cứ, có thể dùng dịch chuyển Chuẩn Thần để tới thẳng bất kỳ cứ điểm nào của phe ta, mỗi ván chỉ có 5 lần (lưu ý: rời căn cứ theo cách thông thường sẽ được tính là không dùng dịch chuyển). |
 
+### 7.31. Bổ sung từ `dispatch_task/tasks.csv` (task names / task descriptions)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 消灭害虫 | Eliminate pests | Diệt trừ sâu hại |
+| 采集树果 | Pick berries | Thu thập quả mọng |
+| 垃圾分类 | Waste sorting | Phân loại rác |
+| 寻宠启示 | Missing Pokémon | Tìm Pokémon thất lạc |
+| 心灵导师 | Spiritual Mentor | Người dẫn dắt tinh thần |
+| 协助寻宠 | Help to find Pokémon | Hỗ trợ tìm Pokémon |
+| 抓捕罪犯 | Catch the criminal | Bắt giữ tội phạm |
+| 保护村民 | Protect the villagers | Bảo vệ dân làng |
+| 跟踪目标 | Follow the target | Theo dõi mục tiêu |
+| 护送博士 | Escort the Professor | Hộ tống Giáo sư |
+| 押运文件 | Escort the Document | Hộ tống tài liệu |
+| 私人侦探 | Private Investigator | Thám tử tư |
+| 阿罗拉调查 | Alola Investigation | Điều tra Alola |
+| 安抚精灵 | Soothe the Pokémon | Xoa dịu Pokémon |
+| 奇异果实 | Kiwifruit | Quả kiwi |
+| 近期森林中的害虫泛滥，需要各方精灵前去清除。 | There's a pest infestation in the forest recently and there's a need for trainers to clear them with their Pokémons | Gần đây sâu hại tràn lan trong rừng, cần các huấn luyện gia cử Pokémon tới dọn dẹp. |
+| 又到了树果盛产的季节，和精灵组织一场采集树果的郊游吧！ | It's the season of berries again! Organize an outing with the Pokémons to pick the berries! | Đã đến mùa quả mọng bội thu nữa rồi, hãy tổ chức một chuyến dã ngoại cùng Pokémon để hái quả mọng. |
+| 为了更好的保护环境，来进行垃圾分类吧。 | Let's sort the waste in order to protect our environment. | Để bảo vệ môi trường tốt hơn, hãy cùng phân loại rác. |
+| 镇上的训练家把自己的精灵弄丢了，需要请求帮忙一起寻找。 | The trainer in town has lost his Pokémon. Help him find it. | Huấn luyện gia trong thị trấn đã làm lạc mất Pokémon của mình, cần nhờ mọi người cùng giúp tìm kiếm. |
+| 用精灵去温暖失落的村民，释放压抑的心情。 | Use Pokémons to comfort the lost villagers and relief the depressing mood. | Hãy dùng Pokémon để sưởi ấm những người dân đang buồn bã và giải tỏa tâm trạng bị dồn nén. |
+| 帮助新手训练家驯服自己的精灵。 | Help rookie trainers train their Pokémons. | Giúp các huấn luyện gia mới làm quen và huấn luyện Pokémon của họ. |
+| 警方找到通缉多年偷盗精灵的小偷，协助警察进行抓捕！ | The police have found a Pokémon thief who has been wanted for years. Assist the police in their arrest! | Cảnh sát đã tìm ra tên trộm Pokémon bị truy nã nhiều năm. Hãy hỗ trợ họ bắt giữ hắn. |
+| 野生的精灵最近暴乱，经常袭击镇上村民，请前去保护村民安全！ | The wild Pokémons have often attacked the villagers in the town. Go and protect the villagers! | Gần đây Pokémon hoang dã nổi loạn và thường xuyên tấn công dân làng trong thị trấn. Hãy đi bảo vệ họ. |
+| 警察请求训练家帮助跟踪目标人物，并反馈行踪。 | The police asked the trainer to assist in tracking the targets and reporting their whereabouts. | Cảnh sát nhờ huấn luyện gia hỗ trợ theo dõi đối tượng mục tiêu và báo lại hành tung. |
+| 博士委托训练家协会来护送自己，要求安全抵达目的地。 | The professor has requested the Trainers Association to protect him and ensure his safe arrival at the destination. | Giáo sư đã ủy thác cho Hiệp hội Huấn luyện gia hộ tống mình tới đích an toàn. |
+| 神秘机构委托训练家来帮忙押运机密文件，完成后可获得丰厚报酬。 | The mysterious organization requested for a trainer to protect and deliver the confidential documents. | Một tổ chức bí ẩn đã thuê huấn luyện gia giúp áp tải tài liệu mật; hoàn thành sẽ nhận được thù lao hậu hĩnh. |
+| 村民私下委托训练家们来调查自己对象的行踪。 | The villagers privately requested help from the trainers to investigate the whereabouts of their missing partners. | Dân làng bí mật nhờ các huấn luyện gia điều tra tung tích người thương của họ. |
+| 派遣精灵前往阿罗拉地区，调查当地是否有野生的梦幻出没。 | Dispatch Pokémons to Alola region and find out whether there are wild Mews in the area. | Cử Pokémon tới khu vực Alola để điều tra xem ở đó có Mew hoang dã xuất hiện hay không. |
+| 把在本市扰乱市民正常出行的精灵安抚平定下来。 | Soothe the Pokémons that hinders the citizens from traveling around in this city. | Hãy xoa dịu những Pokémon đang cản trở việc đi lại bình thường của người dân trong thành phố này. |
+| 组织一队精灵前往森林进行探索，需找一种名为奇异果实的食物。 | Form a team of Pokémons to explore the forest and find kiwifruits. | Tổ chức một đội Pokémon tiến vào rừng thám hiểm để tìm một loại thực phẩm gọi là quả kiwi. |
+
+### 7.32. Bổ sung từ `elite_challenge/theme.csv` (theme names / elite challenge traits)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 甘霖济世 | Life-Giving Rain | Mưa lành dưỡng thế |
+| 锐不可当 | Unstoppable Edge | Mũi nhọn không thể cản |
+| 驭势凌敌 | Seize the Momentum | Nắm thế áp địch |
+| 雷霆之怒 | Thunder's Wrath | Cơn thịnh nộ sấm sét |
+| 强击 | Heavy Strike | Công kích mãnh liệt |
+| 毒素 | Toxin | Độc tố |
+| 激怒 | Enrage | Kích nộ |
+| 停滞 | Stagnation | Trì trệ |
+| 硬甲 | Hard Armor | Giáp cứng |
+| 复苏 | Recovery | Hồi phục |
+| 坚固 | Fortified | Kiên cố |
+| 枯萎 | Wither | Héo mòn |
+| 免控 | Control Immunity | Kháng khống chế |
+| 异变 | Mutation | Dị biến |
+| 奋战 | Fight On | Phấn chiến |
+| 死战 | Last Stand | Tử chiến |
+| 上阵的%s系精灵治疗率和生命上限提升30%%\n本期关卡内怪物的特性（随关卡提升）：\n#L00000010#强击#L00000000#：最终伤害提升\n#L00000010#毒素#L00000000#：每个大回合末对敌方全体造成1次毒元素伤害\n#L00000010#激怒#L00000000#：受到伤害时提升双攻和暴击2回合\n#L00000010#停滞#L00000000#：降低敌方所有单位速度和怒气回复速度 | Fielding %s-type Pokemon increases Healing Rate and Max HP by 30%%\nMonster traits in this season's stages (scale up with stage progression):\n#L00000010#Heavy Strike#L00000000#: Final Damage increases\n#L00000010#Toxin#L00000000#: At the end of each major round, deal 1 instance of Poison elemental damage to all enemies\n#L00000010#Enrage#L00000000#: When taking damage, increase dual ATK and Crit Rate for 2 rounds\n#L00000010#Stagnation#L00000000#: Reduces the Speed and Rage Recovery Speed of all enemy units | Đưa Pokémon hệ %s ra sân sẽ tăng 30%% tỷ lệ trị liệu và HP tối đa.\nĐặc tính quái vật trong các ải kỳ này (tăng theo tiến độ ải):\n#L00000010#Công kích mãnh liệt#L00000000#: Tăng Final Damage\n#L00000010#Độc tố#L00000000#: Cuối mỗi đại hiệp gây 1 lần sát thương nguyên tố Độc lên toàn bộ địch\n#L00000010#Kích nộ#L00000000#: Khi nhận sát thương, tăng song công và tỷ lệ bạo kích trong 2 hiệp\n#L00000010#Trì trệ#L00000000#: Giảm Tốc độ và Tốc độ hồi Nộ của toàn bộ địch |
+| 上阵的%s系精灵暴击率、暴击伤害和伤害加成提升30%%\n本期关卡内怪物的特性（随关卡提升）：\n#L00000010#硬甲#L00000000#：伤害减免提升\n#L00000010#复苏#L00000000#：每个大回合回复生命上限比例的血量（生命值较低时触发）\n#L00000010#坚固#L00000000#：伤害不可超过一定比例，受到的伤害超过该比例时，在接下来的2回合内造成伤害降低（冷却3回合）\n#L00000010#枯萎#L00000000#：降低所有单位速度和双攻 | Fielding %s-type Pokemon increases Crit Rate, Crit Damage, and Damage Bonus by 30%%\nMonster traits in this season's stages (scale up with stage progression):\n#L00000010#Hard Armor#L00000000#: Damage Reduction increases\n#L00000010#Recovery#L00000000#: At the end of each major round, restores HP based on a percentage of Max HP (triggers when HP is low)\n#L00000010#Fortified#L00000000#: Damage taken cannot exceed a certain percentage; if it does, damage dealt is reduced for the next 2 rounds (cooldown: 3 rounds)\n#L00000010#Wither#L00000000#: Reduces the Speed and dual ATK of all units | Đưa Pokémon hệ %s ra sân sẽ tăng 30%% tỷ lệ bạo kích, sát thương bạo kích và tăng sát thương.\nĐặc tính quái vật trong các ải kỳ này (tăng theo tiến độ ải):\n#L00000010#Giáp cứng#L00000000#: Tăng giảm sát thương\n#L00000010#Hồi phục#L00000000#: Cuối mỗi đại hiệp hồi HP theo tỷ lệ HP tối đa (kích hoạt khi HP thấp)\n#L00000010#Kiên cố#L00000000#: Sát thương nhận vào không thể vượt quá một tỷ lệ nhất định; nếu vượt, sát thương gây ra sẽ giảm trong 2 hiệp tiếp theo (hồi chiêu 3 hiệp)\n#L00000010#Héo mòn#L00000000#: Giảm Tốc độ và song công của toàn bộ đơn vị |
+| 上阵的%s系初始总数量不低于3人控制率提升25%%，对异常效果的单位伤害提升25%%；满足5人时每个大回合开始前有30%%概率对随机一个目标添加眩晕、睡眠、冰冻、沉默、混乱其中一种1回合\n本期关卡内怪物的特性（随关卡提升）：\n#L00000010#免控#L00000000#：免控率提升\n#L00000010#异变#L00000000#：自身未处于控制状态下时伤害减免提升，且行动对主目标造成双攻加成的真实伤害\n#L00000010#奋战#L00000000#：每次主动攻击后自身伤害提升2回合（可叠加，被控制时清除）\n#L00000010#死战#L00000000#：暴击率和暴击伤害提高，受到控制期间内2回合内该效果失效 | If at least 3 %s-type Pokemon are initially deployed, Control Rate increases by 25%% and damage dealt to targets affected by abnormal effects increases by 25%%; with 5 such Pokemon, before each major round starts there is a 30%% chance to inflict 1 random target with one of Stun, Sleep, Freeze, Silence, or Confusion for 1 round\nMonster traits in this season's stages (scale up with stage progression):\n#L00000010#Control Immunity#L00000000#: Control Immunity increases\n#L00000010#Mutation#L00000000#: When not under control effects, Damage Reduction increases, and actions deal true damage to the main target based on dual ATK\n#L00000010#Fight On#L00000000#: After each active attack, damage dealt increases for 2 rounds (stackable, cleared when controlled)\n#L00000010#Last Stand#L00000000#: Crit Rate and Crit Damage increase, but this effect is disabled for 2 rounds while under control effects | Nếu số Pokémon hệ %s được triển khai ban đầu đạt ít nhất 3, Tỷ lệ khống chế tăng 25%% và sát thương gây lên mục tiêu đang dính hiệu ứng bất thường tăng 25%%; nếu đạt 5, trước khi mỗi đại hiệp bắt đầu sẽ có 30%% xác suất gắn ngẫu nhiên cho 1 mục tiêu một trong các hiệu ứng Choáng, Ngủ, Đóng băng, Câm lặng hoặc Rối loạn trong 1 hiệp.\nĐặc tính quái vật trong các ải kỳ này (tăng theo tiến độ ải):\n#L00000010#Kháng khống chế#L00000000#: Tăng Kháng khống chế\n#L00000010#Dị biến#L00000000#: Khi bản thân không ở trạng thái bị khống chế, tăng giảm sát thương và hành động sẽ gây sát thương chuẩn lên mục tiêu chính theo song công\n#L00000010#Phấn chiến#L00000000#: Sau mỗi lần chủ động tấn công, sát thương gây ra tăng trong 2 hiệp (có thể cộng dồn, bị xóa khi trúng khống chế)\n#L00000010#Tử chiến#L00000000#: Tăng tỷ lệ bạo kích và sát thương bạo kích, nhưng hiệu ứng này mất tác dụng trong 2 hiệp khi đang bị khống chế |
+| 上阵的%s系精灵怒气恢复速度和必杀技伤害提升40%%\n本期关卡内怪物的特性（随关卡提升）：\n#L00000010#硬甲#L00000000#：伤害减免提升\n#L00000010#复苏#L00000000#：每个大回合回复生命上限比例的血量（生命值较低时触发）\n#L00000010#坚固#L00000000#：伤害不可超过一定比例，受到的伤害超过该比例时，在接下来的2回合内造成伤害降低（冷却3回合）\n#L00000010#枯萎#L00000000#：降低所有单位速度和双攻 | Fielding %s-type Pokemon increases Rage Recovery Speed and Ultimate damage by 40%%\nMonster traits in this season's stages (scale up with stage progression):\n#L00000010#Hard Armor#L00000000#: Damage Reduction increases\n#L00000010#Recovery#L00000000#: At the end of each major round, restores HP based on a percentage of Max HP (triggers when HP is low)\n#L00000010#Fortified#L00000000#: Damage taken cannot exceed a certain percentage; if it does, damage dealt is reduced for the next 2 rounds (cooldown: 3 rounds)\n#L00000010#Wither#L00000000#: Reduces the Speed and dual ATK of all units | Đưa Pokémon hệ %s ra sân sẽ tăng 40%% Tốc độ hồi Nộ và sát thương Tuyệt kỹ.\nĐặc tính quái vật trong các ải kỳ này (tăng theo tiến độ ải):\n#L00000010#Giáp cứng#L00000000#: Tăng giảm sát thương\n#L00000010#Hồi phục#L00000000#: Cuối mỗi đại hiệp hồi HP theo tỷ lệ HP tối đa (kích hoạt khi HP thấp)\n#L00000010#Kiên cố#L00000000#: Sát thương nhận vào không thể vượt quá một tỷ lệ nhất định; nếu vượt, sát thương gây ra sẽ giảm trong 2 hiệp tiếp theo (hồi chiêu 3 hiệp)\n#L00000010#Héo mòn#L00000000#: Giảm Tốc độ và song công của toàn bộ đơn vị |
+
+### 7.33. Bổ sung từ `elite_challenge/buffs.csv` (buff terms / combat labels)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 武道熊师 | Urshifu | Urshifu |
+| 普攻 | Basic Attack | Đòn đánh thường |
+| 小技能 | Basic Skill | Kỹ năng cơ bản |
+| 终结技 | Finishing Move | Kỹ năng kết liễu |
+| 受治疗率 | Healing Received | Tỷ lệ nhận hồi phục |
+| 行动回合 | Action Round | Lượt hành động |
+| 【追击Ⅰ】 | 【Pursuit I】 | 【Truy kích I】 |
+| 【连击Ⅰ】 | 【Combo I】 | 【Liên kích I】 |
+| 【反震】 | 【Rebound】 | 【Phản chấn】 |
+| 【驱散I】 | 【Dispel I】 | 【Giải trừ I】 |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

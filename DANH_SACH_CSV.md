@@ -208,7 +208,7 @@
 - [ ] 📄 `game_config/damage_process.csv`
 - [ ] 📄 `game_config/dispatch_task/fighting_point.csv`
 - [ ] 📄 `game_config/dispatch_task/rankdom.csv`
-- [ ] 📄 `game_config/dispatch_task/tasks.csv`
+- [x] 📄 `game_config/dispatch_task/tasks.csv`
 - [ ] 📄 `game_config/draw_card.csv`
 - [ ] 📄 `game_config/draw_card_custom.csv`
 - [ ] 📄 `game_config/draw_card_up_group.csv`
@@ -227,7 +227,7 @@
 - [ ] 📄 `game_config/effect_event.csv`
 - [ ] 📄 `game_config/effect_option.csv`
 - [ ] 📄 `game_config/effect_power.csv`
-- [ ] 📄 `game_config/elite_challenge/buffs.csv`
+- [x] 📄 `game_config/elite_challenge/buffs.csv`
 - [ ] 📄 `game_config/elite_challenge/can_pass.csv`
 - [ ] 📄 `game_config/elite_challenge/cards.csv`
 - [ ] 📄 `game_config/elite_challenge/monster_level.csv`
@@ -239,7 +239,7 @@
 - [ ] 📄 `game_config/elite_challenge/scene.csv`
 - [ ] 📄 `game_config/elite_challenge/scene_award.csv`
 - [ ] 📄 `game_config/elite_challenge/team.csv`
-- [ ] 📄 `game_config/elite_challenge/theme.csv`
+- [x] 📄 `game_config/elite_challenge/theme.csv`
 - [ ] 📄 `game_config/elite_challenge/theme_open.csv`
 - [ ] 📄 `game_config/emera/base_attr.csv`
 - [ ] 📄 `game_config/emera/emera.csv`
