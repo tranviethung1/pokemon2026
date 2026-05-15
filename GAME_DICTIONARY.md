@@ -1665,6 +1665,8 @@
 | 美月 | Selene | Selene |
 | 小次郎 | James | James |
 | 武藏 | Jessie | Jessie |
+| 新手训练家 | Beginner Trainer | Huấn luyện viên tân thủ |
+| 训练机器人 | Training Robot | Robot huấn luyện |
 
 ### 7.3. Bổ sung từ `auto_chess/saodang_award.csv` (tên mức thưởng sweep)
 
@@ -2023,6 +2025,27 @@
 | 击杀者所在服务器玩家在竞标对战中抢夺加成+15%，被抢夺损失-15% | Players on the killer's server gain +15% plunder bonus and lose 15% less when plundered in bid battles. | Người chơi ở server của người hạ gục nhận +15% thưởng cướp đoạt và giảm 15% tổn thất khi bị cướp trong chiến đấu đấu giá. |
 | 击杀者所在服务器玩家在竞标对战中抢夺加成+30%，被抢夺损失-30% | Players on the killer's server gain +30% plunder bonus and lose 30% less when plundered in bid battles. | Người chơi ở server của người hạ gục nhận +30% thưởng cướp đoạt và giảm 30% tổn thất khi bị cướp trong chiến đấu đấu giá. |
 | 击杀者所在服务器玩家在竞标对战中全属性加成+30%,抢夺加成+30%,被抢夺损失-30%,资源生产速度加成+30% | Players on the killer's server gain +30% to all attributes, +30% plunder bonus, lose 30% less when plundered, and +30% resource production speed in bid battles. | Người chơi ở server của người hạ gục nhận +30% toàn thuộc tính, +30% thưởng cướp đoạt, giảm 30% tổn thất khi bị cướp và +30% tốc độ sản xuất tài nguyên trong chiến đấu đấu giá. |
+
+### 7.21. Bổ sung từ `cross/online_auto_chess/name_libs.csv` (tên Pokemon / nickname)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 伊布 | Eevee | Eevee |
+| 太阳精灵 | Espeon | Espeon |
+| 月精灵 | Umbreon | Umbreon |
+| 叶精灵 | Leafeon | Leafeon |
+| 冰精灵 | Glaceon | Glaceon |
+| 仙子精灵 | Sylveon | Sylveon |
+| 洛托姆 | Rotom | Rotom |
+| 阿尔宙斯 | Arceus | Arceus |
+| 托戈德玛尔 | Togedemaru | Togedemaru |
+| 焰后蜥 | Salazzle | Salazzle |
+| 磨牙彩皮鱼 | Bruxish | Bruxish |
+| 谜拟Q | Mimikyu | Mimikyu |
+| 电击魔 | Electivire | Electivire |
+| 鬼盆栽 | Spiritomb | Spiritomb |
+| 黑龙 | Zekrom | Zekrom |
+| 白龙 | Reshiram | Reshiram |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

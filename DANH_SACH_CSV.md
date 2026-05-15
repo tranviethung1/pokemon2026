@@ -187,6 +187,9 @@
 - [x] 📄 `game_config/cross/fishing/rank.csv`
 - [x] 📄 `game_config/cross/horse_race/horse_race_card.csv`
 - [x] 📄 `game_config/cross/hunting/supply.csv`
+- [x] 📄 `game_config/cross/online_auto_chess/name_libs.csv`
+- [x] 📄 `game_config/cross/online_auto_chess/pvp_guide_base.csv`
+- [x] 📄 `game_config/cross/online_auto_chess/trainer.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [x] 📄 `game_config/cross/mine/boss.csv`

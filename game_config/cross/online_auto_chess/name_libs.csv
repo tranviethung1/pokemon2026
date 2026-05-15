@@ -1,143 +1,143 @@
 ﻿变量名,name
 默认值,野生训练家
 ID,机器人随机名称
-1,皮卡丘的闪电
-2,喷火龙之怒
-3,水箭龟的海洋
-4,妙蛙种子的成长
-5,伊布的进化梦
-6,梦幻的追寻者
-7,龙骑士盖欧卡
-8,暴鲤龙的飞跃
-9,耿鬼的恶作剧
-10,草系大师
-11,电光一闪雷丘
-12,冰霜女皇
-13,岩石之力
-14,火焰鸡的舞步
-15,钢翼巨龙
-16,虫鸣蟋蟀
-17,暗影球的守护
-18,沙漠蜻蜓之翼
-19,太阳精灵之歌
-20,月亮能量露奈雅拉
-21,闪电之翼
-22,火焰舞者
-23,水域守护
-24,草野探险家
-25,伊布幻想
-26,幻域行者
-27,龙之翼影
-28,暴鲤风暴
-29,冰霜之心
-30,电光石火
-31,神秘之森
-32,暗影使者
-33,火焰之誓
-34,钢铁之志
-35,虫鸣之音
-36,蜻蜓之舞
-37,沙漠之风
-38,冰霜之触
-39,月亮之泪
-40,太阳之辉
-41,精灵球收藏家
-42,宝可梦训练师
-43,皮卡丘的伙伴
-44,喷火龙的烈焰
-45,水箭龟的波涛
-46,妙蛙花的绿叶
-47,阿柏蛇的狡猾
-48,皮卡丘的电力
-49,伊布的百变
-50,梦幻的传说
-51,超梦的幻影
-52,耿鬼的恶作剧
-53,胡地的心灵感应
-54,快龙的疾风
-55,卡比兽的午睡
-56,化石翼龙的飞翔
-57,宝石海星的光辉
-58,火焰鸟的炽热
-59,闪电鸟的风暴
-60,急冻鸟的寒冰
-61,雷公的雷霆
-62,炎帝的火焰
-63,水君的波涛
-64,路卡利欧的正义
-65,风速狗的忠诚
-66,沙奈朵的优雅
-67,暴飞龙的狂野
-68,巨金怪的力量
-69,烈咬陆鲨的迅猛
-70,洛托姆的形态
-71,鬼盆栽的谜团
-72,帝牙卢卡的时间
-73,帕路奇亚的空间
-74,骑拉帝纳的暗影
-75,阿尔宙斯的创造
-76,比克提尼的光辉
-77,黑龙的咆哮
-78,白龙的纯洁
-79,龙卷云的风暴
-80,雷电云的怒吼
-81,土地云的宁静
-82,火焰鸡的热舞
-83,巨沼怪的泥潭
-84,电击魔的火花
-85,巨钳螳螂的利刃
-86,喷火驼的沙漠
-87,冰鬼护的冰川
-88,太阳精灵的光明
-89,月精灵的幽暗
-90,叶精灵的森林
-91,冰精灵的霜冻
-92,仙子精灵的魔法
-93,炎武王的斗志
-94,甲贺忍蛙的隐秘
-95,砰头小丑的欢乐
-96,卡璞·鸣鸣的电波
-97,卡璞·蝶蝶的幻象
-98,卡璞·哞哞的大地
-99,卡璞·鳍鳍的海洋
-100,索尔迦雷欧的太阳
-101,露奈雅拉的月亮
-102,虚吾伊德的虚空
-103,爆肌蚊的强壮
-104,谜拟Q的模仿
-105,纸御剑的锋利
-106,铁火辉夜的星辰
-107,垒磊石的坚硬
-108,电束木的电流
-109,焰后蜥的火焰
-110,托戈德玛尔的守护
-111,谜拟Q的戏法
-112,磨牙彩皮鱼的咬合
-113,好坏星的诡计
-114,砰头小丑的惊喜
-115,费洛美螂的优雅
-116,电束木的活力
-117,恶食大王的食欲
-118,纸御剑的切割
-119,垒磊石的坚固
-120,焰后蜥的炽热
-121,托戈德玛尔的警戒
-122,谜拟Q的变身
-123,磨牙彩皮鱼的攻击
-124,好坏星的翻转
-125,砰头小丑的爆炸
-126,费洛美螂的舞蹈
-127,电束木的充电
-128,恶食大王的吞噬
-129,纸御剑的斩击
-130,垒磊石的防御
-131,焰后蜥的烈焰
-132,托戈德玛尔的保护
-133,谜拟Q的戏耍
-134,磨牙彩皮鱼的捕食
-135,好坏星的策略
-136,砰头小丑的表演
-137,费洛美螂的华丽
-138,电束木的放电
-139,恶食大王的饱食
-140,纸御剑的剑舞
+1,Pikachu's Lightning
+2,Rage of Charizard
+3,Blastoise's Ocean
+4,Bulbasaur's Growth
+5,Eevee's Evolution Dream
+6,Mew's Seeker
+7,Dragon Rider Kyogre
+8,Gyarados' Leap
+9,Gengar's Prank
+10,Grass Master
+11,Quick Attack Raichu
+12,Frost Queen
+13,Power of Rock
+14,Blaziken's Dance
+15,Steelwing Dragon
+16,Bug Buzz Cricket
+17,Shadow Ball's Guardian
+18,Wings of Flygon
+19,Song of Espeon
+20,Moon-Powered Lunala
+21,Wings of Lightning
+22,Flame Dancer
+23,Water Guardian
+24,Grassland Explorer
+25,Eevee Fantasy
+26,Phantom Realm Wanderer
+27,Dragonwing Shadow
+28,Gyarados Storm
+29,Heart of Frost
+30,Lightning Speed
+31,Mystic Forest
+32,Shadow Envoy
+33,Vow of Flame
+34,Will of Steel
+35,Sound of Bug Buzz
+36,Dance of the Dragonfly
+37,Wind of the Desert
+38,Touch of Frost
+39,Tear of the Moon
+40,Radiance of the Sun
+41,Poke Ball Collector
+42,Pokemon Trainer
+43,Pikachu's Partner
+44,Charizard's Blaze
+45,Blastoise's Waves
+46,Venusaur's Green Leaves
+47,Ekans' Cunning
+48,Pikachu's Electric Power
+49,Eevee's Versatility
+50,Mew's Legend
+51,Mewtwo's Phantom
+52,Gengar's Prank
+53,Alakazam's Telepathy
+54,Dragonite's Gale
+55,Snorlax's Nap
+56,Aerodactyl's Flight
+57,Starmie's Radiance
+58,Moltres' Scorch
+59,Zapdos' Storm
+60,Articuno's Ice
+61,Raikou's Thunder
+62,Entei's Flame
+63,Suicune's Waves
+64,Lucario's Justice
+65,Arcanine's Loyalty
+66,Gardevoir's Grace
+67,Salamence's Wildness
+68,Metagross' Strength
+69,Garchomp's Swiftness
+70,Rotom's Form
+71,Spiritomb's Mystery
+72,Dialga's Time
+73,Palkia's Space
+74,Giratina's Shadow
+75,Arceus' Creation
+76,Victini's Radiance
+77,Zekrom's Roar
+78,Reshiram's Purity
+79,Tornadus' Storm
+80,Thundurus' Howl
+81,Landorus' Serenity
+82,Blaziken's Hot Dance
+83,Swampert's Mire
+84,Electivire's Spark
+85,Scizor's Blade
+86,Camerupt's Desert
+87,Glalie's Glacier
+88,Espeon's Light
+89,Umbreon's Gloom
+90,Leafeon's Forest
+91,Glaceon's Frost
+92,Sylveon's Magic
+93,Emboar's Fighting Spirit
+94,Greninja's Stealth
+95,Blacephalon's Joy
+96,Tapu Koko's Electro Wave
+97,Tapu Lele's Illusion
+98,Tapu Bulu's Earth
+99,Tapu Fini's Ocean
+100,Solgaleo's Sun
+101,Lunala's Moon
+102,Nihilego's Void
+103,Buzzwole's Strength
+104,Mimikyu's Mimicry
+105,Kartana's Sharpness
+106,Celesteela's Stars
+107,Stakataka's Hardness
+108,Xurkitree's Current
+109,Salazzle's Flame
+110,Togedemaru's Guardian
+111,Mimikyu's Trick
+112,Bruxish's Bite
+113,Mareanie's Scheme
+114,Blacephalon's Surprise
+115,Pheromosa's Grace
+116,Xurkitree's Vitality
+117,Guzzlord's Appetite
+118,Kartana's Cut
+119,Stakataka's Solidity
+120,Salazzle's Scorch
+121,Togedemaru's Vigilance
+122,Mimikyu's Transformation
+123,Bruxish's Attack
+124,Mareanie's Reversal
+125,Blacephalon's Explosion
+126,Pheromosa's Dance
+127,Xurkitree's Charge
+128,Guzzlord's Devour
+129,Kartana's Slash
+130,Stakataka's Defense
+131,Salazzle's Blaze
+132,Togedemaru's Protection
+133,Mimikyu's Tease
+134,Bruxish's Predation
+135,Mareanie's Strategy
+136,Blacephalon's Performance
+137,Pheromosa's Splendor
+138,Xurkitree's Discharge
+139,Guzzlord's Satiety
+140,Kartana's Swords Dance
