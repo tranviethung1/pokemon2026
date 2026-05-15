@@ -186,6 +186,7 @@
 - [x] 📄 `game_config/cross/circus/theme.csv`
 - [x] 📄 `game_config/cross/fishing/rank.csv`
 - [x] 📄 `game_config/cross/horse_race/horse_race_card.csv`
+- [x] 📄 `game_config/cross/hunting/supply.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [ ] 📄 `game_config/cross/service.csv`

@@ -1997,5 +1997,16 @@
 | 只有内心火热，方可战胜天气之炎热 | Only a burning spirit can overcome the scorching weather. | Chỉ có ngọn lửa nhiệt huyết trong tim mới có thể vượt qua cái nóng bỏng rát của thời tiết. |
 | 本届赛事没有天气影响，全凭精灵的实力定胜负！ | There are no weather effects in this tournament. Victory will be decided solely by the strength of the Pokemon! | Giải đấu lần này không có ảnh hưởng thời tiết. Thắng bại sẽ chỉ được quyết định bởi sức mạnh của các Pokemon! |
 
+### 7.19. Bổ sung từ `cross/hunting/supply.csv` (điểm cứu trợ săn báu vật)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 治疗单体 | Healing single unit | Hồi máu đơn thể |
+| 治疗全体 | All ally healing | Hồi máu toàn đội |
+| 复活单体 | Resurrection single unit | Hồi sinh đơn thể |
+| 恢复指定单位100%血量 | Restore 100% HP to the selected unit. | Hồi 100% HP cho đơn vị được chọn. |
+| 恢复己方全部单位30%血量 | Restore 30% HP to all allied units. | Hồi 30% HP cho toàn bộ đơn vị phe ta. |
+| 复活一个已死亡的角色 | Revive one fallen unit. | Hồi sinh một đơn vị đã ngã xuống. |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
