@@ -2522,6 +2522,29 @@
 | 所有非冰系精灵每个大回合结束时受到一定冰元素伤害，并有10%概率【冰冻】2回合 | All non-Ice type Pokémon suffer a certain amount of Ice damage at the end of each round, and have 10% chance to be in [Frozen] for 2 rounds | Tất cả Pokémon không thuộc hệ Băng sẽ chịu một lượng sát thương Băng nhất định vào cuối mỗi hiệp, và có 10% xác suất bị 【Đóng băng】 trong 2 hiệp |
 | Diglett are scared of too many people and don’t dare to come out | Diglett are scared of too many people and don’t dare to come out | Diglett sợ quá đông người nên không dám chui ra |
 | Bullish! | Bullish! | Khí thế ngút trời! |
+| 兵之形，避实而击虚 | In warfare, avoid the strong and strike the weak | Binh pháp là tránh chỗ mạnh, đánh chỗ yếu |
+| 释义：打那只不同的 | Meaning: attack the odd one out | Nghĩa là: đánh con khác biệt với số còn lại |
+
+### 7.48.1. Bổ sung từ `gym/gate.csv` (`_beizhu` labels)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 送分 | Free Score | Tặng điểm |
+| 主阵容 | Main Team | Đội hình chính |
+| 御三家 | Starter Trio | Bộ ba khởi đầu |
+| 馆主 | Gym Leader | Chủ gym |
+| 家族 | Family | Gia tộc |
+| 场地 | Terrain | Địa hình |
+| 协战 | Assist Battle | Phối hợp chiến đấu |
+| 进化 | Evolution | Tiến hóa |
+| 控制队 | Control Team | Đội khống chế |
+| 单挑 | Duel | Đấu đơn |
+| 反伤 | Damage Reflection | Phản sát thương |
+| 无限火力 | Ultra Rapid Fire | Hỏa lực vô hạn |
+| 全员肉搏 | All-Out Melee | Cận chiến toàn lực |
+| 镜像 | Mirror Match | Đấu gương |
+| 日夜交替 | Day-Night Shift | Luân phiên ngày đêm |
+| 残局王者 | King of the Endgame | Vua tàn cuộc |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
