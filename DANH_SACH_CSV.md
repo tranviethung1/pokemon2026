@@ -16,15 +16,15 @@
 - [x] 📄 `game_config/aid/aid_skill.csv`
 - [x] 📄 `game_config/aid/aid_skill_describe.csv`
 - [ ] 📄 `game_config/aid/awake.csv`
-- [ ] 📄 `game_config/aid/awake_material.csv`
-- [ ] 📄 `game_config/aid/awake_meterial.csv`
+- [x] 📄 `game_config/aid/awake_material.csv`
+- [x] 📄 `game_config/aid/awake_meterial.csv`
 - [ ] 📄 `game_config/aid/base.csv`
 - [ ] 📄 `game_config/aid/level.csv`
 - [x] 📄 `game_config/aid/material.csv`
 - [ ] 📄 `game_config/aid/scene.csv`
 - [x] 📄 `game_config/aid/stage.csv`
-- [ ] 📄 `game_config/aid/strength_meterial.csv`
-- [ ] 📄 `game_config/arms/arms.csv`
+- [x] 📄 `game_config/aid/strength_meterial.csv`
+- [x] 📄 `game_config/arms/arms.csv`
 - [ ] 📄 `game_config/arms/stage.csv`
 - [x] 📄 `game_config/auto_chess/achievement_level.csv`
 - [x] 📄 `game_config/auto_chess/achievement_task.csv`
@@ -174,13 +174,18 @@
 - [x] 📄 `game_config/craft/shop.csv`
 - [ ] 📄 `game_config/craft/skill.csv` #pending
 - [x] 📄 `game_config/cross/arena/stage.csv`
+- [x] 📄 `game_config/cross/battlebet/base.csv`
 - [x] 📄 `game_config/cross/battlebet/cards.csv`
 - [x] 📄 `game_config/cross/battlebet/contest.csv`
 - [x] 📄 `game_config/cross/battlebet/teams.csv`
+- [x] 📄 `game_config/cross/contestbet/base.csv`
 - [x] 📄 `game_config/cross/contestbet/cards.csv`
 - [x] 📄 `game_config/cross/contestbet/contest.csv`
 - [x] 📄 `game_config/cross/contestbet/teams.csv`
+- [x] 📄 `game_config/cross/craft/shop.csv`
 - [x] 📄 `game_config/cross/circus/theme.csv`
+- [x] 📄 `game_config/cross/fishing/rank.csv`
+- [x] 📄 `game_config/cross/horse_race/horse_race_card.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [ ] 📄 `game_config/cross/service.csv`

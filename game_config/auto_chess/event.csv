@@ -3,22 +3,22 @@
 ID,事件卡名称,筛选条件,稀有度(1-5),资源路径,价格(金币),类型(1单次/2持续),权重,PVP是否显示在图鉴,是否显示在图鉴,等级,持续回合,结束类型,描述,是否可出售,资源缩放,效果描述,资源偏移{x;y},Buff<buffID>,发现Buff<buffID>,关键词<词>
 200001,Steel Shield,target:hasNature(17),,config/lushi/img_sj_1.png,2,,100,,,,,,,,,Give one Steel-type Pokémon on your field +8 Armor permanently.,,,<500001>,
 200002,Steadfast Steel,,3,config/lushi/img_sj_2.png,4,2,80,,,,,,,TRUE,,"At the end of each prep phase, all allied Steel-type Pokémon on the field gain +1 Armor permanently.",,<500101>,,
-200003,Starlit Wish,,4,config/lushi/img_sj_3.png,5,,60,,,,,,,,,"When played, 【发现】 a random Equipment card.",,<500201>,,<【发现】>
-200004,Remodeling Hammer,TRUE,2,config/lushi/img_sj_4.png,3,,100,,TRUE,,,,,,,Choose an allied Pokémon on the field; it permanently 【变形】 into a random Pokémon of the same star level.,,,<500301>,<【变形】>
+200003,Starlit Wish,,4,config/lushi/img_sj_3.png,5,,60,,,,,,,,,"When played, 【Discover】 a random Equipment card.",,<500201>,,<【Discover】>
+200004,Remodeling Hammer,TRUE,2,config/lushi/img_sj_4.png,3,,100,,TRUE,,,,,,,Choose an allied Pokémon on the field; it permanently 【Transform】 into a random Pokémon of the same star level.,,,<500301>,<【Transform】>
 200005,Reclaimer,TRUE,4,config/lushi/img_sj_5.png,5,,80,,TRUE,,,,,,,Choose an allied Pokémon on the field; return it to your hand.,,,<500401>,
 200006,Custom Fit,TRUE,5,config/lushi/img_sj_6.png,6,,40,,TRUE,,,,,,,Choose an allied Pokémon on the field; its equipment slots become 2.,,,<500501>,
 200007,United We Stand,,3,config/lushi/img_sj_7.png,4,2,80,,TRUE,,,,,TRUE,,"At battle start, for each Pokémon you have on the field, all your Pokémon gain +1 Attack.",,<500601>,,
 200008,Bug Repellent,,3,config/lushi/img_sj_8.png,4,,60,,TRUE,,,,,,,"At the start of the next battle, deal 8 skill damage to all enemies.",,<500701>,,
-200009,Weakening Spray,,4,config/lushi/img_sj_9.png,5,,60,,TRUE,,,,,,,"At the start of the next battle, halve a random enemy's Attack and 【晕眩】 it.",,<500801>,,<【晕眩】>
+200009,Weakening Spray,,4,config/lushi/img_sj_9.png,5,,60,,TRUE,,,,,,,"At the start of the next battle, halve a random enemy's Attack and 【Stun】 it.",,<500801>,,<【Stun】>
 200010,Protector Array,,4,config/lushi/img_sj_10.png,5,2,40,,TRUE,,,,,TRUE,,Your Pokémon on the field take −2 damage from attacks (no less than 1 per hit).,,<500901>,,
 200011,Rare Candy,target:star()==1,3,config/lushi/img_sj_11.png,4,,40,,TRUE,,,,,,,Choose a 1-star allied Pokémon on the field; its star level permanently doubles.,,,<501001>,
 200012,Growth Spray,TRUE,5,config/lushi/img_sj_12.png,6,,20,,TRUE,,,,,,,Choose an allied Pokémon on the field; its HP permanently doubles.,,,<501101>,
 200013,Hardening Spray,TRUE,5,config/lushi/img_sj_13.png,6,,20,,TRUE,,,,,,,Choose an allied Pokémon on the field; its Armor permanently doubles.,,,<501201>,
 200014,Power-Up Spray,TRUE,5,config/lushi/img_sj_14.png,6,,20,,TRUE,,,,,,,Choose an allied Pokémon on the field; its Attack permanently doubles.,,,<501301>,
-200015,Luxury Ball,,4,config/lushi/img_sj_15.png,5,,40,,TRUE,,,,,,,"When played, 【发现】 a random Pokémon card costing 4–6.",,<501401>,,<【发现】>
-200016,Poke Ball,,,config/lushi/img_sj_16.png,2,,80,,TRUE,,,,,,,"When played, 【发现】 a random Pokémon card costing 1–3.",,<501501>,,<【发现】>
-200017,Gold Chest,,4,config/lushi/img_sj_17.png,5,,40,,TRUE,,,,,,,"When played, 【发现】 a random Equipment card costing 4–6.",,<501601>,,<【发现】>
-200018,Wooden Chest,,,config/lushi/img_sj_18.png,2,,80,,TRUE,,,,,,,"When played, 【发现】 a random Equipment card costing 1–3.",,<501701>,,<【发现】>
+200015,Luxury Ball,,4,config/lushi/img_sj_15.png,5,,40,,TRUE,,,,,,,"When played, 【Discover】 a random Pokémon card costing 4–6.",,<501401>,,<【Discover】>
+200016,Poke Ball,,,config/lushi/img_sj_16.png,2,,80,,TRUE,,,,,,,"When played, 【Discover】 a random Pokémon card costing 1–3.",,<501501>,,<【Discover】>
+200017,Gold Chest,,4,config/lushi/img_sj_17.png,5,,40,,TRUE,,,,,,,"When played, 【Discover】 a random Equipment card costing 4–6.",,<501601>,,<【Discover】>
+200018,Wooden Chest,,,config/lushi/img_sj_18.png,2,,80,,TRUE,,,,,,,"When played, 【Discover】 a random Equipment card costing 1–3.",,<501701>,,<【Discover】>
 200019,Book of Prophecy,,,config/lushi/img_sj_19.png,2,,60,,TRUE,,,,,,,"If you win the next battle, gain 6 gold.",,<501801>,,
 200020,Haggle,TRUE,,config/lushi/img_sj_20.png,2,,60,,TRUE,,,,,,,Choose an allied Pokémon on the field and sell it at full price.,,,<501901>,
 200021,Treasurer,,3,config/lushi/img_sj_21.png,4,,80,,TRUE,,,,,,,"When played, gain +1 gold for every 5 gold you have (rounded down).",,<502001>,,
@@ -28,28 +28,28 @@ ID,事件卡名称,筛选条件,稀有度(1-5),资源路径,价格(金币),类�
 200025,Miracle Potion,TRUE,3,config/lushi/img_sj_12.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; it permanently gains +5 HP.,,,<502401>,
 200026,Miracle Potion,TRUE,3,config/lushi/img_sj_13.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; it permanently gains +5 Armor.,,,<502501>,
 200027,Miracle Potion,TRUE,3,config/lushi/img_sj_14.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; it permanently gains +5 Attack.,,,<502601>,
-200028,Miracle Potion,TRUE,3,config/lushi/img_sj_12.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; grant it 【隐匿】.,,,<502701>,<【隐匿】>
-200029,Miracle Potion,TRUE,3,config/lushi/img_sj_13.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; grant it 【护盾】.,,,<502801>,
-200030,Miracle Potion,TRUE,3,config/lushi/img_sj_14.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; grant it 【暴击】.,,,<502901>,
+200028,Miracle Potion,TRUE,3,config/lushi/img_sj_12.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; grant it 【Stealth】.,,,<502701>,<【Stealth】>
+200029,Miracle Potion,TRUE,3,config/lushi/img_sj_13.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; grant it 【Shield】.,,,<502801>,
+200030,Miracle Potion,TRUE,3,config/lushi/img_sj_14.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; grant it 【Critical Hit】.,,,<502901>,
 200031,Miracle Potion,TRUE,3,config/lushi/img_sj_12.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; in the next battle it gains +50 HP.,,,<503001>,
 200032,Miracle Potion,TRUE,3,config/lushi/img_sj_13.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; in the next battle it gains +50 Armor.,,,<503101>,
 200033,Miracle Potion,TRUE,3,config/lushi/img_sj_14.png,4,,,,,,,,,,,Choose an allied Pokémon on the field; in the next battle it gains +50 Attack.,,,<503201>,
 200034,Miracle Potion,,3,config/lushi/img_sj_14.png,4,,,,,,,,,,,Trainer HP +6.,,<503301>,,
-200104,Augmented · Remodeling Hammer,,5,config/lushi/img_sj_4.png,6,,,,TRUE,,,,,,,All allied Pokémon on the field permanently 【变形】 into random Pokémon of the same star level.,,<510301>,,<【变形】>
+200104,Augmented · Remodeling Hammer,,5,config/lushi/img_sj_4.png,6,,,,TRUE,,,,,,,All allied Pokémon on the field permanently 【Transform】 into random Pokémon of the same star level.,,<510301>,,<【Transform】>
 200105,Augmented · Reclaimer,,5,config/lushi/img_sj_5.png,6,,,,TRUE,,,,,,,Return all allied Pokémon on the field to your hand.,,<510401>,,
 200106,Augmented · Custom Fit,,5,config/lushi/img_sj_6.png,6,,,,TRUE,,,,,,,All allied Pokémon on the field gain 2 equipment slots.,,<510511>,,
 200107,Augmented · United We Stand,,5,config/lushi/img_sj_7.png,6,2,,,TRUE,,,,,TRUE,,"At battle start, for each Pokémon you have on the field, all your Pokémon gain +4 Attack and +4 HP.",,<510601>,,
 200108,Augmented · Bug Repellent,,5,config/lushi/img_sj_8.png,6,,,,TRUE,,,,,,,"At the start of the next battle, deal 8 skill damage to all enemies three times.",,<510701>,,
-200109,Augmented · Weakening Spray,,5,config/lushi/img_sj_9.png,6,,,,TRUE,,,,,,,"At the start of the next battle, halve all enemies' Attack and 【晕眩】 them.",,<510801>,,<【晕眩】>
+200109,Augmented · Weakening Spray,,5,config/lushi/img_sj_9.png,6,,,,TRUE,,,,,,,"At the start of the next battle, halve all enemies' Attack and 【Stun】 them.",,<510801>,,<【Stun】>
 200110,Augmented · Protector Array,,5,config/lushi/img_sj_10.png,6,2,,,TRUE,,,,,TRUE,,Your Pokémon on the field take −6 damage from attacks (no less than 1 per hit).,,<510901>,,
 200111,Augmented · Rare Candy,,5,config/lushi/img_sj_11.png,6,,,,TRUE,,,,,,,All allied 1-star Pokémon on the field permanently double their star level.,,<511001>,,
 200112,Augmented · Growth Spray,,5,config/lushi/img_sj_12.png,6,,,,TRUE,,,,,,,All allied Pokémon on the field permanently double their HP.,,<511101>,,
 200113,Augmented · Hardening Spray,,5,config/lushi/img_sj_13.png,6,,,,TRUE,,,,,,,All allied Pokémon on the field permanently double their Armor.,,<511201>,,
 200114,Augmented · Power-Up Spray,,5,config/lushi/img_sj_14.png,6,,,,TRUE,,,,,,,All allied Pokémon on the field permanently double their Attack.,,<511301>,,
-200115,Augmented · Luxury Ball,,5,config/lushi/img_sj_15.png,6,,,,TRUE,,,,,,,"When played, 【发现】 a Pokémon card costing 6.",,<511401>,,<【发现】>
-200116,Augmented · Poke Ball,,5,config/lushi/img_sj_16.png,6,,,,TRUE,,,,,,,"When played, 【发现】 a Pokémon card; this effect triggers twice.",,<511511>,,<【发现】>
-200117,Augmented · Gold Chest,,5,config/lushi/img_sj_17.png,6,,,,TRUE,,,,,,,"When played, 【发现】 an Equipment card costing 6.",,<511601>,,<【发现】>
-200118,Augmented · Wooden Chest,,5,config/lushi/img_sj_18.png,6,,,,TRUE,,,,,,,"When played, 【发现】 an Equipment card; this effect triggers twice.",,<511701>,,<【发现】>
+200115,Augmented · Luxury Ball,,5,config/lushi/img_sj_15.png,6,,,,TRUE,,,,,,,"When played, 【Discover】 a Pokémon card costing 6.",,<511401>,,<【Discover】>
+200116,Augmented · Poke Ball,,5,config/lushi/img_sj_16.png,6,,,,TRUE,,,,,,,"When played, 【Discover】 a Pokémon card; this effect triggers twice.",,<511511>,,<【Discover】>
+200117,Augmented · Gold Chest,,5,config/lushi/img_sj_17.png,6,,,,TRUE,,,,,,,"When played, 【Discover】 an Equipment card costing 6.",,<511601>,,<【Discover】>
+200118,Augmented · Wooden Chest,,5,config/lushi/img_sj_18.png,6,,,,TRUE,,,,,,,"When played, 【Discover】 an Equipment card; this effect triggers twice.",,<511701>,,<【Discover】>
 200119,Augmented · Book of Prophecy,,5,config/lushi/img_sj_19.png,6,,,,TRUE,,,,,,,"If you win any of the next three battles, gain 8 gold each time.",,<511801>,,
 200120,Augmented · Haggle,,5,config/lushi/img_sj_20.png,6,,,,TRUE,,,,,,,Sell all allied Pokémon on the field for 4 gold each.,,<511901>,,
 200121,Augmented · Treasurer,,5,config/lushi/img_sj_21.png,6,,,,TRUE,,,,,,,"When played, double your gold.",,<512001>,,
@@ -64,7 +64,7 @@ ID,事件卡名称,筛选条件,稀有度(1-5),资源路径,价格(金币),类�
 200207,Growth,TRUE,3,config/lushi/img_sj_25.png,4,,45,,,,,,,,,Choose a Pokémon; it permanently gains +4 Attack.,,,<520107>,
 200208,Growth,TRUE,3,config/lushi/img_sj_25.png,4,,45,,,,,,,,,Choose a Pokémon; it permanently gains +4 HP.,,,<520108>,
 200209,Growth,TRUE,4,config/lushi/img_sj_25.png,5,,10,,,,,,,,,Choose a Pokémon; it permanently gains +4 Attack and +4 HP.,,,<520109>,
-500001,Evolution,,5,config/lushi/img_sj_3.png,6,,,,,,,,,,,【发现】 a powerful Pokémon card.,,<50000100>,,<【发现】>
+500001,Evolution,,5,config/lushi/img_sj_3.png,6,,,,,,,,,,,【Discover】 a powerful Pokémon card.,,<50000100>,,<【Discover】>
 500041,Growth,TRUE,,config/lushi/img_sj_25.png,2,,45,,,,,,,,,Choose a Pokémon; it permanently gains +1#HIDE#(+$(selfTrainer:hasBuff(30401202) and selfTrainer:getBuff(30401202):getValue() or 0)$)#HIDE# Attack.,,,<30000041>,
 500042,Growth,TRUE,,config/lushi/img_sj_25.png,2,,45,,,,,,,,,Choose a Pokémon; it permanently gains +1#HIDE#(+$(selfTrainer:hasBuff(30401102) and selfTrainer:getBuff(30401102):getValue() or 0)$)#HIDE# HP.,,,<30000042>,
 500043,Growth,TRUE,2,config/lushi/img_sj_25.png,3,,10,,,,,,,,,Choose a Pokémon; it permanently gains +1#HIDE#(+$(selfTrainer:hasBuff(30401202) and selfTrainer:getBuff(30401202):getValue() or 0)$)#HIDE# Attack and +1#HIDE#(+$(selfTrainer:hasBuff(30401102) and selfTrainer:getBuff(30401102):getValue() or 0)$)#HIDE# HP.,,,<30000043>,
@@ -82,32 +82,32 @@ ID,事件卡名称,筛选条件,稀有度(1-5),资源路径,价格(金币),类�
 501006,Vengeful Heart,,,config/lushi/event_1006.png,2,2,,TRUE,,,,,,TRUE,,"When you lose a battle, all allied Pokémon on the field permanently gain +2 Attack and +2 HP.",,<50100600>,,
 501007,Member Day,,,config/lushi/event_1007.png,2,,,,,,,,,,,"Refresh the shop, then the leftmost shop item costs −2 gold.",,<50100700>,,
 501008,Stock Up,TRUE,,config/lushi/event_1008.png,2,,,,,,,,,,,Choose a Pokémon; add 2 copies of it to the shop stock.,,,<50100800>,
-501009,Remodeling Hammer,TRUE,,config/lushi/event_1009.png,2,,,,,,,,,,,Choose a Pokémon; it permanently 【变形】 into a random Pokémon of the same star level with cost +1.,,,<50100900>,<【变形】>
+501009,Remodeling Hammer,TRUE,,config/lushi/event_1009.png,2,,,,,,,,,,,Choose a Pokémon; it permanently 【Transform】 into a random Pokémon of the same star level with cost +1.,,,<50100900>,<【Transform】>
 501010,Behind the Scenes,,,config/lushi/event_1010.png,2,2,,TRUE,,,,,,TRUE,,"At the end of each prep phase, Pokémon in your hand permanently gain +2 Attack and +2 HP.",,<50101000>,,
-501011,Spring Gift,TRUE,,config/lushi/event_5003.png,2,,,TRUE,,,,,,,,Wishing you a soaring year ahead.\nChoose a Pokémon; it gains +1 action count for 1 battle.,,,<50101100>,<【新春限定】>
+501011,Spring Gift,TRUE,,config/lushi/event_5003.png,2,,,TRUE,,,,,,,,Wishing you a soaring year ahead.\nChoose a Pokémon; it gains +1 action count for 1 battle.,,,<50101100>,<【New Year Limited】>
 502001,Rainbow,TRUE,2,config/lushi/img_sj_16.png,3,,,TRUE,,,,,,,,Choose a Pokémon; it permanently gains +1 Attack and +1 HP. Repeat once for each distinct Nature type among your allies.,,,<50200100>,
-502002,Lunar Fortune,,2,config/lushi/event_5003.png,3,,,TRUE,,,,,,,,"Wishing you great luck in the new year.\nIf you win the next battle, the enemy Trainer takes +2 damage and you gain 6 gold.",,<50200200>,,<【新春限定】>
+502002,Lunar Fortune,,2,config/lushi/event_5003.png,3,,,TRUE,,,,,,,,"Wishing you great luck in the new year.\nIf you win the next battle, the enemy Trainer takes +2 damage and you gain 6 gold.",,<50200200>,,<【New Year Limited】>
 502003,Prophecy · Bane,,2,config/lushi/event_2003.png,3,,,TRUE,,,,,,,,"If you lose the next battle, your Trainer takes −2 damage and you gain 6 gold.",,<50200300>,,
-502004,Defensive Retrofit,TRUE,2,config/lushi/event_2004.png,3,,,TRUE,,,,,,,,"Choose a Pokémon; if it lacks 【守卫】, grant 【守卫】 permanently; otherwise remove 【守卫】 permanently.",,,<50200400>,<【守卫】>
-502005,Offensive Retrofit,TRUE,2,config/lushi/event_2005.png,3,,,TRUE,,,,,,,,"Choose a Pokémon; if it lacks 【强攻】, grant 【强攻】 permanently; otherwise remove 【强攻】 permanently.",,,<50200500>,<【强攻】>
+502004,Defensive Retrofit,TRUE,2,config/lushi/event_2004.png,3,,,TRUE,,,,,,,,"Choose a Pokémon; if it lacks 【Guard】, grant 【Guard】 permanently; otherwise remove 【Guard】 permanently.",,,<50200400>,<【Guard】>
+502005,Offensive Retrofit,TRUE,2,config/lushi/event_2005.png,3,,,TRUE,,,,,,,,"Choose a Pokémon; if it lacks 【Brute Force】, grant 【Brute Force】 permanently; otherwise remove 【Brute Force】 permanently.",,,<50200500>,<【Brute Force】>
 502006,Pacifism,,2,config/lushi/event_2006.png,3,,,TRUE,,,,,,,,Next battle: neither Trainer takes damage.,,<50200600>,,
 502007,Rare Candy,target:star()==1,2,config/lushi/event_2007.png,3,,,TRUE,,,,,,,,Choose a 1-star Pokémon; double its star level.,,,<50200700>,
 502008,Haggle,TRUE,2,config/lushi/event_2008.png,3,,,TRUE,,,,,,,,Choose a Pokémon and sell it at full price.,,,<50200800>,
 502009,Power of Unity,,2,config/lushi/event_2009.png,3,2,,TRUE,,,,,,TRUE,,"At battle start, for each Pokémon you have on the field, your Pokémon gain +2 Attack and +2 HP.",,<50200900>,,
 502010,Signature Stock,,2,config/lushi/event_2010.png,3,,,,,,,,,,,Refresh the shop; all new cards match your current shop level.,,<50201000>,,
 502011,Trick Room,,2,config/lushi/event_2011.png,3,,,,,,,,,,,"At the start of the next battle, the rightmost Pokémon on each side acts once first.",,<50201100>,,
-502012,Magnifier II,,2,config/lushi/event_3011.png,3,,,TRUE,,,,,,,,【发现】 1 card from shop stock costing 2.,,<50201200>,,<【发现】>
-503001,Reclusive Blacksmith,,3,config/lushi/event_3001.png,4,,,TRUE,,,,,,,,【发现】 an Equipment card costing no more than your current shop level.,,<50300100>,,<【发现】>
+502012,Magnifier II,,2,config/lushi/event_3011.png,3,,,TRUE,,,,,,,,【Discover】 1 card from shop stock costing 2.,,<50201200>,,<【Discover】>
+503001,Reclusive Blacksmith,,3,config/lushi/event_3001.png,4,,,TRUE,,,,,,,,【Discover】 an Equipment card costing no more than your current shop level.,,<50300100>,,<【Discover】>
 503002,Clone,TRUE,3,config/lushi/event_3002.png,4,,,TRUE,,,,,,,,Choose a Pokémon; gain a 1-star base copy of it.,,,<50300200>,
 503003,Seize,,3,config/lushi/event_3003.png,4,,,,,,,,,,,Randomly take 1 card from the current shop offers.,,<50300300>,,
 503004,Recall,TRUE,3,config/lushi/img_sj_5.png,4,,,TRUE,,,,,,,,Choose a Pokémon; return it to your hand.,,,<50300400>,
 503005,Bug Spray,,3,config/lushi/img_sj_8.png,4,,,TRUE,,,,,,,,"At the start of the next battle, deal 8 skill damage to all enemies.",,<50300500>,,
-503006,Blessing of Health,,3,config/lushi/event_5003.png,4,,,TRUE,,,,,,,,"Wishing you a healthy new year.\nTrainer HP +1; if Trainer HP is below 5, gain +5 instead.",,<50300600>,,<【新春限定】>
+503006,Blessing of Health,,3,config/lushi/event_5003.png,4,,,TRUE,,,,,,,,"Wishing you a healthy new year.\nTrainer HP +1; if Trainer HP is below 5, gain +5 instead.",,<50300600>,,<【New Year Limited】>
 503007,Landmine,,3,config/lushi/event_3007.png,4,,,TRUE,,,,,,,,"Next battle: before each enemy Pokémon with over 100 Attack acts, deal skill damage to it equal to its Attack.",,<50300700>,,
 503008,Butterfly Effect,,3,config/lushi/event_3008.png,4,2,,,,,,,,TRUE,,Event cards in the shop cost −1 gold.,,<50300800>,,
 503009,Magnifying Flashlight,,3,config/lushi/event_3009.png,4,2,,TRUE,,,,,,TRUE,,"During prep, when your Pokémon gain permanent stats, they gain an extra +2 to those stats.",,<50300900>,,
 503010,Mystery Merchant,,3,config/lushi/event_3010.png,4,,,,,,,,,,,"This turn, you may pay with Trainer HP when you lack gold.",,<50301000>,,
-503011,Magnifier III,,3,config/lushi/event_3011.png,4,,,TRUE,,,,,,,,【发现】 1 card from shop stock costing 3.,,<50301100>,,<【发现】>
+503011,Magnifier III,,3,config/lushi/event_3011.png,4,,,TRUE,,,,,,,,【Discover】 1 card from shop stock costing 3.,,<50301100>,,<【Discover】>
 503012,Barrier Array,,3,config/lushi/event_3012.png,4,2,,TRUE,,,,,,TRUE,,Your Pokémon take −2 damage from attacks (stacks; each hit deals no less than 1).,,<50301200>,,
 504001,Perfect Dodge,TRUE,4,config/lushi/event_4001.png,5,,,,,,,,,,,Choose a Pokémon; each battle it ignores the first attack damage it would take.,,,<50400100>,
 504002,You Get What You Pay For,,4,config/lushi/event_4002.png,5,,,,,,,,,,,"For the rest of the run, Pokémon cards in the shop cost +1 gold and their stats are doubled once.",,<50400200>,,
@@ -117,33 +117,33 @@ ID,事件卡名称,筛选条件,稀有度(1-5),资源路径,价格(金币),类�
 504006,Curated Gear,,4,config/lushi/event_4006.png,5,,,,,,,,,,,Refresh the shop; it contains only Equipment cards.,,<50400600>,,
 504007,Curated Events,,4,config/lushi/event_4007.png,5,,,,,,,,,,,Refresh the shop; it contains only Event cards.,,<50400700>,,
 504008,Power Candy,target:star()==1 or target:star()==2,4,config/lushi/event_4008.png,5,,,TRUE,,,,,,,,Choose a 1- or 2-star Pokémon; double its star level.,,,<50400800>,
-504009,Bubble Bath,,4,config/lushi/event_4009.png,5,2,,,,,,,,TRUE,,"During battle, when your Pokémon enter the field, grant them 【护盾】.",,<50400900>,,<【护盾】>
+504009,Bubble Bath,,4,config/lushi/event_4009.png,5,2,,,,,,,,TRUE,,"During battle, when your Pokémon enter the field, grant them 【Shield】.",,<50400900>,,<【Shield】>
 504010,Hoopa's Prank,,4,config/lushi/event_4010.png,5,,,,,,,,,,,"Sell all Pokémon on your field for 1 gold total, then fill your board with random Pokémon.",,<50401000>,,
-504011,Magnifier IV,,4,config/lushi/event_3011.png,5,,,TRUE,,,,,,,,【发现】 1 card from shop stock costing 4.,,<50401100>,,<【发现】>
-504012,Fleeting Light,,4,config/lushi/img_sj_25.png,5,,,TRUE,,,,,,,,All your Pokémon with 【计时】 get −1 to their timer count.,,<50401200>,,<【计时】>
+504011,Magnifier IV,,4,config/lushi/event_3011.png,5,,,TRUE,,,,,,,,【Discover】 1 card from shop stock costing 4.,,<50401100>,,<【Discover】>
+504012,Fleeting Light,,4,config/lushi/img_sj_25.png,5,,,TRUE,,,,,,,,All your Pokémon with 【Timer】 get −1 to their timer count.,,<50401200>,,<【Timer】>
 504013,Legacy,TRUE,4,config/lushi/img_sj_25.png,5,,,TRUE,,,,,,,,"Choose a Pokémon; remove it, then the leftmost Pokémon on the field gains its stats.",,,<50401300>,
 504014,Split,TRUE,4,config/lushi/img_sj_25.png,5,,,,,,,,,,,Choose a Pokémon; remove it and gain 2 random Pokémon costing the same as it.,,,<50401400>,
-504015,Bond,TRUE,4,config/lushi/img_sj_25.png,5,,,TRUE,,,,,,,,Choose a Pokémon; 【发现】 1 Pokémon from shop stock that shares its Nature type.,,,<50401500>,<【发现】>
-504016,New Year's Delight,TRUE,4,config/lushi/event_5003.png,5,,,TRUE,,,,,,,,Wishing you a fresh and auspicious new year.\nChoose a Pokémon; remove it and gain 2 Pokémon from shop stock costing the same as it.,,,<50401600>,<【新春限定】>
-505000,Evolution,,5,config/lushi/img_sj_3.png,6,,,,,,,,,,,【发现】 a Pokémon card costing (current shop level + 1).,,<50500000>,,<【发现】>
+504015,Bond,TRUE,4,config/lushi/img_sj_25.png,5,,,TRUE,,,,,,,,Choose a Pokémon; 【Discover】 1 Pokémon from shop stock that shares its Nature type.,,,<50401500>,<【Discover】>
+504016,New Year's Delight,TRUE,4,config/lushi/event_5003.png,5,,,TRUE,,,,,,,,Wishing you a fresh and auspicious new year.\nChoose a Pokémon; remove it and gain 2 Pokémon from shop stock costing the same as it.,,,<50401600>,<【New Year Limited】>
+505000,Evolution,,5,config/lushi/img_sj_3.png,6,,,,,,,,,,,【Discover】 a Pokémon card costing (current shop level + 1).,,<50500000>,,<【Discover】>
 505001,Custom Fit,TRUE,5,config/lushi/event_5001.png,6,,,TRUE,,,,,,,,Choose a Pokémon; its equipment slots become 2.,,,<50500100>,
-505002,Echoes of the Past,,5,config/lushi/img_sj_18.png,6,,,TRUE,,,,,,,,【发现】 an Event card costing no more than your current shop level.,,<50500200>,,<【发现】>
+505002,Echoes of the Past,,5,config/lushi/img_sj_18.png,6,,,TRUE,,,,,,,,【Discover】 an Event card costing no more than your current shop level.,,<50500200>,,<【Discover】>
 505003,Cornucopia,,5,config/lushi/event_5003.png,6,,,TRUE,,,,,,,,Double your current gold (up to 20).,,<50500300>,,
 505004,Medical Miracle,,5,config/lushi/event_5004.png,6,,,TRUE,,,,,,,,"Spend all your gold; Trainer gains +N HP (N is half the gold spent, rounded up, max 20).",,<50500400>,,
 505005,Fully Loaded,,5,config/lushi/event_5005.png,6,2,,TRUE,,,,,,TRUE,,Your Trainer takes −1 damage from attacks (stacks up to 4 times).,,<50500500>,,
 505006,Final Showdown,,5,config/lushi/event_5006.png,6,,,,,,,,,,,"In the next battle, Pokémon that faint during combat are removed from the run permanently.",,<50500600>,,
 505007,Clearance Sale,,5,config/lushi/event_5007.png,6,,,,,,,,,,,"This turn, all shop items cost half price.",,<50500700>,,
-505008,Mirror Trick,,5,config/lushi/event_5008.png,6,2,,,,,,,,TRUE,,"Once per battle, before your only allied Pokémon acts, summon 3 【幻影】 copies of it.",,<50500800>,,<【幻影】>
+505008,Mirror Trick,,5,config/lushi/event_5008.png,6,2,,,,,,,,TRUE,,"Once per battle, before your only allied Pokémon acts, summon 3 【Phantom】 copies of it.",,<50500800>,,<【Phantom】>
 505009,Red Elixir,TRUE,5,config/lushi/event_5009.png,6,,,TRUE,,,,,,,,Choose a Pokémon; its Attack permanently doubles.,,,<50500900>,
 505010,Green Elixir,TRUE,5,config/lushi/event_5010.png,6,,,TRUE,,,,,,,,Choose a Pokémon; its HP permanently doubles.,,,<50501000>,
 505011,Blue Elixir,TRUE,5,config/lushi/event_5011.png,6,,,TRUE,,,,,,,,Choose a Pokémon; its Armor permanently doubles.,,,<50501100>,
-505012,Magnifier V,,5,config/lushi/event_3011.png,6,,,TRUE,,,,,,,,【发现】 1 card from shop stock costing 5.,,<50501200>,,<【发现】>
+505012,Magnifier V,,5,config/lushi/event_3011.png,6,,,TRUE,,,,,,,,【Discover】 1 card from shop stock costing 5.,,<50501200>,,<【Discover】>
 505013,Trade,,5,config/lushi/event_4002.png,6,,,TRUE,,,,,,,,"This turn, shop refreshes are free, but each refresh costs your Trainer 1 HP.",,<50501300>,,
 506001,Lift Disguise,,,config/lushi/event_3010.png,2,,,,,,,,,,,Set the Trainer skill to [Disguise].,,<50600100>,,
-506002,Leek,TRUE,,config/lushi/img_sj_25.png,2,,40,,,,,,,,,Choose a Pokémon; grant 【强攻】 for 1 battle.,,,<50600200>,<【强攻】>
-506003,Leek,TRUE,2,config/lushi/img_sj_25.png,3,,40,,,,,,,,,Choose a Pokémon; grant 【守卫】 for 1 battle.,,,<50600300>,<【守卫】>
-506004,Leek,TRUE,3,config/lushi/img_sj_25.png,4,,20,,,,,,,,,Choose a Pokémon; grant 【穿甲】 for 1 battle.,,,<50600400>,<【穿甲】>
-506005,Leek,TRUE,4,config/lushi/img_sj_25.png,5,,20,,,,,,,,,Choose a Pokémon; grant 【护盾】 for 1 battle.,,,<50600500>,<【护盾】>
-506006,Leek,TRUE,5,config/lushi/img_sj_25.png,6,,10,,,,,,,,,Choose a Pokémon; grant 【贯穿】 for 1 battle.,,,<50600600>,<【贯穿】>
-506007,Leek,TRUE,5,config/lushi/img_sj_25.png,6,,10,,,,,,,,,Choose a Pokémon; grant 【突袭】 for 1 battle.,,,<50600700>,<【突袭】>
+506002,Leek,TRUE,,config/lushi/img_sj_25.png,2,,40,,,,,,,,,Choose a Pokémon; grant 【Brute Force】 for 1 battle.,,,<50600200>,<【Brute Force】>
+506003,Leek,TRUE,2,config/lushi/img_sj_25.png,3,,40,,,,,,,,,Choose a Pokémon; grant 【Guard】 for 1 battle.,,,<50600300>,<【Guard】>
+506004,Leek,TRUE,3,config/lushi/img_sj_25.png,4,,20,,,,,,,,,Choose a Pokémon; grant 【Armor Pierce】 for 1 battle.,,,<50600400>,<【Armor Pierce】>
+506005,Leek,TRUE,4,config/lushi/img_sj_25.png,5,,20,,,,,,,,,Choose a Pokémon; grant 【Shield】 for 1 battle.,,,<50600500>,<【Shield】>
+506006,Leek,TRUE,5,config/lushi/img_sj_25.png,6,,10,,,,,,,,,Choose a Pokémon; grant 【Cleave】 for 1 battle.,,,<50600600>,<【Cleave】>
+506007,Leek,TRUE,5,config/lushi/img_sj_25.png,6,,10,,,,,,,,,Choose a Pokémon; grant 【Ambush】 for 1 battle.,,,<50600700>,<【Ambush】>
 506008,Happy New Year,,5,config/lushi/event_5003.png,6,2,,,,,,,,TRUE,,Wishing you wealth and fortune in the new year!\nGain +2 gold at the start of each shop phase!,,<50600800>,,

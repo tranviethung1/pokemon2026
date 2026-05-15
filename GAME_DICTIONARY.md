@@ -273,7 +273,7 @@
 | 133 | 皮可西 | Clefable | Clefable |
 | 143 | 阿罗拉六尾 | Alolan Vulpix | Vulpix Alola |
 | 144 | 阿罗拉九尾 | Alolan Ninetales | Ninetales Alola |
-| 151 | 宝宝丁 | Igglybuff | 宝宝丁 (Igglybuff) |
+| 151 | 宝宝丁 | Igglybuff | Igglybuff |
 | 152 | 胖丁 | Jigglypuff | Jigglypuff |
 | 153 | 胖可丁 | Wigglytuff | Wigglytuff |
 | 161 | 超音蝠 | Zubat | Zubat |
@@ -650,7 +650,7 @@
 | 3411 | 独剑鞘 | Honedge | Aegislash |
 | 3412 | 双剑鞘 | Doublade | Aegislash |
 | 3413 | 坚盾剑怪·盾牌 | Aegislash Shield Forme | Aegislash (Dạng Khiên) |
-| 3431 | 绵绵泡芙 | Swirlix | Slurpuff |
+| 3431 | 绵绵泡芙 | Swirlix | Swirlix |
 | 3432 | 胖甜妮 | Slurpuff | Slurpuff |
 | 3471 | 铁臂枪虾 | Clauncher | Clawitzer |
 | 3472 | 钢炮臂虾 | Clawitzer | Clawitzer |
@@ -1174,6 +1174,7 @@
 | 幻之宝可梦集结 | Mythical Pokemon Gathering | Tập hợp Pokemon huyền bí |
 | 龙族集结 | Dragon Gathering | Tập hợp long tộc |
 | 斗战集结 | Battle Gathering | Tập hợp chiến đấu |
+| 勇者挑战 | Brave Challenge | Thử Thách Dũng Giả |
 | 勇者篇 | Hero Chapter | Chương Anh Hùng |
 | 传说篇 | Legendary Chapter | Chương Truyền Thuyết |
 | 龙族篇 | Dragon Chapter | Chương Long Tộc |
@@ -1984,6 +1985,17 @@
 | 32强 | Top 32 | Top 32 |
 | 64强 | Top 64 | Top 64 |
 | 积分强者 | Points Elite | Cao thủ tích điểm |
+
+### 7.18. Bổ sung từ `cross/battlebet/base.csv` (lời dẫn đối chiến cược)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 下一场激动人心的比赛即将开始了，让我们看看最后的胜利将会花落谁家呢？ | The next thrilling match is about to begin. Let's see who will claim the final victory! | Trận đấu kịch tính tiếp theo sắp bắt đầu. Hãy cùng xem ai sẽ giành chiến thắng cuối cùng! |
+| 二周年的陪伴，感谢有你~ | Thank you for being with us through our second anniversary~ | Cảm ơn bạn đã đồng hành cùng chúng tôi suốt dịp kỷ niệm 2 năm~ |
+| 本届赛事特邀了一群神秘嘉宾，他们会是谁呢？让我们拭目以待！ | This tournament has invited a group of mysterious special guests. Who could they be? Let's wait and see! | Giải đấu lần này có mời một nhóm khách mời bí ẩn. Họ sẽ là ai nhỉ? Hãy cùng chờ xem! |
+| 一场战斗的输赢并不重要，只要你能从中获得快乐，有所收获，那它就是一场精彩的战斗！ | Winning or losing isn't what matters. As long as you find joy in it and gain something from it, it's a wonderful battle! | Thắng thua trong một trận đấu không phải điều quan trọng. Chỉ cần bạn tìm thấy niềm vui và học hỏi được điều gì đó, thì đó đã là một trận đấu tuyệt vời! |
+| 只有内心火热，方可战胜天气之炎热 | Only a burning spirit can overcome the scorching weather. | Chỉ có ngọn lửa nhiệt huyết trong tim mới có thể vượt qua cái nóng bỏng rát của thời tiết. |
+| 本届赛事没有天气影响，全凭精灵的实力定胜负！ | There are no weather effects in this tournament. Victory will be decided solely by the strength of the Pokemon! | Giải đấu lần này không có ảnh hưởng thời tiết. Thắng bại sẽ chỉ được quyết định bởi sức mạnh của các Pokemon! |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
