@@ -2141,5 +2141,100 @@
 | 青铜Ⅱ | Bronze II | Đồng II |
 | 青铜Ⅲ | Bronze III | Đồng III |
 
+### 7.28. Bổ sung từ `cross/union_adventure/theme.csv` (theme names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 开发主题 | Development Theme | Chủ đề phát triển |
+| 远古森林 | Ancient Forest | Rừng cổ đại |
+| 倾雷之境 | Thunderfall Realm | Cõi sấm đổ |
+| 截虹之雨 | Rainbow-Sundering Rain | Mưa chém cầu vồng |
+| 燃烬焚灼 | Emberblaze Inferno | Địa ngục hỏa tàn |
+| 终末凛冬 | Final Winter | Mùa đông tận diệt |
+| 怨影冥灵 | Wraithshadow Nether | U linh oán ảnh |
+| 雾隐迷航 | Mistbound Voyage | Hành trình lạc trong sương |
+
+### 7.29. Bổ sung từ `cross/union_adventure/map.csv` (map names / outpost effects)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 左基地 | Left Base | Căn cứ trái |
+| 右基地 | Right Base | Căn cứ phải |
+| 左上据点 | Upper Left Outpost | Cứ điểm trên trái |
+| 左中据点 | Middle Left Outpost | Cứ điểm giữa trái |
+| 左下据点 | Lower Left Outpost | Cứ điểm dưới trái |
+| 右上据点 | Upper Right Outpost | Cứ điểm trên phải |
+| 右中据点 | Middle Right Outpost | Cứ điểm giữa phải |
+| 右下据点 | Lower Right Outpost | Cứ điểm dưới phải |
+| 小匙镇 | Spoonlet Town | Thị trấn Thìa Nhỏ |
+| 渍沁镇 | Dewwell Town | Thị trấn Đẫm Sương |
+| 结晶祠 | Crystal Shrine | Điện Thờ Kết Tinh |
+| 小匙小径 | Spoonlet Path | Lối Mòn Thìa Nhỏ |
+| 霜抹山 | Frostbrush Mountain | Núi Quét Sương |
+| 锅巴林道 | Scorchcrust Trail | Lâm đạo Cháy Giòn |
+| 锦穴山道 | Brocade Hollow Pass | Sơn đạo Hang Gấm |
+| 焙固空洞 | Bakehold Hollow | Không động Nung Cố |
+| 印记森林园 | Sigil Forest Garden | Vườn Rừng Ấn Ký |
+| 海湾洞穴 | Bay Cavern | Động Vịnh Biển |
+| 橄榄大农园 | Grand Olive Farm | Đại Nông Trại Ôliu |
+| 列柱洞 | Pillar Cave | Động Trụ Đá |
+| 名福其石 | Blessing Stone | Đá Phúc Lành |
+| 朽木之祠 | Rottenwood Shrine | Điện Thờ Gỗ Mục |
+| 冻裂之祠 | Frostcrack Shrine | Điện Thờ Băng Nứt |
+| 桌台市 | Tableland City | Thành phố Bàn Đài |
+| 酿光市 | Brewlight City | Thành phố Ánh Men |
+| 淅洒斜塔 | Slanted Rain Tower | Tháp Mưa Nghiêng |
+| 零区匣口 | Zero Area Gate | Cổng Khu Vực Zero |
+| 尘土之祠 | Dust Shrine | Điện Thờ Bụi Trần |
+| 火难之祠 | Firebane Shrine | Điện Thờ Hỏa Nạn |
+| 观望塔 | Watchtower | Tháp Quan Sát |
+| 灯塔 | Lighthouse | Hải đăng |
+| 帕底亚巨屋 | Paldean Great House | Đại Trạch Paldea |
+| 灯塔研究所 | Lighthouse Research Institute | Viện Nghiên Cứu Hải Đăng |
+| 烘烘屋 | Hearth House | Nhà Lò Sưởi |
+| 雨痕剧院 | Rainmark Theater | Nhà Hát Dấu Mưa |
+| 灰鸽教堂 | Gray Dove Cathedral | Giáo Đường Bồ Câu Xám |
+| 雾隐巷 | Mistveil Alley | Hẻm Sương Mờ |
+| 灰烬十字街 | Ashcross Street | Phố Giao Tro Tàn |
+| 泰晤士暗闸 | Thames Darkgate | Cổng Tối Thames |
+| 煤灯胡同 | Gaslamp Alley | Hẻm Đèn Khí |
+| 旧钟楼雾径 | Old Belfry Mist Path | Lối Sương Tháp Chuông Cổ |
+| 鸦栖码头 | Crow's Roost Pier | Bến Quạ Đậu |
+| 铸铁街 | Cast Iron Street | Phố Gang Đúc |
+| 黯影堤岸 | Gloomshore Embankment | Bờ Kè U Ảnh |
+| 蒸汽修道院 | Steam Abbey | Tu Viện Hơi Nước |
+| 雾中公馆 | Mist Manor | Dinh Thự Trong Sương |
+| 锈链桥区 | Rustchain Bridge District | Khu Cầu Xích Gỉ |
+| 午夜书局 | Midnight Bookshop | Hiệu Sách Nửa Đêm |
+| 郁金香暗巷 | Tulip Shadow Alley | Hẻm Bóng Tối Tulip |
+| 旧港雾墙 | Old Port Mistwall | Tường Sương Cảng Cũ |
+| 瓦斯灯广场 | Gaslight Square | Quảng Trường Đèn Khí |
+| 黑砖工厂 | Blackbrick Factory | Nhà Máy Gạch Đen |
+| 在两队精灵全部力竭时，营地可提供复活，但复活需要时间 | When all Pokemon on both teams have fainted, the camp can revive them, but revival takes time. | Khi toàn bộ Pokémon của hai đội đều đã ngã xuống, doanh trại có thể hồi sinh, nhưng cần thời gian. |
+| 特殊据点：该据点被占领后，将为占领方产出高额的资源量 | Special outpost: Once this outpost is occupied, it grants the occupying side a high amount of resources. | Cứ điểm đặc biệt: Sau khi bị chiếm, cứ điểm này sẽ cung cấp lượng lớn tài nguyên cho phe chiếm đóng. |
+| 在据点内的驻守玩家，精灵的双攻将获得提升 | Pokemon of players stationed at this outpost gain increased physical and special attack. | Pokémon của người chơi trú đóng tại cứ điểm này sẽ được tăng cả công vật lý lẫn công đặc biệt. |
+| 在据点内的驻守玩家，精灵的双防将获得提升 | Pokemon of players stationed at this outpost gain increased physical and special defense. | Pokémon của người chơi trú đóng tại cứ điểm này sẽ được tăng cả thủ vật lý lẫn thủ đặc biệt. |
+| 在据点内驻守的玩家，当前使用队伍中未力竭的精灵将获得生命恢复 | Players stationed at this outpost restore HP to non-fainted Pokemon in their current team. | Người chơi trú đóng tại cứ điểm này sẽ hồi HP cho những Pokémon chưa ngã xuống trong đội hình hiện dùng. |
+| 在对方抢夺该据点过程中，抢夺消耗的自然时间将提升 | During the opposing side's attempt to capture this outpost, the natural time required for capture is increased. | Khi đối phương chiếm đoạt cứ điểm này, thời gian tự nhiên cần để chiếm sẽ tăng lên. |
+| 在据点内驻守的玩家，当前队伍精灵生命值上限提升 | Players stationed at this outpost gain increased max HP for the Pokemon in their current team. | Người chơi trú đóng tại cứ điểm này sẽ tăng giới hạn HP tối đa cho Pokémon trong đội hình hiện tại. |
+| 在据点内的驻守玩家，精灵的双防和生命将获得提升 | Pokemon of players stationed at this outpost gain increased physical and special defense, and increased HP. | Pokémon của người chơi trú đóng tại cứ điểm này sẽ được tăng cả hai chỉ số phòng thủ và HP. |
+| 特殊据点：该据点被占领后，将为占领方全员提供属性加成 | Special outpost: Once this outpost is occupied, it grants attribute bonuses to all members of the occupying side. | Cứ điểm đặc biệt: Sau khi bị chiếm, cứ điểm này sẽ tăng chỉ số cho toàn bộ thành viên phe chiếm đóng. |
+| 在据点内的驻守玩家，精灵的生命将获得提升 | Pokemon of players stationed at this outpost gain increased HP. | Pokémon của người chơi trú đóng tại cứ điểm này sẽ được tăng HP. |
+
+### 7.30. Bổ sung từ `cross/union_adventure/car.csv` (car names / special descriptions)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 平凡的鲤鱼王车 | Common Magikarp Cart | Xe Magikarp phổ thông |
+| 大甲自爆履带车 | Large Armor Self-Destruct Tracked Cart | Xe xích tự hủy Đại Giáp |
+| 疾影赫拉克洛斯车 | Fast-shadow Heracross Cart | Xe Heracross bóng nhanh |
+| 蚊香蛙急疗车 | Politoed Aid Cart | Xe hỗ trợ hồi trị Politoed |
+| 准神瞬移飞船 | Pseudo-legendary Teleportation Aircraft | Phi thuyền dịch chuyển Chuẩn Thần |
+| 该车有种原始的美感，除基础增益外没有过多的特点 | This Cart possesses a primal sense of beauty, with no excessive features beyond basic enhancements. | Cỗ xe này mang một vẻ đẹp nguyên sơ, ngoài các tăng ích cơ bản thì không có quá nhiều điểm đặc biệt. |
+| 驾驶者单个队伍战败时，载具自爆！扣除对手当前胜利队伍剩余的每个精灵5%的最大血量（该伤害不致死） | When the driver's individual team is defeated, the Cart self-destructs! Deducting 5% of the maximum HP of each opponent's remaining Pokémon (this damage does not result in fainting). | Khi một đội của người lái bị đánh bại, cỗ xe sẽ tự hủy! Trừ 5% HP tối đa của mỗi Pokémon còn lại trong đội chiến thắng hiện tại của đối thủ (sát thương này không gây gục ngã). |
+| 该车的速度很快，自身拥有20%的提速效果，请驾驶这辆车在赛场上飞驰吧 | The Cart is very fast and has a 20% speed boost. Take the wheel and speed through the arena. | Cỗ xe này rất nhanh và tự có hiệu ứng tăng tốc 20%. Hãy lái nó băng băng trên đấu trường. |
+| 战斗胜利后，我方精灵总血量百分比低于50%时，恢复我方全队12%的生命值，最多触发1次（因主题效果将至50%以下时，不触发恢复） | After a victorious battle, when our team's total Pokémon HP percentage falls below 50%, restore 12% of the team's HP, with a maximum of 1 activation (as the theme effect will not trigger if HP is already below 50%). | Sau khi thắng trận, nếu tổng tỷ lệ HP của Pokémon phe ta thấp hơn 50%, hồi 12% HP cho toàn đội, tối đa kích hoạt 1 lần (nếu do hiệu ứng chủ đề khiến HP giảm xuống dưới 50% thì không kích hoạt hồi phục). |
+| 驾驶者因复活重新出现在基地时，可以使用准神传送，直接传送到任意我方据点，一局仅有5次机会（注：离开基地后视为不使用传送） | When the driver reappears at the base due to revival, they can use Pseudo-legendary teleportation to directly teleport to any of our team's stronghold, with only 5 chances per match (note: leaving the base after teleportation is considered as not using teleportation). | Khi người lái hồi sinh và xuất hiện lại tại căn cứ, có thể dùng dịch chuyển Chuẩn Thần để tới thẳng bất kỳ cứ điểm nào của phe ta, mỗi ván chỉ có 5 lần (lưu ý: rời căn cứ theo cách thông thường sẽ được tính là không dùng dịch chuyển). |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

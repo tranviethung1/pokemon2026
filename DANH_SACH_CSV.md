@@ -196,6 +196,9 @@
 - [x] 📄 `game_config/cross/supremacy/barrage.csv`
 - [x] 📄 `game_config/cross/supremacy/event_lib.csv`
 - [x] 📄 `game_config/cross/supremacy/grade.csv`
+- [x] 📄 `game_config/cross/union_adventure/car.csv`
+- [x] 📄 `game_config/cross/union_adventure/map.csv`
+- [x] 📄 `game_config/cross/union_adventure/theme.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [x] 📄 `game_config/cross/mine/boss.csv`
