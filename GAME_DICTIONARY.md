@@ -2311,5 +2311,66 @@
 | 【反震】 | 【Rebound】 | 【Phản chấn】 |
 | 【驱散I】 | 【Dispel I】 | 【Giải trừ I】 |
 
+### 7.34. Bổ sung từ `emera/emera.csv` (emera shapes / quality tier)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 琉石 | Emera | Lưu thạch |
+| 普通琉石 | Normal Emera | Lưu thạch thường |
+| 核心琉石 | Core Emera | Lưu thạch lõi |
+| 谜三角 | Enigma Triangle | Tam giác bí ẩn |
+| 滴晶 | Droplet Crystal | Tinh thạch giọt |
+| 混方 | Hybrid Square | Hình vuông hỗn hợp |
+| 涡晶 | Vortex Crystal | Tinh thạch xoáy |
+| 耀星 | Radiant Star | Sao rực sáng |
+| 菱晶 | Rhombic Crystal | Tinh thạch thoi |
+| 钻彩 | Prismatic | Đa sắc |
+
+### 7.35. Bổ sung từ `emera/linkage_suit_attr.csv` (linkage suit names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 初 | Initiate | Khởi |
+| 凡 | Common | Thường |
+| 精 | Refined | Tinh |
+| 辉 | Radiant | Huy |
+| 极 | Apex | Cực |
+| 坚守·初 | Steadfast - Initiate | Kiên thủ - Khởi |
+| 格挡·凡 | Guard - Common | Đỡ đòn - Thường |
+| 韧性·精 | Tenacity - Refined | Bền bỉ - Tinh |
+| 不屈·辉 | Unyielding - Radiant | Bất khuất - Huy |
+| 反制·极 | Counter - Apex | Phản chế - Cực |
+| 猛击·初 | Heavy Strike - Initiate | Mãnh kích - Khởi |
+| 连攻·凡 | Chain Attack - Common | Liên công - Thường |
+| 破甲·精 | Armor Shred - Refined | Phá giáp - Tinh |
+| 狂战·辉 | Berserk - Radiant | Cuồng chiến - Huy |
+| 绝杀·极 | Execution - Apex | Tuyệt sát - Cực |
+| 迅捷·初 | Swiftness - Initiate | Nhanh nhẹn - Khởi |
+| 活力·凡 | Vitality - Common | Sinh lực - Thường |
+| 专注·精 | Focus - Refined | Chuyên chú - Tinh |
+| 潜能·辉 | Potential - Radiant | Tiềm năng - Huy |
+| 同心·极 | Unity - Apex | Đồng tâm - Cực |
+
+### 7.36. Bổ sung từ `emera/speak_spine.csv` (shop dialogue terms)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 守财奴 | Miser | Kẻ keo kiệt |
+| 老实人 | Honest merchant | Người buôn bán thật thà |
+| 城邦 | City-states | Thành bang |
+| 老板娘 | Proprietress | Bà chủ |
+
+### 7.37. Bổ sung từ `explorer/explorer_effect.csv` (effect description templates)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 全体精灵%s提升 | %s of all Pokémons increases | Tăng %s của toàn bộ Pokémon |
+| 全体精灵基础属性提升 | Base stats of all Pokémons increases | Tăng thuộc tính cơ bản của toàn bộ Pokémon |
+| +3时激活: 全体精灵%s提升 | Activate at+3: All Pokémons %s increases | Kích hoạt ở +3: tăng %s của toàn bộ Pokémon |
+| +6时激活: 全体精灵%s提升 | Activate at+6: All Pokémons %s increases | Kích hoạt ở +6: tăng %s của toàn bộ Pokémon |
+| +9时激活: 全体精灵%s提升 | Activate at+9: All Pokémons %s increases | Kích hoạt ở +9: tăng %s của toàn bộ Pokémon |
+| +12时激活: 全体精灵%s提升 | Activate at+12: All Pokémons %s increases | Kích hoạt ở +12: tăng %s của toàn bộ Pokémon |
+| +15时激活: 全体精灵%s提升 | Activate at+15: All Pokémons %s increases | Kích hoạt ở +15: tăng %s của toàn bộ Pokémon |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

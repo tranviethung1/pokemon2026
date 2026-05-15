@@ -1,24 +1,24 @@
 ﻿变量名,actionName,text,display,targetArg,targetType
 默认值,“”,"""""",1,0,0
 ID,动作名称,对话文本,显示类型,目标参数,目标类型
-101,effect_1,地下的金子要从矿脉里挖取，守财奴的金子要从他的灵魂里发掘,,,
-102,effect_1,谁若想在厄运时得到援助，就应在平日待人以宽,,,
-103,effect_2,你若太爱一件东西，失去便会分外惋惜,,,
-104,effect_1,贪心的人永远觉得自己的碗太小，多余的都丢过来,,,
-105,effect_2,您又来了，真是越富越感到钱不够用,,,
-106,effect_3,这里的深渊会连灵魂一起回收,,,99
-201,effect_1,风浪越大鱼越贵,2,,
-202,effect_2,海洋上若没有风险，财物多么富饶，三换一您是一点不亏,2,,
-203,effect_3,不要相信一只使用水枪的喷火龙,2,,
-204,effect_4,息事宁人的谎言胜过搬弄是非的真言，所以我这次是真的亏,2,,
-205,effect_5,天底下没有比我更亏本的买卖了，您还在犹豫什么,2,,
-206,effect_6,您说为什么亏本我还要跟你做买卖，因为我善,2,,
-207,effect_7,这三块石头一眼就不开门，我也是勉为其难跟您达成这次交易,2,,99
-208,effect_8,分期付款？您这不是欺负老实人吗,2,,99
-301,meigui,冬天的炉火胜于一朵红玫瑰,3,,
-302,shuohua,家中摆满珍宝，莅临小店有何贵干,3,,
-303,shuohua,像您一样，琉璃宝石的光芒是藏不住的,3,,
-304,shuohua,想要玫瑰必须尊重荆棘，老板娘只谈生意不聊感情,3,,
-305,erduo,长耳兔的耳朵非卖品，不可碰触,3,,99
-306,baichou,您慷慨的名声已经传遍城邦，希望我们的关系能更上一层楼,3,100,1
-307,qianchou,以您的实力，也许可以买下本店和老板娘,3,1000,1
+101,effect_1,Gold beneath the earth must be dug from the vein; a miser's gold must be unearthed from his soul.,,,
+102,effect_1,Whoever wishes for help in times of misfortune should treat others with generosity in ordinary days.,,,
+103,effect_2,"If you love something too much, losing it will hurt all the more.",,,
+104,effect_1,"Greedy people always think their bowl is too small, so toss all your excess my way.",,,
+105,effect_2,"You've come again. The richer one gets, the more one feels money is never enough.",,,
+106,effect_3,The abyss here reclaims souls along with everything else.,,,99
+201,effect_1,"The rougher the seas, the pricier the fish.",2,,
+202,effect_2,"If the sea held no risks, no treasure would be so plentiful. Trading three for one is no loss for you at all.",2,,
+203,effect_3,Never trust a Charizard that uses Water Gun.,2,,
+204,effect_4,"A lie that keeps the peace beats a truth that stirs trouble, so this time I truly am taking a loss.",2,,
+205,effect_5,"There is no deal under heaven more ruinous for me than this one, so what are you still hesitating for?",2,,
+206,effect_6,You ask why I still do business with you at a loss? Because I am kind.,2,,
+207,effect_7,"At a glance, these three stones refuse to open. I am making quite the concession by agreeing to this trade with you.",2,,99
+208,effect_8,Installment payments? Are you trying to bully an honest merchant?,2,,99
+301,meigui,A winter hearth is worth more than a red rose.,3,,
+302,shuohua,My home is already full of treasures. What business brings you to my humble shop?,3,,
+303,shuohua,"Like you, the radiance of glazed gems cannot be hidden.",3,,
+304,shuohua,"If you want roses, you must respect thorns. The proprietress talks business, not romance.",3,,
+305,erduo,Lopunny's ears are not for sale. Do not touch them.,3,,99
+306,baichou,Your generous reputation has already spread across the city-states. I hope our relationship can rise to the next level.,3,100,1
+307,qianchou,"With your strength, perhaps you could buy this shop along with its proprietress.",3,1000,1

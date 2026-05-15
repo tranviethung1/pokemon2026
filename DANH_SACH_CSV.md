@@ -242,13 +242,13 @@
 - [x] 📄 `game_config/elite_challenge/theme.csv`
 - [ ] 📄 `game_config/elite_challenge/theme_open.csv`
 - [ ] 📄 `game_config/emera/base_attr.csv`
-- [ ] 📄 `game_config/emera/emera.csv`
+- [x] 📄 `game_config/emera/emera.csv`
 - [ ] 📄 `game_config/emera/extra_attr.csv`
 - [ ] 📄 `game_config/emera/inset_plan.csv`
 - [ ] 📄 `game_config/emera/libs.csv`
-- [ ] 📄 `game_config/emera/linkage_suit_attr.csv`
+- [x] 📄 `game_config/emera/linkage_suit_attr.csv`
 - [ ] 📄 `game_config/emera/recast_cost.csv`
-- [ ] 📄 `game_config/emera/speak_spine.csv`
+- [x] 📄 `game_config/emera/speak_spine.csv`
 - [ ] 📄 `game_config/emera/strength_cost.csv`
 - [ ] 📄 `game_config/endless_tower_scene.csv`
 - [ ] 📄 `game_config/equip_shop.csv`
