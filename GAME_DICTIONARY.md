@@ -2372,5 +2372,34 @@
 | +12时激活: 全体精灵%s提升 | Activate at+12: All Pokémons %s increases | Kích hoạt ở +12: tăng %s của toàn bộ Pokémon |
 | +15时激活: 全体精灵%s提升 | Activate at+15: All Pokémons %s increases | Kích hoạt ở +15: tăng %s của toàn bộ Pokémon |
 
+### 7.38. Bổ sung từ `explorer/tech_tree.csv` (tech tree names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 晋升组件 | Reinforced Components | Linh kiện thăng cấp |
+| 机架强攻 | Intense Attack Of The Rack | Cường công khung máy |
+| 机架守卫 | Rack Guard | Khung máy thủ vệ |
+| 强攻组件升华 | Intense attack reinforced | Thăng hoa linh kiện cường công |
+| 生命升华 | HP Enhanced | Thăng hoa sinh mệnh |
+| 守卫组件升华 | Guard Reinforced | Thăng hoa linh kiện thủ vệ |
+| 强攻重组 | Intense Attack Recombined | Tái tổ hợp cường công |
+| 双暴异变 | Boosted CRI Attack | Dị biến song bạo |
+| 守卫重组 | Guard Regrouped | Tái tổ hợp thủ vệ |
+| 探险器核心升华 | Device Core Upgraded | Thăng hoa lõi thiết bị thám hiểm |
+
+### 7.39. Bổ sung từ `explorer/explorer.csv` (explorer device names)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 铁甲犀牛履带车 | Rhydon Armored Vehicle | Xe xích Rhydon bọc thép |
+| 大甲履带车 | Armored vehicle component | Xe bánh xích bọc thép |
+| 鲶鱼船 | Catfish Boat | Thuyền cá trê |
+| 赫拉克洛斯战车 | Heracross' chariot | Chiến xa Heracross |
+| 独角爬行器 | Unicorn crawler | Cỗ xe bò một sừng |
+| 嘟嘟探测器 | Doduo's Scanner | Máy dò Doduo |
+| 蚊香蛙探险器 | Poliwhirl Explorer Device | Thiết bị thám hiểm Poliwhirl |
+| 准神号飞船 | Pseudo-legendary Aircraft | Phi thuyền Chuẩn Thần |
+| 波尔凯尼恩飞船 | Volcanion Airship | Phi thuyền Volcanion |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

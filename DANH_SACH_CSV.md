@@ -257,13 +257,13 @@
 - [ ] 📄 `game_config/experience/list.csv`
 - [ ] 📄 `game_config/explorer/component.csv`
 - [ ] 📄 `game_config/explorer/component_level.csv`
-- [ ] 📄 `game_config/explorer/explorer.csv`
+- [x] 📄 `game_config/explorer/explorer.csv`
 - [ ] 📄 `game_config/explorer/explorer_advance.csv`
 - [ ] 📄 `game_config/explorer/explorer_core.csv`
-- [ ] 📄 `game_config/explorer/explorer_effect.csv`
+- [x] 📄 `game_config/explorer/explorer_effect.csv`
 - [ ] 📄 `game_config/explorer/explorer_shop.csv`
 - [ ] 📄 `game_config/explorer/tech_cost.csv`
-- [ ] 📄 `game_config/explorer/tech_tree.csv`
+- [x] 📄 `game_config/explorer/tech_tree.csv`
 - [ ] 📄 `game_config/extra_object.csv`
 - [ ] 📄 `game_config/extra_round_trigger.csv`
 - [ ] 📄 `game_config/fetter.csv`
