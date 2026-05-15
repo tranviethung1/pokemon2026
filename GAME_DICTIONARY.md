@@ -2008,5 +2008,21 @@
 | 恢复己方全部单位30%血量 | Restore 30% HP to all allied units. | Hồi 30% HP cho toàn bộ đơn vị phe ta. |
 | 复活一个已死亡的角色 | Revive one fallen unit. | Hồi sinh một đơn vị đã ngã xuống. |
 
+### 7.20. Bổ sung từ `cross/mine/boss.csv` (boss buff)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 属性增强 | Status enhancement | Cường hóa thuộc tính |
+| 产出增加 | Product increase | Tăng sản xuất |
+| 抢夺增加 | Plunder increase | Tăng cướp đoạt |
+| 终极BUFF | Ultimate BUFF | BUFF tối thượng |
+| 击杀者所在服务器玩家在竞标对战中全属性加成+15% | Players on the killer's server gain +15% to all attributes in bid battles. | Người chơi ở server của người hạ gục nhận +15% toàn thuộc tính trong chiến đấu đấu giá. |
+| 击杀者所在服务器玩家在竞标对战中全属性加成+30% | Players on the killer's server gain +30% to all attributes in bid battles. | Người chơi ở server của người hạ gục nhận +30% toàn thuộc tính trong chiến đấu đấu giá. |
+| 击杀者所在服务器玩家的资源生产速度加成+15% | Players on the killer's server gain +15% resource production speed. | Người chơi ở server của người hạ gục nhận +15% tốc độ sản xuất tài nguyên. |
+| 击杀者所在服务器玩家的资源生产速度加成+30% | Players on the killer's server gain +30% resource production speed. | Người chơi ở server của người hạ gục nhận +30% tốc độ sản xuất tài nguyên. |
+| 击杀者所在服务器玩家在竞标对战中抢夺加成+15%，被抢夺损失-15% | Players on the killer's server gain +15% plunder bonus and lose 15% less when plundered in bid battles. | Người chơi ở server của người hạ gục nhận +15% thưởng cướp đoạt và giảm 15% tổn thất khi bị cướp trong chiến đấu đấu giá. |
+| 击杀者所在服务器玩家在竞标对战中抢夺加成+30%，被抢夺损失-30% | Players on the killer's server gain +30% plunder bonus and lose 30% less when plundered in bid battles. | Người chơi ở server của người hạ gục nhận +30% thưởng cướp đoạt và giảm 30% tổn thất khi bị cướp trong chiến đấu đấu giá. |
+| 击杀者所在服务器玩家在竞标对战中全属性加成+30%,抢夺加成+30%,被抢夺损失-30%,资源生产速度加成+30% | Players on the killer's server gain +30% to all attributes, +30% plunder bonus, lose 30% less when plundered, and +30% resource production speed in bid battles. | Người chơi ở server của người hạ gục nhận +30% toàn thuộc tính, +30% thưởng cướp đoạt, giảm 30% tổn thất khi bị cướp và +30% tốc độ sản xuất tài nguyên trong chiến đấu đấu giá. |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*

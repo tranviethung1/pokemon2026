@@ -189,6 +189,7 @@
 - [x] 📄 `game_config/cross/hunting/supply.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
+- [x] 📄 `game_config/cross/mine/boss.csv`
 - [ ] 📄 `game_config/cross/service.csv`
 - [ ] 📄 `game_config/daily_assistant.csv`
 - [ ] 📄 `game_config/damage_correct.csv`
