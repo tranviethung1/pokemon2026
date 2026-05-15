@@ -1,25 +1,25 @@
 ﻿变量名,quality,buffRouduct,buffTime,figureID,timeLimit,eventType,itemAward,talk
 默认值,1,0,0,0,0,0,{},<>
 ID,quality,buffRouduct,buffTime,figureID,timeLimit,eventType,itemAward,talk
-11,,,,1,,,,<我是小智;目标是成为宝可梦大师;去吧，就决定是你了！>
-111,,,,2,3,2,{coin15=300},<不要气馁;再接再厉>
-112,,,,3,1,2,{coin15=500},<不要气馁;再接再厉>
-113,,,,4,1,2,{coin15=800},<不要气馁;再接再厉>
-114,,,,5,1,2,{coin15=1000},<不要气馁;再接再厉>
+11,,,,1,,,,"<I'm Ash;My goal is to become a Pokemon Master;Go, I choose you!>"
+111,,,,2,3,2,{coin15=300},<Don't be discouraged;Keep trying>
+112,,,,3,1,2,{coin15=500},<Don't be discouraged;Keep trying>
+113,,,,4,1,2,{coin15=800},<Don't be discouraged;Keep trying>
+114,,,,5,1,2,{coin15=1000},<Don't be discouraged;Keep trying>
 115,,,,,10,,,
 116,,,,,10,,,
 117,,,,,10,,,
 118,,,,,10,,,
-121,,,,2,,2,{coin15=300},<失败乃成功之母>
-211,,10,3600,1,8,1,,<表现不错;继续保持>
-212,2,20,3600,7,8,1,,<加油;加油>
-213,3,40,3600,8,2,1,,<打得不错;期待你总决赛的表现>
-214,,5,7200,9,1,1,,<加油;冠军就是你了>
-215,2,10,7200,10,1,1,,<表现不错;继续保持>
-216,3,20,7200,11,1,1,,<加油;加油>
+121,,,,2,,2,{coin15=300},<Failure is the mother of success>
+211,,10,3600,1,8,1,,<Nice performance;Keep it up>
+212,2,20,3600,7,8,1,,<Let's go;Let's go>
+213,3,40,3600,8,2,1,,<Well played;Looking forward to your performance in the grand final>
+214,,5,7200,9,1,1,,<Keep it up;The championship is yours>
+215,2,10,7200,10,1,1,,<Nice performance;Keep it up>
+216,3,20,7200,11,1,1,,<Let's go;Let's go>
 217,,,,,10,,,
-221,,5,7200,9,,1,,"<恭喜大获全胜,继续加油>"
-411,,,,16,1,2,{coin15=1000},<你的水平绝对不止白金;加油吧少年>
-412,,,,15,1,2,{coin15=1000},<恭喜达到钻石段位;一点心意>
-413,,,,14,1,2,{coin15=2000},<可喜可贺;最强王者在向你招手>
-414,,,,13,1,2,{coin15=3000},<你已经超越了全世界99.999%的训练师;太强了>
+221,,5,7200,9,,1,,"<Congratulations on the big win,keep it up>"
+411,,,,16,1,2,{coin15=1000},"<Your level is definitely beyond Platinum;Keep pushing, young trainer>"
+412,,,,15,1,2,{coin15=1000},<Congratulations on reaching Diamond rank;A little token of appreciation>
+413,,,,14,1,2,{coin15=2000},<Congratulations;The strongest king is calling out to you>
+414,,,,13,1,2,{coin15=3000},<You've already surpassed 99.999% of trainers in the world;You're too strong>

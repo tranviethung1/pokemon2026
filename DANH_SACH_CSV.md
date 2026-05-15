@@ -187,9 +187,15 @@
 - [x] 📄 `game_config/cross/fishing/rank.csv`
 - [x] 📄 `game_config/cross/horse_race/horse_race_card.csv`
 - [x] 📄 `game_config/cross/hunting/supply.csv`
+- [x] 📄 `game_config/cross/online_auto_chess/achievement_task.csv`
+- [x] 📄 `game_config/cross/online_auto_chess/grade.csv`
 - [x] 📄 `game_config/cross/online_auto_chess/name_libs.csv`
 - [x] 📄 `game_config/cross/online_auto_chess/pvp_guide_base.csv`
 - [x] 📄 `game_config/cross/online_auto_chess/trainer.csv`
+- [x] 📄 `game_config/cross/online_fight/theme.csv`
+- [x] 📄 `game_config/cross/supremacy/barrage.csv`
+- [x] 📄 `game_config/cross/supremacy/event_lib.csv`
+- [x] 📄 `game_config/cross/supremacy/grade.csv`
 - [ ] 📄 `game_config/cross/crontab.csv`
 - [ ] 📄 `game_config/cross/match.csv`
 - [x] 📄 `game_config/cross/mine/boss.csv`

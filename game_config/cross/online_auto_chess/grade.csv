@@ -1,13 +1,13 @@
 ﻿变量名,winStreakScore,eloK,protect,gameScore,nextSeasonGrade,score,stageLevel,stagePinyin,stageName,icon,roundScoreLimit,roundScoreFix,roundScoreBase,winStreakScoreLimit,award
 默认值,0,32,TRUE,0,0,0,"""""","""""","""""",“”,0,0,0,0,{}
 ID,连胜积分加成,ELO系数K值,是否保护段位,游戏积分调整,下赛季初始段位,段位所需积分,段位等级标识,段位拼音,段位名称,图标资源,单轮积分上限,积分修正值,积分基础值,连胜积分上限,赛季奖励{itemID=数量}
-1,3,135,FALSE,-30,7,10000,K,chuanshuo,传说训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_10.png,20,2,-10,15,{133=12;7352=1;gold=500000}
-2,3,140,FALSE,-25,7,8000,K,tianwang,天王训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_09.png,20,2,-10,15,{133=10;59003=3;gold=400000}
-3,4,140,,-20,8,6000,I,dashi,大师训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_08.png,20,2,-10,20,{133=8;501=1;gold=350000}
-4,4,160,,-10,8,5000,II,jingying,精英训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_07.png,20,2,-8,20,{133=7;7356=2;gold=300000}
-5,4,160,,-5,9,4000,III,zishen,资深训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_06.png,20,2,-8,20,{133=6;59003=2;gold=250000}
-6,4,160,,,9,3000,IV,gaoji,高级训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_05.png,20,2,-8,20,{133=5;519=2;gold=200000}
-7,5,180,,10,9,2000,I,zhongji,中级训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_04.png,20,2,-8,20,{133=4;7356=1;gold=180000}
-8,5,180,,20,10,1000,II,chuji,初级训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_03.png,20,2,-6,20,{133=3;59002=3;gold=160000}
-9,5,180,,30,10,500,III,jianxi,见习训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_02.png,20,2,-6,20,{133=3;519=2;gold=140000}
-10,5,180,,40,10,,IV,xinshou,新手训练家,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_01.png,20,2,-6,20,{133=2;7351=1;gold=120000}
+1,3,135,FALSE,-30,7,10000,K,chuanshuo,Legend Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_10.png,20,2,-10,15,{133=12;7352=1;gold=500000}
+2,3,140,FALSE,-25,7,8000,K,tianwang,Elite Four Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_09.png,20,2,-10,15,{133=10;59003=3;gold=400000}
+3,4,140,,-20,8,6000,I,dashi,Master Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_08.png,20,2,-10,20,{133=8;501=1;gold=350000}
+4,4,160,,-10,8,5000,II,jingying,Elite Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_07.png,20,2,-8,20,{133=7;7356=2;gold=300000}
+5,4,160,,-5,9,4000,III,zishen,Veteran Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_06.png,20,2,-8,20,{133=6;59003=2;gold=250000}
+6,4,160,,,9,3000,IV,gaoji,Advanced Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_05.png,20,2,-8,20,{133=5;519=2;gold=200000}
+7,5,180,,10,9,2000,I,zhongji,Intermediate Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_04.png,20,2,-8,20,{133=4;7356=1;gold=180000}
+8,5,180,,20,10,1000,II,chuji,Rookie trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_03.png,20,2,-6,20,{133=3;59002=3;gold=160000}
+9,5,180,,30,10,500,III,jianxi,Apprentice Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_02.png,20,2,-6,20,{133=3;519=2;gold=140000}
+10,5,180,,40,10,,IV,xinshou,Beginner Trainer,city/pvp/online_auto_chess/stage_icon/icon_zzqpvp_01.png,20,2,-6,20,{133=2;7351=1;gold=120000}

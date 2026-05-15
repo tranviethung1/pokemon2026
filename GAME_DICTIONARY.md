@@ -2047,5 +2047,99 @@
 | 黑龙 | Zekrom | Zekrom |
 | 白龙 | Reshiram | Reshiram |
 
+### 7.22. Bổ sung từ `cross/online_auto_chess/achievement_task.csv` (thuật ngữ thành tựu)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 前3名 | Top 3 | Top 3 |
+| 第1名 | 1st place | Hạng 1 |
+| 主动技能 | active skill | kỹ năng chủ động |
+| 训练家技能 | Trainer skill | kỹ năng Huấn luyện viên |
+| 单局游戏内 | In a single match | Trong một trận |
+| 赛季结算时 | At the end of the season | Khi mùa giải kết thúc |
+| 排行榜 | leaderboard | bảng xếp hạng |
+| 升星 | Promote | Tăng sao |
+
+### 7.23. Bổ sung từ `cross/online_auto_chess/grade.csv` (bậc xếp hạng)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 传说训练家 | Legend Trainer | Huấn luyện viên truyền thuyết |
+| 天王训练家 | Elite Four Trainer | Huấn luyện viên Tứ Thiên Vương |
+| 大师训练家 | Master Trainer | Huấn luyện viên đại sư |
+| 精英训练家 | Elite Trainer | Huấn luyện viên tinh anh |
+| 资深训练家 | Veteran Trainer | Huấn luyện viên kỳ cựu |
+| 见习训练家 | Apprentice Trainer | Huấn luyện viên tập sự |
+
+### 7.24. Bổ sung từ `cross/online_fight/theme.csv` (theme description)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 开局满怒气 | Start battle with full Rage. | Bắt đầu trận với đầy Nộ khí. |
+| 无限小技能 | Unlimited Basic Skills. | Kỹ năng cơ bản không giới hạn. |
+| 快速回怒 | Fast Rage Recovery. | Hồi Nộ khí nhanh. |
+| 自然属性克制加深 | Enhanced natural-type advantage. | Tăng cường khắc chế hệ tự nhiên. |
+| 只能限制使用A卡及以下 | Restricted to A-rank cards and below only. | Chỉ được dùng thẻ hạng A trở xuống. |
+| 只能限制使用S卡及以下 | Restricted to S-rank cards and below only. | Chỉ được dùng thẻ hạng S trở xuống. |
+| 只能使用2张S卡 | Only 2 S-rank cards may be used. | Chỉ được dùng 2 thẻ hạng S. |
+
+### 7.25. Bổ sung từ `cross/supremacy/barrage.csv` (barrage slang / alias)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| yyds | GOAT | đỉnh của chóp |
+| xdm | bros | anh em |
+| 爷青回 | My youth is back! | Tuổi trẻ của tôi quay lại rồi! |
+| 奥利给 | Let's freaking go! | Xông lên nào! |
+| 口袋觉醒 | Pokemon Awakening | Pokémon Giác Tỉnh |
+| 宝可梦大师 | Pokemon Master | Bậc thầy Pokémon |
+| 版本之子 | Meta king | con cưng meta |
+| 不会飞 | the one that can't fly | kẻ không biết bay |
+| 原固 | Primal Groudon | Groudon Nguyên Thủy |
+| 原鱼 | Primal Kyogre | Kyogre Nguyên Thủy |
+| 狮子 | Solgaleo | Solgaleo |
+| 皮神 | Pika God | Pika thần |
+| 智蛙 | Ash-Greninja | Greninja của Ash |
+
+### 7.26. Bổ sung từ `cross/supremacy/event_lib.csv` (encouragement talk)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 不要气馁 | Don't be discouraged | Đừng nản chí |
+| 再接再厉 | Keep trying | Tiếp tục cố gắng |
+| 失败乃成功之母 | Failure is the mother of success | Thất bại là mẹ thành công |
+| 表现不错 | Nice performance | Thể hiện không tệ |
+| 继续保持 | Keep it up | Tiếp tục phát huy |
+| 加油 | Let's go | Cố lên |
+| 打得不错 | Well played | Đánh hay đấy |
+| 期待你总决赛的表现 | Looking forward to your performance in the grand final | Mong chờ màn thể hiện của bạn ở chung kết |
+| 冠军就是你了 | The championship is yours | Chức vô địch là của bạn |
+| 可喜可贺 | Congratulations | Chúc mừng |
+| 太强了 | You're too strong | Quá mạnh |
+
+### 7.27. Bổ sung từ `cross/supremacy/grade.csv` (rank tiers)
+
+| Gốc (CN) | English | Tiếng Việt |
+| :--- | :--- | :--- |
+| 王者级 | King | Vương giả |
+| 大师级 | Master | Đại sư |
+| 钻石Ⅰ | Diamond I | Kim cương I |
+| 钻石Ⅱ | Diamond II | Kim cương II |
+| 钻石Ⅲ | Diamond III | Kim cương III |
+| 钻石Ⅳ | Diamond IV | Kim cương IV |
+| 铂金Ⅰ | Platinum I | Bạch kim I |
+| 铂金Ⅱ | Platinum II | Bạch kim II |
+| 铂金Ⅲ | Platinum III | Bạch kim III |
+| 铂金Ⅳ | Platinum IV | Bạch kim IV |
+| 黄金Ⅰ | Gold I | Vàng I |
+| 黄金Ⅱ | Gold II | Vàng II |
+| 黄金Ⅲ | Gold III | Vàng III |
+| 白银Ⅰ | Silver I | Bạc I |
+| 白银Ⅱ | Silver II | Bạc II |
+| 白银Ⅲ | Silver III | Bạc III |
+| 青铜Ⅰ | Bronze I | Đồng I |
+| 青铜Ⅱ | Bronze II | Đồng II |
+| 青铜Ⅲ | Bronze III | Đồng III |
+
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
