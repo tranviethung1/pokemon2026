@@ -2529,22 +2529,22 @@
 
 | Gốc (CN) | English | Tiếng Việt |
 | :--- | :--- | :--- |
-| 送分 | Free Score | Tặng điểm |
-| 主阵容 | Main Team | Đội hình chính |
+| 送分 | Easy Win | Cửa ải dễ ăn điểm |
+| 主阵容 | Core Team | Đội hình chủ lực |
 | 御三家 | Starter Trio | Bộ ba khởi đầu |
 | 馆主 | Gym Leader | Chủ gym |
 | 家族 | Family | Gia tộc |
 | 场地 | Terrain | Địa hình |
-| 协战 | Assist Battle | Phối hợp chiến đấu |
+| 协战 | Support Battle | Phối hợp hỗ trợ |
 | 进化 | Evolution | Tiến hóa |
 | 控制队 | Control Team | Đội khống chế |
 | 单挑 | Duel | Đấu đơn |
-| 反伤 | Damage Reflection | Phản sát thương |
+| 反伤 | Reflect Damage | Phản sát thương |
 | 无限火力 | Ultra Rapid Fire | Hỏa lực vô hạn |
 | 全员肉搏 | All-Out Melee | Cận chiến toàn lực |
 | 镜像 | Mirror Match | Đấu gương |
-| 日夜交替 | Day-Night Shift | Luân phiên ngày đêm |
-| 残局王者 | King of the Endgame | Vua tàn cuộc |
+| 日夜交替 | Day-Night Cycle | Chu kỳ ngày đêm |
+| 残局王者 | Endgame King | Vua tàn cuộc |
 
 ---
 *Từ điển này sẽ được cập nhật liên tục khi phát hiện thuật ngữ mới.*
