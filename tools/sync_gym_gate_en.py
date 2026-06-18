@@ -365,6 +365,52 @@ def copy_en_to_base(
     return stats
 
 
+def copy_tw_to_base(
+    rows: list[list[str]],
+    fields: tuple[str, ...],
+    *,
+    only_when_tw_nonempty: bool = True,
+) -> dict[str, int | list[tuple[int, str, str]]]:
+    header = rows[0]
+    stats: dict[str, int | list[tuple[int, str, str]]] = {
+        "base_updates": 0,
+        "base_unchanged": 0,
+        "missing_tw": [],
+    }
+
+    field_pairs = []
+    for field in fields:
+        tw_col = f"{field}_tw"
+        if field not in header or tw_col not in header:
+            raise SystemExit(f"missing columns {field!r} or {tw_col!r} in CSV header")
+        field_pairs.append((field, header.index(field), header.index(tw_col)))
+
+    for line_number, row in enumerate(rows[3:], start=4):
+        if not row or not row[0]:
+            continue
+
+        row_id = row[0]
+        for field, base_index, tw_index in field_pairs:
+            while len(row) <= max(base_index, tw_index):
+                row.append("")
+
+            traditional = row[tw_index].strip()
+            if only_when_tw_nonempty and not traditional:
+                missing = stats["missing_tw"]
+                assert isinstance(missing, list)
+                if row[base_index].strip():
+                    missing.append((line_number, row_id, field))
+                continue
+
+            if row[base_index] != row[tw_index]:
+                row[base_index] = row[tw_index]
+                stats["base_updates"] = int(stats["base_updates"]) + 1
+            else:
+                stats["base_unchanged"] = int(stats["base_unchanged"]) + 1
+
+    return stats
+
+
 def sync_beizhu(
     rows: list[list[str]],
     dictionary: dict[str, str],
@@ -439,6 +485,31 @@ def sync(args: argparse.Namespace) -> int:
         print(f"remaining_cjk={len(remaining_cjk)}")
         for line_number, row_id, field in remaining_cjk[:20]:
             print(f"remaining cjk line={line_number} id={row_id} field={field}")
+
+        if args.dry_run:
+            return 0
+
+        with args.target.open("w", encoding=encoding, newline="") as handle:
+            writer = csv.writer(handle, lineterminator=lineterminator)
+            writer.writerows(rows)
+        return 0
+
+    if args.copy_tw_to_base:
+        copy_fields = tuple(
+            field.strip()
+            for field in args.copy_tw_to_base.split(",")
+            if field.strip()
+        )
+        copy_stats = copy_tw_to_base(rows, copy_fields)
+        print(f"encoding={encoding}")
+        print(f"copy_fields={','.join(copy_fields)}")
+        print(f"base_updates={copy_stats['base_updates']}")
+        print(f"base_unchanged={copy_stats['base_unchanged']}")
+        missing_tw = copy_stats["missing_tw"]
+        assert isinstance(missing_tw, list)
+        print(f"missing_tw={len(missing_tw)}")
+        for line_number, row_id, field in missing_tw[:20]:
+            print(f"missing tw line={line_number} id={row_id} field={field}")
 
         if args.dry_run:
             return 0
@@ -534,6 +605,11 @@ def parse_args() -> argparse.Namespace:
         "--copy-en-to-base",
         metavar="FIELDS",
         help="comma-separated base fields to fill from *_en (e.g. weatherDesc)",
+    )
+    parser.add_argument(
+        "--copy-tw-to-base",
+        metavar="FIELDS",
+        help="comma-separated base fields to fill from *_tw (e.g. specialEffDesc)",
     )
     parser.add_argument("--skip-beizhu", action="store_true")
     parser.add_argument("--force-beizhu", action="store_true")
